@@ -21,8 +21,6 @@ export function getRecommendedRange(taskType: 'task1' | 'task2'): {
   min: number;
   max: number;
 } {
-  if (taskType === 'task1') {
-    return { min: 150, max: 200 };
-  }
+  // Both task types have the same recommended word count range per CELPIP test requirements
   return { min: 150, max: 200 };
 }

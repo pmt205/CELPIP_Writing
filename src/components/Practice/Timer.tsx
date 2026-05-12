@@ -26,7 +26,8 @@ export default function Timer() {
 
   // Auto-submit when timer reaches 0
   useEffect(() => {
-    if (timeRemaining <= 0 && duration > 0) {
+    const isActive = useAppStore.getState().isActive;
+    if (timeRemaining <= 0 && duration > 0 && isActive) {
       submitSession();
     }
   }, [timeRemaining, duration, submitSession]);

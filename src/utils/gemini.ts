@@ -59,10 +59,38 @@ Please evaluate this CELPIP writing response and provide scores on a scale of 1-
       suggestions: string[];
     };
 
+    // Validate overallScore
+    if (typeof parsed.overallScore !== 'number' || parsed.overallScore < 1 || parsed.overallScore > 12) {
+      throw new Error(
+        `Invalid overallScore: expected a number between 1 and 12, got ${JSON.stringify(parsed.overallScore)}`
+      );
+    }
+
+    // Validate categories
+    if (!Array.isArray(parsed.categories) || parsed.categories.length === 0) {
+      throw new Error('Invalid categories: expected a non-empty array');
+    }
+
+    for (const category of parsed.categories) {
+      if (typeof category.name !== 'string' || category.name.length === 0) {
+        throw new Error(`Invalid category: "name" must be a non-empty string, got ${JSON.stringify(category.name)}`);
+      }
+      if (typeof category.score !== 'number' || category.score < 1 || category.score > 12) {
+        throw new Error(
+          `Invalid category "${category.name}": "score" must be a number between 1 and 12, got ${JSON.stringify(category.score)}`
+        );
+      }
+      if (typeof category.feedback !== 'string' || category.feedback.length === 0) {
+        throw new Error(
+          `Invalid category "${category.name}": "feedback" must be a non-empty string`
+        );
+      }
+    }
+
     return {
       overallScore: parsed.overallScore,
       categories: parsed.categories,
-      suggestions: parsed.suggestions,
+      suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
       rawResponse: text,
     };
   } catch (error) {

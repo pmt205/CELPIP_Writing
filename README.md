@@ -66,8 +66,7 @@ CELPIP_Writing/
 ├── tailwind.config.js          # Tailwind CSS theme and plugins
 ├── postcss.config.js           # PostCSS config
 ├── public/
-│   ├── manifest.json           # PWA manifest
-│   └── sw.js                   # Service worker
+│   └── favicon.svg             # App icon (SVG)
 └── src/
     ├── main.tsx                # App entry point
     ├── App.tsx                 # Root component with routing
