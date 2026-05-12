@@ -11,6 +11,7 @@ export default function PracticeSession() {
   const currentTask = useAppStore((state) => state.currentTask);
   const isSubmitted = useAppStore((state) => state.isSubmitted);
   const submitSession = useAppStore((state) => state.submitSession);
+  const resetSession = useAppStore((state) => state.resetSession);
   const setDuration = useTimerStore((state) => state.setDuration);
   const startTimer = useTimerStore((state) => state.startTimer);
   const pauseTimer = useTimerStore((state) => state.pauseTimer);
@@ -29,6 +30,11 @@ export default function PracticeSession() {
   const handleSubmit = () => {
     pauseTimer();
     submitSession();
+  };
+
+  const handleBack = () => {
+    pauseTimer();
+    resetSession();
   };
 
   if (!currentQuestion) return null;
@@ -52,14 +58,22 @@ export default function PracticeSession() {
         <div className="w-full lg:w-3/5 flex flex-col">
           <WritingArea />
 
-          {/* Submit Button */}
+          {/* Action Buttons */}
           {!isSubmitted && (
-            <button
-              onClick={handleSubmit}
-              className="mt-4 w-full py-3 px-6 bg-celpip-blue hover:bg-celpip-lightblue text-white font-semibold rounded-lg shadow-md transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
-            >
-              Submit Writing
-            </button>
+            <div className="mt-4 flex flex-col sm:flex-row gap-3">
+              <button
+                onClick={handleBack}
+                className="w-full sm:w-auto py-3 px-6 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2"
+              >
+                Back to Task Selection
+              </button>
+              <button
+                onClick={handleSubmit}
+                className="w-full sm:flex-1 py-3 px-6 bg-celpip-blue hover:bg-celpip-lightblue text-white font-semibold rounded-lg shadow-md transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
+              >
+                Submit Writing
+              </button>
+            </div>
           )}
         </div>
       </div>
