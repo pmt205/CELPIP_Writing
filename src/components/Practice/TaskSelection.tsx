@@ -11,6 +11,7 @@ interface TaskSelectionProps {
 export default function TaskSelection({ onTaskSelected, preselectedTask }: TaskSelectionProps) {
   const startSession = useAppStore((state) => state.startSession);
   const hasAutoStarted = useRef(false);
+  const lastPreselectedTask = useRef<'task1' | 'task2' | null | undefined>(null);
 
   const handleSelectTask = (taskType: 'task1' | 'task2') => {
     const taskQuestions = taskType === 'task1' ? questions.task1 : questions.task2;
@@ -19,6 +20,16 @@ export default function TaskSelection({ onTaskSelected, preselectedTask }: TaskS
     startSession(taskType, question);
     onTaskSelected?.();
   };
+
+  // Reset hasAutoStarted when preselectedTask changes to a different value
+  useEffect(() => {
+    if (preselectedTask !== lastPreselectedTask.current) {
+      lastPreselectedTask.current = preselectedTask;
+      if (preselectedTask) {
+        hasAutoStarted.current = false;
+      }
+    }
+  }, [preselectedTask]);
 
   // If a preselected task was passed, start it immediately via useEffect
   useEffect(() => {
