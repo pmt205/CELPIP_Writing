@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { useAppStore } from './store/useAppStore';
 import DashboardPage from './pages/DashboardPage';
 import PracticePage from './pages/PracticePage';
+import TipsPage from './pages/TipsPage';
 import HistoryPage from './pages/HistoryPage';
 import SettingsPage from './pages/SettingsPage';
 import AdminPage from './pages/AdminPage';
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<DashboardPage />} />
         <Route path="/practice" element={<PracticePage />} />
+        <Route path="/tips" element={<TipsPage />} />
         <Route path="/history" element={<HistoryPage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/admin" element={<AdminPage />} />

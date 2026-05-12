@@ -11,6 +11,7 @@ export default function Header() {
   const navLinks = [
     { to: '/', label: 'Dashboard' },
     { to: '/practice', label: 'Practice' },
+    { to: '/tips', label: 'Tips & Tricks' },
     { to: '/history', label: 'History' },
     { to: '/settings', label: 'Settings' },
   ];

@@ -1,0 +1,102 @@
+export interface ExaminerTrap {
+  trap: string;
+  why_it_hurts: string;
+  fix: string;
+}
+
+export const task1Traps: ExaminerTrap[] = [
+  {
+    trap: "Ignoring one bullet point",
+    why_it_hurts: "Missing even one required point lowers content score significantly.",
+    fix: "Turn every bullet point into one paragraph or clear section."
+  },
+  {
+    trap: "Wrong tone",
+    why_it_hurts: "Using informal language in a complaint or formal request reduces coherence and task fulfillment.",
+    fix: "Use polite and professional language unless writing to a close friend."
+  },
+  {
+    trap: "Writing too short",
+    why_it_hurts: "Responses under 140 words usually lack development and detail.",
+    fix: "Aim for around 170-190 words."
+  },
+  {
+    trap: "Writing too long",
+    why_it_hurts: "Long responses increase grammar mistakes and waste time.",
+    fix: "Stay under about 220 words."
+  },
+  {
+    trap: "Weak organization",
+    why_it_hurts: "Ideas become difficult to follow.",
+    fix: "Use introduction, body paragraphs, and a short closing."
+  },
+  {
+    trap: "Overusing advanced vocabulary incorrectly",
+    why_it_hurts: "Incorrect word usage hurts vocabulary and coherence scores.",
+    fix: "Use simpler words correctly rather than difficult words incorrectly."
+  },
+  {
+    trap: "No clear request or solution",
+    why_it_hurts: "The purpose of the email becomes unclear.",
+    fix: "Clearly state what action you want from the reader."
+  },
+  {
+    trap: "Grammar mistakes with tense consistency",
+    why_it_hurts: "Frequent tense shifts lower grammar accuracy.",
+    fix: "Maintain consistent past, present, or future tense."
+  }
+];
+
+export const task2Traps: ExaminerTrap[] = [
+  {
+    trap: "Not choosing one side clearly",
+    why_it_hurts: "Weak position lowers coherence and argument quality.",
+    fix: "Choose one option strongly and support it."
+  },
+  {
+    trap: "Giving generic reasons",
+    why_it_hurts: "Weak development reduces idea quality.",
+    fix: "Use specific examples and practical situations."
+  },
+  {
+    trap: "Repeating the same idea",
+    why_it_hurts: "Limits vocabulary and development score.",
+    fix: "Use different arguments for each paragraph."
+  },
+  {
+    trap: "No examples",
+    why_it_hurts: "Arguments sound unsupported and weak.",
+    fix: "Include at least one realistic example."
+  },
+  {
+    trap: "Poor paragraph structure",
+    why_it_hurts: "The essay becomes difficult to read.",
+    fix: "Use one main idea per paragraph."
+  },
+  {
+    trap: "Using memorized templates excessively",
+    why_it_hurts: "Responses may sound unnatural or repetitive.",
+    fix: "Use templates only as structure support."
+  },
+  {
+    trap: "Grammar mistakes in complex sentences",
+    why_it_hurts: "Trying to sound advanced can reduce clarity.",
+    fix: "Use clear sentences with controlled complexity."
+  },
+  {
+    trap: "Weak conclusion",
+    why_it_hurts: "The response feels unfinished.",
+    fix: "End with a direct summary of your opinion."
+  }
+];
+
+export const generalScoringTips: string[] = [
+  "Answer every bullet point directly.",
+  "Keep ideas clear and easy to follow.",
+  "Use transition words naturally.",
+  "Avoid slang in formal emails.",
+  "Focus on clarity more than difficult vocabulary.",
+  "Use examples to strengthen arguments.",
+  "Manage time carefully: do not spend too long planning.",
+  "Leave 2-3 minutes for proofreading."
+];
