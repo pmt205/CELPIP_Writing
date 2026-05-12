@@ -31,6 +31,9 @@ export interface WritingSession {
   submitted: boolean;
 }
 
+/** Official CELPIP Writing scoring category names */
+export type CELPIPScoringCategory = 'Content/Coherence' | 'Vocabulary' | 'Readability' | 'Task Fulfillment';
+
 export interface AIFeedback {
   overallScore: number;
   categories: {

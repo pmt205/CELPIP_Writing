@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import type { Settings, Task1Question, Task2Question, AIFeedback } from '../types';
+import { generateScoringRubricText } from '../data/scoringCriteria';
 
 export async function getAIFeedback(
   settings: Settings,
@@ -20,7 +21,19 @@ export async function getAIFeedback(
       ? `Task 1 - Email Writing\nSituation: ${(question as Task1Question).situation}\nTone: ${(question as Task1Question).tone}\nPoints to address: ${(question as Task1Question).bulletPoints.join(', ')}`
       : `Task 2 - Survey Response\nTopic: ${(question as Task2Question).topic}\nInstructions: ${(question as Task2Question).instructions}\nViewpoints to consider: ${(question as Task2Question).viewpoints.join(', ')}`;
 
-  const prompt = `${settings.systemPrompt || 'You are a CELPIP writing examiner. Evaluate the following writing response.'}
+  const scoringRubric = generateScoringRubricText();
+
+  const prompt = `${settings.systemPrompt || 'You are an experienced CELPIP writing examiner. Evaluate the following writing response using the official CELPIP scoring rubric provided below.'}
+
+${scoringRubric}
+
+EVALUATION INSTRUCTIONS:
+- For each of the 4 criteria (Content/Coherence, Vocabulary, Readability, Task Fulfillment), compare the student's writing against the level descriptors above.
+- Determine which level best matches the student's performance for EACH criterion independently.
+- A score of M (use 2) means levels 0-2. Otherwise use the exact level number (3-12).
+- Be precise: identify which level descriptors the writing matches and which it does not yet achieve.
+- The overall score should reflect the average performance across all 4 criteria, rounded to the nearest integer.
+- Provide specific, actionable feedback for each criterion referencing what the student does well and what they need to improve to reach the next level.
 
 Task Details:
 ${taskDescription}
@@ -30,24 +43,14 @@ Prompt: ${question.prompt}
 Student's Response:
 ${writingText}
 
-Use the following CELPIP score scale as reference:
-- 10-12: Advanced (near-native, sophisticated, highly effective)
-- 9: Effective (clear, well-organized, minor errors only)
-- 8: Good (adequately addresses task, reasonable organization, some errors)
-- 7: Adequate (addresses main points, acceptable organization, occasional errors impede meaning)
-- 5-6: Developing (limited vocabulary, frequent errors, partially addresses task)
-- 3-4: Basic/Initial (very limited ability, significant errors)
-- 1-2: Minimal (insufficient evidence of ability)
-
-Please evaluate this CELPIP writing response and provide scores on a scale of 1-12 for each category. Respond ONLY with valid JSON in the following format:
+Respond ONLY with valid JSON in the following format (no markdown, no explanation outside JSON):
 {
   "overallScore": <number 1-12>,
   "categories": [
-    {"name": "Task Response", "score": <number 1-12>, "feedback": "<specific feedback>"},
-    {"name": "Coherence & Organization", "score": <number 1-12>, "feedback": "<specific feedback>"},
-    {"name": "Vocabulary", "score": <number 1-12>, "feedback": "<specific feedback>"},
-    {"name": "Grammar", "score": <number 1-12>, "feedback": "<specific feedback>"},
-    {"name": "Spelling & Punctuation", "score": <number 1-12>, "feedback": "<specific feedback>"}
+    {"name": "Content/Coherence", "score": <number 1-12>, "feedback": "<specific feedback referencing level descriptors>"},
+    {"name": "Vocabulary", "score": <number 1-12>, "feedback": "<specific feedback referencing level descriptors>"},
+    {"name": "Readability", "score": <number 1-12>, "feedback": "<specific feedback referencing level descriptors>"},
+    {"name": "Task Fulfillment", "score": <number 1-12>, "feedback": "<specific feedback referencing level descriptors>"}
   ],
   "suggestions": ["<suggestion 1>", "<suggestion 2>", "<suggestion 3>"]
 }`;
@@ -76,13 +79,16 @@ Please evaluate this CELPIP writing response and provide scores on a scale of 1-
     }
 
     // Validate categories
-    if (!Array.isArray(parsed.categories) || parsed.categories.length === 0) {
-      throw new Error('Invalid categories: expected a non-empty array');
+    if (!Array.isArray(parsed.categories) || parsed.categories.length !== 4) {
+      throw new Error('Invalid categories: expected an array of exactly 4 categories');
     }
 
+    const expectedCategories = ['Content/Coherence', 'Vocabulary', 'Readability', 'Task Fulfillment'];
     for (const category of parsed.categories) {
-      if (typeof category.name !== 'string' || category.name.length === 0) {
-        throw new Error(`Invalid category: "name" must be a non-empty string, got ${JSON.stringify(category.name)}`);
+      if (typeof category.name !== 'string' || !expectedCategories.includes(category.name)) {
+        throw new Error(
+          `Invalid category name: expected one of ${expectedCategories.join(', ')}, got ${JSON.stringify(category.name)}`
+        );
       }
       if (typeof category.score !== 'number' || category.score < 1 || category.score > 12) {
         throw new Error(
