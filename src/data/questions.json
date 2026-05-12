@@ -1,0 +1,411 @@
+{
+  "task1": [
+    {
+      "id": "t1-01",
+      "type": "task1",
+      "title": "Complaint About Noisy Neighbors",
+      "prompt": "Write an email to your building manager about a noise problem from the apartment above you.",
+      "situation": "You live in an apartment and the tenants above you have been making excessive noise late at night for the past two weeks. This is affecting your sleep and work performance.",
+      "bulletPoints": [
+        "Describe the noise problem and when it occurs",
+        "Explain how it is affecting you",
+        "State what you have already tried to resolve the issue",
+        "Request specific action from the building manager"
+      ],
+      "tone": "formal"
+    },
+    {
+      "id": "t1-02",
+      "type": "task1",
+      "title": "Thank You to a Colleague",
+      "prompt": "Write an email to a colleague who helped you with a major project at work.",
+      "situation": "A colleague stayed late several evenings to help you complete an important presentation for a client. The presentation was very successful and your manager praised both of you.",
+      "bulletPoints": [
+        "Express your gratitude for their help",
+        "Mention specific things they did that made a difference",
+        "Share the positive outcome of the presentation",
+        "Suggest doing something to celebrate"
+      ],
+      "tone": "semi-formal"
+    },
+    {
+      "id": "t1-03",
+      "type": "task1",
+      "title": "Request for Time Off",
+      "prompt": "Write an email to your supervisor requesting time off from work.",
+      "situation": "You need to take a week off next month for a family event in another city. You have not taken any vacation days this year and your workload is currently manageable.",
+      "bulletPoints": [
+        "State the dates you need off and the reason",
+        "Explain how your work will be covered in your absence",
+        "Mention your current workload status",
+        "Ask for approval and offer to discuss further"
+      ],
+      "tone": "formal"
+    },
+    {
+      "id": "t1-04",
+      "type": "task1",
+      "title": "Invitation to a Housewarming Party",
+      "prompt": "Write an email to a friend inviting them to your housewarming party.",
+      "situation": "You recently moved into a new home and want to host a housewarming party next Saturday evening. You want your friend to come and also bring their partner.",
+      "bulletPoints": [
+        "Share the exciting news about your new home",
+        "Provide party details (date, time, address)",
+        "Mention what to expect at the party",
+        "Ask them to confirm if they can attend"
+      ],
+      "tone": "informal"
+    },
+    {
+      "id": "t1-05",
+      "type": "task1",
+      "title": "Complaint About a Product",
+      "prompt": "Write an email to a company about a defective product you purchased.",
+      "situation": "You bought a laptop online two weeks ago. It arrived with a cracked screen and the keyboard is not working properly. You have the receipt and warranty information.",
+      "bulletPoints": [
+        "Identify the product and when/where you purchased it",
+        "Describe the specific defects",
+        "Explain what resolution you expect (replacement or refund)",
+        "Provide your contact information for follow-up"
+      ],
+      "tone": "formal"
+    },
+    {
+      "id": "t1-06",
+      "type": "task1",
+      "title": "Recommendation for a Restaurant",
+      "prompt": "Write an email to a friend recommending a restaurant you recently visited.",
+      "situation": "You went to a new restaurant in your neighborhood last weekend and had an amazing dining experience. Your friend mentioned they are looking for a good place to celebrate their anniversary.",
+      "bulletPoints": [
+        "Describe the restaurant and its atmosphere",
+        "Mention what you ordered and the food quality",
+        "Explain why it would be perfect for their anniversary",
+        "Suggest making a reservation and offer to share the details"
+      ],
+      "tone": "informal"
+    },
+    {
+      "id": "t1-07",
+      "type": "task1",
+      "title": "Request for Information About a Course",
+      "prompt": "Write an email to a community college asking about a professional development course.",
+      "situation": "You saw an advertisement for an evening course in project management at a local community college. You want to know about the schedule, fees, prerequisites, and certification upon completion.",
+      "bulletPoints": [
+        "Mention where you saw the advertisement",
+        "Ask about the course schedule and duration",
+        "Inquire about fees and any available financial aid",
+        "Ask about prerequisites and certification"
+      ],
+      "tone": "formal"
+    },
+    {
+      "id": "t1-08",
+      "type": "task1",
+      "title": "Apology to a Friend",
+      "prompt": "Write an email to a friend apologizing for missing their birthday party.",
+      "situation": "You missed your close friend's birthday party last weekend because you had to work overtime on an emergency project. You feel terrible because you had promised to be there.",
+      "bulletPoints": [
+        "Apologize sincerely for missing the party",
+        "Explain why you could not attend",
+        "Express how you feel about the situation",
+        "Suggest a way to make it up to them"
+      ],
+      "tone": "informal"
+    },
+    {
+      "id": "t1-09",
+      "type": "task1",
+      "title": "Complaint About Public Transit",
+      "prompt": "Write an email to the city transit authority about poor bus service on your route.",
+      "situation": "The bus on your daily commute route has been consistently late or cancelled for the past month. This has caused you to be late for work several times and you have had to spend extra money on taxis.",
+      "bulletPoints": [
+        "Identify your route and the time you typically travel",
+        "Describe the frequency and nature of the problems",
+        "Explain the impact on your daily life",
+        "Request improvements or compensation"
+      ],
+      "tone": "formal"
+    },
+    {
+      "id": "t1-10",
+      "type": "task1",
+      "title": "Welcome New Team Member",
+      "prompt": "Write an email to a new colleague who is joining your team next week.",
+      "situation": "A new team member is starting in your department next Monday. You have been asked to be their buddy for the first month to help them settle in. You want to introduce yourself and offer help.",
+      "bulletPoints": [
+        "Introduce yourself and your role",
+        "Welcome them to the team",
+        "Describe what to expect on their first day",
+        "Offer your help and suggest meeting for coffee"
+      ],
+      "tone": "semi-formal"
+    },
+    {
+      "id": "t1-11",
+      "type": "task1",
+      "title": "Request to Change Gym Membership",
+      "prompt": "Write an email to your gym asking to change your membership plan.",
+      "situation": "You currently have a premium membership at your gym but your work schedule has changed and you can only go in the mornings. You want to switch to a cheaper off-peak membership plan.",
+      "bulletPoints": [
+        "State your current membership type and ID",
+        "Explain why you want to change plans",
+        "Specify which plan you want to switch to",
+        "Ask about any fees or procedures for the change"
+      ],
+      "tone": "formal"
+    },
+    {
+      "id": "t1-12",
+      "type": "task1",
+      "title": "Declining a Social Invitation",
+      "prompt": "Write an email to a friend explaining why you cannot attend their weekend camping trip.",
+      "situation": "Your friend invited you on a camping trip this weekend. You would love to go but you have committed to volunteering at a community charity event that you organized months ago.",
+      "bulletPoints": [
+        "Thank them for the invitation",
+        "Explain why you cannot attend",
+        "Express your disappointment about missing it",
+        "Suggest an alternative plan for the future"
+      ],
+      "tone": "informal"
+    },
+    {
+      "id": "t1-13",
+      "type": "task1",
+      "title": "Report a Safety Issue at Work",
+      "prompt": "Write an email to your company's health and safety officer about a hazard in the workplace.",
+      "situation": "You noticed that the emergency exit on the second floor of your office building has been blocked by storage boxes for several days. The fire extinguisher nearby is also past its inspection date.",
+      "bulletPoints": [
+        "Describe the safety hazards you observed",
+        "Specify the exact location of the problems",
+        "Explain why this is urgent",
+        "Request immediate action and a response"
+      ],
+      "tone": "formal"
+    },
+    {
+      "id": "t1-14",
+      "type": "task1",
+      "title": "Request for a Reference Letter",
+      "prompt": "Write an email to a former professor asking for a reference letter.",
+      "situation": "You are applying for a graduate program and need an academic reference. You took two courses with this professor last year and received excellent grades. The application deadline is in three weeks.",
+      "bulletPoints": [
+        "Remind them of who you are and which courses you took",
+        "Explain what you are applying for",
+        "Mention the deadline and any specific requirements",
+        "Express gratitude and offer to provide additional information"
+      ],
+      "tone": "formal"
+    },
+    {
+      "id": "t1-15",
+      "type": "task1",
+      "title": "Suggesting a Workplace Improvement",
+      "prompt": "Write an email to your manager suggesting an improvement to the office environment.",
+      "situation": "You think the office would benefit from a dedicated quiet workspace for employees who need to concentrate on complex tasks. Currently, the open-plan office makes it difficult to focus during busy periods.",
+      "bulletPoints": [
+        "Describe the current problem with noise levels",
+        "Propose your solution for a quiet workspace",
+        "Explain the benefits for productivity and employee satisfaction",
+        "Suggest how it could be implemented"
+      ],
+      "tone": "semi-formal"
+    }
+  ],
+  "task2": [
+    {
+      "id": "t2-01",
+      "type": "task2",
+      "title": "Remote Work vs Office Work",
+      "prompt": "Respond to a survey about whether companies should allow employees to work from home permanently.",
+      "topic": "The future of remote work in professional settings",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Companies should allow full-time remote work as it improves work-life balance and productivity",
+        "Employees should return to the office as in-person collaboration is essential for innovation",
+        "A hybrid model with some days remote and some in-office is the best approach"
+      ]
+    },
+    {
+      "id": "t2-02",
+      "type": "task2",
+      "title": "Social Media and Young People",
+      "prompt": "Respond to a survey about whether social media use should be restricted for teenagers.",
+      "topic": "The impact of social media on teenagers' mental health and development",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Social media should be banned for children under 16 to protect their mental health",
+        "Parents should monitor usage but not restrict it, as social media is part of modern life",
+        "Schools should teach responsible social media use as part of the curriculum"
+      ]
+    },
+    {
+      "id": "t2-03",
+      "type": "task2",
+      "title": "Public Transportation Funding",
+      "prompt": "Respond to a survey about how the city should improve public transportation.",
+      "topic": "Priorities for public transit investment in growing cities",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "The city should invest in expanding bus routes to underserved neighborhoods",
+        "Building a new subway line would be the most effective long-term solution",
+        "The city should invest in making existing services more reliable and frequent"
+      ]
+    },
+    {
+      "id": "t2-04",
+      "type": "task2",
+      "title": "University Education Value",
+      "prompt": "Respond to a survey about whether university education is still worth the cost.",
+      "topic": "The value of traditional university education in the modern economy",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "University education is essential for career success and personal growth",
+        "Trade schools and vocational training offer better value for many students",
+        "Online courses and self-learning can replace traditional university for many fields"
+      ]
+    },
+    {
+      "id": "t2-05",
+      "type": "task2",
+      "title": "Green Spaces in Cities",
+      "prompt": "Respond to a survey about whether the city should convert parking lots into parks.",
+      "topic": "Balancing urban green space with parking and development needs",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Converting parking lots to parks improves community health and property values",
+        "Parking is already scarce and removing lots would harm local businesses",
+        "The city should build underground parking and create parks above"
+      ]
+    },
+    {
+      "id": "t2-06",
+      "type": "task2",
+      "title": "Plastic Bag Ban",
+      "prompt": "Respond to a survey about whether single-use plastic bags should be completely banned.",
+      "topic": "Environmental policy on single-use plastics in retail",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "A complete ban is necessary to protect the environment",
+        "A small fee per bag is a better approach as it gives consumers choice",
+        "Focus should be on improving recycling programs rather than banning products"
+      ]
+    },
+    {
+      "id": "t2-07",
+      "type": "task2",
+      "title": "Community Sports Programs",
+      "prompt": "Respond to a survey about how the community center should allocate its sports budget.",
+      "topic": "Priorities for community sports and recreation funding",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Priority should be given to youth programs to keep children active and healthy",
+        "Adult fitness programs should receive more funding as adults pay the majority of taxes",
+        "Senior-focused programs are most needed as they improve health outcomes for an aging population"
+      ]
+    },
+    {
+      "id": "t2-08",
+      "type": "task2",
+      "title": "Technology in Classrooms",
+      "prompt": "Respond to a survey about whether students should be allowed to use tablets instead of textbooks.",
+      "topic": "Digital devices replacing traditional learning materials in schools",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Tablets should replace textbooks as they are interactive and always up to date",
+        "Traditional textbooks are better for learning and do not cause screen fatigue",
+        "A combination of both digital and print materials provides the best learning experience"
+      ]
+    },
+    {
+      "id": "t2-09",
+      "type": "task2",
+      "title": "Immigration and Local Economy",
+      "prompt": "Respond to a survey about the impact of immigration on local communities.",
+      "topic": "How immigration affects local economic growth and community development",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Immigration brings diverse skills and drives economic growth in communities",
+        "Rapid immigration can strain local services and housing availability",
+        "Communities need better integration programs to maximize the benefits of immigration"
+      ]
+    },
+    {
+      "id": "t2-10",
+      "type": "task2",
+      "title": "Four-Day Work Week",
+      "prompt": "Respond to a survey about whether companies should adopt a four-day work week.",
+      "topic": "The potential benefits and challenges of reducing the standard work week",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "A four-day week increases productivity and employee well-being",
+        "Most businesses cannot operate effectively with reduced hours",
+        "It should be optional for companies to decide based on their industry"
+      ]
+    },
+    {
+      "id": "t2-11",
+      "type": "task2",
+      "title": "Electric Vehicles",
+      "prompt": "Respond to a survey about whether the government should offer larger incentives for electric vehicle purchases.",
+      "topic": "Government policy on promoting electric vehicle adoption",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Larger incentives are needed to accelerate the transition to clean transportation",
+        "The market should decide without government intervention in vehicle choices",
+        "Investment in public transit is more effective than subsidizing individual car purchases"
+      ]
+    },
+    {
+      "id": "t2-12",
+      "type": "task2",
+      "title": "Local Food Production",
+      "prompt": "Respond to a survey about whether the city should support urban farming initiatives.",
+      "topic": "The role of urban agriculture in food security and community building",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Urban farms provide fresh food and build community connections",
+        "The space would be better used for affordable housing or businesses",
+        "Community gardens are good but should not receive significant public funding"
+      ]
+    },
+    {
+      "id": "t2-13",
+      "type": "task2",
+      "title": "Pet Ownership in Apartments",
+      "prompt": "Respond to a survey about whether apartment buildings should allow pets.",
+      "topic": "Pet policies in multi-unit residential buildings",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "All buildings should allow pets as they are important for mental health",
+        "Building owners should have the right to set no-pet policies",
+        "Pets should be allowed with reasonable restrictions on size and noise"
+      ]
+    },
+    {
+      "id": "t2-14",
+      "type": "task2",
+      "title": "Library Services Modernization",
+      "prompt": "Respond to a survey about how public libraries should adapt to the digital age.",
+      "topic": "The evolving role of public libraries in the digital era",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Libraries should focus on digital resources like e-books, online databases, and computer labs",
+        "Physical books and quiet reading spaces should remain the primary focus",
+        "Libraries should transform into community hubs offering workshops, coworking spaces, and cultural events"
+      ]
+    },
+    {
+      "id": "t2-15",
+      "type": "task2",
+      "title": "Tipping Culture",
+      "prompt": "Respond to a survey about whether restaurants should eliminate tipping and pay higher wages instead.",
+      "topic": "The debate over tipping versus fair base wages in the service industry",
+      "instructions": "Choose one of the viewpoints below or present your own. Support your choice with reasons and examples.",
+      "viewpoints": [
+        "Tipping should be eliminated and workers should receive fair hourly wages",
+        "Tipping motivates better service and allows workers to earn more than a fixed wage",
+        "A service charge should be included in prices with tips remaining optional"
+      ]
+    }
+  ]
+}
