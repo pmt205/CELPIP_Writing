@@ -11,18 +11,23 @@ export default function PracticePage() {
   const isActive = useAppStore((state) => state.isActive);
   const isSubmitted = useAppStore((state) => state.isSubmitted);
   const currentQuestion = useAppStore((state) => state.currentQuestion);
+  const resetSession = useAppStore((state) => state.resetSession);
 
   // Check if a task type was passed from dashboard quick-start links
   const preselectedTask = (location.state as { taskType?: 'task1' | 'task2' } | null)?.taskType || null;
 
-  // Clear the location state immediately so it doesn't persist on subsequent visits
-  const hasClearedState = useRef(false);
+  // When navigating with a preselected task, always reset any existing session first
+  const hasResetForPreselection = useRef(false);
   useEffect(() => {
-    if (preselectedTask && !hasClearedState.current) {
-      hasClearedState.current = true;
+    if (preselectedTask) {
+      hasResetForPreselection.current = true;
+      resetSession();
+      // Clear the location state so it doesn't persist on subsequent visits
       window.history.replaceState({}, document.title);
+    } else {
+      hasResetForPreselection.current = false;
     }
-  }, [preselectedTask]);
+  }, [preselectedTask, resetSession]);
 
   const renderContent = () => {
     if (isSubmitted && currentQuestion) {
