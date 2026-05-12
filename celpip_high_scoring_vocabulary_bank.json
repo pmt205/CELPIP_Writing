@@ -1,0 +1,167 @@
+{
+  "task1_email": {
+    "formal_openings": [
+      "I hope this message finds you well.",
+      "I am writing regarding...",
+      "I would like to bring your attention to...",
+      "I am contacting you to inquire about...",
+      "I am reaching out concerning..."
+    ],
+    "complaint_phrases": [
+      "I was disappointed to discover that...",
+      "Unfortunately, the service did not meet my expectations.",
+      "The issue caused significant inconvenience.",
+      "I would appreciate it if this matter could be resolved promptly.",
+      "I expect an appropriate solution to this problem."
+    ],
+    "request_phrases": [
+      "Could you please provide more information about...?",
+      "I would appreciate it if you could...",
+      "Would it be possible to...?",
+      "I kindly request that...",
+      "Please let me know at your earliest convenience."
+    ],
+    "apology_phrases": [
+      "I sincerely apologize for the inconvenience.",
+      "Please accept my apologies for...",
+      "I regret any inconvenience this may have caused.",
+      "I am sorry for the misunderstanding.",
+      "Thank you for your patience and understanding."
+    ],
+    "persuasive_phrases": [
+      "I strongly believe that this solution would benefit both parties.",
+      "This arrangement would be highly beneficial because...",
+      "I assure you that I will handle this responsibly.",
+      "I would be grateful for your consideration.",
+      "I hope you will take my request into consideration."
+    ],
+    "closing_phrases": [
+      "I look forward to hearing from you soon.",
+      "Thank you for your time and consideration.",
+      "Please feel free to contact me if you need further information.",
+      "I appreciate your assistance with this matter.",
+      "I hope this issue can be resolved quickly."
+    ],
+    "high_scoring_words": [
+      {
+        "word": "accommodate",
+        "meaning": "to adjust or help meet a need",
+        "example": "I hope the company can accommodate my request."
+      },
+      {
+        "word": "inconvenience",
+        "meaning": "a problem causing difficulty",
+        "example": "The delayed shipment caused significant inconvenience."
+      },
+      {
+        "word": "appreciate",
+        "meaning": "to be thankful for",
+        "example": "I would greatly appreciate your assistance."
+      },
+      {
+        "word": "promptly",
+        "meaning": "quickly and without delay",
+        "example": "I hope this matter can be resolved promptly."
+      },
+      {
+        "word": "satisfactory",
+        "meaning": "acceptable or good enough",
+        "example": "I hope we can reach a satisfactory solution."
+      },
+      {
+        "word": "consideration",
+        "meaning": "careful thought",
+        "example": "Thank you for your consideration."
+      },
+      {
+        "word": "reliable",
+        "meaning": "dependable and trustworthy",
+        "example": "The service has not been reliable recently."
+      },
+      {
+        "word": "resolve",
+        "meaning": "to solve a problem",
+        "example": "I hope the company can resolve this issue quickly."
+      }
+    ]
+  },
+  "task2_survey": {
+    "opinion_phrases": [
+      "In my opinion...",
+      "I strongly believe that...",
+      "From my perspective...",
+      "I am convinced that...",
+      "Personally, I prefer..."
+    ],
+    "agreement_disagreement": [
+      "I completely agree with this idea because...",
+      "I disagree with this viewpoint for several reasons.",
+      "Although some people believe..., I think...",
+      "While both options have advantages, I prefer...",
+      "It is clear to me that..."
+    ],
+    "supporting_arguments": [
+      "One major reason is that...",
+      "Another important factor is...",
+      "This is especially beneficial because...",
+      "As a result,...",
+      "For example,..."
+    ],
+    "comparison_phrases": [
+      "Compared to...",
+      "In contrast...",
+      "On the other hand...",
+      "Similarly...",
+      "Unlike..."
+    ],
+    "conclusion_phrases": [
+      "In conclusion...",
+      "Overall, I firmly believe that...",
+      "For these reasons, I support...",
+      "Taking everything into account...",
+      "Ultimately..."
+    ],
+    "high_scoring_words": [
+      {
+        "word": "efficient",
+        "meaning": "working well without wasting time or resources",
+        "example": "Public transportation is a more efficient solution."
+      },
+      {
+        "word": "essential",
+        "meaning": "very important",
+        "example": "Education is essential for career growth."
+      },
+      {
+        "word": "beneficial",
+        "meaning": "helpful or advantageous",
+        "example": "Exercise is beneficial for both physical and mental health."
+      },
+      {
+        "word": "practical",
+        "meaning": "useful and realistic",
+        "example": "This is a practical solution for busy families."
+      },
+      {
+        "word": "significant",
+        "meaning": "important or noticeable",
+        "example": "This policy could have a significant impact on society."
+      },
+      {
+        "word": "flexible",
+        "meaning": "able to change easily",
+        "example": "Working from home offers a more flexible schedule."
+      },
+      {
+        "word": "sustainable",
+        "meaning": "able to continue long-term",
+        "example": "Bike lanes are a sustainable transportation option."
+      },
+      {
+        "word": "productive",
+        "meaning": "effective and achieving results",
+        "example": "Employees can be more productive in a quiet environment."
+      }
+    ]
+  }
+}
