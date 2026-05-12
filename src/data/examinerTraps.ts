@@ -23,7 +23,7 @@ export const task1Traps: ExaminerTrap[] = [
   {
     trap: "Writing too long",
     why_it_hurts: "Long responses increase grammar mistakes and waste time.",
-    fix: "Stay under about 220 words."
+    fix: "Stay under about 200 words."
   },
   {
     trap: "Weak organization",
