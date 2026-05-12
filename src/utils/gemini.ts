@@ -30,6 +30,15 @@ Prompt: ${question.prompt}
 Student's Response:
 ${writingText}
 
+Use the following CELPIP score scale as reference:
+- 10-12: Advanced (near-native, sophisticated, highly effective)
+- 9: Effective (clear, well-organized, minor errors only)
+- 8: Good (adequately addresses task, reasonable organization, some errors)
+- 7: Adequate (addresses main points, acceptable organization, occasional errors impede meaning)
+- 5-6: Developing (limited vocabulary, frequent errors, partially addresses task)
+- 3-4: Basic/Initial (very limited ability, significant errors)
+- 1-2: Minimal (insufficient evidence of ability)
+
 Please evaluate this CELPIP writing response and provide scores on a scale of 1-12 for each category. Respond ONLY with valid JSON in the following format:
 {
   "overallScore": <number 1-12>,

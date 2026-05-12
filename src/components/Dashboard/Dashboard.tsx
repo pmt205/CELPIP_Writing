@@ -2,6 +2,19 @@ import { Link } from 'react-router-dom';
 import { useAppStore } from '../../store/useAppStore';
 import StatsCard from './StatsCard';
 
+function getClbInterpretation(score: number): string {
+  if (score >= 11.5) return `Your average score of ${score} corresponds to CLB 12 (Advanced proficiency)`;
+  if (score >= 10.5) return `Your average score of ${score} corresponds to CLB 11 (Advanced proficiency)`;
+  if (score >= 9.5) return `Your average score of ${score} corresponds to CLB 10 (Highly effective)`;
+  if (score >= 8.5) return `Your average score of ${score} corresponds to CLB 8-9 (Good to Effective)`;
+  if (score >= 7.5) return `Your average score of ${score} corresponds to CLB 8 (Good)`;
+  if (score >= 6.5) return `Your average score of ${score} corresponds to CLB 7 (Adequate - meets Express Entry)`;
+  if (score >= 5.5) return `Your average score of ${score} corresponds to CLB 6 (Developing)`;
+  if (score >= 4.5) return `Your average score of ${score} corresponds to CLB 5 (Acquiring)`;
+  if (score >= 3.5) return `Your average score of ${score} corresponds to CLB 4 (Basic - meets Citizenship)`;
+  return `Your average score of ${score} corresponds to CLB 3 or below (Initial)`;
+}
+
 export default function Dashboard() {
   const history = useAppStore((state) => state.history);
 
@@ -58,6 +71,15 @@ export default function Dashboard() {
           icon="📊"
         />
       </div>
+
+      {/* CLB Score Interpretation */}
+      {averageScore !== 'N/A' && (
+        <div className="mb-8 p-3 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+          <p className="text-sm text-blue-800 dark:text-blue-200 font-medium">
+            {getClbInterpretation(parseFloat(averageScore as string))}
+          </p>
+        </div>
+      )}
 
       {/* Quick Actions */}
       <div className="mb-8">

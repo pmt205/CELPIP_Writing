@@ -1,4 +1,5 @@
 import type { AIFeedback } from '../../types';
+import ScoreComparisonTable from './ScoreComparisonTable';
 
 interface AIFeedbackProps {
   feedback: AIFeedback;
@@ -88,6 +89,9 @@ export default function AIFeedbackPanel({ feedback }: AIFeedbackProps) {
           </ul>
         </div>
       )}
+
+      {/* Score Comparison Table */}
+      <ScoreComparisonTable />
     </div>
   );
 }

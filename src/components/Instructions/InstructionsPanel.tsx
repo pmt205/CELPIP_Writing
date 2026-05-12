@@ -115,6 +115,33 @@ export default function InstructionsPanel({ taskType }: InstructionsPanelProps) 
               </div>
             </div>
           </div>
+
+          {/* Score Thresholds Reference */}
+          <div>
+            <h4 className="font-semibold text-gray-900 dark:text-white text-sm mb-2">
+              Key Score Thresholds
+            </h4>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 border-l-4 border-l-blue-500 rounded p-2">
+                <div>
+                  <p className="font-medium text-gray-800 dark:text-gray-200">CELPIP 7+ (CLB 7) - Express Entry</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">Required for Federal Skilled Worker Program</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 bg-green-50 dark:bg-green-900/30 border-l-4 border-l-green-500 rounded p-2">
+                <div>
+                  <p className="font-medium text-gray-800 dark:text-gray-200">CELPIP 5-7 (CLB 5-7) - Provincial Nominees</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">Varies by province and stream</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 bg-amber-50 dark:bg-amber-900/30 border-l-4 border-l-amber-500 rounded p-2">
+                <div>
+                  <p className="font-medium text-gray-800 dark:text-gray-200">CELPIP 4+ (CLB 4) - Citizenship</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">Minimum for Canadian citizenship application</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       )}
     </div>
