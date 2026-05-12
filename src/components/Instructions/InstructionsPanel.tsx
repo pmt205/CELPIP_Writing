@@ -94,24 +94,20 @@ export default function InstructionsPanel({ taskType }: InstructionsPanelProps) 
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
               <div className="bg-gray-50 dark:bg-gray-700 rounded p-2">
-                <p className="font-medium text-gray-800 dark:text-gray-200">Task Response</p>
-                <p className="text-xs text-gray-500 dark:text-gray-400">How well you address the prompt</p>
-              </div>
-              <div className="bg-gray-50 dark:bg-gray-700 rounded p-2">
-                <p className="font-medium text-gray-800 dark:text-gray-200">Coherence</p>
-                <p className="text-xs text-gray-500 dark:text-gray-400">Organization and logical flow</p>
+                <p className="font-medium text-gray-800 dark:text-gray-200">Content/Coherence</p>
+                <p className="text-xs text-gray-500 dark:text-gray-400">Ideas, organization, and logical flow</p>
               </div>
               <div className="bg-gray-50 dark:bg-gray-700 rounded p-2">
                 <p className="font-medium text-gray-800 dark:text-gray-200">Vocabulary</p>
                 <p className="text-xs text-gray-500 dark:text-gray-400">Range and accuracy of word choice</p>
               </div>
               <div className="bg-gray-50 dark:bg-gray-700 rounded p-2">
-                <p className="font-medium text-gray-800 dark:text-gray-200">Grammar</p>
-                <p className="text-xs text-gray-500 dark:text-gray-400">Sentence structure and accuracy</p>
+                <p className="font-medium text-gray-800 dark:text-gray-200">Readability</p>
+                <p className="text-xs text-gray-500 dark:text-gray-400">Grammar, spelling, and punctuation control</p>
               </div>
-              <div className="bg-gray-50 dark:bg-gray-700 rounded p-2 sm:col-span-2">
-                <p className="font-medium text-gray-800 dark:text-gray-200">Spelling & Punctuation</p>
-                <p className="text-xs text-gray-500 dark:text-gray-400">Accuracy in spelling and proper punctuation use</p>
+              <div className="bg-gray-50 dark:bg-gray-700 rounded p-2">
+                <p className="font-medium text-gray-800 dark:text-gray-200">Task Fulfillment</p>
+                <p className="text-xs text-gray-500 dark:text-gray-400">Tone, style, and addressing the prompt requirements</p>
               </div>
             </div>
           </div>

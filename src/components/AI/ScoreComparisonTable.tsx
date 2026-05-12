@@ -1,31 +1,16 @@
 import { useState } from 'react';
+import { scoringLevels } from '../../data/scoringCriteria';
 
-interface ScoreLevel {
-  celpipLevel: string;
-  clbLevel: string;
-  description: string;
+function getClbLevel(level: string): string {
+  if (level === 'M') return 'Below 1';
+  return level;
 }
 
-const scoreData: ScoreLevel[] = [
-  { celpipLevel: '12', clbLevel: '12', description: 'Advanced proficiency - Writing is sophisticated, precise, and highly effective with near-native control' },
-  { celpipLevel: '11', clbLevel: '11', description: 'Advanced proficiency - Writing demonstrates excellent command with occasional minor imprecisions' },
-  { celpipLevel: '10', clbLevel: '10', description: 'Highly effective - Writing is clear, detailed, and well-organized with good control of complex structures' },
-  { celpipLevel: '9', clbLevel: '9', description: 'Effective - Writing is generally clear with good organization and vocabulary range; minor errors' },
-  { celpipLevel: '8', clbLevel: '8', description: 'Good - Writing adequately addresses the task with reasonable organization; some errors do not impede meaning' },
-  { celpipLevel: '7', clbLevel: '7', description: 'Adequate - Writing addresses main points with acceptable organization; errors occasionally impede meaning' },
-  { celpipLevel: '6', clbLevel: '6', description: 'Developing - Writing attempts to address the task but may miss key points; limited vocabulary and frequent errors' },
-  { celpipLevel: '5', clbLevel: '5', description: 'Acquiring - Writing partially addresses the task with basic vocabulary; errors frequently impede communication' },
-  { celpipLevel: '4', clbLevel: '4', description: 'Developing basic - Limited ability to convey ideas in writing; significant errors throughout' },
-  { celpipLevel: '3L', clbLevel: '3', description: 'Initial - Very limited writing ability; barely addresses the task' },
-  { celpipLevel: '3', clbLevel: '3', description: 'Initial - Very limited writing ability; barely addresses the task' },
-  { celpipLevel: 'M', clbLevel: 'Below 1', description: 'Minimal - Insufficient evidence of writing ability' },
-];
-
-function getRowHighlight(clbLevel: string): string {
-  if (clbLevel === '7') {
+function getRowHighlight(level: string): string {
+  if (level === '7') {
     return 'bg-blue-50 dark:bg-blue-900/30 border-l-4 border-l-blue-500';
   }
-  if (clbLevel === '4') {
+  if (level === '4') {
     return 'bg-amber-50 dark:bg-amber-900/30 border-l-4 border-l-amber-500';
   }
   return '';
@@ -33,6 +18,19 @@ function getRowHighlight(clbLevel: string): string {
 
 export default function ScoreComparisonTable() {
   const [expanded, setExpanded] = useState(false);
+  const [expandedRows, setExpandedRows] = useState<Set<string>>(new Set());
+
+  const toggleRow = (level: string) => {
+    setExpandedRows((prev) => {
+      const next = new Set(prev);
+      if (next.has(level)) {
+        next.delete(level);
+      } else {
+        next.add(level);
+      }
+      return next;
+    });
+  };
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden mt-6">
@@ -78,28 +76,75 @@ export default function ScoreComparisonTable() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-celpip-blue text-white">
+                  <th className="px-3 py-2 text-left font-semibold w-8"></th>
                   <th className="px-3 py-2 text-left font-semibold">CELPIP Level</th>
                   <th className="px-3 py-2 text-left font-semibold">CLB Level</th>
                   <th className="px-3 py-2 text-left font-semibold">Performance Description</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
-                {scoreData.map((row, index) => (
-                  <tr
-                    key={index}
-                    className={`${getRowHighlight(row.clbLevel)} hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors`}
-                  >
-                    <td className="px-3 py-2 font-medium text-gray-900 dark:text-white">
-                      {row.celpipLevel}
-                    </td>
-                    <td className="px-3 py-2 text-gray-700 dark:text-gray-300">
-                      {row.clbLevel}
-                    </td>
-                    <td className="px-3 py-2 text-gray-600 dark:text-gray-400">
-                      {row.description}
-                    </td>
-                  </tr>
-                ))}
+                {[...scoringLevels].reverse().map((row) => {
+                  const isRowExpanded = expandedRows.has(row.level);
+                  const clbLevel = getClbLevel(row.level);
+                  return (
+                    <tr key={row.level} className="group">
+                      <td colSpan={4} className="p-0">
+                        <div
+                          className={`${getRowHighlight(row.level)} hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer`}
+                          onClick={() => toggleRow(row.level)}
+                        >
+                          <div className="flex items-center">
+                            <div className="px-3 py-2 w-8 flex-shrink-0">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className={`h-4 w-4 text-gray-400 transition-transform ${isRowExpanded ? 'rotate-90' : ''}`}
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                              </svg>
+                            </div>
+                            <div className="px-3 py-2 font-medium text-gray-900 dark:text-white w-24 flex-shrink-0">
+                              {row.level}
+                            </div>
+                            <div className="px-3 py-2 text-gray-700 dark:text-gray-300 w-20 flex-shrink-0">
+                              {clbLevel}
+                            </div>
+                            <div className="px-3 py-2 text-gray-600 dark:text-gray-400 flex-1">
+                              {row.description}
+                            </div>
+                          </div>
+                        </div>
+                        {isRowExpanded && (
+                          <div className="px-4 py-3 bg-gray-50 dark:bg-gray-700/30 border-t border-gray-200 dark:border-gray-600">
+                            <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase mb-2">
+                              Scoring Criteria Details (Level {row.level})
+                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                              <div className="bg-white dark:bg-gray-800 rounded p-3 border border-gray-200 dark:border-gray-600">
+                                <h5 className="text-xs font-semibold text-celpip-accent mb-1">Content/Coherence</h5>
+                                <p className="text-xs text-gray-600 dark:text-gray-300">{row.contentCoherence}</p>
+                              </div>
+                              <div className="bg-white dark:bg-gray-800 rounded p-3 border border-gray-200 dark:border-gray-600">
+                                <h5 className="text-xs font-semibold text-celpip-accent mb-1">Vocabulary</h5>
+                                <p className="text-xs text-gray-600 dark:text-gray-300">{row.vocabulary}</p>
+                              </div>
+                              <div className="bg-white dark:bg-gray-800 rounded p-3 border border-gray-200 dark:border-gray-600">
+                                <h5 className="text-xs font-semibold text-celpip-accent mb-1">Readability</h5>
+                                <p className="text-xs text-gray-600 dark:text-gray-300">{row.readability}</p>
+                              </div>
+                              <div className="bg-white dark:bg-gray-800 rounded p-3 border border-gray-200 dark:border-gray-600">
+                                <h5 className="text-xs font-semibold text-celpip-accent mb-1">Task Fulfillment</h5>
+                                <p className="text-xs text-gray-600 dark:text-gray-300">{row.taskFulfillment}</p>
+                              </div>
+                            </div>
+                          </div>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
