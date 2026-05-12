@@ -3,6 +3,7 @@ import { useAppStore } from '../../store/useAppStore';
 import { useTimerStore } from '../../store/useTimerStore';
 import { countWords } from '../../utils/wordCount';
 import { getAIFeedback } from '../../utils/gemini';
+import { generateResultReport, downloadTextFile, getResultFilename } from '../../utils/exportUtils';
 import AIFeedbackPanel from '../AI/AIFeedback';
 import type { AIFeedback, PracticeHistory } from '../../types';
 
@@ -64,6 +65,28 @@ export default function SessionSummary() {
 
   const handleNewPractice = () => {
     resetSession();
+  };
+
+  const handleExportResult = () => {
+    if (!currentQuestion || !currentTask) return;
+    const entry: PracticeHistory = {
+      session: {
+        id: Date.now().toString(),
+        taskType: currentTask,
+        question: currentQuestion,
+        text: writingText,
+        wordCount,
+        startTime: Date.now() - timeUsed * 1000,
+        endTime: Date.now(),
+        timeUsed,
+        submitted: true,
+      },
+      feedback: feedback || undefined,
+      date: new Date().toLocaleDateString(),
+    };
+    const report = generateResultReport(entry);
+    const filename = getResultFilename(entry);
+    downloadTextFile(report, filename);
   };
 
   return (
@@ -138,6 +161,19 @@ export default function SessionSummary() {
           >
             {saved ? 'Saved!' : 'Save to History'}
           </button>
+          {feedback && (
+            <button
+              onClick={handleExportResult}
+              className="flex-1 py-3 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            >
+              <span className="inline-flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                Export Result
+              </span>
+            </button>
+          )}
           <button
             onClick={handleNewPractice}
             className="flex-1 py-3 px-6 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"

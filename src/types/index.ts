@@ -78,6 +78,7 @@ export interface AppState {
   // History slice
   history: PracticeHistory[];
   addToHistory: (entry: PracticeHistory) => void;
+  importHistory: (entries: PracticeHistory[]) => void;
   clearHistory: () => void;
 
   // UI slice

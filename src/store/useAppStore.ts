@@ -78,6 +78,14 @@ export const useAppStore = create<AppState>((set, get) => {
       set({ history: updated });
       persistState(get());
     },
+    importHistory: (entries: PracticeHistory[]) => {
+      const existing = get().history;
+      const existingIds = new Set(existing.map(h => h.session.id));
+      const newEntries = entries.filter(e => !existingIds.has(e.session.id));
+      const updated = [...newEntries, ...existing];
+      set({ history: updated });
+      persistState(get());
+    },
     clearHistory: () => {
       set({ history: [] });
       persistState(get());
