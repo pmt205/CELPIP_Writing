@@ -1,0 +1,426 @@
+{
+  "source_note": "CELPIP-style writing practice prompts created for study use. Some topics are based on common CELPIP practice themes and official-style formats, but they are not official exam questions.",
+  "word_limit": "150-200 words",
+  "questions": [
+    {
+      "id": "celpip_writing_task1_001",
+      "task": 1,
+      "type": "email",
+      "title": "Damaged Appliance Delivery",
+      "prompt": "You recently ordered a kitchen appliance online, but when it was delivered to your home, you noticed that it was damaged and could not be used.\n\nWrite an email to the company's customer service department in about 150-200 words. Your email should include:\n\n- Explain what item you ordered and when it was delivered.\n- Describe the damage and how it affected you.\n- Request a replacement, refund, or another suitable solution."
+    },
+    {
+      "id": "celpip_writing_task1_002",
+      "task": 1,
+      "type": "email",
+      "title": "Broken Elevator Complaint",
+      "prompt": "The elevator in your apartment building has been out of service for several days, and this has caused difficulties for many residents.\n\nWrite an email to your landlord or property manager in about 150-200 words. Your email should include:\n\n- Explain the problem and how long it has been happening.\n- Describe how it has affected you or other residents.\n- Ask when the elevator will be repaired and request urgent action."
+    },
+    {
+      "id": "celpip_writing_task1_003",
+      "task": 1,
+      "type": "email",
+      "title": "Request for Schedule Change",
+      "prompt": "You need to temporarily change your work schedule because of a family responsibility.\n\nWrite an email to your manager in about 150-200 words. Your email should include:\n\n- Explain why you need the schedule change.\n- Suggest the temporary schedule you would like to follow.\n- Reassure your manager that your work will still be completed properly."
+    },
+    {
+      "id": "celpip_writing_task1_004",
+      "task": 1,
+      "type": "email",
+      "title": "Corporate Team-Building Event",
+      "prompt": "Your company is organizing a team-building event for employees, and you have been asked to arrange a group activity.\n\nWrite an email to a local adventure park in about 150-200 words. Your email should include:\n\n- Introduce yourself and explain the purpose of your email.\n- Inquire about the activities they offer for group events.\n- Ask about availability, pricing, and any special packages for corporate groups."
+    },
+    {
+      "id": "celpip_writing_task1_005",
+      "task": 1,
+      "type": "email",
+      "title": "Missing Grocery Items",
+      "prompt": "You ordered groceries online, but several items were missing when the order arrived.\n\nWrite an email to the grocery company's customer service department in about 150-200 words. Your email should include:\n\n- Explain when you placed the order and what was missing.\n- Describe any inconvenience this caused.\n- Ask for a refund, replacement, or credit for the missing items."
+    },
+    {
+      "id": "celpip_writing_task1_006",
+      "task": 1,
+      "type": "email",
+      "title": "Work-from-Home Request",
+      "prompt": "Your company currently allows employees to work from home only one day per week, but you would like to request additional work-from-home days.\n\nWrite an email to the human resources department in about 150-200 words. Your email should include:\n\n- Explain your current work situation.\n- Give reasons why working from home more often would help you.\n- Ask whether the company can approve your request."
+    },
+    {
+      "id": "celpip_writing_task1_007",
+      "task": 1,
+      "type": "email",
+      "title": "Assignment Extension",
+      "prompt": "You are taking a course, but you have been sick and cannot finish an important assignment by the deadline.\n\nWrite an email to your instructor in about 150-200 words. Your email should include:\n\n- Explain your illness and why you cannot meet the deadline.\n- Ask for an extension and suggest a new submission date.\n- Thank your instructor and promise to complete the assignment."
+    },
+    {
+      "id": "celpip_writing_task1_008",
+      "task": 1,
+      "type": "email",
+      "title": "Noisy Neighbour",
+      "prompt": "Your neighbour often plays loud music late at night, and it is affecting your sleep and daily life.\n\nWrite an email to your neighbour in about 150-200 words. Your email should include:\n\n- Explain the noise problem politely.\n- Describe how it has affected you.\n- Ask your neighbour to reduce the noise during late hours."
+    },
+    {
+      "id": "celpip_writing_task1_009",
+      "task": 1,
+      "type": "email",
+      "title": "Hotel Refund Request",
+      "prompt": "You recently stayed at a hotel, but your experience was disappointing because the room was not clean and some facilities were not working.\n\nWrite an email to the hotel manager in about 150-200 words. Your email should include:\n\n- Explain when you stayed at the hotel.\n- Describe the problems you experienced.\n- Request a refund, discount, or another form of compensation."
+    },
+    {
+      "id": "celpip_writing_task1_010",
+      "task": 1,
+      "type": "email",
+      "title": "Snow Removal Complaint",
+      "prompt": "The roads and sidewalks in your neighbourhood have not been cleared properly after recent heavy snow.\n\nWrite an email to your city council or local government office in about 150-200 words. Your email should include:\n\n- Explain the snow removal problem in your area.\n- Describe why it is dangerous or inconvenient.\n- Ask the city to improve snow removal services as soon as possible."
+    },
+    {
+      "id": "celpip_writing_task1_011",
+      "task": 1,
+      "type": "email",
+      "title": "Delayed Luggage",
+      "prompt": "You recently took an international flight, but your luggage did not arrive with you and has been delayed for several days.\n\nWrite an email to the airline's customer service department in about 150-200 words. Your email should include:\n\n- Provide your flight details and luggage information.\n- Explain how the delay has affected your trip.\n- Ask for an update and compensation if appropriate."
+    },
+    {
+      "id": "celpip_writing_task1_012",
+      "task": 1,
+      "type": "email",
+      "title": "Unstable Internet Service",
+      "prompt": "Your home internet service has been unstable for the past week, and this has made it difficult for you to work from home.\n\nWrite an email to your internet provider in about 150-200 words. Your email should include:\n\n- Explain the connection problems you have experienced.\n- Describe how the issue has affected your work or daily life.\n- Ask the company to fix the problem and consider a billing adjustment."
+    },
+    {
+      "id": "celpip_writing_task1_013",
+      "task": 1,
+      "type": "email",
+      "title": "Birthday Invitation",
+      "prompt": "You are planning a birthday celebration and would like to invite a friend who lives in another city.\n\nWrite an email to your friend in about 150-200 words. Your email should include:\n\n- Tell your friend about the birthday celebration.\n- Explain when and where the event will take place.\n- Ask your friend to attend and let you know if they can come."
+    },
+    {
+      "id": "celpip_writing_task1_014",
+      "task": 1,
+      "type": "email",
+      "title": "Used Car Inquiry",
+      "prompt": "You found an advertisement online for a used car that looks interesting, but the seller did not provide many details.\n\nWrite an email to the seller in about 150-200 words. Your email should include:\n\n- Explain how you found the car advertisement.\n- Ask for specific details about the car's condition, mileage, accident history, and service records.\n- Explain your budget and request a time to meet for a test drive."
+    },
+    {
+      "id": "celpip_writing_task1_015",
+      "task": 1,
+      "type": "email",
+      "title": "Vacation Leave Request",
+      "prompt": "You would like to take vacation leave during the summer, but your workplace is usually busy at that time.\n\nWrite an email to your supervisor in about 150-200 words. Your email should include:\n\n- Explain the dates you would like to take off.\n- Give a reason for your vacation request.\n- Explain how your work will be managed while you are away."
+    },
+    {
+      "id": "celpip_writing_task1_016",
+      "task": 1,
+      "type": "email",
+      "title": "Gym Membership Cancellation",
+      "prompt": "You joined a local gym, but you are unhappy with the facilities and would like to cancel your membership.\n\nWrite an email to the gym manager in about 150-200 words. Your email should include:\n\n- Explain when you joined the gym.\n- Describe the problems with the facilities or service.\n- Request cancellation of your membership and ask about any refund."
+    },
+    {
+      "id": "celpip_writing_task1_017",
+      "task": 1,
+      "type": "email",
+      "title": "Bullying Concern at School",
+      "prompt": "Your child has told you about a bullying problem at school, and you are concerned about their safety and well-being.\n\nWrite an email to your child's teacher or school principal in about 150-200 words. Your email should include:\n\n- Explain what your child told you about the situation.\n- Describe why you are concerned.\n- Ask the school to investigate and explain what action will be taken."
+    },
+    {
+      "id": "celpip_writing_task1_018",
+      "task": 1,
+      "type": "email",
+      "title": "Poor Restaurant Service",
+      "prompt": "You recently visited a restaurant with your family, but you received poor service and were disappointed with the experience.\n\nWrite an email to the restaurant manager in about 150-200 words. Your email should include:\n\n- Explain when you visited the restaurant.\n- Describe the problems with the service or food.\n- Suggest what the restaurant should do to improve or compensate you."
+    },
+    {
+      "id": "celpip_writing_task1_019",
+      "task": 1,
+      "type": "email",
+      "title": "Thanking a Colleague",
+      "prompt": "A colleague recently helped you complete an important project at work, and you would like to thank them.\n\nWrite an email to your colleague in about 150-200 words. Your email should include:\n\n- Explain why you are grateful for their help.\n- Describe how their support helped the project succeed.\n- Offer to help them in the future."
+    },
+    {
+      "id": "celpip_writing_task1_020",
+      "task": 1,
+      "type": "email",
+      "title": "Library Book Extension",
+      "prompt": "You borrowed several books from the library, but you need more time to finish reading them.\n\nWrite an email to the library in about 150-200 words. Your email should include:\n\n- Explain which books you borrowed and when they are due.\n- Give a reason why you need more time.\n- Ask whether the due date can be extended."
+    },
+    {
+      "id": "celpip_writing_task1_021",
+      "task": 1,
+      "type": "email",
+      "title": "Suggesting Community Activities",
+      "prompt": "Your local community center is planning new weekend programs, and residents have been invited to suggest activities.\n\nWrite an email to the community center coordinator in about 150-200 words. Your email should include:\n\n- Introduce yourself as a local resident.\n- Suggest one or two weekend activities.\n- Explain why these activities would benefit the community."
+    },
+    {
+      "id": "celpip_writing_task1_022",
+      "task": 1,
+      "type": "email",
+      "title": "Warranty Replacement Request",
+      "prompt": "You bought a pair of headphones recently, but they stopped working while still under warranty.\n\nWrite an email to the company's support team in about 150-200 words. Your email should include:\n\n- Explain when and where you bought the headphones.\n- Describe the problem with the product.\n- Request a repair, replacement, or refund under the warranty."
+    },
+    {
+      "id": "celpip_writing_task1_023",
+      "task": 1,
+      "type": "email",
+      "title": "Unknown Bank Charge",
+      "prompt": "You noticed an unknown charge on your bank account statement and believe it may be a mistake.\n\nWrite an email to your bank in about 150-200 words. Your email should include:\n\n- Identify the charge and when it appeared.\n- Explain why you believe the charge is incorrect.\n- Ask the bank to investigate and reverse the charge if necessary."
+    },
+    {
+      "id": "celpip_writing_task1_024",
+      "task": 1,
+      "type": "email",
+      "title": "Unexpected Absence from Work",
+      "prompt": "You missed work unexpectedly because of an emergency and could not inform your employer in advance.\n\nWrite an email to your employer in about 150-200 words. Your email should include:\n\n- Apologize for missing work without notice.\n- Explain the reason for your absence.\n- Describe how you will catch up on any missed work."
+    },
+    {
+      "id": "celpip_writing_task1_025",
+      "task": 1,
+      "type": "email",
+      "title": "Damaged Furniture During Move",
+      "prompt": "You hired a moving company to help you move to a new home, but some of your furniture was damaged during the move.\n\nWrite an email to the moving company in about 150-200 words. Your email should include:\n\n- Explain when the move took place.\n- Describe the damaged items and their condition.\n- Request repair, compensation, or another solution."
+    },
+    {
+      "id": "celpip_writing_task1_026",
+      "task": 1,
+      "type": "email",
+      "title": "Unreliable Bus Service",
+      "prompt": "The bus you take to work has often been late or cancelled recently, causing problems with your daily commute.\n\nWrite an email to the city transit department in about 150-200 words. Your email should include:\n\n- Explain which bus route you use and what problems you have noticed.\n- Describe how the unreliable service has affected you.\n- Ask the transit department to improve the schedule or provide updates."
+    },
+    {
+      "id": "celpip_writing_task1_027",
+      "task": 1,
+      "type": "email",
+      "title": "Travel Advice for Canada",
+      "prompt": "Your cousin is planning to visit Canada for the first time and has asked you for travel advice.\n\nWrite an email to your cousin in about 150-200 words. Your email should include:\n\n- Recommend some places to visit in Canada.\n- Explain what your cousin can do or see there.\n- Give practical advice about weather, transportation, or costs."
+    },
+    {
+      "id": "celpip_writing_task1_028",
+      "task": 1,
+      "type": "email",
+      "title": "Daycare Enrollment Inquiry",
+      "prompt": "You are looking for a daycare center for your child and found one near your home.\n\nWrite an email to the daycare center in about 150-200 words. Your email should include:\n\n- Introduce yourself and explain your child's age.\n- Ask about availability, fees, and daily schedule.\n- Request information about staff qualifications and safety policies."
+    },
+    {
+      "id": "celpip_writing_task1_029",
+      "task": 1,
+      "type": "email",
+      "title": "Volunteering Opportunity Inquiry",
+      "prompt": "You saw an advertisement for a community event and would like to volunteer.\n\nWrite an email to the event organizer in about 150-200 words. Your email should include:\n\n- Explain how you learned about the event.\n- Describe your interest and any relevant experience.\n- Ask what volunteer roles are available and how you can sign up."
+    },
+    {
+      "id": "celpip_writing_task1_030",
+      "task": 1,
+      "type": "email",
+      "title": "Pet Permission Request",
+      "prompt": "You live in a rental apartment and would like to keep a small pet, but your lease requires permission from the property manager.\n\nWrite an email to your property manager in about 150-200 words. Your email should include:\n\n- Explain what kind of pet you would like to keep.\n- Describe how you will take responsibility for the pet.\n- Ask for written permission and any rules you need to follow."
+    },
+    {
+      "id": "celpip_writing_task2_001",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Work from Home or Office",
+      "prompt": "Your company is reviewing its work policy and is asking employees for their opinions.\n\nWhich option do you prefer?\n\nOption A: Employees should be allowed to work from home most of the time.\nOption B: Employees should work mainly from the office.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State which option you prefer.\n- Explain two reasons for your choice.\n- Give examples or details to support your opinion."
+    },
+    {
+      "id": "celpip_writing_task2_002",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Four-Day Work Week",
+      "prompt": "A large company is considering changing its regular five-day work week to a four-day work week with longer hours each day.\n\nWhich option do you support?\n\nOption A: Employees should work four longer days per week.\nOption B: Employees should keep the traditional five-day work week.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State which option you support.\n- Explain why this option would be better for employees and the company.\n- Mention one possible concern and how it could be handled."
+    },
+    {
+      "id": "celpip_writing_task2_003",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Public Transportation or Personal Car",
+      "prompt": "Your city wants to reduce traffic and pollution and is asking residents for their opinions about transportation.\n\nWhich option do you think is better?\n\nOption A: The city should invest more money in public transportation.\nOption B: The city should make driving personal cars easier by improving roads and parking.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain two reasons for your choice.\n- Provide examples related to daily life in the city."
+    },
+    {
+      "id": "celpip_writing_task2_004",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Online Learning or Classroom Learning",
+      "prompt": "A school board is deciding whether to offer more online classes for students in the future.\n\nWhich option do you prefer?\n\nOption A: Students should be able to study online from home.\nOption B: Students should attend classes in person at school.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your preferred option.\n- Explain how it benefits students.\n- Give examples from learning, communication, or discipline."
+    },
+    {
+      "id": "celpip_writing_task2_005",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Parks or Public Transit",
+      "prompt": "Your city has received extra funding and wants residents to vote on how the money should be spent.\n\nWhich option do you support?\n\nOption A: Build and improve public parks.\nOption B: Improve public transit services.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain why it is more important for the community.\n- Give specific examples of how residents would benefit."
+    },
+    {
+      "id": "celpip_writing_task2_006",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Small Town or Big City",
+      "prompt": "A community magazine is asking readers about the best place to live.\n\nWhich option do you prefer?\n\nOption A: Living in a small town.\nOption B: Living in a big city.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your preference.\n- Explain two advantages of your choice.\n- Include examples related to lifestyle, work, or family."
+    },
+    {
+      "id": "celpip_writing_task2_007",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Free University Education",
+      "prompt": "The government is considering whether university education should be free for all students.\n\nWhich option do you support?\n\nOption A: University education should be free for everyone.\nOption B: Students should continue to pay tuition fees.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain why it is fair or practical.\n- Give examples of the possible effects on students and society."
+    },
+    {
+      "id": "celpip_writing_task2_008",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Job Satisfaction or High Salary",
+      "prompt": "A career website is asking readers what matters most when choosing a job.\n\nWhich option is more important?\n\nOption A: Job satisfaction and work-life balance.\nOption B: A high salary and strong financial benefits.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State which option you think is more important.\n- Explain two reasons for your opinion.\n- Give examples from work or personal life."
+    },
+    {
+      "id": "celpip_writing_task2_009",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Social Media Benefits or Harm",
+      "prompt": "A local newspaper is asking readers whether social media has a positive or negative effect on society.\n\nWhich option do you agree with?\n\nOption A: Social media is mostly beneficial.\nOption B: Social media is mostly harmful.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain two reasons for your opinion.\n- Include examples related to communication, news, business, or mental health."
+    },
+    {
+      "id": "celpip_writing_task2_010",
+      "task": 2,
+      "type": "survey_response",
+      "title": "School Uniforms",
+      "prompt": "A school is asking parents whether students should be required to wear uniforms.\n\nWhich option do you support?\n\nOption A: Students should wear school uniforms.\nOption B: Students should be allowed to wear their own clothes.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your choice.\n- Explain why your choice is better for students.\n- Give examples related to equality, comfort, cost, or discipline."
+    },
+    {
+      "id": "celpip_writing_task2_011",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Travel Alone or Group Travel",
+      "prompt": "A travel website is asking readers about their preferred way to travel.\n\nWhich option do you prefer?\n\nOption A: Traveling alone.\nOption B: Traveling with a group.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain two benefits of your choice.\n- Give examples from travel planning, safety, or enjoyment."
+    },
+    {
+      "id": "celpip_writing_task2_012",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Experience or Education in Hiring",
+      "prompt": "A company is reviewing its hiring policy and wants public feedback.\n\nWhich option should employers value more?\n\nOption A: Practical work experience.\nOption B: Formal education and degrees.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your opinion.\n- Explain why your choice is more valuable in the workplace.\n- Give examples related to job performance or training."
+    },
+    {
+      "id": "celpip_writing_task2_013",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Renting or Buying a Home",
+      "prompt": "A financial advice website is asking readers about housing choices.\n\nWhich option do you think is better?\n\nOption A: Renting a home.\nOption B: Buying a home.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain two reasons why it is better.\n- Give examples related to cost, flexibility, or long-term planning."
+    },
+    {
+      "id": "celpip_writing_task2_014",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Ban Single-Use Plastics",
+      "prompt": "The government is considering stronger rules to reduce plastic waste.\n\nWhich option do you support?\n\nOption A: Single-use plastics should be banned completely.\nOption B: People should be encouraged, but not forced, to reduce plastic use.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State which option you support.\n- Explain why your option is better for the environment and society.\n- Mention any practical challenges."
+    },
+    {
+      "id": "celpip_writing_task2_015",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Exercise or Diet",
+      "prompt": "A health magazine is asking readers about the best way to stay healthy.\n\nWhich option is more important?\n\nOption A: Regular exercise.\nOption B: A healthy diet.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain why it has a stronger effect on health.\n- Give examples from daily habits or lifestyle."
+    },
+    {
+      "id": "celpip_writing_task2_016",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Teenagers Working Part-Time",
+      "prompt": "A school is asking parents whether teenagers should be allowed to work part-time during the school year.\n\nWhich option do you support?\n\nOption A: Teenagers should be allowed to work part-time.\nOption B: Teenagers should focus only on school.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your opinion.\n- Explain two reasons for your choice.\n- Give examples related to responsibility, money, grades, or stress."
+    },
+    {
+      "id": "celpip_writing_task2_017",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Reading Books or Watching Movies",
+      "prompt": "A community center is planning a relaxation program and is asking residents which activity should be promoted.\n\nWhich option do you prefer?\n\nOption A: Reading books.\nOption B: Watching movies.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one activity.\n- Explain why it is better for relaxation.\n- Give examples of how people can benefit from it."
+    },
+    {
+      "id": "celpip_writing_task2_018",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Unlimited Vacation Days",
+      "prompt": "A company is considering offering unlimited vacation days to employees as long as their work is completed.\n\nWhich option do you support?\n\nOption A: Companies should offer unlimited vacation days.\nOption B: Companies should keep a fixed number of vacation days.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your choice.\n- Explain why it would be better for employees and employers.\n- Discuss one possible problem with the policy."
+    },
+    {
+      "id": "celpip_writing_task2_019",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Online Shopping or Physical Stores",
+      "prompt": "A consumer magazine is asking readers about shopping habits.\n\nWhich option do you prefer?\n\nOption A: Shopping online.\nOption B: Shopping in physical stores.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain two reasons for your preference.\n- Give examples related to convenience, price, product quality, or customer service."
+    },
+    {
+      "id": "celpip_writing_task2_020",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Animals in Zoos",
+      "prompt": "A city is reviewing whether public funding should continue for its zoo.\n\nWhich option do you support?\n\nOption A: Zoos should continue to operate.\nOption B: Animals should not be kept in zoos.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your position.\n- Explain two reasons for your opinion.\n- Give examples related to education, conservation, animal welfare, or public entertainment."
+    },
+    {
+      "id": "celpip_writing_task2_021",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Second Language Learning",
+      "prompt": "A school board is deciding whether students should be required to learn a second language.\n\nWhich option do you support?\n\nOption A: Students should be required to learn a second language.\nOption B: Learning a second language should be optional.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain why it is better for students.\n- Give examples related to jobs, travel, culture, or school workload."
+    },
+    {
+      "id": "celpip_writing_task2_022",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Smartphones for Children",
+      "prompt": "A parenting website is asking readers whether young children should have their own smartphones.\n\nWhich option do you support?\n\nOption A: Children under 12 should be allowed to have smartphones.\nOption B: Children under 12 should not have their own smartphones.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your opinion.\n- Explain two reasons for your choice.\n- Give examples related to safety, learning, distraction, or social development."
+    },
+    {
+      "id": "celpip_writing_task2_023",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Saving Money or Experiences",
+      "prompt": "A lifestyle magazine is asking readers how people should use their extra income.\n\nWhich option is better?\n\nOption A: Save extra money for the future.\nOption B: Spend extra money on experiences such as travel, hobbies, or events.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain why it is more valuable.\n- Give examples related to financial security, happiness, or personal growth."
+    },
+    {
+      "id": "celpip_writing_task2_024",
+      "task": 2,
+      "type": "survey_response",
+      "title": "More Bike Lanes",
+      "prompt": "Your city is considering building more bike lanes, but this would reduce space for cars on some roads.\n\nWhich option do you support?\n\nOption A: The city should build more bike lanes.\nOption B: The city should keep more road space for cars.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your choice.\n- Explain why it would benefit the city.\n- Discuss safety, traffic, health, or environmental effects."
+    },
+    {
+      "id": "celpip_writing_task2_025",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Artificial Intelligence",
+      "prompt": "A technology magazine is asking readers about the future of artificial intelligence.\n\nWhich option do you agree with?\n\nOption A: Artificial intelligence will mostly help society.\nOption B: Artificial intelligence will create more problems than benefits.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain two reasons for your opinion.\n- Give examples related to jobs, education, healthcare, or privacy."
+    },
+    {
+      "id": "celpip_writing_task2_026",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Remote Employee Monitoring",
+      "prompt": "A company is considering using software to monitor employees while they work remotely.\n\nWhich option do you support?\n\nOption A: Employers should be allowed to monitor remote employees.\nOption B: Remote employees should not be monitored closely.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your opinion.\n- Explain why your option is fair or effective.\n- Give examples related to productivity, trust, or privacy."
+    },
+    {
+      "id": "celpip_writing_task2_027",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Fast Food or Home-Cooked Meals",
+      "prompt": "A health organization is asking people about their eating habits.\n\nWhich option do you think is better?\n\nOption A: Fast food is acceptable because it is convenient.\nOption B: Home-cooked meals are better for most people.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain two reasons for your choice.\n- Give examples related to health, cost, time, or family life."
+    },
+    {
+      "id": "celpip_writing_task2_028",
+      "task": 2,
+      "type": "survey_response",
+      "title": "High Salaries for Athletes",
+      "prompt": "A sports magazine is asking readers whether professional athletes should receive extremely high salaries.\n\nWhich option do you agree with?\n\nOption A: Professional athletes deserve very high salaries.\nOption B: Professional athletes are paid too much.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your opinion.\n- Explain two reasons for your view.\n- Give examples related to entertainment, business, fairness, or social value."
+    },
+    {
+      "id": "celpip_writing_task2_029",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Climate Change Priority",
+      "prompt": "A government survey is asking citizens about the most important issue facing the world today.\n\nWhich option do you support?\n\nOption A: Climate change should be the top priority.\nOption B: Other issues, such as the economy or healthcare, should be the top priority.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- Choose one option.\n- Explain why it should receive more attention.\n- Give examples of possible effects on people or communities."
+    },
+    {
+      "id": "celpip_writing_task2_030",
+      "task": 2,
+      "type": "survey_response",
+      "title": "Space Exploration or Healthcare",
+      "prompt": "The government has extra money for national projects and is asking citizens how it should be spent.\n\nWhich option do you support?\n\nOption A: Invest more money in space exploration.\nOption B: Invest more money in healthcare.\n\nWrite a response in about 150-200 words. Your response should include:\n\n- State your choice.\n- Explain why this investment is more important.\n- Give examples of how society would benefit."
+    }
+  ]
+}
