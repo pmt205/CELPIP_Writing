@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import questions from '../../data/questions.json';
 import type { Task1Question, Task2Question } from '../../types';
@@ -9,6 +10,7 @@ interface TaskSelectionProps {
 
 export default function TaskSelection({ onTaskSelected, preselectedTask }: TaskSelectionProps) {
   const startSession = useAppStore((state) => state.startSession);
+  const hasAutoStarted = useRef(false);
 
   const handleSelectTask = (taskType: 'task1' | 'task2') => {
     const taskQuestions = taskType === 'task1' ? questions.task1 : questions.task2;
@@ -18,9 +20,15 @@ export default function TaskSelection({ onTaskSelected, preselectedTask }: TaskS
     onTaskSelected?.();
   };
 
-  // If a preselected task was passed, start it immediately
-  if (preselectedTask) {
-    handleSelectTask(preselectedTask);
+  // If a preselected task was passed, start it immediately via useEffect
+  useEffect(() => {
+    if (preselectedTask && !hasAutoStarted.current) {
+      hasAutoStarted.current = true;
+      handleSelectTask(preselectedTask);
+    }
+  }, [preselectedTask]);
+
+  if (preselectedTask && hasAutoStarted.current) {
     return null;
   }
 
