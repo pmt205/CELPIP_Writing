@@ -17,7 +17,7 @@ export function getWordCountStatus(
   return 'good';
 }
 
-export function getRecommendedRange(taskType: 'task1' | 'task2'): {
+export function getRecommendedRange(_taskType: 'task1' | 'task2'): {
   min: number;
   max: number;
 } {
