@@ -37,8 +37,8 @@ export default function ExaminerTrapsSection() {
         Task 1 - Email Traps
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-        {task1Traps.map((trap) => (
-          <TrapCard key={trap.trap} trap={trap} />
+        {task1Traps.map((trap, index) => (
+          <TrapCard key={index} trap={trap} />
         ))}
       </div>
 
@@ -47,8 +47,8 @@ export default function ExaminerTrapsSection() {
         Task 2 - Survey Traps
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {task2Traps.map((trap) => (
-          <TrapCard key={trap.trap} trap={trap} />
+        {task2Traps.map((trap, index) => (
+          <TrapCard key={index} trap={trap} />
         ))}
       </div>
     </div>
