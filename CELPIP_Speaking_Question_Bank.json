@@ -1,0 +1,140 @@
+{
+  "source_note": "CELPIP-style speaking practice prompts collected and adapted from official CELPIP preparation materials and reputable preparation websites. These are practice questions for study purposes and are not guaranteed to be real exam questions.",
+  "sources": [
+    "https://www.celpip.ca/prepare-for-celpip/free-practice-tests/",
+    "https://instructionalproducts.paragontesting.ca/InstructionalProducts/FreeOnlineSampleTest/",
+    "https://www.celpip.ca/wp-content/uploads/2020/11/Speaking-Pro-Target-9-Study-Pack-min.pdf",
+    "https://prestoenglish.com/celpip-sample-speaking-test",
+    "https://blog.e2language.com/celpip-speaking-overview/"
+  ],
+  "tasks": [
+    {
+      "task": 1,
+      "name": "Giving Advice",
+      "questions": [
+        "Your friend wants to buy a new laptop for school and work. Give your friend advice about what kind of laptop to buy and explain why.",
+        "Your cousin is thinking about moving to another city for a new job. Give advice about what they should consider before moving.",
+        "Your friend wants to start exercising regularly but does not know where to begin. Give advice on how to develop a healthy fitness routine.",
+        "Your younger brother wants to save money to buy a car. Give him advice on how to manage his finances.",
+        "A friend is planning to study English in Canada. Give advice about how to prepare before arriving.",
+        "Your friend is stressed because of work and cannot relax. Give advice about how to reduce stress.",
+        "Your cousin wants to start a small business. Give advice about how to begin successfully.",
+        "Your friend wants to buy their first home. Give advice about what they should prepare for.",
+        "A friend wants to improve their CELPIP score quickly. Give advice about the best way to study.",
+        "Your friend wants to adopt a pet for the first time. Give advice about what kind of pet might be suitable."
+      ]
+    },
+    {
+      "task": 2,
+      "name": "Talking About a Personal Experience",
+      "questions": [
+        "Talk about a time when you received good news unexpectedly.",
+        "Talk about a memorable trip you took with friends or family.",
+        "Talk about a difficult challenge you overcame.",
+        "Talk about your first day at a new school or job.",
+        "Talk about a time when you helped someone.",
+        "Talk about an important decision you made.",
+        "Talk about a time when your plans suddenly changed.",
+        "Talk about a happy childhood memory.",
+        "Talk about a time when you learned a valuable lesson.",
+        "Talk about a special celebration or event you attended."
+      ]
+    },
+    {
+      "task": 3,
+      "name": "Describing a Scene",
+      "questions": [
+        "Describe a busy street market.",
+        "Describe a crowded beach during summer.",
+        "Describe a family having a picnic in a park.",
+        "Describe people waiting at an airport.",
+        "Describe a shopping mall during a holiday sale.",
+        "Describe a classroom where students are taking an exam.",
+        "Describe a restaurant during dinner time.",
+        "Describe a snowy neighborhood in winter.",
+        "Describe a group of people exercising in a gym.",
+        "Describe a public festival or outdoor event."
+      ]
+    },
+    {
+      "task": 4,
+      "name": "Making Predictions",
+      "questions": [
+        "A new shopping mall is being built in your city. Predict what the area will look like in the future.",
+        "A family is preparing for a camping trip. Predict what might happen during their trip.",
+        "A student is about to graduate from university. Predict what their life may look like in five years.",
+        "A city is building more bike lanes. Predict how transportation may change.",
+        "A company has started allowing employees to work remotely. Predict the effects on workers and businesses.",
+        "A child is learning how to play piano. Predict how their skills may improve in the future.",
+        "A neighborhood is rapidly growing. Predict what changes may happen there.",
+        "A person has started a healthy lifestyle. Predict how their life may improve.",
+        "A new technology has become popular. Predict how it may affect society.",
+        "A friend has started learning English seriously. Predict how this may help their future."
+      ]
+    },
+    {
+      "task": 5,
+      "name": "Comparing and Persuading",
+      "questions": [
+        "Your family wants to buy a car. Compare a small electric car and a large SUV. Persuade them which one is better.",
+        "Your friend wants to choose between living in a house or an apartment. Compare both and persuade them.",
+        "Your parents are deciding between two vacation destinations. Compare both options and persuade them.",
+        "Your friend wants to buy either a laptop or a tablet for school. Compare both choices and persuade them.",
+        "Your cousin wants to choose between working remotely or in an office. Compare both options and persuade them.",
+        "Your friend wants to adopt either a cat or a dog. Compare both and persuade them.",
+        "Your family is deciding between cooking at home or eating at restaurants frequently. Compare both and persuade them.",
+        "Your friend wants to choose between public transportation and buying a car. Compare both options and persuade them.",
+        "Your cousin wants to study online or attend in-person classes. Compare both and persuade them.",
+        "Your friend wants to choose between a cheap used car and a new expensive car. Compare both and persuade them."
+      ]
+    },
+    {
+      "task": 6,
+      "name": "Dealing With a Difficult Situation",
+      "questions": [
+        "You received the wrong order at a restaurant. Explain the problem politely.",
+        "Your flight has been delayed for many hours. Speak to the airline employee.",
+        "Your noisy neighbor keeps playing loud music late at night. Talk to them politely.",
+        "Your internet service has stopped working during an important meeting. Contact customer support.",
+        "Your coworker missed an important deadline that affected your project. Discuss the issue professionally.",
+        "A store charged you twice for the same purchase. Speak with customer service.",
+        "Your hotel room is dirty and uncomfortable. Talk to the hotel manager.",
+        "You received a damaged package from an online order. Contact the company.",
+        "Your landlord has not fixed a serious maintenance problem. Discuss the issue.",
+        "Your friend borrowed money from you but has not paid it back. Talk to them politely."
+      ]
+    },
+    {
+      "task": 7,
+      "name": "Expressing Opinions",
+      "questions": [
+        "Do you think people should work from home more often?",
+        "Should university education be free for everyone?",
+        "Do you think social media has a positive or negative effect on society?",
+        "Should governments invest more in public transportation?",
+        "Do you think children should have smartphones at a young age?",
+        "Should companies allow employees to work four days per week?",
+        "Do you think online shopping is better than shopping in stores?",
+        "Should professional athletes receive very high salaries?",
+        "Do you think artificial intelligence will improve society?",
+        "Should cities create more bike lanes even if it reduces space for cars?"
+      ]
+    },
+    {
+      "task": 8,
+      "name": "Describing an Unusual Situation",
+      "questions": [
+        "Describe a situation where people are dancing in the middle of a street during heavy rain.",
+        "Describe a scene where a dog is riding on a skateboard in a park.",
+        "Describe a situation where a classroom suddenly loses electricity during an exam.",
+        "Describe a crowded train where everyone is wearing the same color clothing.",
+        "Describe a situation where people are eating dinner on a rooftop covered with snow.",
+        "Describe a beach where people are playing sports at midnight.",
+        "Describe a situation where a person is walking a pet bird in public.",
+        "Describe a scene where everyone in an office is celebrating unexpectedly.",
+        "Describe a street where musicians are performing while traffic is stopped.",
+        "Describe a situation where people are exercising outdoors during winter."
+      ]
+    }
+  ]
+}
