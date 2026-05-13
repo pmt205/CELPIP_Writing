@@ -10,6 +10,7 @@ const defaultSettings: Settings = {
   temperature: 0.7,
   maxTokens: 2048,
   systemPrompt: 'You are a CELPIP writing examiner. Evaluate the following writing response according to CELPIP scoring criteria.',
+  cloudDataUrl: '',
 };
 
 interface PersistedState {

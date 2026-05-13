@@ -5,9 +5,11 @@ import questions from '../../data/questions.json';
 
 interface QuestionDisplayProps {
   question: Task1Question | Task2Question;
+  onChooseQuestion?: () => void;
+  onCreateCustom?: () => void;
 }
 
-export default function QuestionDisplay({ question }: QuestionDisplayProps) {
+export default function QuestionDisplay({ question, onChooseQuestion, onCreateCustom }: QuestionDisplayProps) {
   const [collapsed, setCollapsed] = useState(false);
   const startSession = useAppStore((state) => state.startSession);
   const currentTask = useAppStore((state) => state.currentTask);
@@ -46,13 +48,18 @@ export default function QuestionDisplay({ question }: QuestionDisplayProps) {
 
       {!collapsed && (
         <div className="p-5 space-y-4">
+          {/* Title */}
           <div>
             <h3 className="font-semibold text-gray-900 dark:text-white text-base">
               {question.title}
             </h3>
-            <p className="mt-2 text-gray-700 dark:text-gray-300 leading-relaxed">
-              {question.prompt}
-            </p>
+          </div>
+
+          {/* Word Target */}
+          <div className="flex items-center gap-2">
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
+              Target: 150–200 words
+            </span>
           </div>
 
           {question.type === 'task1' && (
@@ -114,12 +121,31 @@ export default function QuestionDisplay({ question }: QuestionDisplayProps) {
             </>
           )}
 
-          <button
-            onClick={handleLoadNewQuestion}
-            className="mt-4 px-4 py-2 text-sm font-medium text-celpip-blue dark:text-celpip-accent border border-celpip-blue dark:border-celpip-accent rounded-md hover:bg-celpip-blue hover:text-white dark:hover:bg-celpip-accent dark:hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent"
-          >
-            Load New Question
-          </button>
+          {/* Action buttons row */}
+          <div className="mt-4 flex flex-wrap gap-2">
+            <button
+              onClick={handleLoadNewQuestion}
+              className="px-4 py-2 text-sm font-medium text-celpip-blue dark:text-celpip-accent border border-celpip-blue dark:border-celpip-accent rounded-md hover:bg-celpip-blue hover:text-white dark:hover:bg-celpip-accent dark:hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent"
+            >
+              Load New Question
+            </button>
+            {onChooseQuestion && (
+              <button
+                onClick={onChooseQuestion}
+                className="px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent"
+              >
+                Choose Question
+              </button>
+            )}
+            {onCreateCustom && (
+              <button
+                onClick={onCreateCustom}
+                className="px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent"
+              >
+                Create Custom Question
+              </button>
+            )}
+          </div>
         </div>
       )}
     </section>

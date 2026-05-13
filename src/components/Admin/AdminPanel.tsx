@@ -363,10 +363,10 @@ export default function AdminPanel() {
       {/* Question List */}
       <div className="space-y-3">
         {currentQuestions.map((question) => (
-          <div key={question.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4">
-            <div className="flex items-center justify-between">
-              <div className="flex-1 mr-4">
-                <h4 className="font-medium text-gray-900 dark:text-white text-sm">
+          <div key={question.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 overflow-hidden min-w-0">
+            <div className="flex items-center justify-between min-w-0">
+              <div className="flex-1 mr-4 min-w-0 overflow-hidden">
+                <h4 className="font-medium text-gray-900 dark:text-white text-sm truncate">
                   {question.title}
                 </h4>
                 <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 truncate">

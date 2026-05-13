@@ -1,6 +1,8 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../../store/useAppStore';
 import StatsCard from './StatsCard';
+import questions from '../../data/questions.json';
+import type { Task1Question, Task2Question } from '../../types';
 
 function getClbInterpretation(score: number): string {
   if (score >= 11.5) return `Your average score of ${score} corresponds to CLB 12 (Advanced proficiency)`;
@@ -17,6 +19,16 @@ function getClbInterpretation(score: number): string {
 
 export default function Dashboard() {
   const history = useAppStore((state) => state.history);
+  const startSession = useAppStore((state) => state.startSession);
+  const navigate = useNavigate();
+
+  const handleQuickStart = (taskType: 'task1' | 'task2') => {
+    const taskQuestions = taskType === 'task1' ? questions.task1 : questions.task2;
+    const randomIndex = Math.floor(Math.random() * taskQuestions.length);
+    const question = taskQuestions[randomIndex] as Task1Question | Task2Question;
+    startSession(taskType, question);
+    navigate('/practice');
+  };
 
   const totalSessions = history.length;
   const averageScore =
@@ -87,22 +99,20 @@ export default function Dashboard() {
           Quick Start
         </h2>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link
-            to="/practice"
-            state={{ taskType: 'task1' }}
+          <button
+            onClick={() => handleQuickStart('task1')}
             className="flex-1 inline-flex items-center justify-center px-6 py-4 bg-celpip-blue hover:bg-celpip-lightblue text-white font-semibold rounded-lg shadow-md transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
           >
             <span className="mr-2 text-xl">✉️</span>
             Start Task 1 - Email
-          </Link>
-          <Link
-            to="/practice"
-            state={{ taskType: 'task2' }}
+          </button>
+          <button
+            onClick={() => handleQuickStart('task2')}
             className="flex-1 inline-flex items-center justify-center px-6 py-4 bg-celpip-blue hover:bg-celpip-lightblue text-white font-semibold rounded-lg shadow-md transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
           >
             <span className="mr-2 text-xl">📊</span>
             Start Task 2 - Survey
-          </Link>
+          </button>
         </div>
       </div>
 
