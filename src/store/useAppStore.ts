@@ -1,12 +1,13 @@
 import { create } from 'zustand';
-import type { AppState, Settings, Task1Question, Task2Question, PracticeHistory } from '../types';
+import type { AppState, Settings, Task1Question, Task2Question, PracticeHistory, SpeakingHistory } from '../types';
 import { saveToStorage, loadFromStorage } from '../utils/localStorage';
 
 const STORAGE_KEY = 'celpip-app-state';
 
 const defaultSettings: Settings = {
   apiKey: '',
-  model: 'gemini-2.0-flash',
+  model: 'gemini-2.5-flash',
+  speakingModel: 'gemini-2.5-flash',
   temperature: 0.7,
   maxTokens: 2048,
   systemPrompt: 'You are a CELPIP writing examiner. Evaluate the following writing response according to CELPIP scoring criteria.',
@@ -16,6 +17,7 @@ const defaultSettings: Settings = {
 interface PersistedState {
   settings: Settings;
   history: PracticeHistory[];
+  speakingHistory: SpeakingHistory[];
   darkMode: boolean;
   adminMode: boolean;
 }
@@ -24,6 +26,7 @@ function loadPersistedState(): PersistedState {
   return loadFromStorage<PersistedState>(STORAGE_KEY, {
     settings: defaultSettings,
     history: [],
+    speakingHistory: [],
     darkMode: false,
     adminMode: false,
   });
@@ -92,6 +95,18 @@ export const useAppStore = create<AppState>((set, get) => {
       persistState(get());
     },
 
+    // Speaking history slice
+    speakingHistory: persisted.speakingHistory || [],
+    addToSpeakingHistory: (entry: SpeakingHistory) => {
+      const updated = [entry, ...get().speakingHistory];
+      set({ speakingHistory: updated });
+      persistState(get());
+    },
+    clearSpeakingHistory: () => {
+      set({ speakingHistory: [] });
+      persistState(get());
+    },
+
     // UI slice
     darkMode: persisted.darkMode,
     adminMode: persisted.adminMode,
@@ -116,6 +131,7 @@ function persistState(state: AppState): void {
   const toPersist: PersistedState = {
     settings: state.settings,
     history: state.history,
+    speakingHistory: state.speakingHistory,
     darkMode: state.darkMode,
     adminMode: state.adminMode,
   };

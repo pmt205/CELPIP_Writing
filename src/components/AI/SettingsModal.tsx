@@ -7,6 +7,7 @@ export default function SettingsModal() {
 
   const [apiKey, setApiKey] = useState(settings.apiKey);
   const [model, setModel] = useState(settings.model);
+  const [speakingModel, setSpeakingModel] = useState(settings.speakingModel);
   const [temperature, setTemperature] = useState(settings.temperature);
   const [maxTokens, setMaxTokens] = useState(settings.maxTokens);
   const [systemPrompt, setSystemPrompt] = useState(settings.systemPrompt);
@@ -16,6 +17,7 @@ export default function SettingsModal() {
   useEffect(() => {
     setApiKey(settings.apiKey);
     setModel(settings.model);
+    setSpeakingModel(settings.speakingModel);
     setTemperature(settings.temperature);
     setMaxTokens(settings.maxTokens);
     setSystemPrompt(settings.systemPrompt);
@@ -25,6 +27,7 @@ export default function SettingsModal() {
     setSettings({
       apiKey,
       model,
+      speakingModel,
       temperature,
       maxTokens,
       systemPrompt,
@@ -34,9 +37,9 @@ export default function SettingsModal() {
   };
 
   const models = [
-    { value: 'gemini-2.0-flash', label: 'Gemini 2.0 Flash' },
-    { value: 'gemini-1.5-flash', label: 'Gemini 1.5 Flash' },
-    { value: 'gemini-1.5-pro', label: 'Gemini 1.5 Pro' },
+    { value: 'gemini-2.5-flash', label: 'Gemini 2.5 Flash' },
+    { value: 'gemini-3-flash-preview', label: 'Gemini 3 Flash' },
+    { value: 'gemini-3.1-flash-lite', label: 'Gemini 3.1 Flash Lite' },
     { value: 'gemma-4-31b-it', label: 'Gemma 4 31B IT' },
     { value: 'gemma-4-26b-a4b-it', label: 'Gemma 4 26B A4B IT' },
   ];
@@ -102,6 +105,28 @@ export default function SettingsModal() {
             </option>
           ))}
         </select>
+      </div>
+
+      {/* Speaking Model Selection */}
+      <div>
+        <label htmlFor="speakingModel" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+          Speaking Model
+        </label>
+        <select
+          id="speakingModel"
+          value={speakingModel}
+          onChange={(e) => setSpeakingModel(e.target.value)}
+          className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:border-transparent"
+        >
+          {models.map((m) => (
+            <option key={m.value} value={m.value}>
+              {m.label}
+            </option>
+          ))}
+        </select>
+        <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
+          Model used for speaking practice evaluation (supports audio input)
+        </p>
       </div>
 
       {/* Temperature */}

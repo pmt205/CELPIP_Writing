@@ -64,10 +64,51 @@ export interface PracticeHistory {
 export interface Settings {
   apiKey: string;
   model: string;
+  speakingModel: string;
   temperature: number;
   maxTokens: number;
   systemPrompt: string;
   cloudDataUrl: string;
+}
+
+export interface SpeakingTask {
+  task: number;
+  name: string;
+  questions: string[];
+}
+
+export interface SpeakingSession {
+  id: string;
+  taskNumber: number;
+  taskName: string;
+  questionText: string;
+  transcript: string;
+  startTime: number;
+  endTime: number | null;
+  prepTime: number;
+  speakingTime: number;
+  submitted: boolean;
+}
+
+export interface SpeakingFeedback {
+  overallScore: number;
+  categories: {
+    name: string;
+    score: number;
+    feedback: string;
+  }[];
+  suggestions: string[];
+  overallFeedback: string;
+  transcript: string;
+  errorHighlights: ErrorHighlight[];
+  polishedVersion: string;
+  rawResponse: string;
+}
+
+export interface SpeakingHistory {
+  session: SpeakingSession;
+  feedback: SpeakingFeedback | null;
+  date: string;
 }
 
 export interface AppState {
@@ -91,6 +132,11 @@ export interface AppState {
   addToHistory: (entry: PracticeHistory) => void;
   importHistory: (entries: PracticeHistory[]) => void;
   clearHistory: () => void;
+
+  // Speaking history slice
+  speakingHistory: SpeakingHistory[];
+  addToSpeakingHistory: (entry: SpeakingHistory) => void;
+  clearSpeakingHistory: () => void;
 
   // UI slice
   darkMode: boolean;
