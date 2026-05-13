@@ -10,6 +10,10 @@ export async function getSpeakingFeedback(
   audioBase64: string,
   mimeType: string
 ): Promise<SpeakingFeedback> {
+  if (!settings.apiKey) {
+    throw new Error('API key not configured. Please set your Google AI API key in Settings.');
+  }
+
   const genAI = new GoogleGenerativeAI(settings.apiKey);
   const model = genAI.getGenerativeModel({
     model: settings.speakingModel,

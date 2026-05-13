@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 interface PrepTimerProps {
   prepSeconds: number;
@@ -10,10 +10,12 @@ interface PrepTimerProps {
 
 export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionText, onComplete }: PrepTimerProps) {
   const [timeLeft, setTimeLeft] = useState(prepSeconds);
+  const onCompleteRef = useRef(onComplete);
+  onCompleteRef.current = onComplete;
 
   useEffect(() => {
     if (timeLeft <= 0) {
-      onComplete();
+      onCompleteRef.current();
       return;
     }
 
@@ -22,7 +24,7 @@ export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionT
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [timeLeft, onComplete]);
+  }, [timeLeft]);
 
   const progress = ((prepSeconds - timeLeft) / prepSeconds) * 100;
 

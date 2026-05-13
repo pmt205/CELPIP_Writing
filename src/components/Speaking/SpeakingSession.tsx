@@ -31,6 +31,7 @@ export default function SpeakingSession() {
   const recorderRef = useRef<AudioRecorderUtil | null>(null);
   const timerIntervalRef = useRef<number | null>(null);
   const levelIntervalRef = useRef<number | null>(null);
+  const stoppingRef = useRef<boolean>(false);
 
   const cleanupIntervals = useCallback(() => {
     if (timerIntervalRef.current !== null) {
@@ -63,10 +64,10 @@ export default function SpeakingSession() {
     setState('preparing');
   };
 
-  const handlePrepComplete = () => {
+  const handlePrepComplete = useCallback(() => {
     setState('recording');
     startRecording();
-  };
+  }, []);
 
   const startRecording = async () => {
     try {
@@ -104,11 +105,15 @@ export default function SpeakingSession() {
     }
   };
 
-  const handleStopRecording = async () => {
+  const handleStopRecording = useCallback(async () => {
+    if (stoppingRef.current) return;
+    stoppingRef.current = true;
+
     cleanupIntervals();
     setIsRecording(false);
 
     if (!recorderRef.current) {
+      stoppingRef.current = false;
       setError('No active recording found.');
       setState('selecting');
       return;
@@ -123,7 +128,7 @@ export default function SpeakingSession() {
       setError(err instanceof Error ? err.message : 'Failed to stop recording');
       setState('selecting');
     }
-  };
+  }, [cleanupIntervals]);
 
   const processAudio = async (blob: Blob) => {
     setError(null);
@@ -192,6 +197,7 @@ export default function SpeakingSession() {
     setAudioLevel(0);
     setIsRecording(false);
     setTimeRemaining(0);
+    stoppingRef.current = false;
   };
 
   return (
