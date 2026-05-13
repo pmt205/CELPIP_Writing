@@ -2,15 +2,24 @@ import { useState, useRef } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import { downloadJsonFile } from '../../utils/exportUtils';
 import HistoryDetail from './HistoryDetail';
-import type { PracticeHistory } from '../../types';
+import SpeakingHistoryDetail from './SpeakingHistoryDetail';
+import type { PracticeHistory, SpeakingHistory } from '../../types';
+
+type HistoryFilter = 'all' | 'writing' | 'speaking';
+type MergedEntry = 
+  | { type: 'writing'; data: PracticeHistory; date: string }
+  | { type: 'speaking'; data: SpeakingHistory; date: string };
 
 export default function HistoryList() {
   const history = useAppStore((state) => state.history);
+  const speakingHistory = useAppStore((state) => state.speakingHistory);
   const clearHistory = useAppStore((state) => state.clearHistory);
+  const clearSpeakingHistory = useAppStore((state) => state.clearSpeakingHistory);
   const importHistory = useAppStore((state) => state.importHistory);
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
   const [showConfirm, setShowConfirm] = useState(false);
   const [importMessage, setImportMessage] = useState<string | null>(null);
+  const [filter, setFilter] = useState<HistoryFilter>('all');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleToggle = (index: number) => {
@@ -19,6 +28,7 @@ export default function HistoryList() {
 
   const handleClearHistory = () => {
     clearHistory();
+    clearSpeakingHistory();
     setShowConfirm(false);
   };
 
@@ -96,7 +106,7 @@ export default function HistoryList() {
             Review your past practice sessions and feedback.
           </p>
         </div>
-        {history.length > 0 && (
+        {(history.length > 0 || speakingHistory.length > 0) && (
           <div className="relative flex items-center space-x-2">
             <button
               onClick={handleImportClick}
@@ -159,86 +169,143 @@ export default function HistoryList() {
         </div>
       )}
 
-      {history.length === 0 ? (
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 text-center">
-          <div className="text-4xl mb-3">📋</div>
-          <p className="text-gray-500 dark:text-gray-400 text-lg">
-            No practice sessions yet.
-          </p>
-          <p className="text-gray-400 dark:text-gray-500 text-sm mt-1">
-            Complete a practice session and save it to see your history here.
-          </p>
+      {/* Filter tabs */}
+      <div className="flex space-x-1 mb-6 bg-gray-100 dark:bg-gray-800 rounded-lg p-1 w-fit">
+        {(['all', 'writing', 'speaking'] as HistoryFilter[]).map((f) => (
           <button
-            onClick={handleImportClick}
-            className="mt-4 inline-flex items-center px-4 py-2 text-sm text-indigo-600 dark:text-indigo-400 border border-indigo-300 dark:border-indigo-700 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            key={f}
+            onClick={() => { setFilter(f); setExpandedIndex(null); }}
+            className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+              filter === f
+                ? 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
+                : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+            }`}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-            </svg>
-            Import History
+            {f === 'all' ? 'All' : f === 'writing' ? 'Writing' : 'Speaking'}
           </button>
-        </div>
-      ) : (
-        <div className="space-y-3">
-          {history.map((entry: PracticeHistory, index: number) => (
-            <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        ))}
+      </div>
+
+      {(() => {
+        // Build merged/filtered list
+        let entries: MergedEntry[] = [];
+        if (filter === 'all' || filter === 'writing') {
+          entries = entries.concat(
+            history.map((h): MergedEntry => ({ type: 'writing', data: h, date: h.date }))
+          );
+        }
+        if (filter === 'all' || filter === 'speaking') {
+          entries = entries.concat(
+            speakingHistory.map((h): MergedEntry => ({ type: 'speaking', data: h, date: h.date }))
+          );
+        }
+        // Sort by date descending
+        entries.sort((a, b) => b.date.localeCompare(a.date));
+
+        if (entries.length === 0) {
+          return (
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 text-center">
+              <div className="text-4xl mb-3">📋</div>
+              <p className="text-gray-500 dark:text-gray-400 text-lg">
+                No practice sessions yet.
+              </p>
+              <p className="text-gray-400 dark:text-gray-500 text-sm mt-1">
+                Complete a practice session and save it to see your history here.
+              </p>
               <button
-                onClick={() => handleToggle(index)}
-                className="w-full text-left p-4 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors focus:outline-none focus:ring-2 focus:ring-inset focus:ring-celpip-accent"
+                onClick={handleImportClick}
+                className="mt-4 inline-flex items-center px-4 py-2 text-sm text-indigo-600 dark:text-indigo-400 border border-indigo-300 dark:border-indigo-700 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500"
               >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-3">
-                    <span className="text-lg">
-                      {entry.session.taskType === 'task1' ? '✉️' : '📊'}
-                    </span>
-                    <div>
-                      <p className="font-medium text-gray-900 dark:text-white text-sm">
-                        {entry.session.question.title}
-                      </p>
-                      <div className="flex items-center space-x-3 mt-1">
-                        <span className="text-xs text-gray-500 dark:text-gray-400">
-                          {entry.date}
-                        </span>
-                        <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${
-                          entry.session.taskType === 'task1'
-                            ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
-                            : 'bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300'
-                        }`}>
-                          {entry.session.taskType === 'task1' ? 'Task 1' : 'Task 2'}
-                        </span>
-                        <span className="text-xs text-gray-500 dark:text-gray-400">
-                          {entry.session.wordCount} words
-                        </span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                </svg>
+                Import History
+              </button>
+            </div>
+          );
+        }
+
+        return (
+          <div className="space-y-3">
+            {entries.map((entry, index) => (
+              <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+                <button
+                  onClick={() => handleToggle(index)}
+                  className="w-full text-left p-4 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors focus:outline-none focus:ring-2 focus:ring-inset focus:ring-celpip-accent"
+                >
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-3">
+                      <span className="text-lg">
+                        {entry.type === 'speaking' 
+                          ? '🎤' 
+                          : (entry.data as PracticeHistory).session.taskType === 'task1' ? '✉️' : '📊'}
+                      </span>
+                      <div>
+                        <p className="font-medium text-gray-900 dark:text-white text-sm">
+                          {entry.type === 'speaking'
+                            ? `${(entry.data as SpeakingHistory).session.taskName}`
+                            : (entry.data as PracticeHistory).session.question.title}
+                        </p>
+                        <div className="flex items-center space-x-3 mt-1">
+                          <span className="text-xs text-gray-500 dark:text-gray-400">
+                            {entry.date}
+                          </span>
+                          <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${
+                            entry.type === 'speaking'
+                              ? 'bg-orange-100 dark:bg-orange-900 text-orange-700 dark:text-orange-300'
+                              : (entry.data as PracticeHistory).session.taskType === 'task1'
+                                ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
+                                : 'bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300'
+                          }`}>
+                            {entry.type === 'speaking'
+                              ? `Speaking Task ${(entry.data as SpeakingHistory).session.taskNumber}`
+                              : (entry.data as PracticeHistory).session.taskType === 'task1' ? 'Task 1' : 'Task 2'}
+                          </span>
+                          {entry.type === 'writing' && (
+                            <span className="text-xs text-gray-500 dark:text-gray-400">
+                              {(entry.data as PracticeHistory).session.wordCount} words
+                            </span>
+                          )}
+                        </div>
                       </div>
                     </div>
+                    <div className="flex items-center space-x-3">
+                      {entry.type === 'writing' && (entry.data as PracticeHistory).feedback && (
+                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200">
+                          {(entry.data as PracticeHistory).feedback?.overallScore}/12
+                        </span>
+                      )}
+                      {entry.type === 'speaking' && (entry.data as SpeakingHistory).feedback && (
+                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200">
+                          {(entry.data as SpeakingHistory).feedback?.overallScore}/12
+                        </span>
+                      )}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className={`h-5 w-5 text-gray-400 transition-transform ${expandedIndex === index ? 'rotate-180' : ''}`}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    {entry.feedback && (
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200">
-                        {entry.feedback.overallScore}/12
-                      </span>
+                </button>
+                {expandedIndex === index && (
+                  <div className="border-t border-gray-200 dark:border-gray-700">
+                    {entry.type === 'writing' ? (
+                      <HistoryDetail entry={entry.data as PracticeHistory} />
+                    ) : (
+                      <SpeakingHistoryDetail entry={entry.data as SpeakingHistory} />
                     )}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className={`h-5 w-5 text-gray-400 transition-transform ${expandedIndex === index ? 'rotate-180' : ''}`}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
                   </div>
-                </div>
-              </button>
-              {expandedIndex === index && (
-                <div className="border-t border-gray-200 dark:border-gray-700">
-                  <HistoryDetail entry={entry} />
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
+                )}
+              </div>
+            ))}
+          </div>
+        );
+      })()}
     </section>
   );
 }

@@ -8,9 +8,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'CELPIP Writing Practice',
-        short_name: 'CELPIP Writing',
-        description: 'Practice your CELPIP writing skills with AI feedback',
+        name: 'CELPIP Practice',
+        short_name: 'CELPIP Practice',
+        description: 'Practice your CELPIP writing and speaking skills with AI feedback',
         theme_color: '#003366',
         background_color: '#ffffff',
         display: 'standalone',

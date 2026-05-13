@@ -11,6 +11,7 @@ export default function Header() {
   const navLinks = [
     { to: '/', label: 'Dashboard' },
     { to: '/practice', label: 'Practice' },
+    { to: '/speaking', label: 'Speaking' },
     { to: '/tips', label: 'Tips & Tricks' },
     { to: '/history', label: 'History' },
     { to: '/settings', label: 'Settings' },
@@ -26,10 +27,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <span className="text-white font-bold text-xl tracking-tight">
-                CELPIP Writing
-              </span>
-              <span className="text-celpip-accent text-sm font-medium hidden sm:inline">
-                Practice
+                CELPIP Practice
               </span>
             </Link>
           </div>

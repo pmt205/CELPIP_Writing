@@ -19,6 +19,7 @@ function getClbInterpretation(score: number): string {
 
 export default function Dashboard() {
   const history = useAppStore((state) => state.history);
+  const speakingHistory = useAppStore((state) => state.speakingHistory);
   const startSession = useAppStore((state) => state.startSession);
   const navigate = useNavigate();
 
@@ -44,32 +45,60 @@ export default function Dashboard() {
   const task2Completed = history.filter((h) => h.session.taskType === 'task2').length;
   const recentSessions = history.slice(0, 5);
 
+  // Speaking stats
+  const speakingSessions = speakingHistory.length;
+  const speakingAvgScore =
+    speakingHistory.filter((h) => h.feedback).length > 0
+      ? (
+          speakingHistory
+            .filter((h) => h.feedback)
+            .reduce((sum, h) => sum + (h.feedback?.overallScore || 0), 0) /
+          speakingHistory.filter((h) => h.feedback).length
+        ).toFixed(1)
+      : 'N/A';
+
   return (
     <section>
       {/* Welcome Section */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-celpip-blue dark:text-celpip-accent">
-          CELPIP Writing Practice
+          CELPIP Practice
         </h1>
         <p className="mt-2 text-gray-600 dark:text-gray-300 text-lg">
-          Improve your CELPIP writing skills with timed practice sessions and AI-powered feedback.
+          Improve your CELPIP writing and speaking skills with timed practice sessions and AI-powered feedback.
         </p>
       </div>
 
       {/* Stats Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <StatsCard
-          title="Total Sessions"
+          title="Writing Sessions"
           value={totalSessions}
           subtitle="practice sessions"
           icon="📝"
         />
         <StatsCard
-          title="Average Score"
+          title="Writing Avg Score"
           value={averageScore}
           subtitle="out of 12"
           icon="⭐"
         />
+        <StatsCard
+          title="Speaking Sessions"
+          value={speakingSessions}
+          subtitle="practice sessions"
+          icon="🎤"
+        />
+        <StatsCard
+          title="Speaking Avg Score"
+          value={speakingAvgScore}
+          subtitle="out of 12"
+          icon="🌟"
+        />
+      </div>
+
+      {/* Writing breakdown */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         <StatsCard
           title="Task 1 Completed"
           value={task1Completed}
@@ -112,6 +141,13 @@ export default function Dashboard() {
           >
             <span className="mr-2 text-xl">📊</span>
             Start Task 2 - Survey
+          </button>
+          <button
+            onClick={() => navigate('/speaking')}
+            className="flex-1 inline-flex items-center justify-center px-6 py-4 bg-celpip-blue hover:bg-celpip-lightblue text-white font-semibold rounded-lg shadow-md transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
+          >
+            <span className="mr-2 text-xl">🎤</span>
+            Start Speaking Practice
           </button>
         </div>
       </div>
