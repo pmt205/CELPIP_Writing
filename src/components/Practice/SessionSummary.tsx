@@ -191,7 +191,7 @@ export default function SessionSummary() {
       )}
 
       {/* AI Feedback */}
-      {feedback && <AIFeedbackPanel feedback={feedback} />}
+      {feedback && <AIFeedbackPanel feedback={feedback} studentText={writingText} />}
     </section>
   );
 }

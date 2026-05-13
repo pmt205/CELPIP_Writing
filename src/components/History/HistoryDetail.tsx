@@ -79,7 +79,7 @@ export default function HistoryDetail({ entry }: HistoryDetailProps) {
       {/* AI Feedback or Get Feedback button */}
       {feedback ? (
         <div className="space-y-3">
-          <AIFeedbackPanel feedback={feedback} />
+          <AIFeedbackPanel feedback={feedback} studentText={entry.session.text} />
           <button
             onClick={handleExportResult}
             className="inline-flex items-center px-4 py-2 text-sm bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
