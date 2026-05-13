@@ -112,15 +112,15 @@ export function parseCustomQuestion(text: string): {
   // Detect tone from keywords
   let tone: 'formal' | 'informal' | 'semi-formal' = 'formal';
   const lowerText = text.toLowerCase();
-  if (
+  if (/\binformal\b/.test(lowerText)) {
+    tone = 'informal';
+  } else if (
     lowerText.includes('friend') ||
     lowerText.includes('neighbour') ||
-    lowerText.includes('neighbor') ||
-    lowerText.includes('informal')
+    lowerText.includes('neighbor')
   ) {
     tone = 'semi-formal';
-  }
-  if (lowerText.includes('formal')) {
+  } else if (/\bformal\b/.test(lowerText)) {
     tone = 'formal';
   }
 
