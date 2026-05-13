@@ -6,7 +6,7 @@ interface PolishedVersionTabProps {
 
 function parseMarkdownBold(text: string): ReactElement[] {
   const parts: ReactElement[] = [];
-  const regex = /\*\*(.+?)\*\*/g;
+  const regex = /\*\*(.+?)\*\*/gs;
   let lastIndex = 0;
   let match: RegExpExecArray | null;
   let keyIndex = 0;

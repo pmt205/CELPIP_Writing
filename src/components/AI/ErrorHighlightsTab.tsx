@@ -21,33 +21,27 @@ function getTypeBadgeColor(type: string): string {
 
 function buildAnnotatedText(text: string, errors: ErrorHighlight[]): ReactElement[] {
   const parts: ReactElement[] = [];
-  let remaining = text;
   let keyIndex = 0;
-  const usedPositions = new Set<string>();
 
-  // Sort errors by their position in the text (first occurrence)
+  // Sort errors by their first occurrence position in the full text
   const sortedErrors = [...errors]
     .map((err) => {
-      const pos = remaining.indexOf(err.original);
+      const pos = text.indexOf(err.original);
       return { ...err, pos };
     })
     .filter((err) => err.pos !== -1)
     .sort((a, b) => a.pos - b.pos);
 
-  let offset = 0;
+  let lastConsumedIndex = 0;
 
   for (const error of sortedErrors) {
-    const posInRemaining = remaining.indexOf(error.original);
-    if (posInRemaining === -1) continue;
-
-    const posKey = `${offset + posInRemaining}:${error.original}`;
-    if (usedPositions.has(posKey)) continue;
-    usedPositions.add(posKey);
+    // Skip errors that overlap with a previously processed error's range
+    if (error.pos < lastConsumedIndex) continue;
 
     // Add text before the error
-    if (posInRemaining > 0) {
+    if (error.pos > lastConsumedIndex) {
       parts.push(
-        <span key={keyIndex++}>{remaining.substring(0, posInRemaining)}</span>
+        <span key={keyIndex++}>{text.substring(lastConsumedIndex, error.pos)}</span>
       );
     }
 
@@ -69,13 +63,12 @@ function buildAnnotatedText(text: string, errors: ErrorHighlight[]): ReactElemen
       </span>
     );
 
-    offset += posInRemaining + error.original.length;
-    remaining = remaining.substring(posInRemaining + error.original.length);
+    lastConsumedIndex = error.pos + error.original.length;
   }
 
   // Add any remaining text
-  if (remaining) {
-    parts.push(<span key={keyIndex++}>{remaining}</span>);
+  if (lastConsumedIndex < text.length) {
+    parts.push(<span key={keyIndex++}>{text.substring(lastConsumedIndex)}</span>);
   }
 
   return parts;

@@ -34,9 +34,14 @@ export default function FeedbackTabs({ tabs }: FeedbackTabsProps) {
       </div>
 
       {/* Tab content */}
-      <div className="mt-4 animate-fade-in" key={activeTab}>
-        {tabs[activeTab]?.content}
-      </div>
+      {tabs.map((tab, index) => (
+        <div
+          key={index}
+          className={`mt-4 ${activeTab === index ? 'animate-fade-in' : 'hidden'}`}
+        >
+          {tab.content}
+        </div>
+      ))}
     </div>
   );
 }

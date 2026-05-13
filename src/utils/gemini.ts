@@ -147,7 +147,9 @@ Respond ONLY with valid JSON in the following format (no markdown, no explanatio
         suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
         rawResponse: text,
         overallFeedback: typeof parsed.overallFeedback === 'string' ? parsed.overallFeedback : '',
-        errorHighlights: Array.isArray(parsed.errorHighlights) ? parsed.errorHighlights : [],
+        errorHighlights: Array.isArray(parsed.errorHighlights)
+          ? parsed.errorHighlights.filter(e => typeof e.original === 'string' && e.original && typeof e.correction === 'string' && e.correction)
+          : [],
         polishedVersion: typeof parsed.polishedVersion === 'string' ? parsed.polishedVersion : '',
       };
     } catch (error) {
