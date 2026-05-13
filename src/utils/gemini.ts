@@ -12,7 +12,7 @@ export async function getAIFeedback(
     model: settings.model,
     generationConfig: {
       temperature: settings.temperature,
-      maxOutputTokens: settings.maxTokens,
+      maxOutputTokens: Math.max(settings.maxTokens, 4096),
     },
   });
 
@@ -78,7 +78,12 @@ Respond ONLY with valid JSON in the following format (no markdown, no explanatio
     {"name": "Readability", "score": <number 1-12>, "feedback": "<specific feedback referencing level descriptors>"},
     {"name": "Task Fulfillment", "score": <number 1-12>, "feedback": "<specific feedback referencing level descriptors>"}
   ],
-  "suggestions": ["<suggestion 1>", "<suggestion 2>", "<suggestion 3>"]
+  "suggestions": ["<suggestion 1>", "<suggestion 2>", "<suggestion 3>"],
+  "overallFeedback": "<A 2-3 sentence narrative summary of the student's performance, highlighting their key strengths and the most important areas for improvement>",
+  "errorHighlights": [
+    {"original": "<exact erroneous text from student's writing>", "correction": "<corrected version>", "type": "<one of: grammar, vocabulary, coherence, spelling, punctuation, style>", "explanation": "<brief reason for the correction>"}
+  ],
+  "polishedVersion": "<A full rewrite of the student's response demonstrating level 10+ writing. Wrap key improvements in **bold** markdown to highlight what was changed and why it is better.>"
 }`;
 
   // Retry up to 3 times for transient server errors (500, 503)
@@ -100,6 +105,9 @@ Respond ONLY with valid JSON in the following format (no markdown, no explanatio
         overallScore: number;
         categories: { name: string; score: number; feedback: string }[];
         suggestions: string[];
+        overallFeedback?: string;
+        errorHighlights?: { original: string; correction: string; type: string; explanation: string }[];
+        polishedVersion?: string;
       };
 
       // Validate overallScore
@@ -138,6 +146,9 @@ Respond ONLY with valid JSON in the following format (no markdown, no explanatio
         categories: parsed.categories,
         suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
         rawResponse: text,
+        overallFeedback: typeof parsed.overallFeedback === 'string' ? parsed.overallFeedback : '',
+        errorHighlights: Array.isArray(parsed.errorHighlights) ? parsed.errorHighlights : [],
+        polishedVersion: typeof parsed.polishedVersion === 'string' ? parsed.polishedVersion : '',
       };
     } catch (error) {
       lastError = error instanceof Error ? error : new Error(String(error));

@@ -34,6 +34,13 @@ export interface WritingSession {
 /** Official CELPIP Writing scoring category names */
 export type CELPIPScoringCategory = 'Content/Coherence' | 'Vocabulary' | 'Readability' | 'Task Fulfillment';
 
+export interface ErrorHighlight {
+  original: string;
+  correction: string;
+  type: string;
+  explanation: string;
+}
+
 export interface AIFeedback {
   overallScore: number;
   categories: {
@@ -43,6 +50,9 @@ export interface AIFeedback {
   }[];
   suggestions: string[];
   rawResponse: string;
+  overallFeedback?: string;
+  errorHighlights?: ErrorHighlight[];
+  polishedVersion?: string;
 }
 
 export interface PracticeHistory {
