@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import questions from '../../data/questions.json';
+import { parseCustomQuestion } from '../../utils/parseCustomQuestion';
 import type { Task1Question, Task2Question } from '../../types';
 
 interface TaskSelectionProps {
@@ -28,27 +29,28 @@ export default function TaskSelection({ onTaskSelected, preselectedTask }: TaskS
 
     const id = 'custom-' + Date.now();
     const userText = customText.trim();
+    const parsed = parseCustomQuestion(userText);
 
     if (customTaskType === 'task1') {
       const question: Task1Question = {
         id,
         type: 'task1',
-        title: 'Custom Question',
+        title: parsed.title,
         prompt: userText,
-        situation: userText,
-        bulletPoints: ['Address all points in the prompt'],
-        tone: 'formal' as const,
+        situation: parsed.situation,
+        bulletPoints: parsed.bulletPoints,
+        tone: parsed.tone,
       };
       startSession('task1', question);
     } else {
       const question: Task2Question = {
         id,
         type: 'task2',
-        title: 'Custom Question',
+        title: parsed.title,
         prompt: userText,
-        topic: 'Custom Topic',
-        instructions: userText,
-        viewpoints: ['Consider multiple perspectives'],
+        topic: parsed.situation,
+        instructions: parsed.situation,
+        viewpoints: parsed.bulletPoints,
       };
       startSession('task2', question);
     }
