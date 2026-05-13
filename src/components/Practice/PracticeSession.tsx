@@ -6,6 +6,7 @@ import QuestionDisplay from './QuestionDisplay';
 import WritingArea from './WritingArea';
 import InstructionsPanel from '../Instructions/InstructionsPanel';
 import questions from '../../data/questions.json';
+import { parseCustomQuestion } from '../../utils/parseCustomQuestion';
 import type { Task1Question, Task2Question } from '../../types';
 
 export default function PracticeSession() {
@@ -48,54 +49,6 @@ export default function PracticeSession() {
     if (!currentTask) return;
     startSession(currentTask, question);
     setShowChooseModal(false);
-  };
-
-  const parseCustomQuestion = (text: string) => {
-    const lines = text.split(/\n/).map((l) => l.trim()).filter(Boolean);
-
-    // Detect bullet points: lines starting with •, -, *, or numbered (1., 2.)
-    const bulletRegex = /^(?:[•\-\*]|\d+[.)]\s*)\s*/;
-    const bulletLines: string[] = [];
-    const nonBulletLines: string[] = [];
-
-    for (const line of lines) {
-      if (bulletRegex.test(line)) {
-        bulletLines.push(line.replace(bulletRegex, '').trim());
-      } else {
-        nonBulletLines.push(line);
-      }
-    }
-
-    // Try to extract a title from the first line if it's short (< 60 chars and no period)
-    let title = 'Custom Question';
-    let situationLines = [...nonBulletLines];
-
-    // Filter out meta-instruction lines like "Write an email..." or "Your email should..."
-    const metaRegex = /^(write\s+(an?\s+)?(email|letter|response|reply)|your\s+(email|letter|response)\s+should)/i;
-    const situationParts: string[] = [];
-    for (const line of situationLines) {
-      if (!metaRegex.test(line)) {
-        situationParts.push(line);
-      }
-    }
-
-    // Use the first substantial paragraph as the situation
-    const situation = situationParts.length > 0 ? situationParts.join(' ') : nonBulletLines.join(' ');
-
-    // If we found bullet points use them, otherwise create a default
-    const bulletPoints = bulletLines.length > 0 ? bulletLines : ['Address all points in the prompt'];
-
-    // Detect tone from keywords
-    let tone: 'formal' | 'informal' | 'semi-formal' = 'formal';
-    const lowerText = text.toLowerCase();
-    if (lowerText.includes('friend') || lowerText.includes('neighbour') || lowerText.includes('neighbor') || lowerText.includes('informal')) {
-      tone = 'semi-formal';
-    }
-    if (lowerText.includes('formal')) {
-      tone = 'formal';
-    }
-
-    return { title, situation, bulletPoints, tone };
   };
 
   const handleCreateCustom = () => {
