@@ -81,61 +81,82 @@ Respond ONLY with valid JSON in the following format (no markdown, no explanatio
   "suggestions": ["<suggestion 1>", "<suggestion 2>", "<suggestion 3>"]
 }`;
 
-  try {
-    const result = await model.generateContent(prompt);
-    const response = result.response;
-    const text = response.text();
+  // Retry up to 3 times for transient server errors (500, 503)
+  const MAX_RETRIES = 3;
+  let lastError: Error | null = null;
 
-    const jsonMatch = text.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) {
-      throw new Error('No JSON found in AI response');
-    }
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const result = await model.generateContent(prompt);
+      const response = result.response;
+      const text = response.text();
 
-    const parsed = JSON.parse(jsonMatch[0]) as {
-      overallScore: number;
-      categories: { name: string; score: number; feedback: string }[];
-      suggestions: string[];
-    };
+      const jsonMatch = text.match(/\{[\s\S]*\}/);
+      if (!jsonMatch) {
+        throw new Error('No JSON found in AI response');
+      }
 
-    // Validate overallScore
-    if (typeof parsed.overallScore !== 'number' || parsed.overallScore < 1 || parsed.overallScore > 12) {
-      throw new Error(
-        `Invalid overallScore: expected a number between 1 and 12, got ${JSON.stringify(parsed.overallScore)}`
-      );
-    }
+      const parsed = JSON.parse(jsonMatch[0]) as {
+        overallScore: number;
+        categories: { name: string; score: number; feedback: string }[];
+        suggestions: string[];
+      };
 
-    // Validate categories
-    if (!Array.isArray(parsed.categories) || parsed.categories.length !== 4) {
-      throw new Error('Invalid categories: expected an array of exactly 4 categories');
-    }
-
-    const expectedCategories = ['Content/Coherence', 'Vocabulary', 'Readability', 'Task Fulfillment'];
-    for (const category of parsed.categories) {
-      if (typeof category.name !== 'string' || !expectedCategories.includes(category.name)) {
+      // Validate overallScore
+      if (typeof parsed.overallScore !== 'number' || parsed.overallScore < 1 || parsed.overallScore > 12) {
         throw new Error(
-          `Invalid category name: expected one of ${expectedCategories.join(', ')}, got ${JSON.stringify(category.name)}`
+          `Invalid overallScore: expected a number between 1 and 12, got ${JSON.stringify(parsed.overallScore)}`
         );
       }
-      if (typeof category.score !== 'number' || category.score < 1 || category.score > 12) {
-        throw new Error(
-          `Invalid category "${category.name}": "score" must be a number between 1 and 12, got ${JSON.stringify(category.score)}`
-        );
-      }
-      if (typeof category.feedback !== 'string' || category.feedback.length === 0) {
-        throw new Error(
-          `Invalid category "${category.name}": "feedback" must be a non-empty string`
-        );
-      }
-    }
 
-    return {
-      overallScore: parsed.overallScore,
-      categories: parsed.categories,
-      suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
-      rawResponse: text,
-    };
-  } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-    throw new Error(`Failed to get AI feedback: ${errorMessage}`);
+      // Validate categories
+      if (!Array.isArray(parsed.categories) || parsed.categories.length !== 4) {
+        throw new Error('Invalid categories: expected an array of exactly 4 categories');
+      }
+
+      const expectedCategories = ['Content/Coherence', 'Vocabulary', 'Readability', 'Task Fulfillment'];
+      for (const category of parsed.categories) {
+        if (typeof category.name !== 'string' || !expectedCategories.includes(category.name)) {
+          throw new Error(
+            `Invalid category name: expected one of ${expectedCategories.join(', ')}, got ${JSON.stringify(category.name)}`
+          );
+        }
+        if (typeof category.score !== 'number' || category.score < 1 || category.score > 12) {
+          throw new Error(
+            `Invalid category "${category.name}": "score" must be a number between 1 and 12, got ${JSON.stringify(category.score)}`
+          );
+        }
+        if (typeof category.feedback !== 'string' || category.feedback.length === 0) {
+          throw new Error(
+            `Invalid category "${category.name}": "feedback" must be a non-empty string`
+          );
+        }
+      }
+
+      return {
+        overallScore: parsed.overallScore,
+        categories: parsed.categories,
+        suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
+        rawResponse: text,
+      };
+    } catch (error) {
+      lastError = error instanceof Error ? error : new Error(String(error));
+
+      // Only retry on server errors (500, 503) or network issues
+      const errorMsg = lastError.message.toLowerCase();
+      const isRetryable = errorMsg.includes('500') || errorMsg.includes('503') ||
+        errorMsg.includes('internal') || errorMsg.includes('unavailable') ||
+        errorMsg.includes('overloaded');
+
+      if (!isRetryable || attempt === MAX_RETRIES) {
+        break;
+      }
+
+      // Wait before retrying (exponential backoff: 1s, 2s)
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
+    }
   }
+
+  const errorMessage = lastError?.message || 'Unknown error';
+  throw new Error(`Failed to get AI feedback: ${errorMessage}`);
 }

@@ -37,6 +37,8 @@ export default function SettingsModal() {
     { value: 'gemini-2.0-flash', label: 'Gemini 2.0 Flash' },
     { value: 'gemini-1.5-flash', label: 'Gemini 1.5 Flash' },
     { value: 'gemini-1.5-pro', label: 'Gemini 1.5 Pro' },
+    { value: 'gemma-4-31b-it', label: 'Gemma 4 31B IT' },
+    { value: 'gemma-4-26b-a4b-it', label: 'Gemma 4 26B A4B IT' },
   ];
 
   return (
