@@ -24,6 +24,7 @@ export default function SpeakingSession() {
   const [feedback, setFeedback] = useState<SpeakingFeedback | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [startTime, setStartTime] = useState<number>(0);
+  const [notes, setNotes] = useState('');
 
   const settings = useAppStore((s) => s.settings);
   const addToSpeakingHistory = useAppStore((s) => s.addToSpeakingHistory);
@@ -197,6 +198,7 @@ export default function SpeakingSession() {
     setAudioLevel(0);
     setIsRecording(false);
     setTimeRemaining(0);
+    setNotes('');
     stoppingRef.current = false;
   };
 
@@ -232,6 +234,8 @@ export default function SpeakingSession() {
           taskNumber={selectedTaskNumber}
           questionText={questionText}
           onComplete={handlePrepComplete}
+          notes={notes}
+          onNotesChange={setNotes}
         />
       )}
 
@@ -251,6 +255,7 @@ export default function SpeakingSession() {
             timeRemaining={timeRemaining}
             audioLevel={audioLevel}
             onStop={handleStopRecording}
+            notes={notes}
           />
         </div>
       )}

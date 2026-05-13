@@ -6,9 +6,11 @@ interface PrepTimerProps {
   taskNumber: number;
   questionText: string;
   onComplete: () => void;
+  notes: string;
+  onNotesChange: (value: string) => void;
 }
 
-export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionText, onComplete }: PrepTimerProps) {
+export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionText, onComplete, notes, onNotesChange }: PrepTimerProps) {
   const [timeLeft, setTimeLeft] = useState(prepSeconds);
   const onCompleteRef = useRef(onComplete);
   onCompleteRef.current = onComplete;
@@ -83,6 +85,24 @@ export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionT
         <p className="text-gray-800 dark:text-gray-200 text-base leading-relaxed whitespace-pre-wrap">
           {questionText}
         </p>
+      </div>
+
+      {/* Notepad */}
+      <div className="mt-4 bg-amber-50 dark:bg-gray-800/80 rounded-xl shadow-sm p-4 border border-amber-200 dark:border-gray-600">
+        <div className="flex items-center mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-amber-600 dark:text-amber-400 mr-1.5" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+          </svg>
+          <h3 className="text-sm font-medium text-amber-700 dark:text-amber-300">
+            Notepad
+          </h3>
+        </div>
+        <textarea
+          value={notes}
+          onChange={(e) => onNotesChange(e.target.value)}
+          placeholder="Jot down key points here..."
+          className="w-full h-28 resize-none rounded-lg border border-amber-200 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 text-sm p-3 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-amber-400 dark:focus:ring-amber-500 focus:border-transparent"
+        />
       </div>
 
       {/* Progress bar */}

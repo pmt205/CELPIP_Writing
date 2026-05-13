@@ -1,11 +1,15 @@
+import { useState } from 'react';
+
 interface AudioRecorderProps {
   isRecording: boolean;
   timeRemaining: number;
   audioLevel: number;
   onStop: () => void;
+  notes?: string;
 }
 
-export default function AudioRecorder({ isRecording, timeRemaining, audioLevel, onStop }: AudioRecorderProps) {
+export default function AudioRecorder({ isRecording, timeRemaining, audioLevel, onStop, notes }: AudioRecorderProps) {
+  const [notesExpanded, setNotesExpanded] = useState(true);
   const minutes = Math.floor(timeRemaining / 60);
   const seconds = timeRemaining % 60;
   const timeDisplay = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
@@ -49,6 +53,36 @@ export default function AudioRecorder({ isRecording, timeRemaining, audioLevel, 
           />
         ))}
       </div>
+
+      {/* Notes display */}
+      {notes && notes.trim() && (
+        <div className="mb-4 max-w-md mx-auto">
+          <button
+            onClick={() => setNotesExpanded(!notesExpanded)}
+            className="flex items-center text-xs font-medium text-amber-700 dark:text-amber-300 hover:text-amber-800 dark:hover:text-amber-200 transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+            </svg>
+            Your Notes
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className={`h-3.5 w-3.5 ml-1 transition-transform ${notesExpanded ? 'rotate-180' : ''}`}
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+            </svg>
+          </button>
+          {notesExpanded && (
+            <div className="mt-1.5 bg-amber-50 dark:bg-gray-800/80 rounded-lg border border-amber-200 dark:border-gray-600 p-3">
+              <p className="text-xs text-gray-700 dark:text-gray-300 whitespace-pre-wrap leading-relaxed">
+                {notes}
+              </p>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Message */}
       <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
