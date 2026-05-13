@@ -57,6 +57,7 @@ export interface Settings {
   temperature: number;
   maxTokens: number;
   systemPrompt: string;
+  cloudDataUrl: string;
 }
 
 export interface AppState {
