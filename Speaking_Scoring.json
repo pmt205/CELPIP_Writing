@@ -1,0 +1,479 @@
+{
+  "speaking_levels": [
+    {
+      "level": 12,
+      "name": "Expert proficiency in high-stakes social, educational, or workplace contexts",
+      "descriptors": {
+        "content_coherence": [
+          "Communicate in demanding non-routine situations for a full range of purposes, intentions, and objectives",
+          "Present information and develop ideas with complex, clear, and precise descriptions or details"
+        ],
+        "vocabulary": [
+          "Use a very broad range of concrete and abstract language",
+          "Use a broad range of figures of speech and idioms"
+        ],
+        "listenability": [
+          "Speak with very good control of a very broad range of complex and diverse grammatical structures",
+          "Speak intelligibly with consistently fluent rhythm, pronunciation, and intonation"
+        ],
+        "task_fulfillment": [
+          "Adapt language to the situation, desired purposes, and relationships to listeners",
+          "Precisely communicate ideas when speaking"
+        ],
+        "when": [
+          "Speak with peers or authority figures",
+          "Speak face-to-face, online, or on the phone",
+          "Situation is formal or informal"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving far from friends and family. Give advice on what she should consider.",
+          "transcript_summary": "Speaker strongly encourages taking the job, highlighting high salary, ability to support family, annual return ticket, visits from friends, and staying connected via online chat. Acknowledges concerns but frames move as an excellent opportunity."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to friend Maddie who collects furniture, and ask if she’d buy it for her home office.",
+          "transcript_summary": "Speaker vividly describes a curved blue chair with a winding reading light, a curved arm table with cup holder, and a switch on the back to control the light. Mentions comfort and the risk of falling off because there are no sides, using precise and engaging language."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers communicate in demanding non-routine situations for a full range of purposes, modulating certainty (e.g., using 'probably' vs 'always') and presenting information with complex, clear, precise details.",
+        "vocabulary": "Speakers use a broad range of concrete and abstract vocabulary and accurately use figures of speech and idioms (e.g., 'fancied a snooze', 'drift off').",
+        "listenability": "Speakers have very good control of a very broad range of complex and diverse grammatical structures, produce extended responses, and speak intelligibly with fluent rhythm, pronunciation, and intonation.",
+        "task_fulfillment": "Speakers communicate ideas clearly and adapt language to the situation, purpose, and relationship to listeners (e.g., sympathetic advisor in Task A, excited friend in Task B)."
+      }
+    },
+    {
+      "level": 11,
+      "name": "Advanced proficiency in high-stakes social, educational, or workplace contexts",
+      "descriptors": {
+        "content_coherence": [
+          "Communicate in demanding non-routine situations for a range of purposes",
+          "Present information and develop ideas with clear and precise descriptions or details"
+        ],
+        "vocabulary": [
+          "Use a broad range of concrete and abstract language",
+          "Use a range of figures of speech and idioms"
+        ],
+        "listenability": [
+          "Speak with good control of a broad range of complex and diverse grammatical structures",
+          "Speak intelligibly with consistently fluent rhythm, pronunciation, and intonation"
+        ],
+        "task_fulfillment": [
+          "Adapt language to most situations, desired purposes, and relationships to listeners",
+          "Communicate ideas to others when speaking"
+        ],
+        "when": [
+          "Speak with peers or authority figures",
+          "Speak face-to-face, online, or on the phone",
+          "Situation is formal or informal"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job in Korea, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker congratulates friend and advises researching Korean culture and language, checking for contacts in the region, considering technology for staying in touch (Skype, Facebook), and weighing cost and effort of returning home."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d consider it for her office.",
+          "transcript_summary": "Speaker describes a blue, backwards C-shaped chair with a curving lamp, a screen or tablet holder, a base, a small table, and a clipped-on cup holder; mentions emailing a photo since Maddie has no smartphone and calls it the most interesting chair seen."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers communicate effectively in demanding non-routine situations for a range of purposes, selecting appropriate words to describe unusual objects and explaining how information (e.g., a picture) will be shared.",
+        "vocabulary": "Speakers use a broad range of concrete and abstract vocabulary and incorporate figures of speech or idioms (e.g., 'start looking into their language', 'assimilate').",
+        "listenability": "Speakers have good control over a broad range of complex and diverse grammatical structures and can produce extended responses with fluent rhythm, pronunciation, and intonation, with few hesitations or self-corrections.",
+        "task_fulfillment": "Speakers adapt style and formality to context (e.g., 'I would like to congratulate you', 'Hey Maddie, how’s it going?'), clearly conveying intentions and relevant ideas for their purpose."
+      }
+    },
+    {
+      "level": 10,
+      "name": "Highly effective proficiency in some high-stakes social, educational, or workplace contexts",
+      "descriptors": {
+        "content_coherence": [
+          "Communicate in moderately demanding non-routine situations",
+          "Present information and develop ideas with clear descriptions or reasons"
+        ],
+        "vocabulary": [
+          "Use a range of concrete and abstract language",
+          "Use some figures of speech and idioms"
+        ],
+        "listenability": [
+          "Speak with good control of a broad range of complex grammatical structures",
+          "Speak intelligibly with mostly fluent rhythm, pronunciation, and intonation"
+        ],
+        "task_fulfillment": [
+          "Adjust speaking style and tone to a broad range of audiences and situations",
+          "Convey ideas to others when speaking"
+        ],
+        "when": [
+          "Speak with peers or authority figures",
+          "Speak face-to-face, online, or on the phone",
+          "Situation is formal or informal"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker empathizes with missing family but stresses that the job is a great opportunity to learn more, improve skills, explore the world, gain experience abroad, and enhance the résumé. Mentions meeting new friends, enjoyable environment, and returning in a few years."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker calls the chair 'futuristic,' half-moon shaped and blue, with an attached end table, drink clip, and shelf/desk-like feature; notes its size and that it would be a great, interesting piece for Maddie’s office."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers communicate in moderately demanding non-routine situations by finding words and comparisons to describe unfamiliar objects and by providing multiple clear reasons to support opinions.",
+        "vocabulary": "Speakers use a range of concrete and abstract language with some idioms (e.g., 'gone so far', 'I’m sure gonna miss you', 'futuristic looking', 'half-moon shape').",
+        "listenability": "Speakers have good control over a broad range of grammatical structures and speak intelligibly with mostly fluent rhythm, pronunciation, and intonation.",
+        "task_fulfillment": "Speakers adjust style to a broad range of audiences and situations (e.g., mixing empathy and encouragement, informal enthusiasm) and successfully convey intentions and ideas."
+      }
+    },
+    {
+      "level": 9,
+      "name": "Effective proficiency in some high-stakes social, educational, or workplace contexts",
+      "descriptors": {
+        "content_coherence": [
+          "Present information and support ideas with moderately complex reasons"
+        ],
+        "vocabulary": [
+          "Use common and context-specific vocabulary",
+          "Use some figures of speech and idioms"
+        ],
+        "listenability": [
+          "Speak with some control of complex grammatical structures",
+          "Speak intelligibly with mostly fluent rhythm, pronunciation, and intonation"
+        ],
+        "task_fulfillment": [
+          "Adjust speaking style and tone to a range of audiences and situations",
+          "Convey ideas to others when speaking"
+        ],
+        "when": [
+          "Speak with peers or authority figures",
+          "Speak face-to-face, online, or on the phone",
+          "Situation is formal or informal"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker congratulates friend, emphasizes job fit with skillset, faster career growth, better pay and lifestyle, and possibility of vacations/visits; frames temporary separation from family as a trade-off for a brighter future and urges taking the job."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker is 'spellbound' by the design; describes lamp, backrest, round chair, small stool for snacks, glass holder, blue color, and switch on backrest; stresses uniqueness and strongly recommends Maddie buy it."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers present information clearly and support ideas with moderately complex reasons, using linking words and phrases (e.g., 'Though it is overseas', 'Looking at any of the other job offers').",
+        "vocabulary": "Speakers incorporate common and context-specific vocabulary, figures of speech, and idioms (e.g., 'skillset', 'show them around', 'grow to great heights', 'spellbound').",
+        "listenability": "Speakers have control over simple and some complex structures and can extend responses with fewer pauses than lower levels while maintaining understandable rhythm and pronunciation.",
+        "task_fulfillment": "Speakers adjust style to a range of audiences and situations, creating an appropriate friendly yet serious or persuasive tone while clearly conveying intentions."
+      }
+    },
+    {
+      "level": 8,
+      "name": "Good proficiency in more demanding social, educational, or workplace contexts",
+      "descriptors": {
+        "content_coherence": [
+          "Present concrete and some abstract information that is supported with moderately complex reasons"
+        ],
+        "vocabulary": [
+          "Use common words and some context-specific vocabulary to communicate meaning",
+          "Use some figures of speech and idioms"
+        ],
+        "listenability": [
+          "Speak with some control of complex grammatical structures",
+          "Speak intelligibly with mostly fluent rhythm, pronunciation, and intonation",
+          "Speak with very few self-corrections, repetitions, or inappropriate pauses"
+        ],
+        "task_fulfillment": [
+          "Adjust speaking style and tone to some audiences and situations",
+          "Convey intended meaning to others when speaking"
+        ],
+        "when": [
+          "Speak face-to-face, online, or on the phone",
+          "Situation is formal or informal"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker recommends taking job to start professional development, become stronger, learn from mistakes, gain references, join a well-known company with benefits and good environment, and avoid regret; mentions technology (Skype/FaceTime) to stay close to family and experiencing new culture."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker describes a blue curved chair with many curves, a light on top for reading, a back stand, coffee stand, and little table for food; emphasizes that you can eat, drink, lie back, and read in the chair; notes that size is reasonable and recommends Maddie visit the store."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers present concrete and some abstract information with moderately complex reasons (e.g., professional development, becoming stronger, regret) and specific supporting details.",
+        "vocabulary": "Speakers use common words more precisely than lower levels and incorporate some context-specific vocabulary and idioms (e.g., 'professional development', 'benefits', 'best fit', 'backrest', 'lay back').",
+        "listenability": "Speakers control simple grammar and some complex structures, produce extended responses with fewer pauses, and speak with understandable rhythm, pronunciation, and intonation.",
+        "task_fulfillment": "Speakers adjust style to suit some audiences and situations, creating a firm but friendly or reassuring tone and clearly stating intentions."
+      }
+    },
+    {
+      "level": 7,
+      "name": "Adequate proficiency in somewhat demanding social, educational, or workplace contexts",
+      "descriptors": {
+        "content_coherence": [
+          "Present concrete and some abstract information that is supported with moderately complex reasons"
+        ],
+        "vocabulary": [
+          "Use common words and some more precise vocabulary to communicate meaning",
+          "Use some figures of speech and idioms"
+        ],
+        "listenability": [
+          "Speak with good control of simple grammatical structures",
+          "Speak clearly with understandable rhythm, pronunciation, and intonation",
+          "Speak with very few self-corrections, repetitions, or inappropriate pauses"
+        ],
+        "task_fulfillment": [
+          "Adjust speaking style and tone to some familiar listeners and situations",
+          "Convey intended meaning to others when speaking"
+        ],
+        "when": [
+          "Speak face-to-face, online, or on the phone",
+          "Situation is formal or informal"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker congratulates friend, acknowledges worries about distance, and advises taking opportunity for a new job, more money, meeting new people, new culture and food; notes possible loneliness but emphasizes independence and exploration of new opportunities."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker says chair looks like a swing or C-shape, with holders, coffee holder, lamp at the top, and can be used as a swing to relax; calls it fancy and says it will attract attention in the drawing room; recommends it."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers present concrete and some abstract information and provide moderately complex reasons (e.g., excitement, meeting new people, attracting attention).",
+        "vocabulary": "Speakers use common words and some more precise vocabulary plus idioms (e.g., 'establish yourself really well', 'fancy looking', 'attract additional attention').",
+        "listenability": "Speakers have good control of simple grammatical structures and speak clearly with understandable rhythm and intonation and very few disfluencies.",
+        "task_fulfillment": "Speakers adjust style to familiar listeners, using excited and empathetic language while clearly conveying advice and recommendations."
+      }
+    },
+    {
+      "level": 6,
+      "name": "Developing proficiency in everyday social, educational, or workplace contexts",
+      "descriptors": {
+        "content_coherence": [
+          "Support opinions and feelings with reasons",
+          "Relate factual information"
+        ],
+        "vocabulary": [
+          "Use common words and phrases"
+        ],
+        "listenability": [
+          "Speak with control of simple grammatical structures",
+          "Usually speak with understandable rhythm, pronunciation, and intonation",
+          "Speak with some self-corrections, repetitions, or inappropriate pauses"
+        ],
+        "task_fulfillment": [
+          "Adjust speaking style to some familiar situations",
+          "Convey accurate information to others when speaking"
+        ],
+        "when": [
+          "Speak face-to-face, online, or on the phone",
+          "Situation is casual or somewhat formal"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker insists friend should not hesitate to grab opportunity overseas to secure good standard of living and better future for family and children; emphasizes sacrifice, earning more money, and overcoming poverty."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker describes a blue chair with unusual structure like in movies, with headlight, coffee holder, good back support, adjustable seat, and circular cushion seat for resting legs and enjoying music or reading; calls design very interesting and unique."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers express preferences, feelings, and opinions and sometimes support them with reasons, and can relate factual information or events with some precision in familiar contexts.",
+        "vocabulary": "Speakers use common words and phrases to describe objects, express preferences, and relate events (e.g., 'grab that opportunity', 'adjustable seat', 'circular').",
+        "listenability": "Speakers communicate with more control of simple grammatical structures than lower levels and usually have understandable rhythm and pronunciation, though with some pauses and self-corrections.",
+        "task_fulfillment": "Speakers adjust their style to familiar situations and convey accurate information (e.g., about job benefits, chair features) while maintaining a friendly tone."
+      }
+    },
+    {
+      "level": 5,
+      "name": "Acquiring proficiency in everyday social, educational, or workplace contexts",
+      "descriptors": {
+        "content_coherence": [
+          "Communicate feelings and preferences",
+          "Describe common objects, situations, and people that are known",
+          "Tell a simple story about something that happened"
+        ],
+        "vocabulary": [
+          "Use common words and phrases"
+        ],
+        "listenability": [
+          "Speak with some control of simple grammatical structures"
+        ],
+        "task_fulfillment": [
+          "Convey information about a familiar topic"
+        ],
+        "when": [
+          "Speak face-to-face, online, or on the phone",
+          "Situation is casual or somewhat formal"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker says opportunity knocks once and advises grabbing job even if leaving family and friends; mentions communication technologies to stay in touch and emphasizes need to start life and future and help family."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker describes a 'funny-looking' blue see-saw-like chair with glass holder, round table, light on top, futuristic design, round seat and back; believes it suits friend and recommends taking it."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers communicate feelings and preferences and provide some reasons, describe common objects and situations, and can tell a simple story from experience.",
+        "vocabulary": "Speakers use common words, but often struggle to use vocabulary to describe or support opinions precisely.",
+        "listenability": "Speakers have some control over simple grammatical structures (e.g., 'funny-looking chair that would suit you'), but overall accuracy is limited.",
+        "task_fulfillment": "Speakers convey information about familiar topics (e.g., job, chair) but with limited elaboration and clarity."
+      }
+    },
+    {
+      "level": 4,
+      "name": "Adequate proficiency for daily life activities",
+      "descriptors": {
+        "content_coherence": [
+          "Say what is liked, disliked, and how one feels",
+          "Give a simple description of objects, situations, and people that are known",
+          "Tell a short, simple story about something that happened"
+        ],
+        "vocabulary": [
+          "Use common words"
+        ],
+        "listenability": [
+          "Speak with limited control of simple grammatical structures"
+        ],
+        "task_fulfillment": [
+          "Convey some information about a very familiar topic"
+        ],
+        "when": [
+          "Speak face-to-face, online, or on the phone",
+          "Situation is casual"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker attempts to say job is an excellent opportunity and friend needs support from friends and family; much of speech is fragmented or unintelligible, but intent to discuss future and need for advice is evident."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker describes finding interesting chair in furniture store, compares shape to a ball cut in half with chair in the middle and light at the top; basic explanation that chair and table form one whole piece."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers can say what they like, dislike, and feel and can provide simple descriptions of familiar objects and situations, as well as short simple stories.",
+        "vocabulary": "Speakers use common words (e.g., 'business degree', 'make a decision', 'like a ball').",
+        "listenability": "Speakers have limited control of simple grammar, with frequent errors, but some understandable segments remain.",
+        "task_fulfillment": "Speakers convey some information about very familiar topics (e.g., job as 'best way', interesting chair) despite low precision."
+      }
+    },
+    {
+      "level": 3,
+      "name": "Some proficiency in limited contexts of personal relevance",
+      "descriptors": {
+        "content_coherence": [
+          "Say what is liked, disliked, and what is needed"
+        ],
+        "vocabulary": [
+          "Use very common words"
+        ],
+        "listenability": [
+          "Sometimes use correct grammar"
+        ],
+        "task_fulfillment": [
+          "Talk about self and what is needed"
+        ],
+        "when": [
+          "Speak face-to-face, online, or on the phone",
+          "Situation is casual"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Speaker repeats that it is a good opportunity and that friend needs new work and new place to live; heavily fragmented but basic positive opinion is clear."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker calls chair very interesting and says it is made from bent pipe; struggles to continue description and stops early."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers are able to express basic likes, dislikes, and needs but with limited development.",
+        "vocabulary": "Speakers use very common words, often with repetition (e.g., 'opportunity' several times).",
+        "listenability": "Speakers sometimes use correct grammar (e.g., 'I’d like to describe') but many errors remain, including omitted auxiliaries and incorrect verb forms.",
+        "task_fulfillment": "Speakers mainly talk about themselves or what they need; coverage of task content is partial."
+      }
+    },
+    {
+      "level": 0,
+      "name": "Level 0–2. Limited ability in contexts related to immediate needs",
+      "descriptors": {
+        "content_coherence": [
+          "Sometimes say what is liked, disliked, and what is needed"
+        ],
+        "vocabulary": [
+          "Use very common words"
+        ],
+        "listenability": [
+          "Rarely use correct grammar"
+        ],
+        "task_fulfillment": [
+          "Sometimes talk about self and what is needed"
+        ],
+        "when": [
+          "Speak face-to-face, online, or on the phone",
+          "Situation is casual"
+        ]
+      },
+      "sample_responses": [
+        {
+          "task": "A",
+          "task_prompt": "Friend with business degree offered overseas job, unsure about moving away. Give advice.",
+          "transcript_summary": "Very short, mostly unintelligible fragments with a few recognizable words like 'business' and 'family'; main idea not clearly expressed."
+        },
+        {
+          "task": "B",
+          "task_prompt": "Describe an interesting chair at a furniture fair to Maddie and ask if she’d buy it.",
+          "transcript_summary": "Speaker uses very simple phrases indicating the chair is new and comfortable and they like it; mentions coffee and taking a break; many unintelligible segments."
+        }
+      ],
+      "response_analysis": {
+        "content_coherence": "Speakers sometimes express basic likes, dislikes, and needs, but content is very limited and fragmented.",
+        "vocabulary": "Speakers use very common words and phrases (e.g., 'books', 'school', 'comfortable').",
+        "listenability": "Speakers rarely use correct grammar, making ideas hard to understand; there are no fully correct sentences.",
+        "task_fulfillment": "Speakers express very simple personal information or preferences (e.g., liking the chair) with minimal connection to the full task."
+      }
+    }
+  ]
+}
