@@ -6,7 +6,7 @@ const STORAGE_KEY = 'celpip-app-state';
 
 const defaultSettings: Settings = {
   apiKey: '',
-  model: 'gemma-4-31b-it',
+  model: 'gemini-2.0-flash',
   temperature: 0.7,
   maxTokens: 2048,
   systemPrompt: 'You are a CELPIP writing examiner. Evaluate the following writing response according to CELPIP scoring criteria.',
