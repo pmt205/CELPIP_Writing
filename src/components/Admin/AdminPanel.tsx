@@ -101,6 +101,7 @@ export default function AdminPanel() {
         situation: formSituation,
         tone: formTone,
         bulletPoints: formBulletPoints.split('\n').filter((bp) => bp.trim()),
+        recipient: '',
       };
       if (editingId) {
         setQuestionsData((prev) => ({

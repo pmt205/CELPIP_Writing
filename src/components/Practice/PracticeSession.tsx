@@ -64,6 +64,7 @@ export default function PracticeSession() {
         situation: parsed.situation,
         bulletPoints: parsed.bulletPoints,
         tone: parsed.tone,
+        recipient: '',
       };
       startSession('task1', question);
     } else {

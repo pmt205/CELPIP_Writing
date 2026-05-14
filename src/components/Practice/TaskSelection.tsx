@@ -40,6 +40,7 @@ export default function TaskSelection({ onTaskSelected, preselectedTask }: TaskS
         situation: parsed.situation,
         bulletPoints: parsed.bulletPoints,
         tone: parsed.tone,
+        recipient: '',
       };
       startSession('task1', question);
     } else {
