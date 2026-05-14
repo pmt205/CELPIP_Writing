@@ -6,6 +6,7 @@
       "title": "Damaged Appliance Delivery",
       "prompt": "You recently ordered a kitchen appliance online, but when it was delivered to your home, you noticed that it was damaged and could not be used.\n\nWrite an email to the company's customer service department in about 150-200 words. Your email should include:\n\n- Explain what item you ordered and when it was delivered.\n- Describe the damage and how it affected you.\n- Request a replacement, refund, or another suitable solution.",
       "situation": "You recently ordered a kitchen appliance online, but when it was delivered to your home, you noticed that it was damaged and could not be used.",
+      "recipient": "the company's customer service department",
       "bulletPoints": [
         "Explain what item you ordered and when it was delivered.",
         "Describe the damage and how it affected you.",
@@ -19,6 +20,7 @@
       "title": "Broken Elevator Complaint",
       "prompt": "The elevator in your apartment building has been out of service for several days, and this has caused difficulties for many residents.\n\nWrite an email to your landlord or property manager in about 150-200 words. Your email should include:\n\n- Explain the problem and how long it has been happening.\n- Describe how it has affected you or other residents.\n- Ask when the elevator will be repaired and request urgent action.",
       "situation": "The elevator in your apartment building has been out of service for several days, and this has caused difficulties for many residents.",
+      "recipient": "your landlord or property manager",
       "bulletPoints": [
         "Explain the problem and how long it has been happening.",
         "Describe how it has affected you or other residents.",
@@ -32,6 +34,7 @@
       "title": "Request for Schedule Change",
       "prompt": "You need to temporarily change your work schedule because of a family responsibility.\n\nWrite an email to your manager in about 150-200 words. Your email should include:\n\n- Explain why you need the schedule change.\n- Suggest the temporary schedule you would like to follow.\n- Reassure your manager that your work will still be completed properly.",
       "situation": "You need to temporarily change your work schedule because of a family responsibility.",
+      "recipient": "your manager",
       "bulletPoints": [
         "Explain why you need the schedule change.",
         "Suggest the temporary schedule you would like to follow.",
@@ -45,6 +48,7 @@
       "title": "Corporate Team-Building Event",
       "prompt": "Your company is organizing a team-building event for employees, and you have been asked to arrange a group activity.\n\nWrite an email to a local adventure park in about 150-200 words. Your email should include:\n\n- Introduce yourself and explain the purpose of your email.\n- Inquire about the activities they offer for group events.\n- Ask about availability, pricing, and any special packages for corporate groups.",
       "situation": "Your company is organizing a team-building event for employees, and you have been asked to arrange a group activity.",
+      "recipient": "a local adventure park",
       "bulletPoints": [
         "Introduce yourself and explain the purpose of your email.",
         "Inquire about the activities they offer for group events.",
@@ -58,6 +62,7 @@
       "title": "Missing Grocery Items",
       "prompt": "You ordered groceries online, but several items were missing when the order arrived.\n\nWrite an email to the grocery company's customer service department in about 150-200 words. Your email should include:\n\n- Explain when you placed the order and what was missing.\n- Describe any inconvenience this caused.\n- Ask for a refund, replacement, or credit for the missing items.",
       "situation": "You ordered groceries online, but several items were missing when the order arrived.",
+      "recipient": "the grocery company's customer service department",
       "bulletPoints": [
         "Explain when you placed the order and what was missing.",
         "Describe any inconvenience this caused.",
@@ -71,6 +76,7 @@
       "title": "Work-from-Home Request",
       "prompt": "Your company currently allows employees to work from home only one day per week, but you would like to request additional work-from-home days.\n\nWrite an email to the human resources department in about 150-200 words. Your email should include:\n\n- Explain your current work situation.\n- Give reasons why working from home more often would help you.\n- Ask whether the company can approve your request.",
       "situation": "Your company currently allows employees to work from home only one day per week, but you would like to request additional work-from-home days.",
+      "recipient": "the human resources department",
       "bulletPoints": [
         "Explain your current work situation.",
         "Give reasons why working from home more often would help you.",
@@ -84,6 +90,7 @@
       "title": "Assignment Extension",
       "prompt": "You are taking a course, but you have been sick and cannot finish an important assignment by the deadline.\n\nWrite an email to your instructor in about 150-200 words. Your email should include:\n\n- Explain your illness and why you cannot meet the deadline.\n- Ask for an extension and suggest a new submission date.\n- Thank your instructor and promise to complete the assignment.",
       "situation": "You are taking a course, but you have been sick and cannot finish an important assignment by the deadline.",
+      "recipient": "your instructor",
       "bulletPoints": [
         "Explain your illness and why you cannot meet the deadline.",
         "Ask for an extension and suggest a new submission date.",
@@ -97,6 +104,7 @@
       "title": "Noisy Neighbour",
       "prompt": "Your neighbour often plays loud music late at night, and it is affecting your sleep and daily life.\n\nWrite an email to your neighbour in about 150-200 words. Your email should include:\n\n- Explain the noise problem politely.\n- Describe how it has affected you.\n- Ask your neighbour to reduce the noise during late hours.",
       "situation": "Your neighbour often plays loud music late at night, and it is affecting your sleep and daily life.",
+      "recipient": "your neighbour",
       "bulletPoints": [
         "Explain the noise problem politely.",
         "Describe how it has affected you.",
@@ -110,6 +118,7 @@
       "title": "Hotel Refund Request",
       "prompt": "You recently stayed at a hotel, but your experience was disappointing because the room was not clean and some facilities were not working.\n\nWrite an email to the hotel manager in about 150-200 words. Your email should include:\n\n- Explain when you stayed at the hotel.\n- Describe the problems you experienced.\n- Request a refund, discount, or another form of compensation.",
       "situation": "You recently stayed at a hotel, but your experience was disappointing because the room was not clean and some facilities were not working.",
+      "recipient": "the hotel manager",
       "bulletPoints": [
         "Explain when you stayed at the hotel.",
         "Describe the problems you experienced.",
@@ -123,6 +132,7 @@
       "title": "Snow Removal Complaint",
       "prompt": "The roads and sidewalks in your neighbourhood have not been cleared properly after recent heavy snow.\n\nWrite an email to your city council or local government office in about 150-200 words. Your email should include:\n\n- Explain the snow removal problem in your area.\n- Describe why it is dangerous or inconvenient.\n- Ask the city to improve snow removal services as soon as possible.",
       "situation": "The roads and sidewalks in your neighbourhood have not been cleared properly after recent heavy snow.",
+      "recipient": "your city council or local government office",
       "bulletPoints": [
         "Explain the snow removal problem in your area.",
         "Describe why it is dangerous or inconvenient.",
@@ -136,6 +146,7 @@
       "title": "Delayed Luggage",
       "prompt": "You recently took an international flight, but your luggage did not arrive with you and has been delayed for several days.\n\nWrite an email to the airline's customer service department in about 150-200 words. Your email should include:\n\n- Provide your flight details and luggage information.\n- Explain how the delay has affected your trip.\n- Ask for an update and compensation if appropriate.",
       "situation": "You recently took an international flight, but your luggage did not arrive with you and has been delayed for several days.",
+      "recipient": "the airline's customer service department",
       "bulletPoints": [
         "Provide your flight details and luggage information.",
         "Explain how the delay has affected your trip.",
@@ -149,6 +160,7 @@
       "title": "Unstable Internet Service",
       "prompt": "Your home internet service has been unstable for the past week, and this has made it difficult for you to work from home.\n\nWrite an email to your internet provider in about 150-200 words. Your email should include:\n\n- Explain the connection problems you have experienced.\n- Describe how the issue has affected your work or daily life.\n- Ask the company to fix the problem and consider a billing adjustment.",
       "situation": "Your home internet service has been unstable for the past week, and this has made it difficult for you to work from home.",
+      "recipient": "your internet provider",
       "bulletPoints": [
         "Explain the connection problems you have experienced.",
         "Describe how the issue has affected your work or daily life.",
@@ -162,6 +174,7 @@
       "title": "Birthday Invitation",
       "prompt": "You are planning a birthday celebration and would like to invite a friend who lives in another city.\n\nWrite an email to your friend in about 150-200 words. Your email should include:\n\n- Tell your friend about the birthday celebration.\n- Explain when and where the event will take place.\n- Ask your friend to attend and let you know if they can come.",
       "situation": "You are planning a birthday celebration and would like to invite a friend who lives in another city.",
+      "recipient": "your friend",
       "bulletPoints": [
         "Tell your friend about the birthday celebration.",
         "Explain when and where the event will take place.",
@@ -175,6 +188,7 @@
       "title": "Used Car Inquiry",
       "prompt": "You found an advertisement online for a used car that looks interesting, but the seller did not provide many details.\n\nWrite an email to the seller in about 150-200 words. Your email should include:\n\n- Explain how you found the car advertisement.\n- Ask for specific details about the car's condition, mileage, accident history, and service records.\n- Explain your budget and request a time to meet for a test drive.",
       "situation": "You found an advertisement online for a used car that looks interesting, but the seller did not provide many details.",
+      "recipient": "the seller",
       "bulletPoints": [
         "Explain how you found the car advertisement.",
         "Ask for specific details about the car's condition, mileage, accident history, and service records.",
@@ -188,6 +202,7 @@
       "title": "Vacation Leave Request",
       "prompt": "You would like to take vacation leave during the summer, but your workplace is usually busy at that time.\n\nWrite an email to your supervisor in about 150-200 words. Your email should include:\n\n- Explain the dates you would like to take off.\n- Give a reason for your vacation request.\n- Explain how your work will be managed while you are away.",
       "situation": "You would like to take vacation leave during the summer, but your workplace is usually busy at that time.",
+      "recipient": "your supervisor",
       "bulletPoints": [
         "Explain the dates you would like to take off.",
         "Give a reason for your vacation request.",
@@ -201,6 +216,7 @@
       "title": "Gym Membership Cancellation",
       "prompt": "You joined a local gym, but you are unhappy with the facilities and would like to cancel your membership.\n\nWrite an email to the gym manager in about 150-200 words. Your email should include:\n\n- Explain when you joined the gym.\n- Describe the problems with the facilities or service.\n- Request cancellation of your membership and ask about any refund.",
       "situation": "You joined a local gym, but you are unhappy with the facilities and would like to cancel your membership.",
+      "recipient": "the gym manager",
       "bulletPoints": [
         "Explain when you joined the gym.",
         "Describe the problems with the facilities or service.",
@@ -214,6 +230,7 @@
       "title": "Bullying Concern at School",
       "prompt": "Your child has told you about a bullying problem at school, and you are concerned about their safety and well-being.\n\nWrite an email to your child's teacher or school principal in about 150-200 words. Your email should include:\n\n- Explain what your child told you about the situation.\n- Describe why you are concerned.\n- Ask the school to investigate and explain what action will be taken.",
       "situation": "Your child has told you about a bullying problem at school, and you are concerned about their safety and well-being.",
+      "recipient": "your child's teacher or school principal",
       "bulletPoints": [
         "Explain what your child told you about the situation.",
         "Describe why you are concerned.",
@@ -227,6 +244,7 @@
       "title": "Poor Restaurant Service",
       "prompt": "You recently visited a restaurant with your family, but you received poor service and were disappointed with the experience.\n\nWrite an email to the restaurant manager in about 150-200 words. Your email should include:\n\n- Explain when you visited the restaurant.\n- Describe the problems with the service or food.\n- Suggest what the restaurant should do to improve or compensate you.",
       "situation": "You recently visited a restaurant with your family, but you received poor service and were disappointed with the experience.",
+      "recipient": "the restaurant manager",
       "bulletPoints": [
         "Explain when you visited the restaurant.",
         "Describe the problems with the service or food.",
@@ -240,6 +258,7 @@
       "title": "Thanking a Colleague",
       "prompt": "A colleague recently helped you complete an important project at work, and you would like to thank them.\n\nWrite an email to your colleague in about 150-200 words. Your email should include:\n\n- Explain why you are grateful for their help.\n- Describe how their support helped the project succeed.\n- Offer to help them in the future.",
       "situation": "A colleague recently helped you complete an important project at work, and you would like to thank them.",
+      "recipient": "your colleague",
       "bulletPoints": [
         "Explain why you are grateful for their help.",
         "Describe how their support helped the project succeed.",
@@ -253,6 +272,7 @@
       "title": "Library Book Extension",
       "prompt": "You borrowed several books from the library, but you need more time to finish reading them.\n\nWrite an email to the library in about 150-200 words. Your email should include:\n\n- Explain which books you borrowed and when they are due.\n- Give a reason why you need more time.\n- Ask whether the due date can be extended.",
       "situation": "You borrowed several books from the library, but you need more time to finish reading them.",
+      "recipient": "the library",
       "bulletPoints": [
         "Explain which books you borrowed and when they are due.",
         "Give a reason why you need more time.",
@@ -266,6 +286,7 @@
       "title": "Suggesting Community Activities",
       "prompt": "Your local community center is planning new weekend programs, and residents have been invited to suggest activities.\n\nWrite an email to the community center coordinator in about 150-200 words. Your email should include:\n\n- Introduce yourself as a local resident.\n- Suggest one or two weekend activities.\n- Explain why these activities would benefit the community.",
       "situation": "Your local community center is planning new weekend programs, and residents have been invited to suggest activities.",
+      "recipient": "the community center coordinator",
       "bulletPoints": [
         "Introduce yourself as a local resident.",
         "Suggest one or two weekend activities.",
@@ -279,6 +300,7 @@
       "title": "Warranty Replacement Request",
       "prompt": "You bought a pair of headphones recently, but they stopped working while still under warranty.\n\nWrite an email to the company's support team in about 150-200 words. Your email should include:\n\n- Explain when and where you bought the headphones.\n- Describe the problem with the product.\n- Request a repair, replacement, or refund under the warranty.",
       "situation": "You bought a pair of headphones recently, but they stopped working while still under warranty.",
+      "recipient": "the company's support team",
       "bulletPoints": [
         "Explain when and where you bought the headphones.",
         "Describe the problem with the product.",
@@ -292,6 +314,7 @@
       "title": "Unknown Bank Charge",
       "prompt": "You noticed an unknown charge on your bank account statement and believe it may be a mistake.\n\nWrite an email to your bank in about 150-200 words. Your email should include:\n\n- Identify the charge and when it appeared.\n- Explain why you believe the charge is incorrect.\n- Ask the bank to investigate and reverse the charge if necessary.",
       "situation": "You noticed an unknown charge on your bank account statement and believe it may be a mistake.",
+      "recipient": "your bank",
       "bulletPoints": [
         "Identify the charge and when it appeared.",
         "Explain why you believe the charge is incorrect.",
@@ -305,6 +328,7 @@
       "title": "Unexpected Absence from Work",
       "prompt": "You missed work unexpectedly because of an emergency and could not inform your employer in advance.\n\nWrite an email to your employer in about 150-200 words. Your email should include:\n\n- Apologize for missing work without notice.\n- Explain the reason for your absence.\n- Describe how you will catch up on any missed work.",
       "situation": "You missed work unexpectedly because of an emergency and could not inform your employer in advance.",
+      "recipient": "your employer",
       "bulletPoints": [
         "Apologize for missing work without notice.",
         "Explain the reason for your absence.",
@@ -318,6 +342,7 @@
       "title": "Damaged Furniture During Move",
       "prompt": "You hired a moving company to help you move to a new home, but some of your furniture was damaged during the move.\n\nWrite an email to the moving company in about 150-200 words. Your email should include:\n\n- Explain when the move took place.\n- Describe the damaged items and their condition.\n- Request repair, compensation, or another solution.",
       "situation": "You hired a moving company to help you move to a new home, but some of your furniture was damaged during the move.",
+      "recipient": "the moving company",
       "bulletPoints": [
         "Explain when the move took place.",
         "Describe the damaged items and their condition.",
@@ -331,6 +356,7 @@
       "title": "Unreliable Bus Service",
       "prompt": "The bus you take to work has often been late or cancelled recently, causing problems with your daily commute.\n\nWrite an email to the city transit department in about 150-200 words. Your email should include:\n\n- Explain which bus route you use and what problems you have noticed.\n- Describe how the unreliable service has affected you.\n- Ask the transit department to improve the schedule or provide updates.",
       "situation": "The bus you take to work has often been late or cancelled recently, causing problems with your daily commute.",
+      "recipient": "the city transit department",
       "bulletPoints": [
         "Explain which bus route you use and what problems you have noticed.",
         "Describe how the unreliable service has affected you.",
@@ -344,6 +370,7 @@
       "title": "Travel Advice for Canada",
       "prompt": "Your cousin is planning to visit Canada for the first time and has asked you for travel advice.\n\nWrite an email to your cousin in about 150-200 words. Your email should include:\n\n- Recommend some places to visit in Canada.\n- Explain what your cousin can do or see there.\n- Give practical advice about weather, transportation, or costs.",
       "situation": "Your cousin is planning to visit Canada for the first time and has asked you for travel advice.",
+      "recipient": "your cousin",
       "bulletPoints": [
         "Recommend some places to visit in Canada.",
         "Explain what your cousin can do or see there.",
@@ -357,6 +384,7 @@
       "title": "Daycare Enrollment Inquiry",
       "prompt": "You are looking for a daycare center for your child and found one near your home.\n\nWrite an email to the daycare center in about 150-200 words. Your email should include:\n\n- Introduce yourself and explain your child's age.\n- Ask about availability, fees, and daily schedule.\n- Request information about staff qualifications and safety policies.",
       "situation": "You are looking for a daycare center for your child and found one near your home.",
+      "recipient": "the daycare center",
       "bulletPoints": [
         "Introduce yourself and explain your child's age.",
         "Ask about availability, fees, and daily schedule.",
@@ -370,6 +398,7 @@
       "title": "Volunteering Opportunity Inquiry",
       "prompt": "You saw an advertisement for a community event and would like to volunteer.\n\nWrite an email to the event organizer in about 150-200 words. Your email should include:\n\n- Explain how you learned about the event.\n- Describe your interest and any relevant experience.\n- Ask what volunteer roles are available and how you can sign up.",
       "situation": "You saw an advertisement for a community event and would like to volunteer.",
+      "recipient": "the event organizer",
       "bulletPoints": [
         "Explain how you learned about the event.",
         "Describe your interest and any relevant experience.",
@@ -383,6 +412,7 @@
       "title": "Pet Permission Request",
       "prompt": "You live in a rental apartment and would like to keep a small pet, but your lease requires permission from the property manager.\n\nWrite an email to your property manager in about 150-200 words. Your email should include:\n\n- Explain what kind of pet you would like to keep.\n- Describe how you will take responsibility for the pet.\n- Ask for written permission and any rules you need to follow.",
       "situation": "You live in a rental apartment and would like to keep a small pet, but your lease requires permission from the property manager.",
+      "recipient": "your property manager",
       "bulletPoints": [
         "Explain what kind of pet you would like to keep.",
         "Describe how you will take responsibility for the pet.",

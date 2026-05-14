@@ -8,6 +8,7 @@ export interface Question {
 export interface Task1Question extends Question {
   type: 'task1';
   situation: string;
+  recipient: string;
   bulletPoints: string[];
   tone: 'formal' | 'informal' | 'semi-formal';
 }
