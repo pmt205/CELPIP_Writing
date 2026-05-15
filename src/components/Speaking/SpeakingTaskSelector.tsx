@@ -32,8 +32,16 @@ export default function SpeakingTaskSelector({ onTaskSelect, onChoose }: Speakin
         {speakingTasks.map((task) => (
           <div
             key={task.task}
+            role="button"
+            tabIndex={0}
             onClick={() => onTaskSelect(task.task)}
-            className="cursor-pointer text-left bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all p-5 border-2 border-transparent hover:border-celpip-accent"
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                onTaskSelect(task.task);
+              }
+            }}
+            className="cursor-pointer text-left bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all p-5 border-2 border-transparent hover:border-celpip-accent focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
           >
             <div className="flex items-center space-x-2 mb-3">
               <span className="text-2xl">{taskEmojis[task.task] || '🎤'}</span>

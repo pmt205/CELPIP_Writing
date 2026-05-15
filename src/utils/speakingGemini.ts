@@ -69,7 +69,7 @@ COMMON SCORING MISTAKES TO AVOID:
 Task Details:
 Task ${taskNumber} - ${taskName}
 Question: ${questionText}
-${imageBase64 ? '\nThe following image was shown to the speaker and they were asked to describe or make predictions based on it.' : ''}
+${imageBase64 ? '\nThe following image was shown to the speaker and they were asked to describe or make predictions based on it. For Task Fulfillment scoring, evaluate how accurately and completely the speaker describes or references elements visible in the image (people, actions, objects, settings, spatial relationships).' : ''}
 
 Please listen to the audio and respond ONLY with valid JSON in the following format (no markdown, no explanation outside JSON):
 {
