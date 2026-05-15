@@ -72,10 +72,15 @@ export interface Settings {
   cloudDataUrl: string;
 }
 
+export interface SpeakingQuestionItem {
+  question: string;
+  tips: string[];
+}
+
 export interface SpeakingTask {
   task: number;
   name: string;
-  questions: string[];
+  questions: (string | SpeakingQuestionItem)[];
 }
 
 export interface SpeakingSession {

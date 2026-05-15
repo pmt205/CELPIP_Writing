@@ -9,10 +9,12 @@ interface PrepTimerProps {
   notes: string;
   onNotesChange: (value: string) => void;
   imageSrc?: string;
+  tips?: string[];
 }
 
-export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionText, onComplete, notes, onNotesChange, imageSrc }: PrepTimerProps) {
+export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionText, onComplete, notes, onNotesChange, imageSrc, tips }: PrepTimerProps) {
   const [timeLeft, setTimeLeft] = useState(prepSeconds);
+  const [tipsExpanded, setTipsExpanded] = useState(false);
   const onCompleteRef = useRef(onComplete);
   onCompleteRef.current = onComplete;
 
@@ -91,6 +93,44 @@ export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionT
               {questionText}
             </p>
           </div>
+
+          {/* Tips box */}
+          {tips && tips.length > 0 && (
+            <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-200 dark:border-blue-800 overflow-hidden">
+              <button
+                onClick={() => setTipsExpanded(!tipsExpanded)}
+                className="w-full flex items-center justify-between p-4 text-left hover:bg-blue-100/50 dark:hover:bg-blue-900/30 transition-colors"
+              >
+                <div className="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500 dark:text-blue-400 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM4 11a1 1 0 100-2H3a1 1 0 000 2h1zM10 18a1 1 0 001-1v-1a1 1 0 10-2 0v1a1 1 0 001 1zM6.05 15.95a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM15.657 15.95a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414l.707.707z" />
+                    <path fillRule="evenodd" d="M10 2a6 6 0 00-3.815 10.631C7.237 13.452 8 14.702 8 16h4c0-1.298.763-2.548 1.815-3.369A6 6 0 0010 2zm-1 14a1 1 0 011-1h0a1 1 0 110 2h0a1 1 0 01-1-1z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-sm font-medium text-blue-700 dark:text-blue-300">Tips</span>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={`h-4 w-4 text-blue-500 dark:text-blue-400 transition-transform duration-200 ${tipsExpanded ? 'rotate-180' : ''}`}
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </button>
+              {tipsExpanded && (
+                <div className="px-4 pb-4">
+                  <ul className="space-y-1.5">
+                    {tips.map((tip, index) => (
+                      <li key={index} className="flex items-start text-sm text-blue-800 dark:text-blue-200">
+                        <span className="inline-block w-1.5 h-1.5 rounded-full bg-blue-400 dark:bg-blue-500 mt-1.5 mr-2 flex-shrink-0" />
+                        {tip}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Scene image */}
           {imageSrc && (

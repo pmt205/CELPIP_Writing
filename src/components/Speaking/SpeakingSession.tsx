@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import { getSpeakingFeedback } from '../../utils/speakingGemini';
-import { speakingTasks, getRandomQuestion, getRandomImage } from '../../data/speakingQuestions';
+import { speakingTasks, getRandomQuestion, getRandomImage, getTipsForQuestion } from '../../data/speakingQuestions';
 import { AudioRecorderUtil } from '../../utils/audioRecorder';
 import SpeakingTaskSelector from './SpeakingTaskSelector';
 import PrepTimer from './PrepTimer';
@@ -29,6 +29,7 @@ export default function SpeakingSession() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [showChooser, setShowChooser] = useState(false);
   const [chooserTask, setChooserTask] = useState<number | null>(null);
+  const [tips, setTips] = useState<string[]>([]);
 
   const settings = useAppStore((s) => s.settings);
   const addToSpeakingHistory = useAppStore((s) => s.addToSpeakingHistory);
@@ -66,6 +67,7 @@ export default function SpeakingSession() {
     setTaskName(task.name);
     setPrepTime(task.prepTime);
     setSpeakingTime(task.speakingTime);
+    setTips(getTipsForQuestion(taskNumber, question));
 
     if (taskNumber === 3 || taskNumber === 4) {
       setSelectedImage(getRandomImage());
@@ -101,6 +103,7 @@ export default function SpeakingSession() {
     setPrepTime(task.prepTime);
     setSpeakingTime(task.speakingTime);
     setSelectedImage(imagePath || null);
+    setTips(getTipsForQuestion(taskNum, question));
     setShowChooser(false);
     setChooserTask(null);
     setNotes('');
@@ -261,6 +264,7 @@ export default function SpeakingSession() {
     setTimeRemaining(0);
     setNotes('');
     setSelectedImage(null);
+    setTips([]);
     setShowChooser(false);
     setChooserTask(null);
     stoppingRef.current = false;
@@ -302,6 +306,7 @@ export default function SpeakingSession() {
             notes={notes}
             onNotesChange={setNotes}
             imageSrc={selectedImage || undefined}
+            tips={tips}
           />
           {/* Navigation buttons */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">

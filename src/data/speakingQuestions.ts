@@ -66,13 +66,27 @@ export function getRandomQuestion(taskNumber: number): string {
     return '';
   }
   const randomIndex = Math.floor(Math.random() * task.questions.length);
-  return task.questions[randomIndex];
+  const item = task.questions[randomIndex];
+  return typeof item === 'string' ? item : item.question;
+}
+
+export function getTipsForQuestion(taskNumber: number, questionText: string): string[] {
+  if (taskNumber === 3 || taskNumber === 4) return [];
+  const task = tasks.find((t) => t.task === taskNumber);
+  if (!task) return [];
+  for (const item of task.questions) {
+    if (typeof item !== 'string' && item.question === questionText) {
+      return item.tips;
+    }
+  }
+  return [];
 }
 
 export function getQuestionsForTask(taskNumber: number): string[] | null {
   if (taskNumber === 3 || taskNumber === 4) return null;
   const task = tasks.find((t) => t.task === taskNumber);
-  return task ? task.questions : [];
+  if (!task) return [];
+  return task.questions.map((item) => typeof item === 'string' ? item : item.question);
 }
 
 export function getAllImages(): string[] {
