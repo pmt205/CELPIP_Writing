@@ -21,13 +21,59 @@ export const speakingTasks: SpeakingTaskInfo[] = [
   { task: 8, name: 'Describing an Unusual Situation', prepTime: 30, speakingTime: 60 },
 ];
 
+export const sceneImages: string[] = [
+  '/speaking-images/task3_scene_001.jpeg',
+  '/speaking-images/task3_scene_002.jpeg',
+  '/speaking-images/task3_scene_003.jpeg',
+  '/speaking-images/task3_scene_004.jpeg',
+  '/speaking-images/task3_scene_005.jpeg',
+  '/speaking-images/task3_scene_006.jpeg',
+  '/speaking-images/task3_scene_007.jpeg',
+  '/speaking-images/task3_scene_008.jpeg',
+  '/speaking-images/task3_scene_009.jpeg',
+  '/speaking-images/task3_scene_010.jpeg',
+  '/speaking-images/task3_scene_011.jpeg',
+  '/speaking-images/task3_scene_012.jpeg',
+  '/speaking-images/task3_scene_013.jpeg',
+  '/speaking-images/task3_scene_014.jpeg',
+  '/speaking-images/task3_scene_015.jpeg',
+  '/speaking-images/task3_scene_016.jpeg',
+  '/speaking-images/task3_scene_017.jpeg',
+  '/speaking-images/task3_scene_018.jpeg',
+  '/speaking-images/task3_scene_019.jpeg',
+  '/speaking-images/task3_scene_020.jpeg',
+  '/speaking-images/task3_scene_021.jpeg',
+  '/speaking-images/task3_scene_022.jpeg',
+  '/speaking-images/task3_scene_023.jpeg',
+];
+
+export function getRandomImage(): string {
+  return sceneImages[Math.floor(Math.random() * sceneImages.length)];
+}
+
 export function getRandomQuestion(taskNumber: number): string {
+  if (taskNumber === 3) {
+    return 'Describe what is happening in the picture.';
+  }
+  if (taskNumber === 4) {
+    return 'What do you think will happen next in this situation?';
+  }
   const task = tasks.find((t) => t.task === taskNumber);
   if (!task || task.questions.length === 0) {
     return '';
   }
   const randomIndex = Math.floor(Math.random() * task.questions.length);
   return task.questions[randomIndex];
+}
+
+export function getQuestionsForTask(taskNumber: number): string[] | null {
+  if (taskNumber === 3 || taskNumber === 4) return null;
+  const task = tasks.find((t) => t.task === taskNumber);
+  return task ? task.questions : [];
+}
+
+export function getAllImages(): string[] {
+  return sceneImages;
 }
 
 export { tasks as speakingQuestionBank };

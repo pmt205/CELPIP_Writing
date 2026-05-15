@@ -1,12 +1,13 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import { getSpeakingFeedback } from '../../utils/speakingGemini';
-import { speakingTasks, getRandomQuestion } from '../../data/speakingQuestions';
+import { speakingTasks, getRandomQuestion, getRandomImage } from '../../data/speakingQuestions';
 import { AudioRecorderUtil } from '../../utils/audioRecorder';
 import SpeakingTaskSelector from './SpeakingTaskSelector';
 import PrepTimer from './PrepTimer';
 import AudioRecorder from './AudioRecorder';
 import SpeakingFeedbackPanel from './SpeakingFeedbackPanel';
+import QuestionChooser from './QuestionChooser';
 import type { SpeakingFeedback, SpeakingHistory, SpeakingSession as SpeakingSessionType } from '../../types';
 
 type SessionState = 'selecting' | 'preparing' | 'recording' | 'processing' | 'results';
@@ -25,6 +26,9 @@ export default function SpeakingSession() {
   const [error, setError] = useState<string | null>(null);
   const [startTime, setStartTime] = useState<number>(0);
   const [notes, setNotes] = useState('');
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [showChooser, setShowChooser] = useState(false);
+  const [chooserTask, setChooserTask] = useState<number | null>(null);
 
   const settings = useAppStore((s) => s.settings);
   const addToSpeakingHistory = useAppStore((s) => s.addToSpeakingHistory);
@@ -62,6 +66,33 @@ export default function SpeakingSession() {
     setTaskName(task.name);
     setPrepTime(task.prepTime);
     setSpeakingTime(task.speakingTime);
+
+    if (taskNumber === 3 || taskNumber === 4) {
+      setSelectedImage(getRandomImage());
+    } else {
+      setSelectedImage(null);
+    }
+
+    setState('preparing');
+  };
+
+  const handleChoose = (taskNumber: number) => {
+    setChooserTask(taskNumber);
+    setShowChooser(true);
+  };
+
+  const handleQuestionSelect = (taskNum: number, question: string, imagePath?: string) => {
+    const task = speakingTasks.find((t) => t.task === taskNum);
+    if (!task) return;
+
+    setSelectedTaskNumber(taskNum);
+    setQuestionText(question);
+    setTaskName(task.name);
+    setPrepTime(task.prepTime);
+    setSpeakingTime(task.speakingTime);
+    setSelectedImage(imagePath || null);
+    setShowChooser(false);
+    setChooserTask(null);
     setState('preparing');
   };
 
@@ -138,13 +169,27 @@ export default function SpeakingSession() {
       const base64 = await blobToBase64(blob);
       const mimeType = blob.type || 'audio/webm';
 
+      // For tasks 3/4, fetch the image and convert to base64 for multimodal analysis
+      let imageBase64: string | undefined;
+      if (selectedImage && (selectedTaskNumber === 3 || selectedTaskNumber === 4)) {
+        try {
+          const imgResponse = await fetch(selectedImage);
+          const imgBlob = await imgResponse.blob();
+          const imgBase64 = await blobToBase64(imgBlob);
+          imageBase64 = imgBase64;
+        } catch {
+          // Image fetch failed - continue without image context
+        }
+      }
+
       const result = await getSpeakingFeedback(
         settings,
         taskName,
         selectedTaskNumber,
         questionText,
         base64,
-        mimeType
+        mimeType,
+        imageBase64
       );
 
       setFeedback(result);
@@ -161,6 +206,7 @@ export default function SpeakingSession() {
         prepTime: prepTime,
         speakingTime: speakingTime,
         submitted: true,
+        imagePath: selectedImage || undefined,
       };
 
       const historyEntry: SpeakingHistory = {
@@ -199,6 +245,9 @@ export default function SpeakingSession() {
     setIsRecording(false);
     setTimeRemaining(0);
     setNotes('');
+    setSelectedImage(null);
+    setShowChooser(false);
+    setChooserTask(null);
     stoppingRef.current = false;
   };
 
@@ -225,7 +274,7 @@ export default function SpeakingSession() {
       )}
 
       {/* State machine rendering */}
-      {state === 'selecting' && <SpeakingTaskSelector onTaskSelect={handleTaskSelect} />}
+      {state === 'selecting' && <SpeakingTaskSelector onTaskSelect={handleTaskSelect} onChoose={handleChoose} />}
 
       {state === 'preparing' && (
         <PrepTimer
@@ -236,6 +285,7 @@ export default function SpeakingSession() {
           onComplete={handlePrepComplete}
           notes={notes}
           onNotesChange={setNotes}
+          imageSrc={selectedImage || undefined}
         />
       )}
 
@@ -250,12 +300,19 @@ export default function SpeakingSession() {
               {questionText}
             </p>
           </div>
+          {/* Scene image during recording */}
+          {selectedImage && (
+            <div className="mb-4 flex justify-center">
+              <img src={selectedImage} alt="Scene" className="rounded-lg border border-gray-200 dark:border-gray-700 max-h-[200px] object-cover" />
+            </div>
+          )}
           <AudioRecorder
             isRecording={isRecording}
             timeRemaining={timeRemaining}
             audioLevel={audioLevel}
             onStop={handleStopRecording}
             notes={notes}
+            imageSrc={selectedImage || undefined}
           />
         </div>
       )}
@@ -295,6 +352,15 @@ export default function SpeakingSession() {
             </button>
           </div>
         </div>
+      )}
+
+      {/* Question/Image Chooser Modal */}
+      {showChooser && chooserTask !== null && (
+        <QuestionChooser
+          taskNumber={chooserTask}
+          onSelect={handleQuestionSelect}
+          onClose={() => { setShowChooser(false); setChooserTask(null); }}
+        />
       )}
     </section>
   );

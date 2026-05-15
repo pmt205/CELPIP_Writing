@@ -6,9 +6,10 @@ interface AudioRecorderProps {
   audioLevel: number;
   onStop: () => void;
   notes?: string;
+  imageSrc?: string;
 }
 
-export default function AudioRecorder({ isRecording, timeRemaining, audioLevel, onStop, notes }: AudioRecorderProps) {
+export default function AudioRecorder({ isRecording, timeRemaining, audioLevel, onStop, notes, imageSrc }: AudioRecorderProps) {
   const [notesExpanded, setNotesExpanded] = useState(true);
   const minutes = Math.floor(timeRemaining / 60);
   const seconds = timeRemaining % 60;
@@ -81,6 +82,13 @@ export default function AudioRecorder({ isRecording, timeRemaining, audioLevel, 
               </p>
             </div>
           )}
+        </div>
+      )}
+
+      {/* Scene image reference */}
+      {imageSrc && (
+        <div className="mb-4 flex justify-center">
+          <img src={imageSrc} alt="Scene" className="rounded-lg border border-gray-200 dark:border-gray-700 max-h-[200px] object-cover" />
         </div>
       )}
 

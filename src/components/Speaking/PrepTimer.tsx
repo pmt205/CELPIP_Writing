@@ -8,9 +8,10 @@ interface PrepTimerProps {
   onComplete: () => void;
   notes: string;
   onNotesChange: (value: string) => void;
+  imageSrc?: string;
 }
 
-export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionText, onComplete, notes, onNotesChange }: PrepTimerProps) {
+export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionText, onComplete, notes, onNotesChange, imageSrc }: PrepTimerProps) {
   const [timeLeft, setTimeLeft] = useState(prepSeconds);
   const onCompleteRef = useRef(onComplete);
   onCompleteRef.current = onComplete;
@@ -86,6 +87,13 @@ export default function PrepTimer({ prepSeconds, taskName, taskNumber, questionT
           {questionText}
         </p>
       </div>
+
+      {/* Scene image */}
+      {imageSrc && (
+        <div className="mt-4 flex justify-center">
+          <img src={imageSrc} alt="Scene" className="rounded-xl border border-gray-200 dark:border-gray-700 shadow-md max-h-[300px] object-cover" />
+        </div>
+      )}
 
       {/* Notepad */}
       <div className="mt-4 bg-amber-50 dark:bg-gray-800/80 rounded-xl shadow-sm p-4 border border-amber-200 dark:border-gray-600">

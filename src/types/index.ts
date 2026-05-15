@@ -89,6 +89,7 @@ export interface SpeakingSession {
   prepTime: number;
   speakingTime: number;
   submitted: boolean;
+  imagePath?: string;
 }
 
 export interface SpeakingFeedback {

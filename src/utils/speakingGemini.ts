@@ -8,7 +8,8 @@ export async function getSpeakingFeedback(
   taskNumber: number,
   questionText: string,
   audioBase64: string,
-  mimeType: string
+  mimeType: string,
+  imageBase64?: string
 ): Promise<SpeakingFeedback> {
   if (!settings.apiKey) {
     throw new Error('API key not configured. Please set your Google AI API key in Settings.');
@@ -67,6 +68,7 @@ COMMON SCORING MISTAKES TO AVOID:
 Task Details:
 Task ${taskNumber} - ${taskName}
 Question: ${questionText}
+${imageBase64 ? '\nThe following image was shown to the speaker and they were asked to describe or make predictions based on it.' : ''}
 
 Please listen to the audio and respond ONLY with valid JSON in the following format (no markdown, no explanation outside JSON):
 {
@@ -92,15 +94,15 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
-      const result = await model.generateContent([
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const parts: any[] = [
         { text: prompt },
-        {
-          inlineData: {
-            data: audioBase64,
-            mimeType: mimeType,
-          },
-        },
-      ]);
+        { inlineData: { data: audioBase64, mimeType: mimeType } },
+      ];
+      if (imageBase64) {
+        parts.push({ inlineData: { data: imageBase64, mimeType: 'image/jpeg' } });
+      }
+      const result = await model.generateContent(parts);
       const response = result.response;
       const text = response.text();
 

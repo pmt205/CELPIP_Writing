@@ -2,6 +2,7 @@ import { speakingTasks } from '../../data/speakingQuestions';
 
 interface SpeakingTaskSelectorProps {
   onTaskSelect: (taskNumber: number) => void;
+  onChoose?: (taskNumber: number) => void;
 }
 
 const taskEmojis: Record<number, string> = {
@@ -15,7 +16,7 @@ const taskEmojis: Record<number, string> = {
   8: '❓',
 };
 
-export default function SpeakingTaskSelector({ onTaskSelect }: SpeakingTaskSelectorProps) {
+export default function SpeakingTaskSelector({ onTaskSelect, onChoose }: SpeakingTaskSelectorProps) {
   return (
     <section>
       <div className="mb-6">
@@ -57,6 +58,14 @@ export default function SpeakingTaskSelector({ onTaskSelect }: SpeakingTaskSelec
                 Speaking: {task.speakingTime}s
               </p>
             </div>
+            {onChoose && (
+              <button
+                onClick={(e) => { e.stopPropagation(); onChoose(task.task); }}
+                className="mt-3 w-full text-xs font-medium px-3 py-1.5 rounded-lg border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+              >
+                Choose
+              </button>
+            )}
           </button>
         ))}
       </div>
