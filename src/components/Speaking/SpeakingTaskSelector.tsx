@@ -30,10 +30,10 @@ export default function SpeakingTaskSelector({ onTaskSelect, onChoose }: Speakin
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {speakingTasks.map((task) => (
-          <button
+          <div
             key={task.task}
             onClick={() => onTaskSelect(task.task)}
-            className="text-left bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all p-5 border-2 border-transparent hover:border-celpip-accent focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
+            className="cursor-pointer text-left bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all p-5 border-2 border-transparent hover:border-celpip-accent"
           >
             <div className="flex items-center space-x-2 mb-3">
               <span className="text-2xl">{taskEmojis[task.task] || '🎤'}</span>
@@ -66,7 +66,7 @@ export default function SpeakingTaskSelector({ onTaskSelect, onChoose }: Speakin
                 Choose
               </button>
             )}
-          </button>
+          </div>
         ))}
       </div>
     </section>

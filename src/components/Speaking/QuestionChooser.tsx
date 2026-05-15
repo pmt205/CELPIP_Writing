@@ -1,4 +1,5 @@
-import { getQuestionsForTask, getAllImages, speakingTasks } from '../../data/speakingQuestions';
+import { useEffect } from 'react';
+import { getQuestionsForTask, getAllImages, speakingTasks, TASK3_QUESTION, TASK4_QUESTION } from '../../data/speakingQuestions';
 
 interface QuestionChooserProps {
   taskNumber: number;
@@ -12,10 +13,18 @@ export default function QuestionChooser({ taskNumber, onSelect, onClose }: Quest
   const images = getAllImages();
   const isImageTask = taskNumber === 3 || taskNumber === 4;
 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [onClose]);
+
   const fixedQuestion =
-    taskNumber === 3
-      ? 'Describe what is happening in the picture.'
-      : 'What do you think will happen next in this situation?';
+    taskNumber === 3 ? TASK3_QUESTION : TASK4_QUESTION;
 
   const handleRandom = () => {
     if (isImageTask) {

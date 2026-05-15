@@ -9,7 +9,8 @@ export async function getSpeakingFeedback(
   questionText: string,
   audioBase64: string,
   mimeType: string,
-  imageBase64?: string
+  imageBase64?: string,
+  imageMimeType?: string
 ): Promise<SpeakingFeedback> {
   if (!settings.apiKey) {
     throw new Error('API key not configured. Please set your Google AI API key in Settings.');
@@ -100,7 +101,7 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
         { inlineData: { data: audioBase64, mimeType: mimeType } },
       ];
       if (imageBase64) {
-        parts.push({ inlineData: { data: imageBase64, mimeType: 'image/jpeg' } });
+        parts.push({ inlineData: { data: imageBase64, mimeType: imageMimeType || 'image/jpeg' } });
       }
       const result = await model.generateContent(parts);
       const response = result.response;

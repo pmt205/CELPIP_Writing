@@ -47,16 +47,19 @@ export const sceneImages: string[] = [
   '/speaking-images/task3_scene_023.jpeg',
 ];
 
+export const TASK3_QUESTION = 'Describe what is happening in the picture.';
+export const TASK4_QUESTION = 'What do you think will happen next in this situation?';
+
 export function getRandomImage(): string {
   return sceneImages[Math.floor(Math.random() * sceneImages.length)];
 }
 
 export function getRandomQuestion(taskNumber: number): string {
   if (taskNumber === 3) {
-    return 'Describe what is happening in the picture.';
+    return TASK3_QUESTION;
   }
   if (taskNumber === 4) {
-    return 'What do you think will happen next in this situation?';
+    return TASK4_QUESTION;
   }
   const task = tasks.find((t) => t.task === taskNumber);
   if (!task || task.questions.length === 0) {

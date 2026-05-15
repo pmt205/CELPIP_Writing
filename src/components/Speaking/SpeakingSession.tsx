@@ -171,14 +171,17 @@ export default function SpeakingSession() {
 
       // For tasks 3/4, fetch the image and convert to base64 for multimodal analysis
       let imageBase64: string | undefined;
+      let imageMimeType: string | undefined;
       if (selectedImage && (selectedTaskNumber === 3 || selectedTaskNumber === 4)) {
         try {
           const imgResponse = await fetch(selectedImage);
           const imgBlob = await imgResponse.blob();
           const imgBase64 = await blobToBase64(imgBlob);
           imageBase64 = imgBase64;
-        } catch {
+          imageMimeType = imgBlob.type || 'image/jpeg';
+        } catch (imgErr) {
           // Image fetch failed - continue without image context
+          console.warn('Failed to fetch scene image for AI analysis. Feedback may be less accurate.', imgErr);
         }
       }
 
@@ -189,7 +192,8 @@ export default function SpeakingSession() {
         questionText,
         base64,
         mimeType,
-        imageBase64
+        imageBase64,
+        imageMimeType
       );
 
       setFeedback(result);
@@ -300,12 +304,6 @@ export default function SpeakingSession() {
               {questionText}
             </p>
           </div>
-          {/* Scene image during recording */}
-          {selectedImage && (
-            <div className="mb-4 flex justify-center">
-              <img src={selectedImage} alt="Scene" className="rounded-lg border border-gray-200 dark:border-gray-700 max-h-[200px] object-cover" />
-            </div>
-          )}
           <AudioRecorder
             isRecording={isRecording}
             timeRemaining={timeRemaining}
