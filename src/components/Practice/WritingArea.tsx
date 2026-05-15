@@ -24,6 +24,13 @@ export default function WritingArea() {
   const status = getWordCountStatus(wordCount, taskType);
   const range = getRecommendedRange(taskType);
 
+  // Clear auto-save when session is submitted (prevents stale draft restore on next session)
+  useEffect(() => {
+    if (isSubmitted) {
+      saveToStorage(AUTO_SAVE_KEY, null);
+    }
+  }, [isSubmitted]);
+
   // Restore draft from localStorage on mount
   useEffect(() => {
     if (restoredRef.current) return;
