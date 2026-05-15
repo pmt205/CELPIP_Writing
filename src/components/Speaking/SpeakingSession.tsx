@@ -73,12 +73,22 @@ export default function SpeakingSession() {
       setSelectedImage(null);
     }
 
+    setNotes('');
     setState('preparing');
   };
 
   const handleChoose = (taskNumber: number) => {
     setChooserTask(taskNumber);
     setShowChooser(true);
+  };
+
+  const handleChooseOther = () => {
+    setChooserTask(selectedTaskNumber);
+    setShowChooser(true);
+  };
+
+  const handleRandomDifferent = () => {
+    handleTaskSelect(selectedTaskNumber);
   };
 
   const handleQuestionSelect = (taskNum: number, question: string, imagePath?: string) => {
@@ -93,6 +103,7 @@ export default function SpeakingSession() {
     setSelectedImage(imagePath || null);
     setShowChooser(false);
     setChooserTask(null);
+    setNotes('');
     setState('preparing');
   };
 
@@ -281,16 +292,49 @@ export default function SpeakingSession() {
       {state === 'selecting' && <SpeakingTaskSelector onTaskSelect={handleTaskSelect} onChoose={handleChoose} />}
 
       {state === 'preparing' && (
-        <PrepTimer
-          prepSeconds={prepTime}
-          taskName={taskName}
-          taskNumber={selectedTaskNumber}
-          questionText={questionText}
-          onComplete={handlePrepComplete}
-          notes={notes}
-          onNotesChange={setNotes}
-          imageSrc={selectedImage || undefined}
-        />
+        <div>
+          <PrepTimer
+            prepSeconds={prepTime}
+            taskName={taskName}
+            taskNumber={selectedTaskNumber}
+            questionText={questionText}
+            onComplete={handlePrepComplete}
+            notes={notes}
+            onNotesChange={setNotes}
+            imageSrc={selectedImage || undefined}
+          />
+          {/* Navigation buttons */}
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+            <button
+              onClick={handleReset}
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
+              </svg>
+              Back to Tasks
+            </button>
+            <button
+              onClick={handleChooseOther}
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1.5" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
+              </svg>
+              Choose Other Question
+            </button>
+            <button
+              onClick={handleRandomDifferent}
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clipRule="evenodd" />
+              </svg>
+              Random Different Question
+            </button>
+          </div>
+        </div>
       )}
 
       {state === 'recording' && (
@@ -312,6 +356,18 @@ export default function SpeakingSession() {
             notes={notes}
             imageSrc={selectedImage || undefined}
           />
+          {/* Navigation buttons */}
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+            <button
+              onClick={handleReset}
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:ring-offset-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
+              </svg>
+              Back to Tasks
+            </button>
+          </div>
         </div>
       )}
 
