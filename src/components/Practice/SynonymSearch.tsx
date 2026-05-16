@@ -150,7 +150,7 @@ export default function SynonymSearch() {
         <button
           onClick={handleSearch}
           disabled={loading || !query.trim()}
-          className="px-3 py-1 text-sm font-medium bg-celpip-accent text-white rounded hover:bg-celpip-accent/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          className="px-2 sm:px-3 py-1 text-sm font-medium bg-celpip-accent text-white rounded hover:bg-celpip-accent/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex-shrink-0"
         >
           {loading ? (
             <svg
@@ -181,7 +181,8 @@ export default function SynonymSearch() {
           <button
             onClick={handleAISearch}
             disabled={aiLoading || !query.trim()}
-            className="px-3 py-1 text-sm font-medium bg-emerald-600 text-white rounded hover:bg-emerald-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center gap-1"
+            title="AI Suggest"
+            className="px-2 sm:px-3 py-1 text-sm font-medium bg-emerald-600 text-white rounded hover:bg-emerald-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center gap-1 flex-shrink-0"
           >
             {aiLoading ? (
               <svg
@@ -206,7 +207,7 @@ export default function SynonymSearch() {
               </svg>
             ) : (
               <>
-                <span>&#10024;</span> AI Suggest
+                <span>&#10024;</span><span className="hidden sm:inline"> AI Suggest</span>
               </>
             )}
           </button>
