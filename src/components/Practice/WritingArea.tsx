@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useAppStore } from '../../store/useAppStore';
 import { countWords, getWordCountStatus, getRecommendedRange } from '../../utils/wordCount';
 import { saveToStorage, loadFromStorage } from '../../utils/localStorage';
+import SynonymSearch from './SynonymSearch';
 
 const AUTO_SAVE_KEY = 'celpip-writing-autosave';
 
@@ -112,6 +113,7 @@ export default function WritingArea() {
           </div>
         </div>
       )}
+      {!isSubmitted && <SynonymSearch />}
       <textarea
         value={writingText}
         onChange={(e) => updateText(e.target.value)}
