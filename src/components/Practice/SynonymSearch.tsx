@@ -64,13 +64,9 @@ export default function SynonymSearch() {
 
     try {
       const genAI = new GoogleGenerativeAI(settings.apiKey);
-      // Always use gemini-2.5-flash for synonyms (lightweight task, reliable JSON output)
-      // Gemma models struggle with strict JSON-only responses
-      const modelName = settings.model.startsWith('gemma')
-        ? 'gemini-2.5-flash'
-        : (settings.model || 'gemini-2.5-flash');
+      // Always use gemini-3.1-flash-lite for synonyms (lightweight task, generous rate limits: 15 RPM, 500 RPD)
       const model = genAI.getGenerativeModel({
-        model: modelName,
+        model: 'gemini-3.1-flash-lite',
         generationConfig: { temperature: 0.3 },
       });
 
