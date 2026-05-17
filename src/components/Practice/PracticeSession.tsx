@@ -5,6 +5,7 @@ import Timer from './Timer';
 import QuestionDisplay from './QuestionDisplay';
 import WritingArea from './WritingArea';
 import InstructionsPanel from '../Instructions/InstructionsPanel';
+import CustomNote from './CustomNote';
 import questions from '../../data/questions.json';
 import { parseCustomQuestion } from '../../utils/parseCustomQuestion';
 import type { Task1Question, Task2Question } from '../../types';
@@ -110,6 +111,11 @@ export default function PracticeSession() {
         {/* Writing area - 60% on desktop */}
         <div className="w-full lg:w-3/5 flex flex-col">
           <WritingArea />
+
+          {/* Custom Note */}
+          <div className="mt-4">
+            <CustomNote />
+          </div>
 
           {/* Action Buttons */}
           {!isSubmitted && (
