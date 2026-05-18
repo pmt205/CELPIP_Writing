@@ -112,7 +112,7 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
         throw new Error('No JSON found in AI response');
       }
 
-      const parsed = JSON.parse(jsonMatch[0]) as {
+      let parsed: {
         transcript: string;
         overallScore: number;
         categories: { name: string; score: number; feedback: string }[];
@@ -121,6 +121,23 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
         errorHighlights?: { original: string; correction: string; type: string; explanation: string }[];
         polishedVersion?: string;
       };
+      try {
+        parsed = JSON.parse(jsonMatch[0]);
+      } catch (parseError) {
+        // Attempt to repair common JSON issues (unescaped control characters)
+        let repaired = jsonMatch[0];
+        repaired = repaired.replace(/[\x00-\x1F\x7F]/g, (ch) => {
+          if (ch === '\n') return '\\n';
+          if (ch === '\r') return '\\r';
+          if (ch === '\t') return '\\t';
+          return '';
+        });
+        try {
+          parsed = JSON.parse(repaired);
+        } catch {
+          throw new Error(`Invalid JSON in AI response: ${(parseError as Error).message}`);
+        }
+      }
 
       // Validate overallScore
       if (typeof parsed.overallScore !== 'number' || parsed.overallScore < 1 || parsed.overallScore > 12) {
@@ -180,7 +197,8 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
         errorMsg.includes('503') ||
         errorMsg.includes('internal') ||
         errorMsg.includes('unavailable') ||
-        errorMsg.includes('overloaded');
+        errorMsg.includes('overloaded') ||
+        errorMsg.includes('json');
 
       if (!isRetryable || attempt === MAX_RETRIES) {
         break;

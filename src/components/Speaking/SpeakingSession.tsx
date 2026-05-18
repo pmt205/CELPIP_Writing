@@ -57,7 +57,7 @@ export default function SpeakingSession() {
     };
   }, [cleanupIntervals]);
 
-  const handleTaskSelect = (taskNumber: number) => {
+  const handleTaskSelect = async (taskNumber: number) => {
     const task = speakingTasks.find((t) => t.task === taskNumber);
     if (!task) return;
 
@@ -77,6 +77,18 @@ export default function SpeakingSession() {
 
     setNotes('');
     setState('preparing');
+
+    // Pre-authorize microphone during prep phase
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      // Stop the stream immediately - we just want the permission grant
+      stream.getTracks().forEach(track => track.stop());
+    } catch (err) {
+      // If permission denied during prep, show error early
+      setError(err instanceof Error ? `Microphone access denied: ${err.message}` : 'Microphone permission required for speaking practice.');
+      setState('selecting');
+      return;
+    }
   };
 
   const handleChoose = (taskNumber: number) => {
@@ -93,7 +105,7 @@ export default function SpeakingSession() {
     handleTaskSelect(selectedTaskNumber);
   };
 
-  const handleQuestionSelect = (taskNum: number, question: string, imagePath?: string) => {
+  const handleQuestionSelect = async (taskNum: number, question: string, imagePath?: string) => {
     const task = speakingTasks.find((t) => t.task === taskNum);
     if (!task) return;
 
@@ -108,6 +120,18 @@ export default function SpeakingSession() {
     setChooserTask(null);
     setNotes('');
     setState('preparing');
+
+    // Pre-authorize microphone during prep phase
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      // Stop the stream immediately - we just want the permission grant
+      stream.getTracks().forEach(track => track.stop());
+    } catch (err) {
+      // If permission denied during prep, show error early
+      setError(err instanceof Error ? `Microphone access denied: ${err.message}` : 'Microphone permission required for speaking practice.');
+      setState('selecting');
+      return;
+    }
   };
 
   const handlePrepComplete = useCallback(() => {
