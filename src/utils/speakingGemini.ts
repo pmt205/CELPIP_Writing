@@ -18,7 +18,7 @@ export async function getSpeakingFeedback(
 
   const genAI = new GoogleGenerativeAI(settings.apiKey);
   const model = genAI.getGenerativeModel({
-    model: settings.speakingModel,
+    model: settings.speakingModel || 'gemini-2.5-flash',
     generationConfig: {
       temperature: settings.temperature,
       maxOutputTokens: Math.max(settings.maxTokens, 4096),
