@@ -38,6 +38,7 @@ export default function SpeakingSession() {
   const timerIntervalRef = useRef<number | null>(null);
   const levelIntervalRef = useRef<number | null>(null);
   const stoppingRef = useRef<boolean>(false);
+  const speakingTimeRef = useRef<number>(0);
 
   const cleanupIntervals = useCallback(() => {
     if (timerIntervalRef.current !== null) {
@@ -56,6 +57,11 @@ export default function SpeakingSession() {
       cleanupIntervals();
     };
   }, [cleanupIntervals]);
+
+  // Keep speakingTimeRef in sync with state
+  useEffect(() => {
+    speakingTimeRef.current = speakingTime;
+  }, [speakingTime]);
 
   const handleTaskSelect = async (taskNumber: number) => {
     const task = speakingTasks.find((t) => t.task === taskNumber);
@@ -146,7 +152,8 @@ export default function SpeakingSession() {
       await recorder.startRecording();
       setIsRecording(true);
       setStartTime(Date.now());
-      setTimeRemaining(speakingTime);
+      const duration = speakingTimeRef.current;
+      setTimeRemaining(duration);
 
       // Countdown timer
       timerIntervalRef.current = window.setInterval(() => {
