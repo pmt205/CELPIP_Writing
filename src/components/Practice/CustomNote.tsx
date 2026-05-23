@@ -1,29 +1,40 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { saveToStorage, loadFromStorage, clearStorage } from '../../utils/localStorage';
 
-const NOTE_KEY = 'celpip-custom-note';
-const EXPANDED_KEY = 'celpip-custom-note-expanded';
+interface CustomNoteProps {
+  taskType?: 'task1' | 'task2';
+}
 
-export default function CustomNote() {
-  const [note, setNote] = useState<string>(() => loadFromStorage<string>(NOTE_KEY, ''));
-  const [isExpanded, setIsExpanded] = useState<boolean>(() => loadFromStorage<boolean>(EXPANDED_KEY, false));
+export default function CustomNote({ taskType = 'task1' }: CustomNoteProps) {
+  const noteKey = `celpip-custom-note-${taskType}`;
+  const expandedKey = `celpip-custom-note-expanded-${taskType}`;
+
+  const [note, setNote] = useState<string>(() => loadFromStorage<string>(noteKey, ''));
+  const [isExpanded, setIsExpanded] = useState<boolean>(() => loadFromStorage<boolean>(expandedKey, false));
   const [showConfirm, setShowConfirm] = useState(false);
+
+  // Re-load note when taskType changes
+  useEffect(() => {
+    setNote(loadFromStorage<string>(noteKey, ''));
+    setIsExpanded(loadFromStorage<boolean>(expandedKey, false));
+    setShowConfirm(false);
+  }, [taskType, noteKey, expandedKey]);
 
   const handleNoteChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const value = e.target.value;
     setNote(value);
-    saveToStorage(NOTE_KEY, value);
+    saveToStorage(noteKey, value);
   };
 
   const toggleExpanded = () => {
     const newExpanded = !isExpanded;
     setIsExpanded(newExpanded);
-    saveToStorage(EXPANDED_KEY, newExpanded);
+    saveToStorage(expandedKey, newExpanded);
   };
 
   const handleClear = () => {
     setNote('');
-    clearStorage(NOTE_KEY);
+    clearStorage(noteKey);
     setShowConfirm(false);
   };
 
@@ -36,7 +47,7 @@ export default function CustomNote() {
       >
         <span className="flex items-center gap-2 text-sm font-medium text-purple-800 dark:text-purple-200">
           <span>📝</span>
-          <span>Custom Note</span>
+          <span>Custom Note - {taskType === 'task1' ? 'Task 1' : 'Task 2'}</span>
         </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

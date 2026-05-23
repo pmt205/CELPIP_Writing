@@ -114,7 +114,7 @@ export default function PracticeSession() {
 
           {/* Custom Note */}
           <div className="mt-4">
-            <CustomNote />
+            <CustomNote taskType={currentTask || 'task1'} />
           </div>
 
           {/* Action Buttons */}
