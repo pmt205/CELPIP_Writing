@@ -7,14 +7,12 @@ export async function getAIFeedback(
   question: Task1Question | Task2Question,
   writingText: string
 ): Promise<AIFeedback> {
-  const genAI = new GoogleGenerativeAI(settings.apiKey);
-  const model = genAI.getGenerativeModel({
-    model: settings.model,
-    generationConfig: {
-      temperature: settings.temperature,
-      maxOutputTokens: Math.max(settings.maxTokens, 4096),
-    },
-  });
+  // Build array of all API keys (primary + extras)
+  const apiKeys = [settings.apiKey, ...(settings.extraApiKeys || [])].filter(Boolean);
+
+  if (apiKeys.length === 0) {
+    throw new Error('API key not configured. Please set your Google AI API key in Settings.');
+  }
 
   const taskDescription =
     question.type === 'task1'
@@ -86,88 +84,119 @@ Respond ONLY with valid JSON in the following format (no markdown, no explanatio
   "polishedVersion": "<A full rewrite of the student's response demonstrating level 10+ writing. Wrap key improvements in **bold** markdown to highlight what was changed and why it is better.>"
 }`;
 
-  // Retry up to 3 times for transient server errors (500, 503)
+  // Try each API key with retries, moving to the next key on rate-limit/quota errors
   const MAX_RETRIES = 3;
   let lastError: Error | null = null;
 
-  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    try {
-      const result = await model.generateContent(prompt);
-      const response = result.response;
-      const text = response.text();
+  for (const currentApiKey of apiKeys) {
+    const genAI = new GoogleGenerativeAI(currentApiKey);
+    const model = genAI.getGenerativeModel({
+      model: settings.model,
+      generationConfig: {
+        temperature: settings.temperature,
+        maxOutputTokens: Math.max(settings.maxTokens, 4096),
+      },
+    });
 
-      const jsonMatch = text.match(/\{[\s\S]*\}/);
-      if (!jsonMatch) {
-        throw new Error('No JSON found in AI response');
-      }
+    let keyRateLimited = false;
 
-      const parsed = JSON.parse(jsonMatch[0]) as {
-        overallScore: number;
-        categories: { name: string; score: number; feedback: string }[];
-        suggestions: string[];
-        overallFeedback?: string;
-        errorHighlights?: { original: string; correction: string; type: string; explanation: string }[];
-        polishedVersion?: string;
-      };
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+      try {
+        const result = await model.generateContent(prompt);
+        const response = result.response;
+        const text = response.text();
 
-      // Validate overallScore
-      if (typeof parsed.overallScore !== 'number' || parsed.overallScore < 1 || parsed.overallScore > 12) {
-        throw new Error(
-          `Invalid overallScore: expected a number between 1 and 12, got ${JSON.stringify(parsed.overallScore)}`
-        );
-      }
+        const jsonMatch = text.match(/\{[\s\S]*\}/);
+        if (!jsonMatch) {
+          throw new Error('No JSON found in AI response');
+        }
 
-      // Validate categories
-      if (!Array.isArray(parsed.categories) || parsed.categories.length !== 4) {
-        throw new Error('Invalid categories: expected an array of exactly 4 categories');
-      }
+        const parsed = JSON.parse(jsonMatch[0]) as {
+          overallScore: number;
+          categories: { name: string; score: number; feedback: string }[];
+          suggestions: string[];
+          overallFeedback?: string;
+          errorHighlights?: { original: string; correction: string; type: string; explanation: string }[];
+          polishedVersion?: string;
+        };
 
-      const expectedCategories = ['Content/Coherence', 'Vocabulary', 'Readability', 'Task Fulfillment'];
-      for (const category of parsed.categories) {
-        if (typeof category.name !== 'string' || !expectedCategories.includes(category.name)) {
+        // Validate overallScore
+        if (typeof parsed.overallScore !== 'number' || parsed.overallScore < 1 || parsed.overallScore > 12) {
           throw new Error(
-            `Invalid category name: expected one of ${expectedCategories.join(', ')}, got ${JSON.stringify(category.name)}`
+            `Invalid overallScore: expected a number between 1 and 12, got ${JSON.stringify(parsed.overallScore)}`
           );
         }
-        if (typeof category.score !== 'number' || category.score < 1 || category.score > 12) {
-          throw new Error(
-            `Invalid category "${category.name}": "score" must be a number between 1 and 12, got ${JSON.stringify(category.score)}`
-          );
+
+        // Validate categories
+        if (!Array.isArray(parsed.categories) || parsed.categories.length !== 4) {
+          throw new Error('Invalid categories: expected an array of exactly 4 categories');
         }
-        if (typeof category.feedback !== 'string' || category.feedback.length === 0) {
-          throw new Error(
-            `Invalid category "${category.name}": "feedback" must be a non-empty string`
-          );
+
+        const expectedCategories = ['Content/Coherence', 'Vocabulary', 'Readability', 'Task Fulfillment'];
+        for (const category of parsed.categories) {
+          if (typeof category.name !== 'string' || !expectedCategories.includes(category.name)) {
+            throw new Error(
+              `Invalid category name: expected one of ${expectedCategories.join(', ')}, got ${JSON.stringify(category.name)}`
+            );
+          }
+          if (typeof category.score !== 'number' || category.score < 1 || category.score > 12) {
+            throw new Error(
+              `Invalid category "${category.name}": "score" must be a number between 1 and 12, got ${JSON.stringify(category.score)}`
+            );
+          }
+          if (typeof category.feedback !== 'string' || category.feedback.length === 0) {
+            throw new Error(
+              `Invalid category "${category.name}": "feedback" must be a non-empty string`
+            );
+          }
         }
+
+        return {
+          overallScore: parsed.overallScore,
+          categories: parsed.categories,
+          suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
+          rawResponse: text,
+          overallFeedback: typeof parsed.overallFeedback === 'string' ? parsed.overallFeedback : '',
+          errorHighlights: Array.isArray(parsed.errorHighlights)
+            ? parsed.errorHighlights.filter(e => typeof e.original === 'string' && e.original && typeof e.correction === 'string' && e.correction)
+            : [],
+          polishedVersion: typeof parsed.polishedVersion === 'string' ? parsed.polishedVersion : '',
+        };
+      } catch (error) {
+        lastError = error instanceof Error ? error : new Error(String(error));
+
+        const errorMsg = lastError.message.toLowerCase();
+        const isRateLimited =
+          errorMsg.includes('429') ||
+          errorMsg.includes('503') ||
+          errorMsg.includes('quota') ||
+          errorMsg.includes('rate limit') ||
+          errorMsg.includes('rate-limit') ||
+          errorMsg.includes('overloaded') ||
+          errorMsg.includes('unavailable');
+        const isRetryable = isRateLimited ||
+          errorMsg.includes('500') ||
+          errorMsg.includes('internal');
+
+        if (isRateLimited) {
+          // Key is rate-limited, try next key
+          keyRateLimited = true;
+          break;
+        }
+
+        if (!isRetryable || attempt === MAX_RETRIES) {
+          break;
+        }
+
+        // Wait before retrying (exponential backoff: 1s, 2s)
+        await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
       }
-
-      return {
-        overallScore: parsed.overallScore,
-        categories: parsed.categories,
-        suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
-        rawResponse: text,
-        overallFeedback: typeof parsed.overallFeedback === 'string' ? parsed.overallFeedback : '',
-        errorHighlights: Array.isArray(parsed.errorHighlights)
-          ? parsed.errorHighlights.filter(e => typeof e.original === 'string' && e.original && typeof e.correction === 'string' && e.correction)
-          : [],
-        polishedVersion: typeof parsed.polishedVersion === 'string' ? parsed.polishedVersion : '',
-      };
-    } catch (error) {
-      lastError = error instanceof Error ? error : new Error(String(error));
-
-      // Only retry on server errors (500, 503) or network issues
-      const errorMsg = lastError.message.toLowerCase();
-      const isRetryable = errorMsg.includes('500') || errorMsg.includes('503') ||
-        errorMsg.includes('internal') || errorMsg.includes('unavailable') ||
-        errorMsg.includes('overloaded');
-
-      if (!isRetryable || attempt === MAX_RETRIES) {
-        break;
-      }
-
-      // Wait before retrying (exponential backoff: 1s, 2s)
-      await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
     }
+
+    // If this key was rate-limited, try the next key
+    if (keyRateLimited) continue;
+    // Non-rate-limit error or success already returned, stop trying
+    break;
   }
 
   const errorMessage = lastError?.message || 'Unknown error';

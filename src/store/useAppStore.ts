@@ -6,6 +6,7 @@ const STORAGE_KEY = 'celpip-app-state';
 
 const defaultSettings: Settings = {
   apiKey: '',
+  extraApiKeys: [],
   model: 'gemini-2.5-flash',
   speakingModel: 'gemini-2.5-flash',
   temperature: 0.7,

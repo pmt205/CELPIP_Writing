@@ -6,6 +6,8 @@ export default function SettingsModal() {
   const setSettings = useAppStore((state) => state.setSettings);
 
   const [apiKey, setApiKey] = useState(settings.apiKey);
+  const [extraKeys, setExtraKeys] = useState<string[]>(settings.extraApiKeys || []);
+  const [newExtraKey, setNewExtraKey] = useState('');
   const [model, setModel] = useState(settings.model);
   const [speakingModel, setSpeakingModel] = useState(settings.speakingModel);
   const [temperature, setTemperature] = useState(settings.temperature);
@@ -16,6 +18,7 @@ export default function SettingsModal() {
 
   useEffect(() => {
     setApiKey(settings.apiKey);
+    setExtraKeys(settings.extraApiKeys || []);
     setModel(settings.model);
     setSpeakingModel(settings.speakingModel);
     setTemperature(settings.temperature);
@@ -26,6 +29,7 @@ export default function SettingsModal() {
   const handleSave = () => {
     setSettings({
       apiKey,
+      extraApiKeys: extraKeys,
       model,
       speakingModel,
       temperature,
@@ -86,6 +90,58 @@ export default function SettingsModal() {
         <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
           Get your API key from Google AI Studio (aistudio.google.com)
         </p>
+      </div>
+
+      {/* Additional API Keys */}
+      <div>
+        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+          Additional API Keys (fallback)
+        </label>
+        <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">
+          If the primary key hits rate limits, these keys will be tried in order.
+        </p>
+        {extraKeys.length > 0 && (
+          <div className="space-y-1 mb-2">
+            {extraKeys.map((key, index) => (
+              <div key={index} className="flex items-center space-x-2">
+                <span className="flex-1 px-3 py-1.5 text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded font-mono">
+                  {key.length > 8 ? `${key.slice(0, 4)}...${key.slice(-4)}` : '****'}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setExtraKeys(extraKeys.filter((_, i) => i !== index))}
+                  className="p-1 text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300 focus:outline-none"
+                  aria-label="Remove key"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+        <div className="flex items-center space-x-2">
+          <input
+            type="password"
+            value={newExtraKey}
+            onChange={(e) => setNewExtraKey(e.target.value)}
+            placeholder="Enter additional API key"
+            className="flex-1 px-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-celpip-accent focus:border-transparent"
+          />
+          <button
+            type="button"
+            onClick={() => {
+              if (newExtraKey.trim()) {
+                setExtraKeys([...extraKeys, newExtraKey.trim()]);
+                setNewExtraKey('');
+              }
+            }}
+            className="px-3 py-1.5 text-sm bg-celpip-blue hover:bg-celpip-lightblue text-white font-medium rounded-lg focus:outline-none focus:ring-2 focus:ring-celpip-accent"
+          >
+            +
+          </button>
+        </div>
       </div>
 
       {/* Model Selection */}

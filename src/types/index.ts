@@ -64,6 +64,7 @@ export interface PracticeHistory {
 
 export interface Settings {
   apiKey: string;
+  extraApiKeys: string[];
   model: string;
   speakingModel: string;
   temperature: number;
