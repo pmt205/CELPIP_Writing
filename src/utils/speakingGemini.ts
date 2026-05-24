@@ -17,13 +17,15 @@ export async function getSpeakingFeedback(
   }
 
   const genAI = new GoogleGenerativeAI(settings.apiKey);
-  const model = genAI.getGenerativeModel({
-    model: settings.speakingModel || 'gemini-2.5-flash',
-    generationConfig: {
-      temperature: settings.temperature,
-      maxOutputTokens: Math.max(settings.maxTokens, 4096),
-    },
-  });
+
+  // Fallback model chain: if primary model is overloaded, try alternatives
+  const primaryModel = settings.speakingModel || 'gemini-2.5-flash';
+  const fallbackModels = [
+    'gemini-2.5-flash',
+    'gemini-3-flash-preview',
+    'gemini-3.1-flash-lite',
+  ].filter((m) => m !== primaryModel);
+  const modelChain = [primaryModel, ...fallbackModels];
 
   const scoringRubric = generateSpeakingScoringRubricText();
 
@@ -89,124 +91,152 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
   "polishedVersion": "<A full ideal spoken response demonstrating level 10+ speaking. This should be what an ideal response to this question would sound like.>"
 }`;
 
-  // Retry up to 3 times for transient server errors (500, 503)
-  const MAX_RETRIES = 3;
+  // Try each model in the fallback chain, with retries per model
   let lastError: Error | null = null;
 
-  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    try {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const parts: any[] = [
-        { text: prompt },
-        { inlineData: { data: audioBase64, mimeType: mimeType } },
-      ];
-      if (imageBase64) {
-        parts.push({ inlineData: { data: imageBase64, mimeType: imageMimeType || 'image/jpeg' } });
-      }
-      const result = await model.generateContent(parts);
-      const response = result.response;
-      const text = response.text();
+  for (const modelName of modelChain) {
+    const model = genAI.getGenerativeModel({
+      model: modelName,
+      generationConfig: {
+        temperature: settings.temperature,
+        maxOutputTokens: Math.max(settings.maxTokens, 4096),
+      },
+    });
 
-      const jsonMatch = text.match(/\{[\s\S]*\}/);
-      if (!jsonMatch) {
-        throw new Error('No JSON found in AI response');
-      }
+    const MAX_RETRIES = 2;
+    let shouldTryNextModel = false;
 
-      let parsed: {
-        transcript: string;
-        overallScore: number;
-        categories: { name: string; score: number; feedback: string }[];
-        suggestions: string[];
-        overallFeedback?: string;
-        errorHighlights?: { original: string; correction: string; type: string; explanation: string }[];
-        polishedVersion?: string;
-      };
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
       try {
-        parsed = JSON.parse(jsonMatch[0]);
-      } catch (parseError) {
-        // Attempt to repair common JSON issues (unescaped control characters)
-        let repaired = jsonMatch[0];
-        repaired = repaired.replace(/[\x00-\x1F\x7F]/g, (ch) => {
-          if (ch === '\n') return '\\n';
-          if (ch === '\r') return '\\r';
-          if (ch === '\t') return '\\t';
-          return '';
-        });
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const parts: any[] = [
+          { text: prompt },
+          { inlineData: { data: audioBase64, mimeType: mimeType } },
+        ];
+        if (imageBase64) {
+          parts.push({ inlineData: { data: imageBase64, mimeType: imageMimeType || 'image/jpeg' } });
+        }
+        const result = await model.generateContent(parts);
+        const response = result.response;
+        const text = response.text();
+
+        const jsonMatch = text.match(/\{[\s\S]*\}/);
+        if (!jsonMatch) {
+          throw new Error('No JSON found in AI response');
+        }
+
+        let parsed: {
+          transcript: string;
+          overallScore: number;
+          categories: { name: string; score: number; feedback: string }[];
+          suggestions: string[];
+          overallFeedback?: string;
+          errorHighlights?: { original: string; correction: string; type: string; explanation: string }[];
+          polishedVersion?: string;
+        };
         try {
-          parsed = JSON.parse(repaired);
-        } catch {
-          throw new Error(`Invalid JSON in AI response: ${(parseError as Error).message}`);
+          parsed = JSON.parse(jsonMatch[0]);
+        } catch (parseError) {
+          // Attempt to repair common JSON issues (unescaped control characters)
+          let repaired = jsonMatch[0];
+          repaired = repaired.replace(/[\x00-\x1F\x7F]/g, (ch) => {
+            if (ch === '\n') return '\\n';
+            if (ch === '\r') return '\\r';
+            if (ch === '\t') return '\\t';
+            return '';
+          });
+          try {
+            parsed = JSON.parse(repaired);
+          } catch {
+            throw new Error(`Invalid JSON in AI response: ${(parseError as Error).message}`);
+          }
         }
-      }
 
-      // Validate overallScore
-      if (typeof parsed.overallScore !== 'number' || parsed.overallScore < 1 || parsed.overallScore > 12) {
-        throw new Error(
-          `Invalid overallScore: expected a number between 1 and 12, got ${JSON.stringify(parsed.overallScore)}`
-        );
-      }
-
-      // Validate categories
-      if (!Array.isArray(parsed.categories) || parsed.categories.length !== 4) {
-        throw new Error('Invalid categories: expected an array of exactly 4 categories');
-      }
-
-      const expectedCategories = ['Content/Coherence', 'Vocabulary', 'Listenability', 'Task Fulfillment'];
-      for (const category of parsed.categories) {
-        if (typeof category.name !== 'string' || !expectedCategories.includes(category.name)) {
+        // Validate overallScore
+        if (typeof parsed.overallScore !== 'number' || parsed.overallScore < 1 || parsed.overallScore > 12) {
           throw new Error(
-            `Invalid category name: expected one of ${expectedCategories.join(', ')}, got ${JSON.stringify(category.name)}`
+            `Invalid overallScore: expected a number between 1 and 12, got ${JSON.stringify(parsed.overallScore)}`
           );
         }
-        if (typeof category.score !== 'number' || category.score < 1 || category.score > 12) {
-          throw new Error(
-            `Invalid category "${category.name}": "score" must be a number between 1 and 12, got ${JSON.stringify(category.score)}`
-          );
+
+        // Validate categories
+        if (!Array.isArray(parsed.categories) || parsed.categories.length !== 4) {
+          throw new Error('Invalid categories: expected an array of exactly 4 categories');
         }
-        if (typeof category.feedback !== 'string' || category.feedback.length === 0) {
-          throw new Error(
-            `Invalid category "${category.name}": "feedback" must be a non-empty string`
-          );
+
+        const expectedCategories = ['Content/Coherence', 'Vocabulary', 'Listenability', 'Task Fulfillment'];
+        for (const category of parsed.categories) {
+          if (typeof category.name !== 'string' || !expectedCategories.includes(category.name)) {
+            throw new Error(
+              `Invalid category name: expected one of ${expectedCategories.join(', ')}, got ${JSON.stringify(category.name)}`
+            );
+          }
+          if (typeof category.score !== 'number' || category.score < 1 || category.score > 12) {
+            throw new Error(
+              `Invalid category "${category.name}": "score" must be a number between 1 and 12, got ${JSON.stringify(category.score)}`
+            );
+          }
+          if (typeof category.feedback !== 'string' || category.feedback.length === 0) {
+            throw new Error(
+              `Invalid category "${category.name}": "feedback" must be a non-empty string`
+            );
+          }
         }
+
+        // Validate transcript
+        const transcript = typeof parsed.transcript === 'string' ? parsed.transcript : '';
+
+        return {
+          overallScore: parsed.overallScore,
+          categories: parsed.categories,
+          suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
+          overallFeedback: typeof parsed.overallFeedback === 'string' ? parsed.overallFeedback : '',
+          transcript: transcript,
+          errorHighlights: Array.isArray(parsed.errorHighlights)
+            ? parsed.errorHighlights.filter(
+                (e) => typeof e.original === 'string' && e.original && typeof e.correction === 'string' && e.correction
+              )
+            : [],
+          polishedVersion: typeof parsed.polishedVersion === 'string' ? parsed.polishedVersion : '',
+          rawResponse: text,
+        };
+      } catch (error) {
+        lastError = error instanceof Error ? error : new Error(String(error));
+
+        const errorMsg = lastError.message.toLowerCase();
+        const isHighDemand =
+          errorMsg.includes('503') ||
+          errorMsg.includes('overloaded') ||
+          errorMsg.includes('high demand') ||
+          errorMsg.includes('unavailable');
+        const isRetryable =
+          isHighDemand ||
+          errorMsg.includes('500') ||
+          errorMsg.includes('internal') ||
+          errorMsg.includes('json');
+
+        if (isHighDemand) {
+          // Model is overloaded - try next model in chain
+          shouldTryNextModel = true;
+          break;
+        }
+
+        if (!isRetryable || attempt === MAX_RETRIES) {
+          break;
+        }
+
+        // Wait before retrying same model (exponential backoff: 1s, 2s)
+        await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
       }
-
-      // Validate transcript
-      const transcript = typeof parsed.transcript === 'string' ? parsed.transcript : '';
-
-      return {
-        overallScore: parsed.overallScore,
-        categories: parsed.categories,
-        suggestions: Array.isArray(parsed.suggestions) ? parsed.suggestions : [],
-        overallFeedback: typeof parsed.overallFeedback === 'string' ? parsed.overallFeedback : '',
-        transcript: transcript,
-        errorHighlights: Array.isArray(parsed.errorHighlights)
-          ? parsed.errorHighlights.filter(
-              (e) => typeof e.original === 'string' && e.original && typeof e.correction === 'string' && e.correction
-            )
-          : [],
-        polishedVersion: typeof parsed.polishedVersion === 'string' ? parsed.polishedVersion : '',
-        rawResponse: text,
-      };
-    } catch (error) {
-      lastError = error instanceof Error ? error : new Error(String(error));
-
-      // Only retry on server errors (500, 503) or network issues
-      const errorMsg = lastError.message.toLowerCase();
-      const isRetryable =
-        errorMsg.includes('500') ||
-        errorMsg.includes('503') ||
-        errorMsg.includes('internal') ||
-        errorMsg.includes('unavailable') ||
-        errorMsg.includes('overloaded') ||
-        errorMsg.includes('json');
-
-      if (!isRetryable || attempt === MAX_RETRIES) {
-        break;
-      }
-
-      // Wait before retrying (exponential backoff: 1s, 2s)
-      await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
     }
+
+    if (!shouldTryNextModel) {
+      // Error was not a capacity issue, don't try other models
+      break;
+    }
+
+    // Brief delay before trying next model
+    await new Promise((resolve) => setTimeout(resolve, 500));
   }
 
   const errorMessage = lastError?.message || 'Unknown error';
