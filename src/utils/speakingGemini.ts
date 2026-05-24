@@ -120,9 +120,21 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
         const response = result.response;
         const text = response.text();
 
-        const jsonMatch = text.match(/\{[\s\S]*\}/);
-        if (!jsonMatch) {
-          throw new Error('No JSON found in AI response');
+        // Try multiple strategies to extract JSON from the response
+        let jsonMatch = text.match(/```json\s*([\s\S]*?)```/);
+        let jsonStr = jsonMatch ? jsonMatch[1].trim() : null;
+        if (!jsonStr) {
+          jsonMatch = text.match(/```\s*([\s\S]*?)```/);
+          jsonStr = jsonMatch ? jsonMatch[1].trim() : null;
+        }
+        if (!jsonStr) {
+          jsonMatch = text.match(/\{[\s\S]*\}/);
+          jsonStr = jsonMatch ? jsonMatch[0] : null;
+        }
+        if (!jsonStr) {
+          // If no JSON found at all, include snippet of response for debugging
+          const snippet = text.substring(0, 200).replace(/\n/g, ' ');
+          throw new Error(`No JSON found in AI response. Model returned: "${snippet}..."`);
         }
 
         let parsed: {
@@ -135,10 +147,10 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
           polishedVersion?: string;
         };
         try {
-          parsed = JSON.parse(jsonMatch[0]);
+          parsed = JSON.parse(jsonStr);
         } catch (parseError) {
           // Attempt to repair common JSON issues (unescaped control characters)
-          let repaired = jsonMatch[0];
+          let repaired = jsonStr;
           repaired = repaired.replace(/[\x00-\x1F\x7F]/g, (ch) => {
             if (ch === '\n') return '\\n';
             if (ch === '\r') return '\\r';
@@ -208,7 +220,8 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
           errorMsg.includes('503') ||
           errorMsg.includes('overloaded') ||
           errorMsg.includes('high demand') ||
-          errorMsg.includes('unavailable');
+          errorMsg.includes('unavailable') ||
+          errorMsg.includes('no json found');
         const isRetryable =
           isHighDemand ||
           errorMsg.includes('500') ||
