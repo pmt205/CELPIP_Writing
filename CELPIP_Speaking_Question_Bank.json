@@ -53,7 +53,7 @@
           ]
         },
         {
-          "question": "Your friend wants to buy a new car but isnât sure which type to choose. Give your friend some advice.",
+          "question": "Your friend wants to buy a new car but isn't sure which type to choose. Give your friend some advice.",
           "tips": [
             "Frame the advice around the situation, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
             "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
@@ -637,7 +637,7 @@
           ]
         },
         {
-          "question": "Your cousin has been invited to join some coworkers for dinner at a restaurant. Itâs the first time theyâre socializing outside of work, and your cousin is feeling a bit anxious about it. They want to make a good impression but donât know how to act before or during the dinner. Give your cousin advice on how to prepare for the evening, how to behave at the restaurant, and how to follow up after to leave a positive impression.",
+          "question": "Your cousin has been invited to join some coworkers for dinner at a restaurant. It's the first time they're socializing outside of work, and your cousin is feeling a bit anxious about it. They want to make a good impression but don't know how to act before or during the dinner. Give your cousin advice on how to prepare for the evening, how to behave at the restaurant, and how to follow up after to leave a positive impression.",
           "tips": [
             "Frame the advice around dinner at a restaurant, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
             "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
@@ -645,7 +645,7 @@
           ]
         },
         {
-          "question": "Your niece is about to go on a school trip, and theyâll be traveling by train. Itâs her first time taking a longer trip without any family members, and she feels both excited and a little unsure. She asked you for some tips. Give her advice on what to bring, how to stay safe and comfortable on the train, and how to make the most of the experience.",
+          "question": "Your niece is about to go on a school trip, and they'll be traveling by train. It's her first time taking a longer trip without any family members, and she feels both excited and a little unsure. She asked you for some tips. Give her advice on what to bring, how to stay safe and comfortable on the train, and how to make the most of the experience.",
           "tips": [
             "Frame the advice around to go on a school trip, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
             "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
@@ -653,7 +653,7 @@
           ]
         },
         {
-          "question": "Your friend is having a hard time focusing at work because one of their coworkers speaks very loudly in the office. Itâs starting to affect their concentration and stress levels. Theyâve asked you for advice on how to handle the situation politely and professionally. Give your friend suggestions on what they can do to deal with this problem at work.",
+          "question": "Your friend is having a hard time focusing at work because one of their coworkers speaks very loudly in the office. It's starting to affect their concentration and stress levels. They've asked you for advice on how to handle the situation politely and professionally. Give your friend suggestions on what they can do to deal with this problem at work.",
           "tips": [
             "Frame the advice around work because one of their coworkers, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
             "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
@@ -661,7 +661,7 @@
           ]
         },
         {
-          "question": "Your friend has recently joined a gym and wants to start using the treadmill and some fitness and health apps, but theyâre not sure how to begin. Theyâve asked you for advice on how to use these tools safely and effectively. Give them suggestions on how to get started, how to stay motivated, and how to use the treadmill and apps in a healthy way.",
+          "question": "Your friend has recently joined a gym and wants to start using the treadmill and some fitness and health apps, but they're not sure how to begin. They've asked you for advice on how to use these tools safely and effectively. Give them suggestions on how to get started, how to stay motivated, and how to use the treadmill and apps in a healthy way.",
           "tips": [
             "Frame the advice around advice on how to use these tools saf, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
             "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
@@ -1449,7 +1449,7 @@
           ]
         },
         {
-          "question": "You are moving to a new apartment across town next month and need to transport all of your furniture and belongings.\nYou found two suitable options. Choose the option that you prefer.\nIn the next section, you will need to persuade your friend that your choice is the better choice.\n\n1. Full-Service Moving Company\n- $850 for a full day\n- professional movers pack, load, and unload everything\n- includes insurance coverage for damaged items\n\n2. Rental Moving Truck\n- $200 for a full day plus the cost of gas\n- large truck that fits all furniture in one trip\n- you must load and unload everything yourself\n\nYour friend is suggesting another way to move your belongings. Persuade your friend that the option you chose is more suitable by comparing the two.\n\nYour Friend's Suggestion: Borrowing a Neighbour's Pickup Truck\n- free to use\n- small truck bed â would require at least six trips across town\n- no insurance for lost or damaged items\n- only available on a weekday when you would need to take time off work",
+          "question": "You are moving to a new apartment across town next month and need to transport all of your furniture and belongings.\nYou found two suitable options. Choose the option that you prefer.\nIn the next section, you will need to persuade your friend that your choice is the better choice.\n\n1. Full-Service Moving Company\n- $850 for a full day\n- professional movers pack, load, and unload everything\n- includes insurance coverage for damaged items\n\n2. Rental Moving Truck\n- $200 for a full day plus the cost of gas\n- large truck that fits all furniture in one trip\n- you must load and unload everything yourself\n\nYour friend is suggesting another way to move your belongings. Persuade your friend that the option you chose is more suitable by comparing the two.\n\nYour Friend's Suggestion: Borrowing a Neighbour's Pickup Truck\n- free to use\n- small truck bed ' would require at least six trips across town\n- no insurance for lost or damaged items\n- only available on a weekday when you would need to take time off work",
           "tips": [
             "State whether you prefer Full-Service Moving Company or Rental Moving Truck, then compare your choice with Borrowing a Neighbour's Pickup Truck using exact prices, time limits, capacity, or feature details.",
             "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
@@ -1457,7 +1457,7 @@
           ]
         },
         {
-          "question": "You work at a local grocery store and are responsible for selecting fruit baskets to feature in the front display. You have two options to choose from. Decide which one you prefer and in the next section, persuade your manager that your choice is the better option.\n\n1. Discounted Fruit Basket\n\\tâ¢\\tIncludes apples, bananas, and pears\n\\tâ¢\\tSome fruits are slightly overripe\n\\tâ¢\\tAttractively priced at a deep discount\n\\tâ¢\\tGreat for quick sale and reducing waste\n\n2. Standard Fruit Mix\n\\tâ¢\\tMixed imported fruits\n\\tâ¢\\tRegular pricing\n\\tâ¢\\tLong shelf life\n\\tâ¢\\tNo particular marketing appeal\n\nYour manager suggests another option. Persuade them that your choice is better by comparing it to their suggestion.\n\nManagerâs Choice: \nPremium Organic Basket\n\\tâ¢\\tIncludes seasonal, organic local produce\n\\tâ¢\\tFresh and visually appealing\n\\tâ¢\\tHigher price point\n\\tâ¢\\tAppeals to health-conscious customers",
+          "question": "You work at a local grocery store and are responsible for selecting fruit baskets to feature in the front display. You have two options to choose from. Decide which one you prefer and in the next section, persuade your manager that your choice is the better option.\n\n1. Discounted Fruit Basket\n\\t'¢\\tIncludes apples, bananas, and pears\n\\t'¢\\tSome fruits are slightly overripe\n\\t'¢\\tAttractively priced at a deep discount\n\\t'¢\\tGreat for quick sale and reducing waste\n\n2. Standard Fruit Mix\n\\t'¢\\tMixed imported fruits\n\\t'¢\\tRegular pricing\n\\t'¢\\tLong shelf life\n\\t'¢\\tNo particular marketing appeal\n\nYour manager suggests another option. Persuade them that your choice is better by comparing it to their suggestion.\n\nManager's Choice: \nPremium Organic Basket\n\\t'¢\\tIncludes seasonal, organic local produce\n\\t'¢\\tFresh and visually appealing\n\\t'¢\\tHigher price point\n\\t'¢\\tAppeals to health-conscious customers",
           "tips": [
             "State whether you prefer Discounted Fruit Basket or Standard Fruit Mix, then compare your choice with Premium Organic Basket using exact prices, time limits, capacity, or feature details.",
             "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
@@ -3499,9 +3499,9 @@
           ]
         },
         {
-          "question": "You are visiting a science museum and you come across an extraordinary exhibit â an indoor garden made entirely of mechanical metal flowers.\n\nYour friend Raj loves both art and engineering.\nCall Raj, describe in detail what the mechanical flower garden looks like, and ask him if he would like to visit the museum with you this weekend.",
+          "question": "You are visiting a science museum and you come across an extraordinary exhibit ' an indoor garden made entirely of mechanical metal flowers.\n\nYour friend Raj loves both art and engineering.\nCall Raj, describe in detail what the mechanical flower garden looks like, and ask him if he would like to visit the museum with you this weekend.",
           "tips": [
-            "Describe the exhibit â an indoor garden made entirely of mechanical metal flowers from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+            "Describe the exhibit ' an indoor garden made entirely of mechanical metal flowers from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
             "Explain why Raj would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
             "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
           ]
@@ -3627,9 +3627,9 @@
           ]
         },
         {
-          "question": "You are browsing a home dÃ©cor shop and you come across a very unusual item â a vintage suitcase that has been turned into a fish aquarium.\nYour friend Jake has a birthday coming up, and you think he would love this for his living room.\nCall Jake, describe the item in detail, and ask if he would like you to buy it as his birthday gift.",
+          "question": "You are browsing a home dÃ©cor shop and you come across a very unusual item ' a vintage suitcase that has been turned into a fish aquarium.\nYour friend Jake has a birthday coming up, and you think he would love this for his living room.\nCall Jake, describe the item in detail, and ask if he would like you to buy it as his birthday gift.",
           "tips": [
-            "Describe the item â a vintage suitcase that has been turned into a fish aquarium from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+            "Describe the item ' a vintage suitcase that has been turned into a fish aquarium from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
             "Explain why Jake would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
             "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
           ]

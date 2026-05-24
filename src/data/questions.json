@@ -665,7 +665,7 @@
       "id": "celpip_writing_task1_048",
       "type": "task1",
       "title": "Om Your Apartment",
-      "prompt": "One of your neighbors has complained to the building manager about the noise coming from your apartment. You want to explain the reason for the noise and offer a solution.\n\nWrite an email to your building manager. In your email, you should:\nExplain the reason for the noise\nApologize for any inconvenience\nDescribe what you will do to fix the situation\nWrite about 150â200 words.",
+      "prompt": "One of your neighbors has complained to the building manager about the noise coming from your apartment. You want to explain the reason for the noise and offer a solution.\n\nWrite an email to your building manager. In your email, you should:\nExplain the reason for the noise\nApologize for any inconvenience\nDescribe what you will do to fix the situation\nWrite about 150'200 words.",
       "situation": "One of your neighbors has complained to the building manager about the noise coming from your apartment. You want to explain the reason for the noise and offer a solution.",
       "bulletPoints": [],
       "tone": "formal",
@@ -1251,7 +1251,7 @@
       "id": "celpip_writing_task2_011",
       "type": "task2",
       "title": "Restaurant Reservation Policy",
-      "prompt": "Your favorite local restaurant is considering changing its reservation policy. Currently, they accept walk-ins and phone reservations. Due to recent issues with no-shows and last-minute cancellations, the restaurant is thinking about implementing a new policy. The management is surveying regular customers for their opinion.\n\nThe two options being considered are:\n\nâ¢ Option A: \nKeep the current system of free phone reservations and walk-ins, with no deposit required\n\nâ¢ Option B: \nImplement a new online-only reservation system that requires a $20 deposit per person, which would be deducted from the final bill or forfeited if the party doesn't show up or cancels less than 24 hours before the reservation\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.",
+      "prompt": "Your favorite local restaurant is considering changing its reservation policy. Currently, they accept walk-ins and phone reservations. Due to recent issues with no-shows and last-minute cancellations, the restaurant is thinking about implementing a new policy. The management is surveying regular customers for their opinion.\n\nThe two options being considered are:\n\n'¢ Option A: \nKeep the current system of free phone reservations and walk-ins, with no deposit required\n\n'¢ Option B: \nImplement a new online-only reservation system that requires a $20 deposit per person, which would be deducted from the final bill or forfeited if the party doesn't show up or cancels less than 24 hours before the reservation\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.",
       "topic": "Your favorite local restaurant is considering changing its reservation policy",
       "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.",
       "viewpoints": [
@@ -1359,7 +1359,7 @@
       "id": "celpip_writing_task2_020",
       "type": "task2",
       "title": "Recycling Reward Program",
-      "prompt": "Your city's waste management department is planning to introduce a new recycling incentive program. They are considering two different approaches to encourage residents to recycle more. \n\nâ¢ Option A involves providing monthly cash rewards based on the weight of recyclables collected from each household. \n\nâ¢ Option B suggests offering points that can be redeemed for free public transit passes, community center memberships, or local event tickets.\n\nThe department wants to know which option residents would prefer before implementing the program.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI prefer the direct cash rewards program.\n\nOption B:\nI prefer the points-based rewards system.",
+      "prompt": "Your city's waste management department is planning to introduce a new recycling incentive program. They are considering two different approaches to encourage residents to recycle more. \n\n'¢ Option A involves providing monthly cash rewards based on the weight of recyclables collected from each household. \n\n'¢ Option B suggests offering points that can be redeemed for free public transit passes, community center memberships, or local event tickets.\n\nThe department wants to know which option residents would prefer before implementing the program.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI prefer the direct cash rewards program.\n\nOption B:\nI prefer the points-based rewards system.",
       "topic": "Your city's waste management department is planning to introduce a new recycl...",
       "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.",
       "viewpoints": [
@@ -1719,12 +1719,12 @@
       "id": "celpip_writing_task2_050",
       "type": "task2",
       "title": "S To Better Serve",
-      "prompt": "Your local library is planning to make improvements to better serve the community. The management is considering two options:\n\nOption A: Add a new outdoor reading section.\nOption B: Upgrade the libraryâs computer systems.",
+      "prompt": "Your local library is planning to make improvements to better serve the community. The management is considering two options:\n\nOption A: Add a new outdoor reading section.\nOption B: Upgrade the library's computer systems.",
       "topic": "Your local library is planning to make improvements to better serve the commu...",
       "instructions": "",
       "viewpoints": [
         "Add a new outdoor reading section.",
-        "Upgrade the libraryâs computer systems."
+        "Upgrade the library's computer systems."
       ]
     },
     {
@@ -1923,9 +1923,9 @@
       "id": "celpip_writing_task2_067",
       "type": "task2",
       "title": "Extracurricular Class For Students",
-      "prompt": "The school is planning to introduce a new extracurricular class for students. They are considering two options: a dance class or a class in an uncommon sport such as golf.\n\nThe school board would like to know which activity students think would be more useful and enjoyable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.\n\nOption A:\nJoin a dance class.\n\nOption B:\nJoin an uncommon sport class like golf.",
+      "prompt": "The school is planning to introduce a new extracurricular class for students. They are considering two options: a dance class or a class in an uncommon sport such as golf.\n\nThe school board would like to know which activity students think would be more useful and enjoyable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150'200 words.\n\nOption A:\nJoin a dance class.\n\nOption B:\nJoin an uncommon sport class like golf.",
       "topic": "The school is planning to introduce a new extracurricular class for students",
-      "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.",
+      "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150'200 words.",
       "viewpoints": [
         "Join a dance class.",
         "Join an uncommon sport class like golf."
@@ -1983,9 +1983,9 @@
       "id": "celpip_writing_task2_072",
       "type": "task2",
       "title": "Y To Help Employees",
-      "prompt": "Management is planning an off-site activity to help employees relax and build stronger connections outside of the workplace. They have proposed two options: attending a cooking class together, or going to a live music event.\n\nThe HR department would like to know which activity employees think would be more enjoyable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.\n\nOption A:\nAttend a group cooking class.\n\nOption B:\nAttend a live music event together.",
+      "prompt": "Management is planning an off-site activity to help employees relax and build stronger connections outside of the workplace. They have proposed two options: attending a cooking class together, or going to a live music event.\n\nThe HR department would like to know which activity employees think would be more enjoyable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150'200 words.\n\nOption A:\nAttend a group cooking class.\n\nOption B:\nAttend a live music event together.",
       "topic": "Management is planning an off-site activity to help employees relax and build...",
-      "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.",
+      "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150'200 words.",
       "viewpoints": [
         "Attend a group cooking class.",
         "Attend a live music event together."
@@ -1995,9 +1995,9 @@
       "id": "celpip_writing_task2_073",
       "type": "task2",
       "title": "R Waste",
-      "prompt": "Your company is considering ways to reduce paper waste. Two approaches have been suggested. One is to start a paper recycling program within the office. The other is to encourage employees to reduce paper usage by setting stricter limits.\n\nThe management team is seeking employee opinions to decide which approach would work better.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.\n\nOption A:\nImplement an office paper recycling program.\n\nOption B:\nIntroduce restrictions to limit paper use.",
+      "prompt": "Your company is considering ways to reduce paper waste. Two approaches have been suggested. One is to start a paper recycling program within the office. The other is to encourage employees to reduce paper usage by setting stricter limits.\n\nThe management team is seeking employee opinions to decide which approach would work better.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150'200 words.\n\nOption A:\nImplement an office paper recycling program.\n\nOption B:\nIntroduce restrictions to limit paper use.",
       "topic": "Your company is considering ways to reduce paper waste",
-      "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.",
+      "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150'200 words.",
       "viewpoints": [
         "Implement an office paper recycling program.",
         "Introduce restrictions to limit paper use."
@@ -2007,9 +2007,9 @@
       "id": "celpip_writing_task2_074",
       "type": "task2",
       "title": "Und Music To Create",
-      "prompt": "Your workplace is considering introducing background music to create a more pleasant environment. Management is surveying to determine whether employees would prefer music to be played on the radio throughout the day or if the office should remain quiet.\n\nThe HR department is asking for employee input to decide which option would be more suitable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.\n\nOption A:\nPlay music on the radio during work hours.\n\nOption B:\nKeep the office environment quiet.",
+      "prompt": "Your workplace is considering introducing background music to create a more pleasant environment. Management is surveying to determine whether employees would prefer music to be played on the radio throughout the day or if the office should remain quiet.\n\nThe HR department is asking for employee input to decide which option would be more suitable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150'200 words.\n\nOption A:\nPlay music on the radio during work hours.\n\nOption B:\nKeep the office environment quiet.",
       "topic": "Your workplace is considering introducing background music to create a more p...",
-      "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.",
+      "instructions": "Choose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150'200 words.",
       "viewpoints": [
         "Play music on the radio during work hours.",
         "Keep the office environment quiet."
