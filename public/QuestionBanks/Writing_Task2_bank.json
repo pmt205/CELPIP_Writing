@@ -1,0 +1,298 @@
+[
+  {
+    "title": "Food Delivery Policy",
+    "question": "Food Delivery Access Survey\n\nYour apartment building manager is surveying residents about the building's food delivery policy. Currently, food delivery drivers are allowed to enter the building and deliver orders directly to each apartment door. However, some residents have raised concerns about security and noise from frequent deliveries, especially in the evenings. They suggest that all food deliveries should be left at the front lobby desk instead. Other residents feel that door-to-door delivery is more convenient, especially for elderly tenants or those with young children. The building manager has asked all residents to complete a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nFood delivery drivers should leave all orders at the front lobby desk.\n\nOption B:\nFood delivery drivers should continue to deliver orders directly to apartment doors."
+  },
+  {
+    "title": "Laundry Upgrade Choice",
+    "question": "Your apartment building manager is surveying tenants about how to handle the building's laundry facilities. The current shared laundry room is outdated, and many machines are frequently broken. The building has enough budget for one of two options: either fully renovate the shared laundry room with brand-new, energy-efficient machines and a comfortable waiting area, or install washer-dryer hookups in each apartment so tenants can purchase and use their own machines. The manager has asked all tenants to complete a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI would prefer the building to renovate and upgrade the shared laundry room.\n\nOption B:\nI would prefer the building to install washer-dryer hookups in each apartment."
+  },
+  {
+    "title": "Community Hall Renovation",
+    "question": "Your local community centre is planning renovations to its main hall. Some residents would like the large hall to be divided into several smaller rooms that can be used for classes, meetings, and group activities at the same time. Others prefer to keep the hall as one large open space so it can host bigger community events such as holiday celebrations, concerts, and fundraisers. The community centre has asked all neighbourhood residents to complete a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI think the community centre should divide the hall into smaller rooms.\n\nOption B:\nI think the community centre should keep the hall as one large open space."
+  },
+  {
+    "title": "Court Upgrade Survey",
+    "question": "Tennis or Pickleball Courts\n\nYour city's recreation center is surveying residents about its outdoor court facilities. The center currently has four tennis courts that are old and in need of major repairs. Some residents have requested that the courts be converted into pickleball courts, as pickleball has become extremely popular in the community. However, other residents believe the tennis courts should simply be repaired, since many people still enjoy playing tennis regularly. The recreation center has asked all residents to complete an opinion survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI think the recreation center should repair and keep the tennis courts.\n\nOption B:\nI think the recreation center should replace the tennis courts with pickleball courts."
+  },
+  {
+    "title": "Rental Policy Survey",
+    "question": "Short-Term Rental Policy Survey\n\nYour condominium board is surveying residents about whether to allow short-term vacation rentals in the building. Some owners would like the option to rent out their units to visitors for a few days at a time using online platforms. However, other residents are concerned about noise, security, and the constant flow of strangers in the building. The condominium board has decided to ask all residents for their opinion before making a final decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nResidents should be allowed to offer short-term vacation rentals in the building.\n\nOption B:\nShort-term vacation rentals should not be allowed in the building."
+  },
+  {
+    "title": "Farmers Market Location",
+    "question": "Farmers' Market Location Survey\n\nYour local farmers' market currently operates outdoors from May to October each year. It is very popular, and many residents enjoy the open-air atmosphere and seasonal variety. The city has offered the market organizers a permanent indoor space so the market could stay open all year round. However, if the market moves indoors, it will no longer operate in its current outdoor location. The market organizers are surveying local residents before making a decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nThe farmers' market should move to a permanent indoor location and operate year-round.\n\nOption B:\nThe farmers' market should remain outdoors and operate only during the summer months."
+  },
+  {
+    "title": "Office Layout Choice",
+    "question": "Your company is relocating to a new office building next year. The office manager is asking all employees for their opinion on the layout of the new workspace. One option is an open-concept design with shared desks and collaborative spaces. The other option is a traditional layout with individual cubicles that give each employee a private workspace. Both options cost the same, and the manager wants to choose the layout that most employees prefer.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI would prefer an open-concept office layout with shared workspaces.\n\nOption B:\nI would prefer a traditional office layout with individual cubicles."
+  },
+  {
+    "title": "Mobile Health Service",
+    "question": "Your local health authority is considering introducing a mobile health van service to serve various neighborhoods in the city. The van would provide basic health services, vaccinations, and health screenings. They are conducting a survey to determine the most effective way to implement this service.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nThe mobile health van should operate on a fixed schedule, visiting specific neighborhoods on set days and times each week.\n\nOption B:\nThe mobile health van should operate on a request-based system, where neighborhoods can book the van's services based on community needs."
+  },
+  {
+    "title": "Seasonal Pool Hours",
+    "question": "Your community pool management is considering changes to their operating hours during different seasons. Currently, the pool is open from 6 AM to 9 PM year-round. They are proposing to adjust the hours based on seasonal demand, with extended summer hours (5 AM to 10 PM) and reduced winter hours (7 AM to 8 PM). The management wants to know residents' opinions before making this change.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep the current fixed hours year-round (6 AM to 9 PM)\n\nOption B:\nImplement seasonal adjustments to pool hours (Summer: 5 AM - 10 PM, Winter: 7 AM - 8 PM)"
+  },
+  {
+    "title": "Food Donation Method",
+    "question": "Your local community center is planning to start a weekly food donation program. They are considering two different approaches to collect and distribute food donations to families in need. The center has sent out a survey to gather residents' opinions on the most effective method.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nA centralized collection point at the community center where donors can drop off food and recipients can pick up donations during specific hours\n\nOption B:\nA door-to-door collection and delivery service where volunteers collect donations from homes and deliver directly to recipient families"
+  },
+  {
+    "title": "Restaurant Reservation Policy",
+    "question": "Your favorite local restaurant is considering changing its reservation policy. Currently, they accept walk-ins and phone reservations. Due to recent issues with no-shows and last-minute cancellations, the restaurant is thinking about implementing a new policy. The management is surveying regular customers for their opinion.\n\nThe two options being considered are:\n\nâ¢ Option A: \nKeep the current system of free phone reservations and walk-ins, with no deposit required\n\nâ¢ Option B: \nImplement a new online-only reservation system that requires a $20 deposit per person, which would be deducted from the final bill or forfeited if the party doesn't show up or cancels less than 24 hours before the reservation\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words."
+  },
+  {
+    "title": "Street Light Colour",
+    "question": "Your city council is planning to replace all street lights in residential areas with new LED lights. They are considering two different color options: warm white lights (similar to traditional yellow lights) or cool white lights (brighter, more bluish). Some residents prefer warm lights because they create a cozy atmosphere and may be better for wildlife, while others prefer cool white lights for better visibility and safety. The council is surveying residents to help make this decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nInstall warm white (yellowish) LED street lights\n\nOption B:\nInstall cool white (bluish) LED street lights"
+  },
+  {
+    "title": "Shared Space Choice",
+    "question": "Your neighborhood community center is planning to renovate an unused space. The center's administration is considering creating a shared community kitchen where residents can cook together, host cooking classes, and prepare food for community events. However, some residents suggest converting the space into a multimedia room with computers, printers, and study areas instead. The administration is conducting a survey to gather residents' opinions.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI think the space should be converted into a shared community kitchen.\n\nOption B:\nI think the space should be converted into a multimedia room."
+  },
+  {
+    "title": "Campus Meal Plan",
+    "question": "The university residence where you live is considering changes to their meal plan system. Currently, students have a traditional cafeteria-style dining hall with set meal times. The housing administration is proposing a switch to a flexible point-based system where students can use their meal points at various campus food outlets at any time.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep the traditional cafeteria-style dining with set meal times\n\nOption B:\nSwitch to a flexible point-based system for campus food outlets"
+  },
+  {
+    "title": "Language Program Format",
+    "question": "Your local community center is planning to launch a language learning program to help newcomers learn English and French. They are considering two different approaches and want residents' opinions on which would be more beneficial for the community.\n\nThe first option is a traditional classroom-based program where learners attend scheduled classes with qualified instructors. The second option is an online platform that allows learners to study at their own pace with virtual tutors and interactive lessons.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nTraditional classroom-based language learning program\n\nOption B:\nOnline self-paced language learning platform"
+  },
+  {
+    "title": "Banking Service Model",
+    "question": "Your bank is planning to transition to a fully digital service model by reducing physical branch locations and expanding online/mobile banking services. They are considering keeping only one main branch open in the city center while closing all other locations. The bank wants to know customers' opinions before making this change.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep multiple physical bank branches open across the city\n\nOption B:\nSwitch to primarily digital banking with only one main branch"
+  },
+  {
+    "title": "Checkout System Choice",
+    "question": "Your local grocery store is planning to modernize its checkout system. The store manager is considering replacing most traditional cashier lanes with self-checkout stations. While this would reduce wait times during peak hours, some customers prefer human interaction. The store wants to gather customer opinions before making this change.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nInstall more self-checkout stations and reduce cashier lanes\n\nOption B:\nKeep the current system with mainly cashier-operated lanes"
+  },
+  {
+    "title": "Senior Activity Program",
+    "question": "The local senior center is seeking feedback about their weekly activity schedule. Currently, they offer traditional activities like bingo, card games, and knitting circles. However, some members have suggested introducing modern activities like digital skills workshops and virtual reality experiences. The center's management wants to know what type of activities their members prefer.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep the traditional activities program\n\nOption B:\nIntroduce modern technology-based activities"
+  },
+  {
+    "title": "Street Fair Vendors",
+    "question": "Your neighborhood is planning its annual summer street fair, which attracts thousands of visitors. The organizing committee is debating whether to change the current mix of vendors. Currently, the fair features an equal mix of food vendors and craft vendors. Some committee members want to increase the number of food vendors due to long lineups, while others believe maintaining craft vendors is essential for the fair's character. The committee is seeking residents' input through a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nIncrease food vendors to 70% and reduce craft vendors to 30%\n\nOption B:\nKeep the current 50-50 split between food and craft vendors"
+  },
+  {
+    "title": "Recycling Reward Program",
+    "question": "Your city's waste management department is planning to introduce a new recycling incentive program. They are considering two different approaches to encourage residents to recycle more. \n\nâ¢ Option A involves providing monthly cash rewards based on the weight of recyclables collected from each household. \n\nâ¢ Option B suggests offering points that can be redeemed for free public transit passes, community center memberships, or local event tickets.\n\nThe department wants to know which option residents would prefer before implementing the program.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI prefer the direct cash rewards program.\n\nOption B:\nI prefer the points-based rewards system."
+  },
+  {
+    "title": "Mall Hour Extension",
+    "question": "Your local shopping mall is considering extending their operating hours. Currently, the mall closes at 6:00 p.m. on weekdays. The mall management wants to know if shoppers would prefer later closing hours, which would be 9:00 p.m. on weekdays. This change would affect all stores in the mall, and operating costs would likely lead to slightly higher prices on some items.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep current mall hours (10:00 a.m. - 6:00 p.m.)\n\nOption B:\nExtend mall hours (10:00 a.m. - 9:00 p.m.)"
+  },
+  {
+    "title": "Shared Amenity Choice",
+    "question": "Your apartment building management is considering converting an unused space on the ground floor into either a daycare center or a co-working space. Many young families live in the building, but there are also numerous professionals who work from home. The management wants to know residents' preferences before making a final decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nConvert the space into a daycare center for residents' children.\n\nOption B:\nConvert the space into a co-working space with office amenities."
+  },
+  {
+    "title": "Common Area Access",
+    "question": "Your building management is considering changing the hours when residents can access common areas like the gym, lounge, and rooftop terrace. Currently, these areas are accessible 24/7 with key fob access. Due to recent security concerns and maintenance issues, the management is proposing to restrict access hours from 6:00 a.m. to 11:00 p.m. daily. The management wants to know residents' opinions before making a final decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep 24-hour access to common areas\n\nOption B:\nRestrict access to common areas between 6:00 a.m. and 11:00 p.m."
+  },
+  {
+    "title": "Downtown Street Plan",
+    "question": "The city council is considering converting the main downtown shopping street into a pedestrian-only zone. Currently, this busy street allows both vehicle traffic and pedestrian access. The proposal would completely restrict vehicle access (except for emergency vehicles) and transform the street into a walkable area with benches, plants, and outdoor cafÃ© spaces. Some local businesses are concerned about delivery access and parking, while others believe it will attract more shoppers. The city wants to gather residents' opinions before making a final decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nConvert the street into a pedestrian-only zone\n\nOption B:\nKeep the current system allowing both vehicles and pedestrians"
+  },
+  {
+    "title": "Health Records System",
+    "question": "Your local health clinic is considering switching completely to digital health records. Currently, they maintain both paper and digital records, which requires more time and resources. The clinic management wants to know patients' opinions about moving to a fully digital system. They have sent a survey to all registered patients.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nSwitch to completely digital health records\n\nOption B:\nKeep both paper and digital health records"
+  },
+  {
+    "title": "Public Art Choice",
+    "question": "Your city council is planning to enhance the cultural atmosphere of the downtown area with a major public art installation. They have allocated funds for one significant piece and are seeking public input on the type of artwork to install. The installation will be placed in the central plaza where many community events are held.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nInstall an interactive digital light sculpture that changes colors and patterns based on weather and crowd movement.\n\nOption B:\nInstall a traditional bronze monument depicting important historical figures and events from the city's history."
+  },
+  {
+    "title": "Rooftop Green Space",
+    "question": "The local shopping mall management is considering converting the underutilized top floor of the parking structure into a rooftop green space. This would include gardens, seating areas, and possibly a small cafÃ©. However, this would reduce the number of available parking spots by 25%. The mall management is conducting a survey to gather opinions from regular shoppers.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nConvert the top floor into a green space.\n\nOption B:\nKeep all parking spaces as they are."
+  },
+  {
+    "title": "Youth Program Direction",
+    "question": "Your local community center is planning to expand its youth programs and is seeking input from residents. They currently offer basic sports activities but want to enhance their programs to better serve young people aged 12-18. The center has funding to implement one of two different program directions, and they want to know which option the community prefers.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nImplement a technology and innovation program (including coding classes, robotics workshops, and digital media creation)\n\nOption B:\nDevelop an arts and culture program (including music lessons, theater workshops, and visual arts classes)"
+  },
+  {
+    "title": "Solar Panel Location",
+    "question": "Your city council is planning to implement a renewable energy initiative. They are considering installing solar panels in residential areas. The panels would be installed either on individual house roofs or in a centralized location like a community field. The council is seeking residents' opinions through a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nInstall solar panels on individual house roofs\n\nOption B:\nInstall solar panels in a centralized community field"
+  },
+  {
+    "title": "Walking Trail Design",
+    "question": "Your city council is planning to develop a new walking trail system in your neighborhood. They are considering two different proposals and want residents' input. Currently, there are no proper walking trails in the area, making it difficult for residents to exercise safely outdoors.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nA nature-focused trail through wooded areas with minimal infrastructure (basic gravel paths, occasional benches)\n\nOption B:\nA fully developed urban trail with paved paths, lighting, exercise stations, and water fountains"
+  },
+  {
+    "title": "Pet-Friendly Patios",
+    "question": "Your city council is considering allowing restaurants to welcome pets in their outdoor dining areas. Currently, only service animals are permitted in restaurants. Some restaurant owners have requested permission to allow customers to bring their pets to outdoor patios, while others prefer to maintain the current policy. The city council is gathering public opinion before making a decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nRestaurants should be allowed to welcome pets in outdoor dining areas.\n\nOption B:\nOnly service animals should be allowed in restaurants and their outdoor areas."
+  },
+  {
+    "title": "Rooftop Space Use",
+    "question": "Your apartment building has a large unused rooftop space, and the building management is considering two different ways to utilize this area. They are conducting a survey to gather residents' opinions about the best use of this space. One proposal is to create a community garden where residents can grow vegetables and herbs. The other is to develop it into a social gathering area with seating, tables, and a covered pavilion for events.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nConvert the rooftop into a community garden space.\n\nOption B:\nDevelop the rooftop into a social gathering area."
+  },
+  {
+    "title": "Skating Rink Schedule",
+    "question": "Your local community center is conducting a survey about how to best utilize their indoor skating rink during off-peak hours (10 AM - 3 PM on weekdays). Currently, these hours are designated for public skating, but some community members have suggested using this time for skating lessons and training programs. The community center wants to know residents' opinions before making any changes.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep the current public skating schedule during off-peak hours\n\nOption B:\nConvert off-peak hours to skating lessons and training programs"
+  },
+  {
+    "title": "Language Class Schedule",
+    "question": "Your community center offers free language classes for newcomers to Canada. Currently, all classes are held during weekday mornings from 9:00 AM to 12:00 PM. However, many potential students have mentioned they cannot attend due to work commitments. The center is considering changing the schedule and wants feedback from the community.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep the current morning schedule (9:00 AM - 12:00 PM, Monday to Friday)\n\nOption B:\nChange to evening classes (6:00 PM - 9:00 PM, Monday to Friday)"
+  },
+  {
+    "title": "Workplace Carpooling Program",
+    "question": "Your company is considering implementing a carpooling program to reduce parking congestion and promote environmental sustainability. The program would offer reserved parking spots for carpoolers and a monthly gas allowance. However, participants would need to commit to regular schedules and coordinate with other employees. The company wants to know employees' opinions before launching the program.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nI support implementing the carpooling program.\n\nOption B:\nI prefer to keep the current parking system without carpooling."
+  },
+  {
+    "title": "Emergency Alert System",
+    "question": "Your city's Emergency Management Office is reviewing its public alert system for natural disasters and other emergencies. Currently, alerts are sent through radio, TV, and text messages. They are considering adding a new loud siren system throughout the city that would sound during emergencies. This system would cost significant money to install but would ensure everyone can hear warnings regardless of whether they have access to phones or other devices.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep the current alert system using radio, TV, and text messages\n\nOption B:\nInstall the new siren system in addition to existing methods"
+  },
+  {
+    "title": "Waste Collection Schedule",
+    "question": "Your municipality is reviewing its waste collection system. Currently, garbage and recycling are collected on the same day every week. The city is considering separating the collection days to improve efficiency and encourage better waste sorting. They are conducting a survey to gather residents' opinions on this change.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep the current system with both garbage and recycling collected on the same day\n\nOption B:\nSeparate collection days for garbage and recycling pickup"
+  },
+  {
+    "title": "Beach Hours Survey",
+    "question": "The city council is considering changing the opening hours of the public beach in your area. Currently, the beach is open from 6:00 a.m. to 10:00 p.m. Due to concerns about safety and noise levels at night, as well as requests from early morning swimmers and joggers, the council is conducting a survey to gather residents' opinions.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nChange beach hours to 5:00 a.m. to 8:00 p.m.\n\nOption B:\nKeep current beach hours of 6:00 a.m. to 10:00 p.m."
+  },
+  {
+    "title": "EV Charging Plan",
+    "question": "Your residential complex is planning to install charging stations in the underground parking area. The property management is considering two options and wants residents' input on the best approach. The installation costs and monthly maintenance fees would be the same for both options.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nInstall several fast-charging stations (30-minute charge time) that residents would need to share and schedule their charging times\n\nOption B:\nInstall more standard charging stations (4-6 hour charge time) so each electric vehicle owner can have their dedicated spot"
+  },
+  {
+    "title": "Snow Removal Schedule",
+    "question": "Your residential community board is considering changes to the current snow removal service. Currently, the snow removal team clears snow from all driveways and walkways between 7:00 AM and 9:00 AM. Some residents have complained about the early morning noise, while others say they need clear driveways to leave for work. The board is conducting a survey to gather residents' opinions.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nKeep the current early morning snow removal schedule (7:00 AM - 9:00 AM)\n\nOption B:\nChange to a later snow removal schedule (9:00 AM - 11:00 AM)"
+  },
+  {
+    "title": "Pet-Friendly Workplace",
+    "question": "Your company is considering implementing a new pet-friendly workplace policy. Some employees have expressed interest in bringing their pets to work, while others have concerns about allergies and distractions. The HR department is conducting a survey to gather employee opinions before making a final decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nAllow employees to bring their pets to work\n\nOption B:\nMaintain a no-pets policy in the workplace"
+  },
+  {
+    "title": "Adult Class Choice",
+    "question": "Your local community center is planning to offer free evening classes for adults starting next month. Due to budget and space limitations, they can only offer one type of class. The center is conducting a survey to determine which option would be more beneficial for the community.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A:\nOffer language classes (English and French)\n\nOption B:\nOffer computer skills classes (basic computing and internet use)"
+  },
+  {
+    "title": "Ty Garden Where Residents",
+    "question": "Your neighborhood council is planning to create a community garden where residents can grow vegetables and flowers. They are considering two possible locations. The first option is to convert an unused parking lot near the community center. The second option is to develop a section of the local park that is currently just an open grass area.\n\nThe council wants to know which location residents prefer before making their final decision.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption A: Convert the unused parking lot into a community garden\nOption B: Develop part of the local park into a community garden"
+  },
+  {
+    "title": "Basic Income Plan",
+    "question": "Your country is considering implementing a Universal Basic Income (UBI) program. The government has sent out a survey to gather public opinion on two potential approaches to UBI implementation.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nGradual Implementation: This approach would introduce UBI slowly over a 10-year period, starting with low-income groups and gradually expanding to the entire population.\n\nOption 2:\nImmediate Full Implementation: This approach would introduce UBI for all citizens at once, funded by a combination of tax increases and budget reallocation from existing social programs."
+  },
+  {
+    "title": "Waste Collection Schedule",
+    "question": "Your city is looking to revolutionize its waste management system. The local government has proposed two innovative solutions and is seeking residents' opinions through a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nAutomated Underground Waste Collection: This system would use underground pneumatic tubes to transport waste from collection points to a central processing facility, reducing the need for garbage trucks and minimizing odors.\n\nOption 2:\nSmart Recycling Bins with AI: These high-tech bins would use artificial intelligence to automatically sort recyclables, compostables, and non-recyclable waste. They would also compact waste and notify collection services when full."
+  },
+  {
+    "title": "Ject To Build A",
+    "question": "Your coastal city is considering a revolutionary project to build a floating district off the shore to address land scarcity and rising sea levels. The city council has sent out a survey to gather residents' opinions on two potential designs for this floating district.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nResidential and Commercial Hub: This design focuses on creating a self-contained community with high-rise apartments, offices, shops, and recreational facilities.\n\nOption 2:\nEco-Tourism and Research Center: This design emphasizes environmental sustainability, featuring marine research laboratories, eco-friendly hotels, and educational facilities for visitors to learn about ocean conservation."
+  },
+  {
+    "title": "Anent Lunar Colony",
+    "question": "Your space agency is planning to establish a permanent lunar colony, and they are seeking input from potential colonists. The agency has proposed two different approaches for the initial phase of the colony's development.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nScientific Research Base: This approach focuses on building a compact, highly specialized facility dedicated to scientific research, with limited living quarters for a small team of researchers and support staff.\n\nOption 2:\nMulti-purpose Settlement: This approach aims to create a larger, more diverse colony with facilities for scientific research, resource extraction, and potential space tourism, accommodating a larger population with varied skill sets."
+  },
+  {
+    "title": "Initiative To Reduce Microplastic",
+    "question": "Your city is considering implementing a new initiative to reduce microplastic pollution in local waterways. The city council has proposed two options and is seeking residents' opinions through a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nMandatory Microfiber Filters: Require all new washing machines sold in the city to have built-in microfiber filters, and provide subsidies for existing machine owners to retrofit their appliances.\n\nOption 2:\nBiodegradable Clothing Initiative: Implement a city-wide program to promote and subsidize the purchase of biodegradable clothing made from natural fibers, while imposing a tax on synthetic clothing."
+  },
+  {
+    "title": "Ice Building",
+    "question": "Your company is planning to renovate its office building. Management is considering two options:\n\nOption A: Allow employees to participate in choosing the new office design.\nOption B: Hire a professional interior designer to plan and execute the renovation."
+  },
+  {
+    "title": "S To Better Serve",
+    "question": "Your local library is planning to make improvements to better serve the community. The management is considering two options:\n\nOption A: Add a new outdoor reading section.\nOption B: Upgrade the libraryâs computer systems."
+  },
+  {
+    "title": "Al Education For Students",
+    "question": "Your school is considering introducing financial education for students. There are two proposed options:\n\nOption A: Establish an after-school work program where students can earn money through part-time jobs.\n\nOption B: Offer a financial literacy class that teaches students about budgeting, saving, and money management."
+  },
+  {
+    "title": "Ous Vehicles",
+    "question": "Your city is considering integrating autonomous vehicles (AVs) into its transportation system. The local government has sent out a survey to gather residents' opinions on two possible approaches.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nGradual Integration: Introduce AVs slowly over a 10-year period, starting with designated AV-only lanes on major roads and gradually expanding to full integration.\n\nOption 2:\nRapid Adoption: Implement a city-wide AV system within 2 years, replacing most public transportation and encouraging residents to transition to AV use quickly."
+  },
+  {
+    "title": "Sustainable Food Packaging Initiati",
+    "question": "Your local government is considering implementing a new sustainable food packaging initiative for all restaurants and food vendors in the city. They have sent out a survey to gather public opinion on two potential options.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nBiodegradable Packaging: All food packaging must be made from biodegradable materials that decompose naturally within 6 months.\n\nOption 2:\nReusable Container Program: Implement a city-wide system where customers use reusable containers for takeout and delivery, which are returned, sanitized, and redistributed."
+  },
+  {
+    "title": "Aches To Address This",
+    "question": "Your city has been experiencing increasing noise pollution due to rapid urbanization and population growth. The local government is considering two different approaches to address this issue and is seeking residents' opinions through a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nStrict Regulations: Implement stringent noise control laws, including hefty fines for violations, restricted hours for construction and loud activities, and mandatory sound-proofing for new buildings.\n\nOption 2:\nGreen Infrastructure: Invest in noise-reducing urban design, such as creating more green spaces, installing sound barriers, and promoting the use of electric vehicles in public transportation."
+  },
+  {
+    "title": "Shop For Children",
+    "question": "A community center is planning to offer a new workshop for children.\nOption A: A technology and coding workshop\nOption B: An art and creativity workshop"
+  },
+  {
+    "title": "Community Survey",
+    "question": "Your company has recently provided employees with training on a new software program. Management wants to evaluate how well employees learned the software.\nOption A: Assign a short practical project using the software\nOption B: Give employees a written or online exam"
+  },
+  {
+    "title": "Ning Program For Employees",
+    "question": "Your company is planning to offer a new training program for employees.\nOption A: Training on proper internet and technology use in the workplace\nOption B: Training on workplace safety procedures"
+  },
+  {
+    "title": "Chnology To Clean Up",
+    "question": "Your coastal city is considering implementing new technology to clean up ocean pollution. The local government has sent out a survey to gather residents' opinions on which approach to adopt.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nAutonomous Cleanup Drones: These underwater robots would continuously scan and collect plastic waste from the ocean, operating 24/7 without human intervention.\n\nOption 2:\nFloating Cleanup Barriers: These large, passive systems would be strategically placed to catch and concentrate ocean plastic for periodic collection by boats."
+  },
+  {
+    "title": "Policy On Genetic Engineering",
+    "question": "Your country is considering implementing a new policy on genetic engineering in humans. The government has sent out a survey to gather public opinion on this controversial topic.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nAllow genetic engineering for medical purposes only: This would permit genetic modifications to prevent or cure diseases, but prohibit enhancements for non-medical reasons.\n\nOption 2:\nAllow unrestricted genetic engineering: This would permit genetic modifications for both medical and non-medical purposes, including enhancements of physical and cognitive abilities."
+  },
+  {
+    "title": "L Reality",
+    "question": "Your local school district is considering implementing virtual reality (VR) technology in classrooms. They have sent out a survey to gather opinions on two potential approaches.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nFull VR Integration: Implement VR headsets and software across all subjects, allowing students to experience immersive learning environments daily.\n\nOption 2:\nLimited VR Use: Introduce VR technology only for specific subjects like science and history, with occasional use in dedicated VR labs."
+  },
+  {
+    "title": "Words Survey",
+    "question": "As Earth faces increasing environmental challenges, scientists have proposed the idea of human colonization on Mars. The government is conducting a survey to gauge public opinion on this matter.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nImmediate Mars Colonization: Begin large-scale efforts to establish a permanent human settlement on Mars within the next decade.\n\nOption 2:\nEarth Restoration Focus: Concentrate resources on repairing Earth's ecosystems and developing sustainable technologies for our home planet."
+  },
+  {
+    "title": "Rwater Research Facility",
+    "question": "Your coastal city is considering building a new underwater research facility. The city council has sent out a survey to gather opinions on two potential focuses for this facility. They want to know which option residents prefer and why.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nMarine Ecosystem Research: This facility would focus on studying local marine life, coral reefs, and the impact of climate change on ocean ecosystems.\n\nOption 2:\nUnderwater Technology Development: This facility would concentrate on developing new technologies for underwater exploration, communication, and sustainable resource extraction."
+  },
+  {
+    "title": "Rsecurity Education Program For",
+    "question": "Your local government is considering implementing a cybersecurity education program for residents. They have sent out a survey to gather opinions on two potential approaches.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nOnline Learning Platform: A comprehensive web-based course covering various aspects of cybersecurity, accessible anytime from home.\n\nOption 2:\nCommunity Workshops: Regular in-person workshops held at local community centers, featuring hands-on training and group discussions."
+  },
+  {
+    "title": "Words Survey",
+    "question": "Your small coastal town of 15,000 residents is looking to boost its local economy through tourism. The town council has proposed two options to attract more visitors and is seeking residents' opinions through a survey.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nEco-Adventure Resort: This would include eco-friendly accommodations, guided nature tours, and water sports activities.\n\nOption 2:\nCultural Heritage Center: This would showcase local history, traditional crafts, and host regular cultural events and workshops."
+  },
+  {
+    "title": "Et For Space Exploration",
+    "question": "Your country's space agency is considering increasing its budget for space exploration. They have sent out a survey to gauge public opinion on two potential areas of focus for the increased funding.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nMars Colonization: This project aims to establish a permanent human settlement on Mars within the next 20 years.\n\nOption 2:\nDeep Space Telescope: This project involves launching an advanced telescope to search for potentially habitable exoplanets and signs of extraterrestrial life."
+  },
+  {
+    "title": "Solar Panel Location",
+    "question": "Your city is planning to invest in renewable energy sources to reduce its carbon footprint. The local government has sent out a survey to gather residents' opinions on which renewable energy option to prioritize.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nSolar Power: Install solar panels on public buildings and offer incentives for residential installations.\n\nOption 2:\nWind Energy: Construct a wind farm on the outskirts of the city to harness wind power."
+  },
+  {
+    "title": "Extracurricular Class For Students",
+    "question": "The school is planning to introduce a new extracurricular class for students. They are considering two options: a dance class or a class in an uncommon sport such as golf.\n\nThe school board would like to know which activity students think would be more useful and enjoyable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.\n\nOption A:\nJoin a dance class.\n\nOption B:\nJoin an uncommon sport class like golf."
+  },
+  {
+    "title": "Agriculture Initiative To Promote",
+    "question": "Your city is considering implementing an urban agriculture initiative to promote sustainability and food security. The local government has sent out a survey to gather residents' opinions on two potential approaches.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nCommunity Garden Network: This involves creating numerous small community gardens throughout the city, managed by local residents.\n\nOption 2:\nVertical Farming Project: This involves constructing a large-scale vertical farm in an unused industrial building, operated by professional urban farmers."
+  },
+  {
+    "title": "Digital Literacy Program For",
+    "question": "Your local library is planning to introduce a new digital literacy program for the community. They have sent out a survey to gather opinions on which age group should be the primary focus of this initiative.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nSenior Citizens (65+ years): This program would focus on teaching basic computer skills, internet safety, and how to use digital communication tools to connect with family and friends.\n\nOption 2:\nSchool-Age Children (6-18 years): This program would emphasize coding skills, digital content creation, and responsible online behavior."
+  },
+  {
+    "title": "Ograms To Promote Cultural",
+    "question": "Your city has a growing immigrant population and is considering implementing new programs to promote cultural integration. The local government has sent out a survey to gather opinions on which initiative to prioritize.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nMulticultural Community Center: This center would offer language classes, cultural workshops, and social events to bring together people from diverse backgrounds.\n\nOption 2:\nWorkplace Diversity Program: This initiative would partner with local businesses to provide job training, mentorship, and employment opportunities for immigrants."
+  },
+  {
+    "title": "Solar Panel Location",
+    "question": "Your local government is developing a new environmental conservation strategy and is seeking input from residents. They have proposed two options for implementing this strategy and want to know which one you prefer.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150-200 words.\n\nOption 1:\nRenewable Energy Initiative: This plan focuses on installing solar panels on public buildings and offering subsidies for residential solar installations. It also includes developing a small wind farm outside the city.\n\nOption 2:\nUrban Greening Project: This plan involves creating more green spaces throughout the city, including rooftop gardens on public buildings, planting trees along streets, and converting vacant lots into community gardens."
+  },
+  {
+    "title": "Y To Help Employees",
+    "question": "Management is planning an off-site activity to help employees relax and build stronger connections outside of the workplace. They have proposed two options: attending a cooking class together, or going to a live music event.\n\nThe HR department would like to know which activity employees think would be more enjoyable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.\n\nOption A:\nAttend a group cooking class.\n\nOption B:\nAttend a live music event together."
+  },
+  {
+    "title": "R Waste",
+    "question": "Your company is considering ways to reduce paper waste. Two approaches have been suggested. One is to start a paper recycling program within the office. The other is to encourage employees to reduce paper usage by setting stricter limits.\n\nThe management team is seeking employee opinions to decide which approach would work better.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.\n\nOption A:\nImplement an office paper recycling program.\n\nOption B:\nIntroduce restrictions to limit paper use."
+  },
+  {
+    "title": "Und Music To Create",
+    "question": "Your workplace is considering introducing background music to create a more pleasant environment. Management is surveying to determine whether employees would prefer music to be played on the radio throughout the day or if the office should remain quiet.\n\nThe HR department is asking for employee input to decide which option would be more suitable.\n\nChoose the option that you prefer. Why do you prefer your choice? Explain the reasons for your choice. Write about 150â200 words.\n\nOption A:\nPlay music on the radio during work hours.\n\nOption B:\nKeep the office environment quiet."
+  }
+]

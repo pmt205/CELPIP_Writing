@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Your local recreational hockey team needs new jerseys for the upcoming season. The team captain has asked you to find suitable options.\nYou found two suitable options. Choose the option that you prefer.\nIn the next section, you will need to persuade your teammate that your choice is the better choice.\n\n1. Classic Custom Jerseys\n- $45 per jersey\n- team logo printed on front and back\n- available in team colours with player names\n\n2. Premium Embroidered Jerseys\n- $65 per jersey\n- high-quality stitched logo and numbers\n- moisture-wicking, breathable fabric\n\nYour teammate is suggesting another option for the team jerseys. Persuade your teammate that the option you chose is more suitable by comparing the two.\n\nYour Teammate's Suggestion: Plain Discount T-Shirts\n-  per shirt\n- no customization or team branding available\n- thin cotton material, not designed for sports\n- only available in white",
+    "tips": [
+      "State whether you prefer Classic Custom Jerseys or Premium Embroidered Jerseys, then compare your choice with Plain Discount T-Shirts using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Plain Discount T-Shirts, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your child is turning 8 years old, and you want to plan a birthday party for them and about 15 of their friends.\nYou found two suitable venues. Choose the option that you prefer.\nIn the next section, you will need to persuade your spouse that your choice is the better choice.\n\n1. Indoor Trampoline Park\n- $250 for a 2-hour party, up to 15 kids\n- includes a dedicated party room for cake and gifts\n- staff-supervised activities and games\n\n2. Community Recreation Centre\n- $180 for a 3-hour party, up to 20 kids\n- access to a large gym and open play area\n- you can bring your own food and decorations\n\nYour spouse is suggesting another venue. Persuade your spouse that the venue you chose is more suitable by comparing the two.\n\nYour Spouse's Choice: Fancy Downtown Restaurant\n- $500 for a 2-hour private dining room, up to 12 kids\n- formal setting with breakable dishes and glassware\n- limited children's menu options\n- no play area or entertainment provided",
+    "tips": [
+      "State whether you prefer Indoor Trampoline Park or Community Recreation Centre, then compare your choice with Fancy Downtown Restaurant using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Fancy Downtown Restaurant, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are moving to a new apartment across town next month and need to transport all of your furniture and belongings.\nYou found two suitable options. Choose the option that you prefer.\nIn the next section, you will need to persuade your friend that your choice is the better choice.\n\n1. Full-Service Moving Company\n- $850 for a full day\n- professional movers pack, load, and unload everything\n- includes insurance coverage for damaged items\n\n2. Rental Moving Truck\n- $200 for a full day plus the cost of gas\n- large truck that fits all furniture in one trip\n- you must load and unload everything yourself\n\nYour friend is suggesting another way to move your belongings. Persuade your friend that the option you chose is more suitable by comparing the two.\n\nYour Friend's Suggestion: Borrowing a Neighbour's Pickup Truck\n- free to use\n- small truck bed â would require at least six trips across town\n- no insurance for lost or damaged items\n- only available on a weekday when you would need to take time off work",
+    "tips": [
+      "State whether you prefer Full-Service Moving Company or Rental Moving Truck, then compare your choice with Borrowing a Neighbour's Pickup Truck using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Borrowing a Neighbour's Pickup Truck, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You work at a local grocery store and are responsible for selecting fruit baskets to feature in the front display. You have two options to choose from. Decide which one you prefer and in the next section, persuade your manager that your choice is the better option.\n\n1. Discounted Fruit Basket\n\\tâ¢\\tIncludes apples, bananas, and pears\n\\tâ¢\\tSome fruits are slightly overripe\n\\tâ¢\\tAttractively priced at a deep discount\n\\tâ¢\\tGreat for quick sale and reducing waste\n\n2. Standard Fruit Mix\n\\tâ¢\\tMixed imported fruits\n\\tâ¢\\tRegular pricing\n\\tâ¢\\tLong shelf life\n\\tâ¢\\tNo particular marketing appeal\n\nYour manager suggests another option. Persuade them that your choice is better by comparing it to their suggestion.\n\nManagerâs Choice: \nPremium Organic Basket\n\\tâ¢\\tIncludes seasonal, organic local produce\n\\tâ¢\\tFresh and visually appealing\n\\tâ¢\\tHigher price point\n\\tâ¢\\tAppeals to health-conscious customers",
+    "tips": [
+      "State whether you prefer Discounted Fruit Basket or Standard Fruit Mix, then compare your choice with Premium Organic Basket using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Premium Organic Basket, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are part of a student art committee organizing an end-of-year exhibition for student artwork. You have found two possible venues. Choose the option that you prefer. In the next section, you will need to persuade the committee president that your choice is the better choice.\n\n1. City Art Gallery\n- free exhibition space for student shows\n- professional lighting and display walls\n- open daily 10am-6pm\n- limited to 2-week exhibition period\n\n2. University Main Hall\n- $200 rental fee\n- large open space with natural lighting\n- flexible exhibition duration (up to 4 weeks)\n- open 24/7 for students and staff\n\nThe committee president is suggesting another venue. Persuade them that the venue you chose is more suitable by comparing the two.\n\nCommittee President's Choice: Local Community Center\n- $150 rental fee\n- basic fluorescent lighting\n- only open weekends\n- limited wall space for hanging artwork",
+    "tips": [
+      "State whether you prefer City Art Gallery or University Main Hall, then compare your choice with Local Community Center using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Local Community Center, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your family wants to have professional photos taken for a special anniversary celebration. You found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your siblings that your choice is the better choice.\n\n1. Indoor Studio Session\n- 2-hour professional shoot\n- includes 20 digital photos\n- multiple backdrop options\n- professional lighting setup\n- $300 package\n\n2. Outdoor Nature Session\n- 1.5-hour shoot in a local park\n- includes 15 digital photos\n- natural scenery and lighting\n- multiple location spots\n- $250 package\n\nYour sister is suggesting another photography option. Persuade her that the option you chose is more suitable by comparing the two.\n\nYour Sister's Suggestion: Home-based Session\n- 1-hour shoot at your parents' house\n- includes 10 digital photos\n- limited space for group shots\n- basic lighting equipment\n- $200 package",
+    "tips": [
+      "State whether you prefer Indoor Studio Session or Outdoor Nature Session, then compare your choice with Home-based Session using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Home-based Session, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You manage a popular family restaurant and need to reorganize the dining area. You find two suitable seating layouts. Choose the option that you prefer. In the next section, you will need to persuade your restaurant owner that your choice is the better choice.\n\n1. Open Plan Layout\n- 15 four-person tables\n- flexible arrangement for larger groups\n- modern, casual atmosphere\n- wide aisles for easy movement\n\n2. Mixed Layout\n- 8 booths along walls\n- 10 central tables\n- intimate dining spaces\n- natural divisions between sections\n\nYour restaurant owner is suggesting another layout. Persuade them that the layout you chose is more suitable by comparing the two.\n\nRestaurant Owner's Choice: Traditional Layout\n- 20 fixed two-person tables\n- formal dining atmosphere\n- limited flexibility for large groups\n- narrow walking spaces between tables",
+    "tips": [
+      "State whether you prefer Open Plan Layout or Mixed Layout, then compare your choice with Traditional Layout using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Traditional Layout, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your company is hosting a series of monthly lunch meetings for staff training, and you need to select a catering service. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your manager that your choice is the better choice.\n\n1. Fresh Daily Catering\n- $15 per person\n- variety of hot and cold dishes\n- includes vegetarian options\n- provides plates and utensils\n- minimum order: 20 people\n\n2. Green Earth Kitchen\n- $18 per person\n- organic ingredients\n- accommodates all dietary restrictions\n- eco-friendly packaging\n- minimum order: 15 people\n\nYour manager is suggesting another catering service. Persuade your manager that the service you chose is more suitable by comparing the two.\n\nManager's Suggestion: Quick Bites Catering\n- $12 per person\n- limited menu options\n- sandwiches and salads only\n- no accommodation for dietary restrictions\n- minimum order: 30 people",
+    "tips": [
+      "State whether you prefer Fresh Daily Catering or Green Earth Kitchen, then compare your choice with Quick Bites Catering using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Quick Bites Catering, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your company is planning to provide laptops for remote workers, and you've been asked to review options. You find two suitable models. Choose the option that you prefer. In the next section, you will need to persuade your IT manager that your choice is the better choice.\n\n1. TechPro X1\n- $899 per unit\n- 14-inch screen\n- 12-hour battery life\n- built-in security features\n- 3-year warranty\n\n2. WorkMate Elite\n- $799 per unit\n- 15.6-inch screen\n- 8-hour battery life\n- includes office software package\n- 2-year warranty\n\nYour IT manager is suggesting another laptop model. Persuade them that the laptop you chose is more suitable by comparing the two.\n\nYour IT Manager's Choice: Budget Pro\n- $599 per unit\n- 13-inch screen\n- 6-hour battery life\n- basic features only\n- 1-year warranty",
+    "tips": [
+      "State whether you prefer TechPro X1 or WorkMate Elite, then compare your choice with Budget Pro using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Budget Pro, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a student advisor at a university, and you need to recommend an international exchange program for incoming students. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade a student's parent that your choice is the better choice.\n\n1. European University Program\n- 4-month semester program\n- courses taught in English\n- homestay accommodation included\n- $8,000 including accommodation and meals\n- cultural excursions every weekend\n\n2. Asian University Program\n- 6-month semester program\n- language learning support provided\n- dormitory accommodation\n- $6,000 including accommodation\n- weekly cultural workshops\n\nA student's parent is suggesting another exchange program. Persuade them that the program you chose is more suitable by comparing the two.\n\nParent's Suggestion: Online International Program\n- 3-month virtual exchange\n- recorded lectures\n- virtual cultural activities\n- $2,000 program fee\n- no travel required",
+    "tips": [
+      "State whether you prefer European University Program or Asian University Program, then compare your choice with Online International Program using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Online International Program, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are planning to start a food truck business, and you need to decide on a food truck model. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your business partner that your choice is the better choice.\n\n1. Vintage Converted Bus\n- $35,000 initial cost\n- spacious interior with room for 3 staff\n- classic retro appeal\n- includes basic kitchen equipment\n\n2. Modern Food Trailer\n- $28,000 initial cost\n- compact design with efficient space usage\n- solar-powered electricity system\n- state-of-the-art cooking equipment\n\nYour business partner is suggesting another food truck model. Persuade your partner that the model you chose is more suitable by comparing the two.\n\nYour Partner's Suggestion: Used Food Van\n- $15,000 initial cost\n- requires significant repairs\n- outdated equipment\n- limited workspace",
+    "tips": [
+      "State whether you prefer Vintage Converted Bus or Modern Food Trailer, then compare your choice with Used Food Van using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Used Food Van, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a coordinator at a community center, and you need to set up a new computer lab for public use. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the center director that your choice is the better choice.\n\n1. Desktop Computer Setup\n- 10 desktop computers with 24-inch screens\n- pre-installed educational software\n- includes maintenance for 2 years\n- $15,000 total cost\n\n2. Laptop Computer Setup\n- 12 laptop computers with 15-inch screens\n- wireless connectivity\n- portable for different rooms\n- $12,000 total cost\n\nThe center director is suggesting another setup option. Persuade the director that the setup you chose is more suitable by comparing the two.\n\nThe Director's Choice: Tablet Computer Setup\n- 15 tablet computers with 10-inch screens\n- basic apps only\n- limited typing capability\n- $8,000 total cost",
+    "tips": [
+      "State whether you prefer Desktop Computer Setup or Laptop Computer Setup, then compare your choice with Tablet Computer Setup using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Tablet Computer Setup, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are organizing a networking event for local entrepreneurs and business professionals. You found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your event committee that your choice is the better choice.\n\n1. Morning Breakfast Session\n- 7:30 AM - 10:00 AM\n- Continental breakfast included\n- $45 per person\n- Professional speaker presentation\n- Structured networking activities\n\n2. Evening Wine and Cheese Reception\n- 6:00 PM - 9:00 PM\n- Wine, cheese, and appetizers included\n- $55 per person\n- Open networking format\n- Live background music\n\nYour event committee is suggesting another networking format. Persuade them that the format you chose is more suitable by comparing the two.\n\nYour Committee's Suggestion: Lunch and Learn Session\n- 11:30 AM - 2:00 PM\n- Boxed lunch provided\n- $35 per person\n- No structured activities\n- Limited space for mingling",
+    "tips": [
+      "State whether you prefer Morning Breakfast Session or Evening Wine and Cheese Reception, then compare your choice with Lunch and Learn Session using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Lunch and Learn Session, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your company wants to upgrade the lunch room for employees. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your manager that your choice is the better choice.\n\n1. Modern CafÃ© Style\n- high tables and bar stools\n- coffee machine and water dispenser\n- microwave and refrigerator\n- estimated cost: $5,000\n\n2. Traditional Dining Style\n- regular height tables and chairs\n- vending machines\n- two microwaves and large refrigerator\n- estimated cost: $4,000\n\nYour manager is suggesting another lunch room style. Persuade your manager that the style you chose is more suitable by comparing the two.\n\nYour Manager's Choice: Outdoor Patio Style\n- picnic tables and benches\n- no appliances\n- weather dependent\n- estimated cost: $3,000",
+    "tips": [
+      "State whether you prefer Modern CafÃ© Style or Traditional Dining Style, then compare your choice with Outdoor Patio Style using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Outdoor Patio Style, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a member of a local environmental group that has received funding for a wildlife conservation project. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the group leader that your choice is the better choice.\n\n1. Bird Sanctuary Development\n- create protected nesting areas\n- install bird watching platforms\n- educational signage throughout\n- $15,000 budget for one year\n- covers 5 acres of land\n\n2. Wetland Restoration\n- restore natural water flow\n- plant native vegetation\n- create habitats for amphibians\n- $12,000 budget for one year\n- covers 3 acres of land\n\nYour group leader is suggesting another conservation project. Persuade them that the project you chose is more suitable by comparing the two.\n\nYour Group Leader's Choice: Urban Forest Development\n- plant 200 new trees\n- requires 5 years to show results\n- $20,000 budget\n- covers 2 acres of land",
+    "tips": [
+      "State whether you prefer Bird Sanctuary Development or Wetland Restoration, then compare your choice with Urban Forest Development using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Urban Forest Development, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are on the building management committee and need to enhance security measures for your apartment building. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade other committee members that your choice is the better choice.\n\n1. Digital Access System\n- keycard entry for all residents\n- 24/7 digital monitoring\n- automatic alerts to residents' phones\n- $5,000 installation cost\n\n2. Security Guard Service\n- professional guard on duty 12 hours daily\n- regular building patrols\n- visitor registration system\n- $4,000 monthly cost\n\nOther committee members are suggesting another security measure. Persuade them that the option you chose is more suitable by comparing the two.\n\nCommittee's Suggestion: Simple Camera System\n- basic surveillance cameras at entrances\n- footage stored for 30 days\n- no real-time monitoring\n- $2,000 one-time installation",
+    "tips": [
+      "State whether you prefer Digital Access System or Security Guard Service, then compare your choice with Simple Camera System using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Simple Camera System, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a music teacher at a high school, and the school has allocated funds to purchase new instruments for the band. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the school principal that your choice is the better choice.\n\n1. Brass Package\n- 3 trumpets, 2 trombones, 1 tuba\n- includes maintenance kit\n- 2-year warranty\n- $8,000 total cost\n\n2. Woodwind Package\n- 4 clarinets, 3 flutes, 2 saxophones\n- includes sheet music collection\n- 3-year warranty\n- $7,500 total cost\n\nThe school principal is suggesting another package. Persuade the principal that the package you chose is more suitable by comparing the two.\n\nPrincipal's Suggestion: Percussion Package\n- 2 drum sets\n- 3 xylophones\n- 1-year warranty\n- $9,000 total cost",
+    "tips": [
+      "State whether you prefer Brass Package or Woodwind Package, then compare your choice with Percussion Package using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Percussion Package, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are part of a neighborhood committee responsible for improving street safety. The city has approved funding for new street lighting, and you have found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade other committee members that your choice is the better choice.\n\n1. Solar-Powered LED Lights\n- environmentally friendly\n- no electricity costs\n- requires battery replacement every 5 years\n- $800 per unit installation\n\n2. Traditional Electric Lights\n- consistent brightness all year\n- lower initial installation cost ($500 per unit)\n- monthly electricity costs\n- 10-year warranty\n\nOther committee members are suggesting another lighting option. Persuade them that the option you chose is more suitable by comparing the two.\n\nCommittee Members' Choice: Motion-Sensor Lights\n- only activates when movement is detected\n- requires complex wiring system\n- $1,000 per unit installation\n- potential technical malfunctions in extreme weather",
+    "tips": [
+      "State whether you prefer Solar-Powered LED Lights or Traditional Electric Lights, then compare your choice with Motion-Sensor Lights using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Motion-Sensor Lights, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You own a small restaurant and want to start offering delivery services. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your restaurant manager that your choice is the better choice.\n\n1. FoodNow Delivery Service\n- 25% commission per order\n- average delivery time: 30 minutes\n- provides delivery tracking system\n- handles customer service for delivery issues\n\n2. SpeedEats Delivery Platform\n- 20% commission per order\n- average delivery time: 45 minutes\n- provides restaurant analytics\n- offers promotional opportunities\n\nYour restaurant manager is suggesting another delivery service. Persuade your manager that the delivery service you chose is more suitable by comparing the two.\n\nYour Manager's Suggestion: Local Courier Service\n- 15% commission per order\n- no delivery time guarantee\n- no tracking system\n- limited delivery radius of 3 km",
+    "tips": [
+      "State whether you prefer FoodNow Delivery Service or SpeedEats Delivery Platform, then compare your choice with Local Courier Service using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Local Courier Service, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a teacher planning activities for students during their 30-minute morning break. You found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the school principal that your choice is the better choice.\n\n1. Outdoor Sports Station\n- various sports equipment available (balls, skipping ropes, hula hoops)\n- organized games with supervision\n- promotes physical activity and teamwork\n- requires 2 staff members to supervise\n\n2. Creative Arts Corner\n- art supplies and materials provided\n- quiet space for drawing and crafting\n- encourages creativity and self-expression\n- requires 1 staff member to supervise\n\nYour school principal is suggesting another break activity. Persuade the principal that the activity you chose is more suitable by comparing the two.\n\nThe Principal's Choice: Indoor Board Game Zone\n- collection of educational board games\n- requires students to stay in classrooms\n- limited physical movement\n- no additional staff supervision needed",
+    "tips": [
+      "State whether you prefer Outdoor Sports Station or Creative Arts Corner, then compare your choice with Indoor Board Game Zone using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Indoor Board Game Zone, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a librarian at a local library, and your manager has given you a budget to expand the library's resources. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your colleague that your choice is the better choice.\n\n1. Digital Resource Collection\n- unlimited user access to e-books and audiobooks\n- 24/7 availability\n- $5,000 annual subscription\n- includes automatic updates and new releases\n\n2. Physical Book Collection Expansion\n- 500 new hardcover books\n- includes bestsellers and academic materials\n- $5,000 one-time purchase\n- additional shelf space needed\n\nYour colleague is suggesting another way to expand the library resources. Persuade your colleague that the option you chose is more suitable by comparing the two.\n\nYour Colleague's Suggestion: Movie and Documentary Collection\n- 200 DVDs and Blu-ray discs\n- requires new viewing equipment\n- $5,000 including equipment\n- limited number of simultaneous users",
+    "tips": [
+      "State whether you prefer Digital Resource Collection or Physical Book Collection Expansion, then compare your choice with Movie and Documentary Collection using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Movie and Documentary Collection, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are part of a community committee organizing a new weekly farmers market. You have found two potential locations. Choose the option that you prefer. In the next section, you will need to persuade other committee members that your choice is the better choice.\n\n1. Community Center Parking Lot\n- 2,000 square meters of space\n- accessible by public transit\n- free parking for 50 cars\n- covered area available for rainy days\n- electricity and water hookups available\n\n2. Downtown Plaza\n- 1,500 square meters of space\n- walking distance to shopping district\n- street parking only\n- open air space\n- high pedestrian traffic\n\nOther committee members are suggesting another location. Persuade them that the location you chose is more suitable by comparing the two.\n\nCommittee's Suggestion: Local High School Field\n- 3,000 square meters of space\n- only available on weekends\n- limited access to facilities\n- difficult to find for visitors\n- far from main roads",
+    "tips": [
+      "State whether you prefer Community Center Parking Lot or Downtown Plaza, then compare your choice with Local High School Field using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Local High School Field, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your company needs to organize a training session for 10 new employees next month. You find two suitable locations. Choose the option that you prefer. In the next section, you will need to persuade your HR manager that your choice is the better choice.\n\n1. Downtown Conference Center\n- $800 per day\n- includes lunch and refreshments\n- modern audio-visual equipment\n- dedicated IT support staff\n- 15 minutes from office\n\n2. Company Branch Office\n- $200 per day\n- basic meeting room setup\n- bring your own refreshments\n- basic projector available\n- 45 minutes from office\n\nYour HR manager is suggesting another location. Persuade them that the location you chose is more suitable by comparing the two.\n\nYour HR Manager's Choice: Local Community Center\n- $400 per day\n- shared public space\n- no catering options\n- limited parking\n- 30 minutes from office",
+    "tips": [
+      "State whether you prefer Downtown Conference Center or Company Branch Office, then compare your choice with Local Community Center using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Local Community Center, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a music teacher at a local high school, and the school has allocated funds to upgrade the music room equipment. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the school principal that your choice is the better choice.\n\n1. Digital Music Lab Setup\n- 15 electronic keyboards with headphones\n- music composition software\n- recording equipment\n- $8,000 total cost\n\n2. Traditional Instruments Package\n- 10 acoustic guitars\n- 5 violins\n- 3 cellos\n- basic percussion set\n- $7,500 total cost\n\nThe school principal is suggesting another equipment package. Persuade the principal that the equipment package you chose is more suitable by comparing the two.\n\nPrincipal's Suggestion: Band Equipment Set\n- 20 recorders\n- 5 trumpets\n- 3 clarinets\n- 2 drum sets\n- $6,000 total cost",
+    "tips": [
+      "State whether you prefer Digital Music Lab Setup or Traditional Instruments Package, then compare your choice with Band Equipment Set using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Band Equipment Set, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are the director of a local community theatre group, and you need to decide on a performance space for your upcoming play. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your theatre group that your choice is the better choice.\n\n1. Historic Downtown Theatre\n- seats 200 people\n- classical architecture with great acoustics\n- $800 per night\n- includes basic lighting and sound equipment\n- limited parking space\n\n2. Modern Arts Center\n- seats 150 people\n- state-of-the-art sound system\n- 00 per night\n- includes technical staff support\n- ample parking available\n\nYour theatre group is suggesting another venue. Persuade them that the venue you chose is more suitable by comparing the two.\n\nYour Group's Suggestion: Community Center Hall\n- seats 300 people\n- basic stage setup\n- $500 per night\n- no professional lighting or sound equipment\n- shared space with other community events",
+    "tips": [
+      "State whether you prefer Historic Downtown Theatre or Modern Arts Center, then compare your choice with Community Center Hall using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Community Center Hall, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a teacher at a high school, and the school needs to implement a new textbook distribution system for the upcoming semester. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the school principal that your choice is the better choice.\n\n1. Digital Textbook Platform\n- instant access through school-provided tablets\n- interactive learning features\n- automatic updates and corrections\n- $50 per student per year\n\n2. Traditional Print Textbooks\n- physical copies for each student\n- includes study guide and workbook\n- can be used for 3 years\n- $75 per student one-time cost\n\nThe school principal is suggesting another distribution method. Persuade the principal that the method you chose is more suitable by comparing the two.\n\nPrincipal's Suggestion: Hybrid System\n- combination of shared physical books and online resources\n- students must share books (1 book per 2 students)\n- requires both digital and physical storage space\n- $40 per student per year",
+    "tips": [
+      "State whether you prefer Digital Textbook Platform or Traditional Print Textbooks, then compare your choice with Hybrid System using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Hybrid System, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your company wants to encourage employees to cycle to work by providing bicycle storage facilities. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your manager that your choice is the better choice.\n\n1. Indoor Bike Room\n- capacity for 30 bikes\n- secure card access system\n- includes repair tools station\n- climate controlled environment\n- $5,000 initial setup cost\n\n2. Outdoor Covered Bike Shelter\n- capacity for 50 bikes\n- security cameras\n- basic bike racks\n- weather protection roof\n- $3,000 initial setup cost\n\nYour manager is suggesting another bicycle storage solution. Persuade your manager that the option you chose is more suitable by comparing the two.\n\nManager's Suggestion: Individual Bike Lockers\n- capacity for 15 bikes\n- each bike gets a personal locker\n- no repair tools or facilities\n- takes up more ground space\n- $7,000 initial setup cost",
+    "tips": [
+      "State whether you prefer Indoor Bike Room or Outdoor Covered Bike Shelter, then compare your choice with Individual Bike Lockers using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Individual Bike Lockers, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are part of a committee organizing a local film festival, and you need to decide on a screening venue. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your fellow committee member that your choice is the better choice.\n\n1. Historic Theatre\n- capacity: 300 people\n- vintage architecture and atmosphere\n- basic sound system\n- $2,000 per day rental fee\n- downtown location with paid parking\n\n2. Modern Cinema Complex\n- capacity: 250 people\n- state-of-the-art projection and sound\n- comfortable modern seating\n- $2,500 per day rental fee\n- free parking available\n\nYour fellow committee member is suggesting another venue. Persuade them that the venue you chose is more suitable by comparing the two.\n\nYour Committee Member's Choice: Community Center Auditorium\n- capacity: 200 people\n- basic projection equipment\n- metal folding chairs\n- $1,000 per day rental fee\n- limited parking spaces",
+    "tips": [
+      "State whether you prefer Historic Theatre or Modern Cinema Complex, then compare your choice with Community Center Auditorium using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Community Center Auditorium, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your company wants to implement a wellness program for employees to improve their health and work-life balance. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your HR manager that your choice is the better choice.\n\n1. Mind & Body Program\n- weekly yoga and meditation sessions\n- stress management workshops\n- nutrition counseling\n- $200 per employee for 3 months\n\n2. Active Lifestyle Program\n- gym membership reimbursement\n- step-counting challenges with rewards\n- monthly health screenings\n- $250 per employee for 3 months\n\nYour HR manager is suggesting another wellness program. Persuade your HR manager that the program you chose is more suitable by comparing the two.\n\nYour HR Manager's Choice: Online Wellness Platform\n- virtual fitness classes\n- self-paced wellness modules\n- no in-person interaction\n- $150 per employee for 3 months",
+    "tips": [
+      "State whether you prefer Mind & Body Program or Active Lifestyle Program, then compare your choice with Online Wellness Platform using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Online Wellness Platform, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a language school administrator planning to implement virtual language classes. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your colleague that your choice is the better choice.\n\n1. Live Interactive Sessions\n- real-time classes with native speakers\n- maximum 6 students per class\n- flexible scheduling (morning/evening)\n- $300 per month for 12 sessions\n- includes homework review and feedback\n\n2. Self-Paced Video Lessons\n- pre-recorded lessons by certified teachers\n- unlimited access to lesson library\n- practice exercises and quizzes\n- $200 per month for full access\n- 24/7 email support\n\nYour colleague is suggesting another method for virtual language classes. Persuade your colleague that the method you chose is more suitable by comparing the two.\n\nYour Colleague's Suggestion: AI-Powered Language App\n- automated responses and corrections\n- no human interaction\n- $150 per month subscription\n- generic feedback\n- limited speaking practice",
+    "tips": [
+      "State whether you prefer Live Interactive Sessions or Self-Paced Video Lessons, then compare your choice with AI-Powered Language App using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of AI-Powered Language App, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are responsible for designing year-end gift packages for your company's valued clients. You found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your manager that your choice is the better choice.\n\n1. Local Artisan Package\n- handcrafted wooden box with company logo\n- locally sourced gourmet foods (honey, chocolate, coffee)\n- handwritten thank-you note\n- $75 per package\n\n2. Tech Essentials Package\n- branded wireless charger\n- premium noise-canceling earbuds\n- portable power bank\n- $80 per package\n\nYour manager is suggesting another gift package. Persuade your manager that the package you chose is more suitable by comparing the two.\n\nYour Manager's Choice: Traditional Gift Basket\n- mass-produced wicker basket\n- generic chocolates and crackers\n- printed greeting card\n- $45 per package",
+    "tips": [
+      "State whether you prefer Local Artisan Package or Tech Essentials Package, then compare your choice with Traditional Gift Basket using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Traditional Gift Basket, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a student advisor working at a university learning center. You need to recommend an online tutoring platform for students who need extra academic help. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your supervisor that your choice is the better choice.\n\n1. SmartStudy Platform\n- $50 per month unlimited access\n- 24/7 availability of tutors\n- covers all major subjects\n- includes video lessons and practice tests\n- instant chat support\n\n2. PeerConnect Platform\n- $30 per month\n- tutoring available 9am-9pm\n- focuses on core subjects only\n- includes study groups and forums\n- scheduled video sessions\n\nYour supervisor is suggesting another platform. Persuade your supervisor that the platform you chose is more suitable by comparing the two.\n\nYour Supervisor's Choice: TutorMatch Platform\n- $75 per month\n- only available on weekdays\n- requires minimum 2-hour booking\n- no recorded sessions\n- limited to 5 subjects",
+    "tips": [
+      "State whether you prefer SmartStudy Platform or PeerConnect Platform, then compare your choice with TutorMatch Platform using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of TutorMatch Platform, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are attending a three-day business conference next month, and your company has asked you to book a hotel room. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your supervisor that your choice is the better choice.\n\n1. Downtown Business Hotel\n- $180 per night\n- 5-minute walk to conference center\n- includes breakfast buffet\n- business center and gym access\n- high-speed internet\n\n2. Riverside Executive Suite\n- $220 per night\n- 15-minute shuttle ride to conference center\n- includes breakfast and dinner\n- private workspace in room\n- spa access\n\nYour supervisor is suggesting another hotel. Persuade your supervisor that the hotel you chose is more suitable by comparing the two.\n\nYour Supervisor's Choice: Budget Airport Hotel\n- $120 per night\n- 45-minute commute to conference center\n- continental breakfast only\n- basic amenities\n- shared workspace in lobby",
+    "tips": [
+      "State whether you prefer Downtown Business Hotel or Riverside Executive Suite, then compare your choice with Budget Airport Hotel using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Budget Airport Hotel, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "As a member of the employee wellness committee, you are responsible for suggesting changes to the office cafeteria menu. You have found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the cafeteria manager that your choice is the better choice.\n\n1. International Cuisine Rotation\n- different cultural cuisine each day\n- includes vegetarian options\n- fresh ingredients from local suppliers\n- $12-15 per meal\n\n2. Build-Your-Own Station\n- customizable salads, sandwiches, and bowls\n- variety of proteins, vegetables, and grains\n- accommodates dietary restrictions\n- -13 per meal\n\nThe cafeteria manager is suggesting another menu plan. Persuade the manager that the option you chose is more suitable by comparing the two.\n\nManager's Choice: Traditional Fixed Menu\n- same daily menu rotating weekly\n- three standard options each day\n- pre-packaged portions\n- $8-10 per meal",
+    "tips": [
+      "State whether you prefer International Cuisine Rotation or Build-Your-Own Station, then compare your choice with Traditional Fixed Menu using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Traditional Fixed Menu, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You work as a photographer, and your laptop's storage is almost full with client photos. You need to find a reliable storage solution. You found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your colleague that your choice is the better choice.\n\n1. Cloud Storage Pro\n- $9.99 per month for unlimited storage\n- automatic backup\n- accessible from any device\n- includes basic photo editing tools\n- sharing features for client galleries\n\n2. External Hard Drive Bundle\n- $199.99 one-time purchase\n- 5TB storage capacity\n- includes backup software\n- portable and lightweight\n- no monthly fees\n\nYour colleague is suggesting another storage solution. Persuade your colleague that the option you chose is more suitable by comparing the two.\n\nYour Colleague's Choice: Network Attached Storage (NAS)\n- $499.99 for the device\n- requires technical setup\n- needs stable internet connection\n- runs on home electricity\n- backup requires manual operation",
+    "tips": [
+      "State whether you prefer Cloud Storage Pro or External Hard Drive Bundle, then compare your choice with Network Attached Storage (NAS) using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Network Attached Storage (NAS), then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a tour guide planning a group tour to a national park for a group of seniors. You found two suitable tour packages. Choose the option that you prefer. In the next section, you will need to persuade the group coordinator that your choice is the better choice.\n\n1. Scenic Bus Tour\n- 3-day, 2-night package\n- includes comfortable hotel accommodation\n- all meals provided\n- guided walks on paved trails\n- $450 per person\n\n2. Adventure Van Tour\n- 4-day, 3-night package\n- cabin accommodation in the park\n- self-cooking facilities available\n- access to more remote areas\n- $600 per person\n\nThe group coordinator is suggesting another tour package. Persuade them that the package you chose is more suitable by comparing the two.\n\nGroup Coordinator's Choice: Hiking Experience Tour\n- 5-day, 4-night package\n- tent camping\n- requires participants to carry their own gear\n- includes challenging trail hikes\n- $350 per person",
+    "tips": [
+      "State whether you prefer Scenic Bus Tour or Adventure Van Tour, then compare your choice with Hiking Experience Tour using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Hiking Experience Tour, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your city's airport authority is planning to implement a new shuttle service between the airport and downtown. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the airport authority board that your choice is the better choice.\n\n1. Electric Mini Bus Fleet\n- capacity: 12 passengers per vehicle\n- runs every 20 minutes\n- environmentally friendly\n- $8 per passenger\n- equipped with luggage storage space\n\n2. Premium Van Service\n- capacity: 8 passengers per vehicle\n- runs every 15 minutes\n- luxury leather seats\n- $12 per passenger\n- personal USB charging ports\n\nThe airport authority board is suggesting another shuttle service option. Persuade them that the service you chose is more suitable by comparing the two.\n\nBoard's Suggestion: Standard Bus Service\n- capacity: 40 passengers per vehicle\n- runs every 45 minutes\n- basic seating\n- $5 per passenger\n- limited luggage space",
+    "tips": [
+      "State whether you prefer Electric Mini Bus Fleet or Premium Van Service, then compare your choice with Standard Bus Service using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Standard Bus Service, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You work as a team leader for a remote team of 10 people. You need to select a communication platform for daily team collaboration. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your manager that your choice is the better choice.\n\n1. TalkSync Pro\n- unlimited video calls for up to 50 participants\n- real-time document collaboration\n- built-in task management system\n- $15 per user per month\n\n2. ConnectHub Suite\n- unlimited messaging and file sharing\n- screen recording feature\n- integration with existing work tools\n- $12 per user per month\n\nYour manager is suggesting another communication platform. Persuade your manager that the platform you chose is more suitable by comparing the two.\n\nYour Manager's Choice: ChatWork Basic\n- text-based communication only\n- limited file storage\n- no video call capability\n- $8 per user per month",
+    "tips": [
+      "State whether you prefer TalkSync Pro or ConnectHub Suite, then compare your choice with ChatWork Basic using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of ChatWork Basic, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a volunteer at a local community center, and the center has received funding to upgrade its fitness equipment. You have found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the center director that your choice is the better choice.\n\n1. Cardio Package\n- 3 treadmills and 2 elliptical machines\n- digital tracking displays\n- energy-efficient models\n- 5-year warranty\n- $12,000 total\n\n2. Multi-Station Package\n- 1 multi-station weight machine\n- allows 6 people to exercise simultaneously\n- includes adjustable weights\n- lifetime warranty\n- $11,500 total\n\nThe center director is suggesting another equipment package. Persuade the director that the package you chose is more suitable by comparing the two.\n\nDirector's Suggestion: Functional Training Package\n- various resistance bands\n- yoga mats and exercise balls\n- medicine balls and kettlebells\n- 2-year warranty\n- ,000 total",
+    "tips": [
+      "State whether you prefer Cardio Package or Multi-Station Package, then compare your choice with Functional Training Package using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Functional Training Package, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a member of your community's environmental committee, and you need to propose a sustainable energy solution for the community center. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the committee chairperson that your choice is the better choice.\n\n1. Solar Panel System\n- initial cost: $25,000\n- saves $400 per month on electricity\n- 25-year warranty\n- maintenance required every 5 years\n\n2. Wind Turbine Installation\n- initial cost: $20,000\n- saves $350 per month on electricity\n- 20-year warranty\n- annual maintenance required\n\nThe committee chairperson is suggesting another energy solution. Persuade the chairperson that the option you chose is more suitable by comparing the two.\n\nChairperson's Suggestion: Geothermal Heat Pump\n- initial cost: $30,000\n- saves $250 per month on electricity\n- 15-year warranty\n- requires extensive ground excavation",
+    "tips": [
+      "State whether you prefer Solar Panel System or Wind Turbine Installation, then compare your choice with Geothermal Heat Pump using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Geothermal Heat Pump, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are part of the employee social committee, and you need to plan this year's end-of-year holiday celebration. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the committee head that your choice is the better choice.\n\n1. Evening Gala Event\n- elegant dinner and dance\n- professional DJ and entertainment\n- $80 per person\n- formal dress code\n- includes 3-course meal and two drink tickets\n\n2. Daytime Family Festival\n- outdoor venue with tents\n- family-friendly activities and games\n- $45 per person\n- casual dress code\n- includes buffet lunch and non-alcoholic beverages\n\nThe committee head is suggesting another celebration format. Persuade them that the format you chose is more suitable by comparing the two.\n\nCommittee Head's Suggestion: Virtual Game Night\n- online platform with virtual games and activities\n- $25 per person\n- can be attended from home\n- includes delivered snack box\n- 3-hour structured program",
+    "tips": [
+      "State whether you prefer Evening Gala Event or Daytime Family Festival, then compare your choice with Virtual Game Night using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Virtual Game Night, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a restaurant manager who needs to update the menu design. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your head chef that your choice is the better choice.\n\n1. Digital Interactive Menu\n- customizable digital tablets at each table\n- pictures of each dish\n- automatic translation to 5 languages\n- $2,000 initial setup, 0 monthly maintenance\n\n2. Premium Print Menu\n- high-quality leather-bound menu books\n- professional food photography\n- elegant typography and layout\n- $1,500 for 50 menus, replaceable pages\n\nYour head chef is suggesting another menu design. Persuade him that the menu design you chose is more suitable by comparing the two.\n\nYour Head Chef's Choice: Traditional Paper Menu\n- simple black and white design\n- text-only descriptions\n- $300 for 100 menus\n- needs complete replacement when damaged",
+    "tips": [
+      "State whether you prefer Digital Interactive Menu or Premium Print Menu, then compare your choice with Traditional Paper Menu using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Traditional Paper Menu, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are on the local community council, and there is a need to upgrade the recycling station in your neighborhood. You have found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade other council members that your choice is the better choice.\n\n1. Automated Sorting System\n- $15,000 installation cost\n- uses AI technology to sort recyclables\n- reduces contamination by 80%\n- requires minimal maintenance\n- operates 24/7\n\n2. Multi-Stream Collection Bins\n- $8,000 installation cost\n- color-coded bins for different materials\n- includes educational signage\n- weekly maintenance required\n- accessible during daylight hours only\n\nOther council members are suggesting another system. Persuade them that the option you chose is more suitable by comparing the two.\n\nCouncil Members' Suggestion: Mobile Recycling Truck\n- $12,000 per year operating cost\n- visits neighborhood twice a week\n- requires residents to wait in line\n- limited capacity\n- weather-dependent service",
+    "tips": [
+      "State whether you prefer Automated Sorting System or Multi-Stream Collection Bins, then compare your choice with Mobile Recycling Truck using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Mobile Recycling Truck, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a member of the city's park development committee, and you need to propose an upgrade for the central public park. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade other committee members that your choice is the better choice.\n\n1. Playground and Fitness Zone\n- modern playground equipment for children\n- outdoor fitness equipment for adults\n- rubber safety flooring\n- $75,000 budget\n\n2. Nature and Walking Trail\n- 2km walking trail with scenic views\n- native plant garden\n- educational signage about local flora and fauna\n- $70,000 budget\n\nOther committee members are suggesting another upgrade option. Persuade them that the option you chose is more suitable by comparing the two.\n\nCommittee Members' Choice: Water Feature Plaza\n- decorative fountain\n- concrete seating area\n- minimal shade\n- $85,000 budget",
+    "tips": [
+      "State whether you prefer Playground and Fitness Zone or Nature and Walking Trail, then compare your choice with Water Feature Plaza using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Water Feature Plaza, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your company needs to redesign its website. As the marketing coordinator, you have found two suitable design services. Choose the option that you prefer. In the next section, you will need to persuade your manager that your choice is the better choice.\n\n1. Digital Wave Studios\n- $3,000 for complete website redesign\n- includes mobile optimization\n- 3 rounds of revisions\n- 4-week completion time\n- SEO optimization included\n\n2. Web Masters Pro\n- $2,500 for complete website redesign\n- includes basic analytics dashboard\n- unlimited revisions for 2 weeks\n- 6-week completion time\n- social media integration included\n\nYour manager is suggesting another web design service. Persuade your manager that the service you chose is more suitable by comparing the two.\n\nYour Manager's Choice: Local Tech Solutions\n- $2,000 for website redesign\n- basic template-based design\n- one round of revisions\n- 8-week completion time\n- no additional features included",
+    "tips": [
+      "State whether you prefer Digital Wave Studios or Web Masters Pro, then compare your choice with Local Tech Solutions using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Local Tech Solutions, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are part of a committee tasked with redesigning the reading space at your local library. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the library director that your choice is the better choice.\n\n1. Modern Open Plan\n- flexible seating arrangements with movable furniture\n- large communal tables and individual study pods\n- natural lighting with floor-to-ceiling windows\n- sound-absorbing wall panels\n- $15,000 budget\n\n2. Traditional Setup\n- individual wooden study carrels\n- separate quiet zones and group study areas\n- classic library atmosphere\n- energy-efficient LED lighting\n- $12,000 budget\n\nThe library director is suggesting another design. Persuade the director that the design you chose is more suitable by comparing the two.\n\nLibrary Director's Choice: Mixed Media Space\n- computer stations throughout the area\n- minimal seating for reading\n- bright artificial lighting\n- modern metal furniture\n- $18,000 budget",
+    "tips": [
+      "State whether you prefer Modern Open Plan or Traditional Setup, then compare your choice with Mixed Media Space using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Mixed Media Space, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your company wants to invest in employee training to improve productivity and skills. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your manager that your choice is the better choice.\n\n1. Online Learning Platform\n- $300 per employee annually\n- 24/7 access to over 5000 courses\n- self-paced learning\n- includes certificates upon completion\n\n2. In-Person Workshop Series\n- $500 per employee for 6 months\n- weekly 3-hour sessions\n- hands-on practice\n- direct interaction with industry experts\n\nYour manager is suggesting another training program. Persuade your manager that the program you chose is more suitable by comparing the two.\n\nYour Manager's Choice: Monthly Guest Speakers\n- $800 per employee for 6 months\n- once-a-month seminars\n- no hands-on practice\n- limited course selection",
+    "tips": [
+      "State whether you prefer Online Learning Platform or In-Person Workshop Series, then compare your choice with Monthly Guest Speakers using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Monthly Guest Speakers, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are organizing a wedding for your sister and need to hire a photographer for the event. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your sister that your choice is the better choice.\n\n1. Classic Photography Studio\n- $2,500 for 8 hours coverage\n- includes engagement photoshoot\n- two photographers\n- delivers 500 edited photos within 3 weeks\n- provides printed photo album\n\n2. Modern Vision Photography\n- $2,200 for 10 hours coverage\n- includes drone footage\n- one photographer\n- delivers 300 edited photos within 2 weeks\n- provides digital files only\n\nYour sister is suggesting another photographer. Persuade her that the photographer you chose is more suitable by comparing the two.\n\nYour Sister's Choice: Artistic Moments Studio\n- $3,000 for 6 hours coverage\n- includes video highlights\n- one photographer\n- delivers 200 edited photos within 4 weeks\n- specializes in black and white photography",
+    "tips": [
+      "State whether you prefer Classic Photography Studio or Modern Vision Photography, then compare your choice with Artistic Moments Studio using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Artistic Moments Studio, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "The company is planning to renovate the office space, and you've been asked to review potential renovation plans. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your manager that your choice is the better choice.\n\n1. Open Concept Design\n- removes all cubicle walls\n- creates collaborative workspace zones\n- includes soundproof meeting pods\n- estimated cost: $25,000\n- completion time: 3 weeks\n\n2. Modular Office Layout\n- adjustable desk partitions\n- dedicated quiet zones\n- flexible meeting areas\n- estimated cost: $20,000\n- completion time: 2 weeks\n\nYour manager is suggesting another renovation plan. Persuade your manager that the plan you chose is more suitable by comparing the two.\n\nYour Manager's Choice: Traditional Cubicle Update\n- high cubicle walls\n- fixed desk positions\n- one large conference room\n- estimated cost: $15,000\n- completion time: 4 weeks",
+    "tips": [
+      "State whether you prefer Open Concept Design or Modular Office Layout, then compare your choice with Traditional Cubicle Update using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Traditional Cubicle Update, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You own a dog and need to find a reliable pet walking service while you are at work. You found two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your neighbor that your choice is the better choice.\n\n1. Professional Pet Care\n- $25 per hour\n- licensed and insured\n- sends real-time updates and photos\n- can handle multiple dogs at once\n- available Monday to Saturday\n\n2. Student Pet Walkers\n- $15 per hour\n- veterinary students\n- provides basic health check during walks\n- one-on-one attention\n- flexible schedule\n\nYour neighbor is suggesting another pet walking service. Persuade them that the service you chose is more suitable by comparing the two.\n\nYour Neighbor's Suggestion: Community Dog Walking Group\n-  per hour\n- run by local volunteers\n- walks all dogs together in large groups\n- no insurance coverage\n- only available on weekday mornings",
+    "tips": [
+      "State whether you prefer Professional Pet Care or Student Pet Walkers, then compare your choice with Community Dog Walking Group using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Community Dog Walking Group, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a marketing consultant for a new local restaurant. The owner wants to increase customer awareness in the first month of opening. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade the restaurant owner that your choice is the better choice.\n\n1. Social Media Campaign\n- Instagram and Facebook paid advertisements\n- $800 budget for one month\n- includes professional food photography\n- targeted local audience within 5km radius\n\n2. Local Food Festival Participation\n- 00 entry fee\n- 3-day event with expected 5000 visitors\n- includes booth setup and sampling opportunity\n- direct interaction with potential customers\n\nThe restaurant owner is suggesting another marketing strategy. Persuade the owner that the strategy you chose is more suitable by comparing the two.\n\nOwner's Suggestion: Direct Mail Campaign\n- $1200 for printing and distribution\n- 10,000 flyers delivered to local households\n- includes discount coupons\n- takes 2 weeks to implement",
+    "tips": [
+      "State whether you prefer Social Media Campaign or Local Food Festival Participation, then compare your choice with Direct Mail Campaign using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Direct Mail Campaign, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "You are a teacher planning an educational field trip for your Grade 6 class of 25 students. You have found two suitable destinations. Choose the option that you prefer. In the next section, you will need to persuade the school principal that your choice is the better choice.\n\n1. Science Discovery Center\n- $15 per student\n- interactive exhibits and hands-on experiments\n- includes a 45-minute planetarium show\n- guided tour by science experts\n- 3-hour visit\n\n2. Natural History Museum\n- $12 per student\n- dinosaur fossils exhibition\n- geology and mineral display\n- includes worksheet activities\n- 4-hour visit\n\nThe school principal is suggesting another destination. Persuade the principal that the destination you chose is more suitable by comparing the two.\n\nPrincipal's Suggestion: Local Zoo\n- $20 per student\n- outdoor walking required\n- weather-dependent\n- limited educational guidance\n- 5-hour visit",
+    "tips": [
+      "State whether you prefer Science Discovery Center or Natural History Museum, then compare your choice with Local Zoo using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of Local Zoo, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your elderly neighbor has asked for your help in choosing a grocery delivery service since she has difficulty going shopping. You find two suitable options. Choose the option that you prefer. In the next section, you will need to persuade your neighbor that your choice is the better choice.\n\n1. QuickMart Delivery\n- Free delivery for orders over $75\n- Same-day delivery available\n- Fresh produce guaranteed\n- 2-hour delivery window\n- Online chat customer service\n\n2. FreshBasket Service\n- $5 delivery fee\n- Next-day delivery\n- Price match guarantee\n- 30-minute delivery window\n- Phone customer service with priority for seniors\n\nYour neighbor is suggesting another delivery service. Persuade her that the service you chose is more suitable by comparing the two.\n\nYour Neighbor's Choice: LocalGrocer Direct\n-  delivery fee\n- Delivery only available on weekdays\n- No minimum order\n- 4-hour delivery window\n- No customer service support",
+    "tips": [
+      "State whether you prefer QuickMart Delivery or FreshBasket Service, then compare your choice with LocalGrocer Direct using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of LocalGrocer Direct, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the emergency response system you prefer by comparing two options they are considering for implementation in your city.\n\n1) Centralized Dispatch System\n- Cost: $5 million initial investment, $500,000 annual maintenance\n- Response Time: Average 8 minutes\n- Features: Single call center, advanced GPS tracking, integrated with all emergency services\n- Training: 6 months for all personnel\n\n2) Decentralized Network System\n- Cost: $3 million initial investment, $750,000 annual maintenance\n- Response Time: Average 6 minutes\n- Features: Multiple local dispatch centers, basic GPS tracking, separate systems for police, fire, and medical\n- Training: 3 months for each department separately",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the space agency committee to choose the space exploration mission you prefer by comparing two options they are considering for the next major project.\n\n1) Mars Sample Return Mission\n- Budget: $6 billion\n- Duration: 10 years\n- Scientific value: High potential for understanding Mars' geology and possible past life\n- Public interest: Very high, with potential for new discoveries about Mars\n- Technological challenges: Significant, requiring new landing and return technologies\n\n2) Europa Subsurface Explorer\n- Budget: $4.5 billion\n- Duration: 12 years\n- Scientific value: Extremely high potential for discovering extraterrestrial life in Europa's subsurface ocean\n- Public interest: Moderate, but could increase dramatically if life is discovered\n- Technological challenges: Very high, requiring new technologies for ice penetration and underwater exploration",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the company's board of directors to choose the corporate social responsibility (CSR) initiative you prefer by comparing two options they are considering for implementation next year.\n\n1) Green Energy Transition\n- Cost: $500,000 initial investment, 0,000 annual maintenance\n- Impact: Reduce company's carbon footprint by 30% within 3 years\n- Employee involvement: Voluntary participation in sustainability workshops\n- Public perception: Potentially high positive impact on company's environmental image\n\n2) Community Education Support\n- Cost: $300,000 annual investment\n- Impact: Provide educational resources and mentorship to 1,000 underprivileged students annually\n- Employee involvement: Mandatory 20 hours of volunteer teaching or mentoring per year\n- Public perception: Moderate positive impact on company's social responsibility image",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the public art installation you prefer by comparing two options they are considering for the main city square.\n\n1) Interactive Light Sculpture\n- Cost: $150,000\n- Size: 20 feet tall\n- Features: LED lights that change colors based on pedestrian movement, solar-powered\n- Interactivity: High, encourages public engagement\n- Maintenance: Requires monthly technical check-ups\n\n2) Bronze Historical Monument\n- Cost: $200,000\n- Size: 15 feet tall\n- Features: Depicts important local historical figures, includes informational plaques\n- Interactivity: Low, primarily for viewing and education\n- Maintenance: Annual cleaning and weather-proofing required",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the local tourism board to choose the eco-tourism initiative you prefer by comparing two options they are considering for boosting sustainable tourism in the region.\n\n1) Rainforest Canopy Walk\n- Cost: $2 million\n- Capacity: 100 visitors per day\n- Features: 1 km elevated walkway, guided tours, educational center\n- Environmental impact: Minimal disturbance to wildlife, uses sustainable materials\n- Economic benefit: Estimated 30 new local jobs\n\n2) Coral Reef Restoration and Diving Program\n- Cost: $1.5 million\n- Capacity: 50 divers per day\n- Features: Coral nursery, diving courses, marine biology workshops\n- Environmental impact: Active reef restoration, potential for increased boat traffic\n- Economic benefit: Estimated 20 new local jobs, potential for scientific research partnerships",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the environmental committee to choose the wildlife conservation program you prefer by comparing two options they are considering for implementation in the local nature reserve.\n\n1) Habitat Restoration Project\n- Budget: $500,000\n- Duration: 3 years\n- Focus: Restoring 1,000 acres of degraded forest and wetland habitats\n- Additional benefits: Improved water quality, increased biodiversity\n- Challenges: Requires extensive volunteer participation, results may take time to manifest\n\n2) Species Reintroduction Program\n- Budget: $750,000\n- Duration: 5 years\n- Focus: Reintroducing 3 endangered species (wolf, bison, and golden eagle) to the reserve\n- Additional benefits: Increased ecotourism potential, restoration of natural predator-prey balance\n- Challenges: Potential conflicts with local farmers, requires ongoing monitoring and management",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the elderly care facility you prefer by comparing two options they are considering for a new community project.\n\n1) Sunrise Haven\n- Cost: $15 million\n- Capacity: 100 residents\n- Features: On-site medical staff, garden area, basic recreational facilities\n- Location: Suburban area, 15 minutes from the city center\n\n2) Golden Years Complex\n- Cost: $18 million\n- Capacity: 80 residents\n- Features: 24/7 specialized medical care, state-of-the-art therapy rooms, extensive recreational facilities including a pool\n- Location: City center, close to hospitals and public transportation",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the company's board of directors to choose the cybersecurity strategy you prefer by comparing two options they are considering to enhance the organization's digital security.  \n\n1) In-House Security Team \n- Initial cost: $500,000 for hiring and training \n- Ongoing cost: $300,000 annually for salaries and equipment upgrades \n- Response time: Immediate, 24/7 availability \n- Customization: Tailored solutions specific to company needs \n- Scalability: Limited by team size and expertise  \n\n2) Outsourced Security Service \n- Initial cost: 0,000 for integration \n- Ongoing cost: $250,000 annually for service subscription \n- Response time: Within 30 minutes, 24/7 support \n- Customization: Pre-designed solutions with some flexibility \n- Scalability: Easily scalable with service provider's resources",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the sustainable housing project you prefer by comparing two options they are considering for a new eco-friendly residential development.\n\n1) Green Towers\n- Cost: $50 million\n- Units: 200 apartments in 3 high-rise buildings\n- Features: Solar panels, rainwater harvesting, vertical gardens, shared electric vehicles\n- Location: Downtown, close to public transit and amenities\n\n2) Eco Village\n- Cost: $45 million\n- Units: 150 single\n-family homes and duplexes\n- Features: Geothermal heating/cooling, community gardens, composting system, bike-sharing program\n- Location: Suburban area, 20-minute drive from city center",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the childcare facility you prefer by comparing two options they are considering for a new community daycare center.\n\n1) Sunshine Kids Center\n- Cost: $2.5 million to build\n- Capacity: 75 children\n- Features: Indoor play area, small outdoor playground, basic security system\n- Location: Central residential area, walking distance for many families\n\n2) Little Explorers Academy\n- Cost: $3.2 million to build\n- Capacity: 100 children\n- Features: Large indoor and outdoor play areas, advanced security system, on-site kitchen for fresh meals\n- Location: Near the edge of town, requires driving for most families, but close to a nature park",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the disaster preparedness plan you prefer by comparing two options they are considering for implementation.\n\n1) Comprehensive Infrastructure Upgrade\n- Cost: $50 million\n- Timeline: 5 years\n- Focus: Upgrading critical infrastructure (bridges, roads, power grid)\n- Additional features: City\n- wide early warning system, limited public education campaign\n\n2) Community-Centered Resilience Program\n- Cost: $30 million\n- Timeline: 3 years\n- Focus: Training community leaders, establishing neighborhood emergency hubs\n- Additional features: Extensive public education campaign, stockpiling emergency supplies",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the neighborhood revitalization project you prefer by comparing two options they are considering for improving a declining urban area.\n\n1) Green Space Initiative\n- Budget: $5 million\n- Timeline: 18 months\n- Features: Creation of a 10-acre park, community garden, and walking trails\n- Impact: Improves air quality, provides recreational space, potential increase in property values\n\n2) Mixed-Use Development\n- Budget: $7 million\n- Timeline: 24 months\n- Features: Construction of affordable housing units, small businesses, and a community center\n- Impact: Creates jobs, increases housing availability, potential boost to local economy",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the school board to choose the after-school program you prefer by comparing two options they are considering for the upcoming academic year.\n\n1) STEM Explorers\n- Cost: $200 per student per semester\n- Duration: 2 hours daily, Monday to Thursday\n- Focus: Science, Technology, Engineering, and Mathematics\n- Features: Hands-on experiments, robotics club, coding workshops\n- Staff: Certified teachers and STEM professionals\n\n2) Arts & Athletics Academy\n- Cost: $180 per student per semester\n- Duration: 2.5 hours daily, Monday to Friday\n- Focus: Visual arts, performing arts, and sports\n- Features: Art exhibitions, drama productions, intramural sports leagues\n- Staff: Professional artists, actors, and certified coaches",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the community garden project you prefer by comparing two options they are considering for the upcoming urban development initiative.\n\n1) Downtown Rooftop Garden\n- Cost: $75,000\n- Size: 5,000 square feet\n- Features: Vertical gardening systems, rainwater harvesting, solar-powered lighting\n- Accessibility: Elevator access, open to all residents, centrally located\n- Educational programs: Monthly workshops on urban gardening techniques\n\n2) Riverside Community Plot\n- Cost: $60,000\n- Size: 8,000 square feet\n- Features: Traditional ground-level plots, composting area, tool shed\n- Accessibility: Ground-level access, 15-minute walk from downtown, near public transport\n- Educational programs: Weekly gardening classes for schools and community groups",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the public transit improvement plan you prefer by comparing two options they are considering for the upcoming fiscal year.\n\n1) Expanded Bus Network\n- Cost: $50 million\n- Implementation time: 1 year\n- Coverage: Increases bus routes by 30%, reaching 25% more residents\n- Features: New eco-friendly buses, real-time tracking app, dedicated bus lanes on major roads\n- Impact: Estimated 15% reduction in traffic congestion\n\n2) Light Rail System\n- Cost: $200 million\n- Implementation time: 3 years\n- Coverage: Connects downtown to three major suburbs\n- Features: Modern stations with accessibility features, integration with existing bus network, potential for future expansion\n- Impact: Estimated 25% reduction in traffic congestion, significant boost to property values along the route",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the beautification project you prefer by comparing two options they are considering for improving the city's appearance and livability.1) Urban Green Spaces Initiative- Budget: $2 million- Timeline: 18 months- Features: Creation of 5 new parks, planting 1000 trees along streets, installation of 50 community gardens- Impact: Increases green spaces by 15%, potential to reduce urban heat island effect2) Downtown Revitalization Plan- Budget: $2.5 million- Timeline: 24 months- Features: Renovation of 20 building facades, installation of public art in 10 locations, creation of a pedestrian-only zone- Impact: Expected to increase foot traffic by 30%, potential to boost local businesses",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the school board to choose the expansion plan you prefer by comparing two options they are considering for the growing student population.\n\n1) New Wing Addition\n- Cost: $5 million\n- Capacity increase: 300 students\n- Features: 10 new classrooms, expanded cafeteria, new science lab\n- Timeline: 18 months to complete, some disruption to current classes\n- Environmental impact: Minimal, uses existing infrastructure\n\n2) Satellite Campus\n- Cost: $7 million\n- Capacity increase: 500 students\n- Features: 20 new classrooms, separate cafeteria, library, and sports facilities\n- Timeline: 24 months to complete, no disruption to current classes\n- Environmental impact: Requires new land development, but incorporates green building practices",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the park improvement project you prefer by comparing two options they are considering for the upcoming budget allocation.\n\n1) Adventure Playground\n- Cost: $500,000\n- Features: Large climbing structures, zip lines, obstacle courses\n- Target age group: 5-15 years old\n- Maintenance: Requires regular safety inspections and occasional equipment replacement\n- Environmental impact: Minimal, uses mostly recycled materials\n\n2) Nature Conservation Area\n- Cost: $400,000\n- Features: Walking trails, bird-watching stations, native plant gardens\n- Target age group: All ages\n- Maintenance: Requires regular trail upkeep and invasive species management\n- Environmental impact: Positive, promotes local biodiversity and ecosystem health",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the library design you prefer by comparing two options they are considering for the new public library.\n\n1) Modern Glass Structure\n- Cost: $12 million\n- Capacity: 200,000 books, 100 computer stations\n- Features: Floor-to-ceiling windows, open floor plan, rooftop garden\n- Location: Downtown, near public transportation\n\n2) Renovated Historic Building\n- Cost:  million\n- Capacity: 150,000 books, 75 computer stations\n- Features: Preserved architectural details, cozy reading nooks, basement archive\n- Location: Residential area, limited parking available",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the city council to choose the renewable energy project you prefer by comparing two options they are considering for the city's sustainable energy initiative.\n\n1) Solar Farm\n- Initial cost:  million\n- Annual energy output: 50 GWh\n- Land requirement: 100 acres of unused farmland\n- Job creation: 50 permanent positions\n- Environmental impact: No emissions, minimal wildlife disruption\n\n2) Wind Turbine Array\n- Initial cost: $12 million\n- Annual energy output: 60 GWh\n- Land requirement: 20 acres of coastal area\n- Job creation: 30 permanent positions\n- Environmental impact: No emissions, potential impact on bird migration patterns",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the management team to choose the employee training program you prefer by comparing two options they are considering for the company's annual skill development initiative.\n\n1) In-House Intensive Workshop\n- Cost: $15,000 for the entire company\n- Duration: 3 full days\n- Format: Face-to-face group sessions led by internal experts\n- Content: Tailored to company-specific needs, focuses on current projects\n- Flexibility: Fixed schedule, all employees attend simultaneously\n\n2) Online Learning Platform Subscription\n- Cost: $200 per employee per year\n- Duration: Year-round access\n- Format: Self-paced online courses with interactive modules\n- Content: Wide range of topics, including industry-standard certifications\n- Flexibility: Employees can learn at their own pace and choose courses",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  },
+  {
+    "question": "Your task is to persuade the company's management team to choose the workplace wellness program you prefer by comparing two options they are considering for implementation.\n\n1) Fitness First\n- Cost: $500 per employee per year\n- Features: On-site gym access, group fitness classes, personal training sessions\n- Health focus: Physical fitness and weight management\n- Participation rate in similar companies: 60%\n\n2) Holistic Health\n- Cost: $450 per employee per year\n- Features: Stress management workshops, nutrition counseling, mental health support\n- Health focus: Overall well-being, including mental and emotional health\n- Participation rate in similar companies: 75%",
+    "tips": [
+      "State whether you prefer your preferred option or the other main option, then compare your choice with the suggested alternative using exact prices, time limits, capacity, or feature details.",
+      "Use persuasive comparison phrases such as 'more practical in the long run,' 'better suited to our needs,' and 'the biggest drawback is' to sound decisive.",
+      "Address one possible advantage of the suggested alternative, then explain why reliability, value, safety, or convenience makes your selected option stronger."
+    ]
+  }
+]

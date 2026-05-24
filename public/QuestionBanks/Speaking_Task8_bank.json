@@ -1,0 +1,818 @@
+[
+  {
+    "question": "You are walking through a neighborhood and notice a house with a very unusual front yard fence.\nCall your friend Dev, who is renovating his yard and looking for creative ideas.\nDescribe in detail what the fence looks like, and ask him if he would like to come see it in person.",
+    "tips": [
+      "Describe the house with a very unusual front yard fence from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Dev would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through downtown and you notice an old phone booth that has been completely converted into a fish aquarium.\n\nCall your friend Marco and describe in detail what the aquarium phone booth looks like, and ask him if he would like to come downtown to see it with you.",
+    "tips": [
+      "Describe the phone booth that has been completely converted into a fish aquarium from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through a community garden and you discover an old piano that has been creatively transformed into a colorful planter.\n\nCall your friend Alex, who has been looking for unique decorating ideas for his backyard. Describe in detail what the piano planter looks like, and ask him if he would like to try creating something similar.",
+    "tips": [
+      "Describe the piano that has been creatively transformed into a colorful planter from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a furniture store and notice a very unusual sofa that you think your roommate would love.\nCall your roommate, Alex, and describe in detail what the sofa looks like, and ask if you should buy it for your shared apartment.",
+    "tips": [
+      "Describe the sofa from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your roommate would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through a city park and notice a very unusual sculpture sitting on a bench.\nCall your friend Marco, who is an art student. Describe in detail what the sculpture looks like, and ask him if he would like to come see it and sketch it.",
+    "tips": [
+      "Describe the sculpture sitting on a bench from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "While walking through a neighborhood, you notice an old car that has been flipped upside down in someone's front yard and transformed into an elaborate garden.\n\nCall your friend Marco, who is a gardening enthusiast. Describe in detail what this unusual car garden looks like, and ask him if he would like to come see it for inspiration for his own yard.",
+    "tips": [
+      "Describe the car that has been flipped upside down in someone's front yard and transformed into an elaborate garden from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a science museum and you come across an extraordinary exhibit â an indoor garden made entirely of mechanical metal flowers.\n\nYour friend Raj loves both art and engineering.\nCall Raj, describe in detail what the mechanical flower garden looks like, and ask him if he would like to visit the museum with you this weekend.",
+    "tips": [
+      "Describe the exhibit â an indoor garden made entirely of mechanical metal flowers from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Raj would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a local art fair and you see an extraordinary portrait made entirely from old electronic components.\nCall your friend Devon, who is studying art at college. Describe in detail what the portrait looks like, and ask if he would like to come see it before the fair closes tonight.",
+    "tips": [
+      "Describe the portrait made entirely from old electronic components from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Devon would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You found an unusual antique mechanical coin bank at a garage sale.\n\nCall your friend Derek, who collects antique toys. Describe the coin bank in detail, and ask him if he thinks it might be valuable.",
+    "tips": [
+      "Describe the antique mechanical coin bank from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Derek would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are taking a walk through a park and come across an extraordinary giant metal sculpture of a snail.\nCall your friend Luis, who is an art student. Describe in detail what the sculpture looks like, and ask him if he would like to come and sketch it.",
+    "tips": [
+      "Describe the giant metal sculpture of a snail from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Luis would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a night market and you come across a street artist who creates portraits using only coffee as paint.\n\nCall your friend Marco and describe in detail what the artist's work and setup look like, and ask him if he would like to come and get his own portrait done.",
+    "tips": [
+      "Describe the street artist who creates portraits using only coffee as paint from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through the park and notice an extraordinary hot air balloon hovering low in the sky.\nCall your friend Marcus to describe in detail what the balloon looks like, and ask him if he'd like to rush over to the park to see it before it flies away.",
+    "tips": [
+      "Describe the hot air balloon hovering low in the sky from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marcus would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through a neighborhood and notice a house with an extremely unusual front door.\n\nCall your friend Marco, who is a carpenter. Describe in detail what the door looks like, and ask him if he could build something similar for your house.",
+    "tips": [
+      "Describe the house with an extremely unusual front door from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a department store and see a very unusual umbrella on display.\nYour friend Theo collects unique accessories and his birthday is coming up.\nCall Theo's partner, Lisa, to describe the umbrella in detail and ask if she thinks it would make a good birthday gift for Theo.",
+    "tips": [
+      "Describe the umbrella on display from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Theo's partner would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You found an unusual teapot at a garage sale.\n\nCall your friend Marco, who collects unique teapots. Describe in detail what the teapot looks like, and ask him if he would like you to buy it for his collection.",
+    "tips": [
+      "Describe the teapot from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking downtown and notice an incredible 3D chalk drawing on the sidewalk.\nCall your friend Marco and describe in detail what the artwork looks like, and ask him if he would like to come see it before it starts raining tonight.",
+    "tips": [
+      "Describe the 3D chalk drawing on the sidewalk from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a furniture store and notice a display room that has been set up completely upside down as a temporary art installation.\n\nCall your friend Marco and describe in detail what the upside-down room looks like, and ask him if he would like to come see it before the installation is removed next week.",
+    "tips": [
+      "Describe the display room that has been set up completely upside down as a temporary art installation from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a night market and notice a vendor selling incredibly unusual handmade lamps that look like glowing mushrooms.\nYour friend Sam has been searching for a unique lamp for his living room.\nCall Sam, describe the lamps in detail, and ask if he would like you to buy one for him.",
+    "tips": [
+      "Describe the vendor selling incredibly unusual handmade lamps that look like glowing mushrooms from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Sam would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a home dÃ©cor store and you notice a very unusual decorative mirror that you think would be perfect for your friend Raj's new apartment.\n\nCall Raj and describe in detail what the mirror looks like, and ask him if he would like you to buy it for him.",
+    "tips": [
+      "Describe the decorative mirror from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Raj would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a hotel buffet and notice an extraordinary centerpiece sculpture made entirely from carved fruits.\nCall your friend Marco, who is a culinary student. Describe the fruit sculpture in detail, and ask him if he could create something similar for your upcoming birthday party.",
+    "tips": [
+      "Describe the centerpiece sculpture made entirely from carved fruits from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through your neighborhood and notice a house where the entire front porch has been transformed into what looks like a giant birdhouse.\nCall your friend Derek and describe in detail what the porch looks like, and ask him if he would like to come take a look at it with you.",
+    "tips": [
+      "Describe the house where the entire front porch has been transformed into what looks like a giant birdhouse from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Derek would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a flea market and you found an extremely unusual handmade lamp that you think would be a perfect birthday gift for your friend Marco, who loves photography.\nCall Marco's partner, Lisa, to describe the lamp in detail, and ask her whether she thinks Marco would like it as a gift.",
+    "tips": [
+      "Describe the extremely unusual handmade lamp from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Marco's partner would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are browsing a home dÃ©cor shop and you come across a very unusual item â a vintage suitcase that has been turned into a fish aquarium.\nYour friend Jake has a birthday coming up, and you think he would love this for his living room.\nCall Jake, describe the item in detail, and ask if he would like you to buy it as his birthday gift.",
+    "tips": [
+      "Describe the item â a vintage suitcase that has been turned into a fish aquarium from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Jake would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a bakery and you notice an extraordinary, unusual cake on display that you think would be perfect for your mother's upcoming birthday party.\n\nCall your sister and describe in detail what the cake looks like, and ask her if she thinks you should order one like it for the party.",
+    "tips": [
+      "Describe the extraordinary, unusual cake on display from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your sister would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a new hotel downtown and notice an extraordinary chandelier in the lobby made entirely of preserved flowers and crystals.\n\nYour sister, Angela, is currently planning the decorations for her wedding reception.\n\nCall Angela and describe in detail what the chandelier looks like, and ask her if she would like something similar for her wedding venue.",
+    "tips": [
+      "Describe the chandelier in the lobby made entirely of preserved flowers and crystals from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Angela would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a craft fair and you find an unusual handmade wooden puzzle box that you think would make a perfect birthday gift for your friend Jorge.\n\nCall Jorge's sister, Elena. Describe the puzzle box in detail, and ask her if she thinks Jorge would like it as a birthday gift.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Jorge's sister would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You just visited a newly opened cafÃ© that has a very unusual underwater ocean theme throughout its interior.\n\nCall your friend Marco to describe in detail what the cafÃ© looks like inside, and suggest meeting there together this weekend.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through a neighborhood and notice an extraordinary mosaic dragon sculpture in someone's front yard.\n\nCall your friend Derek to describe in detail what the sculpture looks like, and ask him if he would like to come and take photos of it with you.",
+    "tips": [
+      "Describe the mosaic dragon sculpture in someone's front yard from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Derek would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking along the beach and discover an incredibly detailed and unusual sand sculpture.\n\nCall your friend Marco to describe in detail what the sand sculpture looks like, and ask him if he would like to come see it before the tide washes it away.",
+    "tips": [
+      "Describe the incredibly detailed and unusual sand sculpture from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting an outdoor craft market and you notice an enormous, unusual wind chime hanging from a wooden arch at one of the stalls.\n\nCall your friend Marco, who loves handmade art and has been looking for a unique piece to hang on his back porch.\n\nDescribe in detail what the wind chime looks like, and ask Marco if he would like you to buy it for him.",
+    "tips": [
+      "Describe the enormous, unusual wind chime hanging from a wooden arch at one of the stalls from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a shopping mall and notice a spectacular art installation hanging from the ceiling of the main atrium.\n\nCall your friend Jun, who is an art teacher. Describe in detail what the installation looks like, and ask if he would like to bring his students on a field trip to see it.",
+    "tips": [
+      "Describe the spectacular art installation hanging from the ceiling of the main atrium from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Jun would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "While walking through your neighborhood, you notice that someone has built an elaborate miniature village display across their entire front yard.\nCall your friend Alex and describe in detail what the miniature village looks like, and ask him if he would like to come over and see it with you.",
+    "tips": [
+      "Describe the that someone has built an elaborate miniature village display across their entire front yard from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through your neighborhood and notice that someone has covered a row of trees and a park bench in colorful knitted yarn decorations.\n\nCall your friend Sofia and describe in detail what the yarn decorations look like, and ask her if she has any idea who might have done this.",
+    "tips": [
+      "Describe the that someone has covered a row of trees and a park bench in colorful knitted yarn decorations from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Sofia would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a small town and you notice a very unusual clock tower in the town square.\n\nCall your friend David, who is an architect. Describe in detail what the clock tower looks like, and ask him if he has ever seen anything like it before.",
+    "tips": [
+      "Describe the clock tower in the town square from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend David would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are taking a walk through your neighborhood and notice a very unusual mailbox installed in front of someone's house.\n\nCall your friend Derek and describe in detail what the mailbox looks like, and ask him if he thinks you should get a similar creative mailbox for your own house.",
+    "tips": [
+      "Describe the mailbox installed in front of someone's house from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Derek would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through your neighborhood and notice an incredibly elaborate treehouse that someone has built in their front yard.\n\nCall your friend Marco and describe in detail what the treehouse looks like, and ask him if he would like to come see it with you this weekend.",
+    "tips": [
+      "Describe the incredibly elaborate treehouse that someone has built in their front yard from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Marco would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are attending a local cultural festival and come across an unusual traditional ceremony you've never seen before.\n\nCall your friend who is interested in cultural traditions. Describe in detail what you're seeing at this ceremony including the costumes, activities, and any special items being used.\n\nExplain why you find it interesting, and ask if your friend would like to join you to see the rest of the ceremony.",
+    "tips": [
+      "Describe the traditional ceremony you've never seen before from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend who is interested in cultural traditions would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are looking out your window and notice a very unusual weather phenomenon happening outside.\n\nCall your friend who studies meteorology at the local university.\nDescribe in detail what you are seeing in the sky and ask if they know what might be causing this unusual weather pattern.",
+    "tips": [
+      "Describe the weather phenomenon happening outside from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend who studies meteorology at the local university would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a shopping mall food court and notice they have installed a new automated tray return system. \n\n    Call your friend Alex, who manages a different food court. \n\n    Describe in detail how this innovative system works, what makes it different from traditional tray returns, and ask if they would be interested in implementing something similar at their location.",
+    "tips": [
+      "Describe the they have installed a new automated tray return system from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a park and see a parent with an unusual high-tech baby stroller that has caught your attention.\n\nCall your friend Sarah, who is expecting a baby soon and looking for a stroller.\n\nDescribe in detail what makes this stroller unique and special, and ask if she would be interested in getting one like it.",
+    "tips": [
+      "Describe the parent with an unusual high-tech baby stroller that has caught your attention from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Sarah would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a public park and notice a newly installed smart water dispenser is acting strangely. \n\nCall the park maintenance department and describe in detail what you observe about the malfunctioning water dispenser. \n\nExplain what makes you think it's not working properly, and ask them what should be done about the situation.",
+    "tips": [
+      "Describe the newly installed smart water dispenser is acting strangely from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why the park maintenance department would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a new ice cream shop and notice they have an interesting robotic ice cream dispenser that creates unique ice cream designs. \n\nYour friend Sarah loves trying new dessert experiences. \n\nCall Sarah and describe in detail how this ice cream dispenser works and what makes it special. \n\nExplain the unique ice cream designs it can create, and ask if she would like to visit the shop with you tomorrow.",
+    "tips": [
+      "Describe the they have an interesting robotic ice cream dispenser that creates unique ice cream designs from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Sarah would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in a city park and notice an unusual new water fountain that uses advanced technology. \n\nCall your friend Jamie who is interested in sustainable city innovations. \n\nDescribe in detail what makes this water fountain unique and special, and ask if Jamie would like to come see it in person.\n\nBe sure to explain its features, design, and how people are interacting with it.",
+    "tips": [
+      "Describe the new water fountain that uses advanced technology from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Jamie who is interested in sustainable city innovations would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in a busy downtown area and come across a very unique food cart that catches your attention.\n\nCall your foodie friend Alex and describe in detail what makes this food cart so special and unusual.\n\nExplain its distinctive features and the type of food being served, and ask if they would like to try it with you this weekend.",
+    "tips": [
+      "Describe the unique food cart that catches your attention from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your foodie friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at the airport baggage claim area and notice a very unique piece of luggage that keeps changing colors. \n\nCall your friend who is picking you up and describe in detail what this unusual luggage looks like. \n\nExplain why you find it interesting and ask if they have ever seen anything similar before.",
+    "tips": [
+      "Describe the unique piece of luggage that keeps changing colors from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend who is picking you up would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a shopping mall and notice that the new interactive plant wall display is malfunctioning in an unusual way. \n\nCall the mall's maintenance department and describe in detail what you are seeing happening with the plant wall. \n\nExplain why you think it needs immediate attention, and ask what they plan to do about the situation.",
+    "tips": [
+      "Describe the that the new interactive plant wall display is malfunctioning in an unusual way from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why the mall's maintenance department would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are participating in a science fair and come across an unusual portable weather station that combines traditional and modern elements.\n\nCall your science teacher and describe in detail what this unique weather station looks like, how it works, and ask if it could be used for the upcoming class weather monitoring project.",
+    "tips": [
+      "Describe the portable weather station that combines traditional and modern elements from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your science teacher would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in a downtown area and notice an unusual glass structure on the rooftop of a building containing beehives.\n\nCall your friend Alex, who is interested in urban agriculture.\n\nDescribe in detail what you see about this innovative beekeeping setup, and ask if they would like to visit the installation with you next weekend.",
+    "tips": [
+      "Describe the glass structure on the rooftop of a building containing beehives from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You work at a delivery company and have received two identical packages with damaged labels. \n\nCall one of the intended recipients and describe both packages in detail, including their contents visible through a clear section, to help determine which package belongs to them. \n\nExplain the situation and ask them to help identify their package.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why one of the intended recipients would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a science museum and notice an unusual interactive wall display that shows real-time plant growth in different environmental conditions.\n\nCall your friend who is studying environmental science and describe in detail what you are seeing on this interactive wall.\n\nExplain how the display works and ask if they would be interested in visiting the museum to see it.",
+    "tips": [
+      "Describe the interactive wall display that shows real-time plant growth in different environmental conditions from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend who is studying environmental science would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in your neighborhood and notice an unusual mobile garden cart selling fresh vegetables and herbs.\n\nCall your friend Ahmed, who is interested in starting a small business.\n\nDescribe in detail what this innovative garden cart looks like, how it operates, and ask Ahmed if he would be interested in starting a similar business.",
+    "tips": [
+      "Describe the mobile garden cart selling fresh vegetables and herbs from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Ahmed would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are shopping at a new high-tech supermarket that uses smart shopping carts with built-in screens and automatic item scanning. \n\nYour cart suddenly starts behaving strangely, displaying incorrect prices and making unexpected announcements.\n\nCall the store's customer service desk and describe in detail what is happening with your smart shopping cart, and ask them how to resolve the issue.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why the store's customer service desk would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a friend's house and notice an unusual automated plant care system in their indoor garden.\n\nCall your spouse, who is interested in indoor gardening.\n\nDescribe in detail how this automated system works and what makes it unique, and ask if they would be interested in getting a similar system for your home.",
+    "tips": [
+      "Describe the automated plant care system in their indoor garden from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your spouse would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are shopping at a new sustainable supermarket and notice they have introduced an innovative shopping cart made from recycled materials with special features. \n\nCall your environmentally conscious friend Sarah, who is planning to visit the store tomorrow. \n\nDescribe in detail what makes this shopping cart unique and eco-friendly, and ask if she would be interested in trying it when she visits.",
+    "tips": [
+      "Describe the they have introduced an innovative shopping cart made from recycled materials with special features from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your environmentally conscious friend Sarah would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a pet store and notice a unique, high-tech pet carrier that you've never seen before. \n\nCall your friend who is looking for a new carrier for their cat and describe in detail what makes this carrier special and unusual. \n\nExplain its features and ask if they would be interested in buying it.",
+    "tips": [
+      "Describe the unique, high-tech pet carrier that you've never seen before from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend who is looking for a new carrier for their cat would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a shopping mall and see an amazing digital art piano performance. \n\nCall your friend Alex, who is interested in both music and technology. \n\nDescribe in detail what you are seeing with the piano performance and the visual effects, and ask if Alex would like to come see it before the performance ends in an hour.",
+    "tips": [
+      "Describe the amazing digital art piano performance from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a park and notice a newly installed portable charging station with an unusual design.\n\nCall your friend Alex, who is interested in sustainable technology.\n\nDescribe in detail what this charging station looks like and how it works, and ask if they would like to come see it in person.\n\nExplain why you think this installation is unique and worth checking out.",
+    "tips": [
+      "Describe the newly installed portable charging station with an unusual design from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in the city center and notice a newly installed high-tech garbage bin that you've never seen before. \n\nCall your friend Alex, who is interested in environmental technology. \n\nDescribe in detail what this smart trash bin looks like, how it operates, and explain why you think it's different from regular garbage bins. \n\nAsk Alex if they would like to come see this innovative waste management solution.",
+    "tips": [
+      "Describe the newly installed high-tech garbage bin that you've never seen before from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a food court and notice someone using an innovative food container that transforms from a flat surface into a full-sized bowl.\n\nCall your friend Alex, who is interested in eco-friendly products.\n\nDescribe in detail how this unique container works and transforms, and ask if they would be interested in getting one for their lunch breaks at work.",
+    "tips": [
+      "Describe the someone using an innovative food container that transforms from a flat surface into a full-sized bowl from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a cultural festival where they have created a miniature floating market exhibition. \n\nCall your friend Alex who is interested in different cultures and describe in detail what you see at this unique market setup. \n\nExplain how the vendors are selling their goods from small boats, what kinds of traditional items they're selling, and ask Alex if they would like to come see this exhibition before it ends.",
+    "tips": [
+      "Describe the at this unique market setup from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex who is interested in different cultures would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are in a shopping mall parking garage and notice an innovative parking space monitoring system. \n\n    Call your friend who is coming to meet you at the mall. \n\n    Describe in detail how this smart parking system works, what technologies it uses to guide drivers, and explain why you think this system is helpful. \n\n    Ask your friend if they would like you to wait and guide them to use this new parking system when they arrive.",
+    "tips": [
+      "Describe the innovative parking space monitoring system from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend who is coming would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at an interactive digital art exhibition and see an impressive virtual reality installation. \n\nCall your friend Sarah, who is an art student, and describe in detail what the installation looks like, how people are interacting with it, and what makes it unique. \n\nExplain the visual effects and the way it responds to viewers' movements, and ask her if she would like to come see it before the exhibition ends.",
+    "tips": [
+      "Describe the impressive virtual reality installation from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Sarah would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking past a construction site and notice they have installed an unusual type of noise barrier that you've never seen before. \n\nCall your colleague who works in construction management and describe in detail what this innovative barrier looks like and how it appears to be functioning. \n\nAsk if they have heard about this new type of noise control system and if they think it could be useful for their upcoming project.",
+    "tips": [
+      "Describe the they have installed an unusual type of noise barrier that you've never seen before from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your colleague who works in construction management would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking by a lake and notice an unusual installation of solar panels floating on the water surface. \n\nCall your colleague who works in renewable energy. \n\nDescribe in detail what you see on the lake, explain how the floating solar panels are arranged, and ask if they would be interested in visiting the site to learn more about this innovative energy solution.",
+    "tips": [
+      "Describe the installation of solar panels floating on the water surface from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your colleague who works in renewable energy would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a public plaza and notice a new interactive water fountain installation that responds to people's movements in an unusual way. \n\nThe installation is attracting a lot of attention, and you think your friend Jake, who is studying interactive design, would be interested in seeing it. \n\nCall Jake and describe in detail how this unique water feature works and what makes it special. \n\nExplain what happens when people interact with it, and ask if he would like to come see it in person.",
+    "tips": [
+      "Describe the new interactive water fountain installation that responds to people's movements in an unusual way from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Jake would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are waiting at a new high-tech bus stop that has just been installed in your city. \n\nCall your friend Alex who frequently uses public transit. \n\nDescribe in detail what makes this bus stop unusual and different from regular ones, and ask if they would like to try using it on their daily commute.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex who frequently uses public transit would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a shopping mall and notice an unusual recycling machine that sorts and processes different types of waste in a unique way.\n\nCall your environmentally conscious friend Alex and describe in detail how this innovative machine works.\n\nExplain its special features and ask if they would be interested in seeing it, as they've been looking for better recycling solutions for their community center.",
+    "tips": [
+      "Describe the recycling machine that sorts and processes different types of waste in a unique way from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your environmentally conscious friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are having lunch at a new restaurant that serves food in an innovative and environmentally-friendly container system. \n\nCall your colleague who is organizing the next office party and describe in detail what makes this container unique and special. \n\nExplain why you think this might be a good option for the upcoming office event, and ask if they would be interested in ordering from this restaurant.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your colleague who is organizing the next office party would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a new public park and notice an unusual seating arrangement that combines art and functionality. \n\nCall your friend Alex, who is an interior design student. \n\nDescribe in detail what this unique public seating looks like, how people are interacting with it, and ask if they would like to come see it for their school project on innovative urban furniture design.",
+    "tips": [
+      "Describe the seating arrangement that combines art and functionality from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a shopping mall and notice an unusual interactive digital wall display that responds to people's movements.\n\nCall your friend who works in interior design and describe in detail what this digital wall display looks like, how it works, and how people are interacting with it.\n\nAsk if they would be interested in seeing it and possibly using a similar concept for their next design project.",
+    "tips": [
+      "Describe the interactive digital wall display that responds to people's movements from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend who works in interior design would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a historic building and notice an unusual antique door handle with intricate designs. \n\nCall your friend Alex, who is an antique collector. \n\nDescribe the unique features and craftsmanship of the door handle in detail, and ask if they would be interested in seeing it since they collect vintage architectural elements.",
+    "tips": [
+      "Describe the antique door handle with intricate designs from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a cultural festival and see someone playing an unusual traditional musical instrument you've never seen before. \n\nCall your friend Alex, who is a music teacher. \n\nDescribe the instrument in detail, including its appearance, how it's being played, and the unique sound it makes. \n\nAsk Alex if they would be interested in learning more about this instrument for their music class.",
+    "tips": [
+      "Describe the someone playing an unusual traditional musical instrument you've never seen before from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a parking lot and see a car with an incredibly unique vehicle wrap design. \n\nYour friend Jamie is planning to get their car wrapped and is looking for inspiration. \n\nCall Jamie and describe in detail what this unusual vehicle wrap looks like, including the patterns, colors, and overall design. \n\nExplain why you think this design might interest them and ask if they would like to come see it before the car leaves.",
+    "tips": [
+      "Describe the car with an incredibly unique vehicle wrap design from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why Jamie would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in the park and notice a very unusual modified bicycle that catches your attention. \n\nCall your friend Alex, who is a cycling enthusiast. \n\nDescribe in detail what makes this bicycle so unique and different from regular bikes, and ask if they would be interested in seeing it in person.",
+    "tips": [
+      "Describe the modified bicycle that catches your attention from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a new public park and notice a very unique and innovative playground structure that you've never seen before. \n\nCall your sister, who runs a daycare center. \n\nDescribe in detail what this unusual playground equipment looks like, how children are playing on it, and ask if she would be interested in requesting something similar for her daycare's playground.",
+    "tips": [
+      "Describe the unique and innovative playground structure that you've never seen before from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your sister would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are looking out your window and notice a very unusual weather phenomenon that you've never seen before. \n\nCall your local weather station to report what you're seeing. \n\nDescribe in detail the unusual weather conditions you are witnessing, including any specific patterns, colors, or movements in the sky, and ask if they can explain what might be causing this phenomenon.",
+    "tips": [
+      "Describe the weather phenomenon that you've never seen before from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your local weather station would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a modern fusion restaurant and see a very unique dessert being served at another table. \n\nCall your friend Alex, who is a culinary student, and describe in detail how this unusual dessert is presented. \n\nExplain the creative plating, colors, textures, and serving method, and ask if they would be interested in coming to try this innovative dessert creation.",
+    "tips": [
+      "Describe the unique dessert being served at another table from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend Alex would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in your neighbor's front yard and notice they have installed a very unique and unusual garden sculpture. Your friend is an artist looking for inspiration for outdoor art pieces. Call your friend and describe in detail what the sculpture looks like, its unique features, and ask if they would like to come see it for inspiration for their own work.",
+    "tips": [
+      "Describe the they have installed a very unique and unusual garden sculpture from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at work and notice that the vending machine is behaving strangely, dispensing incorrect items and making unusual noises. Call the vending machine maintenance company. Describe in detail what's happening with the machine, explain why you think it needs immediate attention, and ask when they can send someone to fix it.",
+    "tips": [
+      "Describe the that the vending machine is behaving strangely, dispensing incorrect items and making unusual noises from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why the vending machine maintenance company would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are at a cafe and order a seemingly ordinary coffee. After taking a sip, you realize that this drink has altered your taste buds, making everything taste completely different for the next hour.\n\nCall a friend and explain the situation. Describe the effects of the drink on your taste perception and ask for advice on what to do next.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in the city and come across a crosswalk that seems to change its signals based on pedestrians' emotions. The crosswalk uses advanced sensors to detect people's moods and adjusts its timing and display accordingly.\n\nCall a friend who is interested in urban technology. Describe this unusual crosswalk system in detail, explaining how it works and discussing its potential benefits and drawbacks for city life.",
+    "tips": [
+      "Describe the crosswalk that seems to change its signals based on pedestrians' emotions from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend who is interested in urban technology would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking down a busy street when you notice a building that seems to be changing its shape and appearance every few minutes. The structure morphs from a sleek skyscraper to a medieval castle, then to a futuristic dome.\n\nCall a friend and describe this unusual situation. Explain what you're seeing, your thoughts on how this might be possible, and ask if they would like to come see it with you.",
+    "tips": [
+      "Describe the building that seems to be changing its shape and appearance every few minutes from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are shopping at a local mall when you suddenly find yourself in an antigravity zone. Everything around you, including people and objects, is floating.\n\nCall a friend and describe the situation in detail. Explain what you're experiencing, what you see around you, and ask for advice on how to navigate this unusual circumstance.",
+    "tips": [
+      "Describe the around you, and ask for advice on how to navigate this unusual circumstance from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a new city and discover that the entire navigation system is based on smells instead of visual cues or maps.\n\nCall a friend who is planning to visit the same city next week. \nDescribe this unusual navigation system in detail and explain how it works.\nGive your opinion on whether this system is effective or not, and provide recommendations for your friend on how to prepare for and use this unique navigation method.",
+    "tips": [
+      "Describe the that the entire navigation system is based on smells instead of visual cues or maps from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend who is planning would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are visiting a science museum and come across a new exhibit featuring a device that allows people to share memories directly with each other. The museum staff invites you to try it out.\n\nCall a friend and describe this unusual situation. \nExplain how the device works, your experience using it.",
+    "tips": [
+      "Describe the new exhibit featuring a device that allows people to share memories directly with each other from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through a botanical garden when you suddenly realize you can communicate telepathically with the plants around you. They are sharing urgent information about environmental changes and requesting your help.\n\nCall a friend who is an environmental scientist. \nDescribe your unexpected ability to communicate with plants and relay the information they've shared.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend who is an environmental scientist would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through a busy city park when you suddenly step into an invisible bubble where all outside noise disappears completely. You can see people talking and cars moving, but you can't hear anything.\n\nCall a friend and describe this unusual situation.\nExplain what you're experiencing, your theories about what might be causing it, and ask for their advice on what to do next.",
+    "tips": [
+      "Describe the people talking and cars moving, but you can't hear anything from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking in your neighborhood when you notice that all the street signs have suddenly changed to display multiple languages, including some you've never seen before.\n\nCall a friend who lives nearby. \nDescribe the unusual situation in detail, and discuss your thoughts on why this might have happened and what it could mean for the community.",
+    "tips": [
+      "Describe the that all the street signs have suddenly changed to display multiple languages, including some you've never seen before from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend who lives nearby would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through a public park when you notice a strange, futuristic-looking device. As you approach, you realize it's controlling the weather in a small area around it, creating a perfect sunny day amidst a rainy city.\n\nCall a friend and describe this unusual situation. \nExplain what you're seeing, how the device appears to work, and discuss whether you think this technology should be widely implemented in public spaces.",
+    "tips": [
+      "Describe the strange, futuristic-looking device from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are on a camping trip and stumble upon a hidden forest where all the plants and trees are glowing with vibrant, otherworldly colors.\n\nCall a friend who is a biologist. \nDescribe the bioluminescent forest in detail and ask for their opinion on what might be causing this unusual phenomenon.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend who is a biologist would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are on a spelunking expedition and discover a previously unknown underground ecosystem with bioluminescent plants and animals. The cave system is fragile and you cannot take photos or samples.\n\nCall a fellow biologist and describe the ecosystem in detail.",
+    "tips": [
+      "Describe the previously unknown underground ecosystem with bioluminescent plants and animals from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a fellow biologist would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking down the street when you suddenly come across a mysterious device that appears to be a teleportation machine. It has a control panel with various buttons and a platform large enough for a person to stand on.\n\nCall a friend and describe the device in detail. \nExplain what you think it might do.",
+    "tips": [
+      "Describe the mysterious device that appears to be a teleportation machine from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You have just moved into a new house and discovered a fully functioning miniature city in the basement, complete with tiny inhabitants. The previous owner left no explanation.\n\nCall a close friend and describe what you've found. \nExplain the situation in detail and ask for advice on what to do next.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a close friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You're waiting at your usual bus stop when you notice that the entire structure has been transformed into an edible garden. The walls are made of vertical herb planters, the roof is covered in hanging fruit vines, and even the bench is sprouting vegetables.\n\nCall a friend who's interested in urban gardening and sustainability. \nDescribe the edible bus stop in detail.",
+    "tips": [
+      "Describe the that the entire structure has been transformed into an edible garden from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend who's interested in urban gardening would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking through a park when you suddenly notice that the trees, benches, and other objects are displaying holographic art pieces. It seems that the entire park has been transformed into an augmented reality art gallery, visible only through special glasses that have mysteriously appeared on your face.\n\nCall a friend who is an art enthusiast. \nDescribe the unexpected augmented reality art gallery you've encountered and invite them to join you in exploring this unique experience.",
+    "tips": [
+      "Describe the that the trees, benches, and other objects are displaying holographic art pieces from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend who is an art enthusiast would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You've just entered a newly opened library in your city, only to find that all the bookshelves, reading areas, and even the librarian's desk are floating in mid-air.\n\nCall a friend who is interested in unique architectural designs. \nDescribe the floating library in detail and express your thoughts about this unusual concept.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend who is interested in unique architectural designs would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You arrive at your office one morning to find that the entire interior has been transformed into a vertical garden, with plants growing on every wall and surface.\n\nCall your supervisor and explain the situation. \nDescribe the unexpected changes in detail.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why your supervisor would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You wake up one morning to find that the local city park has been transformed into a bustling floating market overnight. Boats filled with vendors selling various goods are now occupying the park's pond. \n\nCall a friend and describe this unusual situation. \nExplain what you see, your reaction to this unexpected change, and discuss whether you think this new attraction should become a permanent feature of the park.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You have just experienced an unexpected time travel incident where you were transported 100 years into the future for a brief moment before returning to the present. Call a close friend and describe what you saw in vivid detail. Explain how this experience has affected your perspective on the present and future.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a close friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are on vacation and discover an unusual underwater restaurant that requires diners to wear scuba gear while eating. Call a friend and describe this unique dining experience. \n\nExplain the restaurant's concept, the challenges of eating underwater, and your thoughts on whether this is something you'd like to try.",
+    "tips": [
+      "Describe the underwater restaurant that requires diners to wear scuba gear while eating from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why a friend would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You are walking down Main Street when you suddenly notice a large sinkhole has appeared, blocking traffic and causing chaos. Call the local emergency services to report the situation. \n\nDescribe the sinkhole's size, location, and any immediate dangers you observe.",
+    "tips": [
+      "Describe the large sinkhole has appeared, blocking traffic and causing chaos from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why the local emergency services would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  },
+  {
+    "question": "You arrive at your office one morning to find a large, exotic bird has somehow entered the building and is causing chaos. The bird is flying around, knocking things over, and your coworkers are panicking. \n\nCall animal control and describe the situation in detail. \nExplain what the bird looks like, how it's behaving, and what damage it has caused. \nRequest immediate assistance to safely remove the bird from the office.",
+    "tips": [
+      "Describe the unusual object from top to bottom using size, color, material, position, and one striking feature so the listener can picture it clearly.",
+      "Explain why animal control would care about it by connecting the object to their interest, project, collection, or plans mentioned in the prompt.",
+      "End the call with a direct invitation or question, including when to come, why it is urgent, and what you want the listener to do."
+    ]
+  }
+]

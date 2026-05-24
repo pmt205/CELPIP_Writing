@@ -1,0 +1,658 @@
+[
+  {
+    "question": "Your co-worker has been offered the opportunity to lead a team project at work, but he is nervous because he has never managed other people before. Give him advice on how he can prepare to be a good team leader.",
+    "tips": [
+      "Frame the advice around team leadership, then give two concrete recommendations involving delegation, check-ins, and clear expectations.",
+      "Use higher-level vocabulary such as confidence, trust, and accountability while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to prepare a task chart before the first team meeting, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to organize a shared cottage rental with a group of friends for a long weekend this summer. She has never planned a group trip before and is worried about things going wrong. Give her advice on how to plan the trip and avoid potential problems.",
+    "tips": [
+      "Frame the advice around the cottage rental, then give two concrete recommendations involving budget, rules, and shared responsibilities.",
+      "Use higher-level vocabulary such as communication, deposits, and contingency planning while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to collect payments and confirm house rules before booking, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your neighbour is considering hosting an international exchange student in her home for a semester. She has a spare bedroom but has never had a long-term guest before. Give her advice on what she should consider and how to prepare for hosting an exchange student.",
+    "tips": [
+      "Frame the advice around hosting an exchange student, then give two concrete recommendations involving house rules, cultural adjustment, and privacy.",
+      "Use higher-level vocabulary such as hospitality, boundaries, and communication while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to prepare a welcome guide with routines and emergency information, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your neighbour has a lot of unused items in her house and is thinking about hosting a garage sale this weekend. She has never organized one before and is unsure how to attract buyers. Advise her on how to plan and run a successful garage sale.",
+    "tips": [
+      "Frame the advice around the garage sale, then give two concrete recommendations involving pricing, signage, and item grouping.",
+      "Use higher-level vocabulary such as visibility, bargaining, and organization while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to advertise early and arrange items by category, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to learn English vocabulary well and remember it, but she finds it difficult. Give her advice on what she should do.",
+    "tips": [
+      "Frame the advice around vocabulary learning, then give two concrete recommendations involving spaced repetition, example sentences, and word families.",
+      "Use higher-level vocabulary such as retention, context, and active recall while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to review five useful words daily and use them in short stories, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to buy a new car but isnât sure which type to choose. Give your friend some advice.",
+    "tips": [
+      "Frame the advice around the situation, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your colleague has been experiencing a lot of stress at work due to increasing responsibilities and tight deadlines. She wants to find healthy ways to manage her stress without compromising her performance. Give her advice on different strategies she could use to handle work-related stress effectively.",
+    "tips": [
+      "Frame the advice around workplace stress, then give two concrete recommendations involving prioritization, recovery time, and sustainable workload.",
+      "Use higher-level vocabulary such as burnout, boundaries, and performance while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to list urgent tasks and negotiate one realistic deadline, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is trying to save money for a trip abroad next year. Give your friend advice on effective ways to save money over the next few months.",
+    "tips": [
+      "Frame the advice around saving for the trip, then give two concrete recommendations involving automatic transfers, spending limits, and progress tracking.",
+      "Use higher-level vocabulary such as discipline, trade-offs, and motivation while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to set a weekly savings target and cut one avoidable expense, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend recently bought a professional camera and wants to start wildlife photography in local nature reserves. Give them advice about the ethical considerations and best practices they should follow when photographing wild animals in their natural habitat.",
+    "tips": [
+      "Frame the advice around wildlife photography, then give two concrete recommendations involving keeping distance, using a zoom lens, and avoiding nests or feeding areas.",
+      "Use higher-level vocabulary such as ethical photography, habitat protection, and patience while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to check reserve rules and plan shots without disturbing animals, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your classmate wants to set up a study group for an upcoming challenging course. She has never organized a study group before and is unsure about how to make it effective and beneficial for everyone involved. Give her advice about what she should consider and do when organizing and running the study group.",
+    "tips": [
+      "Frame the advice around the study group, then give two concrete recommendations involving agenda, roles, and accountability.",
+      "Use higher-level vocabulary such as collaboration, consistency, and exam readiness while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to schedule a first meeting with clear topics and time limits, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is concerned about their online privacy and security after hearing about recent data breaches in the news. They want to better protect their personal information online but don't know where to start. Give them advice on what steps they should take to enhance their digital privacy and security.",
+    "tips": [
+      "Frame the advice around digital safety, then give two concrete recommendations involving passwords, two-factor authentication, and privacy settings.",
+      "Use higher-level vocabulary such as risk, prevention, and accountability while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to review account settings and remove unnecessary personal information, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to start shopping at a zero-waste store but feels overwhelmed about making the transition from regular grocery shopping. Give her advice about what she should consider and how to get started with zero-waste shopping effectively.",
+    "tips": [
+      "Frame the advice around zero-waste shopping, then give two concrete recommendations involving containers, bulk bins, and meal planning.",
+      "Use higher-level vocabulary such as sustainability, convenience, and habit formation while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to bring labeled jars and buy only a few staple items first, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is interested in going mushroom foraging for the first time this weekend. She has never done it before but is excited about the idea of collecting wild mushrooms. Give her advice about what she should consider and do to ensure a safe and successful foraging experience.",
+    "tips": [
+      "Frame the advice around mushroom foraging, then give two concrete recommendations involving expert identification, local regulations, and avoiding look-alike species.",
+      "Use higher-level vocabulary such as toxicity, field guides, and caution while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to join an experienced guide and never eat uncertain mushrooms, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to start brewing coffee at home instead of buying from coffee shops every day. She's never owned any coffee equipment before and wants to make cafÃ©-quality coffee. Give her advice about what she should consider and what equipment she should buy to get started with home coffee brewing.",
+    "tips": [
+      "Frame the advice around home coffee brewing, then give two concrete recommendations involving grind size, water temperature, and brewing method.",
+      "Use higher-level vocabulary such as consistency, equipment, and taste while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to start with a grinder and one simple brewing device, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to try aerial yoga for the first time but is nervous about joining a workshop. She's generally fit but has never done any suspended exercises before. Give her advice about what she should consider and how to prepare for her first aerial yoga class.",
+    "tips": [
+      "Frame the advice around aerial yoga, then give two concrete recommendations involving class level, safety instructions, and body awareness.",
+      "Use higher-level vocabulary such as confidence, flexibility, and injury prevention while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to arrive early and tell the instructor it is your first class, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your neighbor is interested in starting a community composting program for your apartment complex but isn't sure where to begin. Give them advice on what they should consider and how to successfully implement this environmental initiative.",
+    "tips": [
+      "Frame the advice around apartment complex but isn, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has always been interested in pottery and wants to visit a local pottery studio for the first time. She is nervous about trying something new and doesn't know what to expect. Give her advice about what she should do to prepare for her first pottery studio visit and what to keep in mind during the experience.",
+    "tips": [
+      "Frame the advice around first time, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has recently discovered a passion for natural skincare and wants to attend a soap-making workshop. She's never made soap before and is concerned about safety and the initial investment. Give her advice about what she should consider and prepare before attending the workshop.",
+    "tips": [
+      "Frame the advice around natural skincare and wants to attend, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has two children aged 8 and 10, and she wants to enroll them in after-school activities. She's not sure what activities would be best for their development. Give her advice about choosing appropriate after-school activities for her children.",
+    "tips": [
+      "Frame the advice around activities would be best for their d, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has decided to run their first marathon in 6 months but has never participated in any long-distance running events before. Give them advice about how they should prepare for this challenge and what they need to consider before starting their training.",
+    "tips": [
+      "Frame the advice around how they should prepare for this cha, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is interested in joining a guided beehive observation tour at a local honey farm, but she's nervous about being around bees. Give her advice about what she should do to prepare for and make the most of this educational experience while staying safe.",
+    "tips": [
+      "Frame the advice around local honey farm, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is planning to host their first dinner party for 8 people in their small apartment next weekend. They're nervous about organizing everything and want to make a good impression. Give them advice about what they should consider and how to prepare for hosting a successful dinner party.",
+    "tips": [
+      "Frame the advice around organizing everything and want to ma, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has been offered an opportunity to teach a weekend art workshop for children aged 6-10 at a local community center. She has artistic skills but has never taught children before. Give her advice about what she should consider and how to prepare for teaching this workshop.",
+    "tips": [
+      "Frame the advice around children aged, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to try snowboarding for the first time this winter season. She has never done any winter sports before but is excited to learn. Give her advice about what she should consider and prepare before hitting the slopes.",
+    "tips": [
+      "Frame the advice around first time this winter season, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is planning to book their first international flight but feels overwhelmed by all the options and considerations. Give them advice about what they should consider when booking their first flight, including tips about choosing airlines, booking times, and other important factors to keep in mind.",
+    "tips": [
+      "Frame the advice around what they should consider when booki, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has just moved into her first apartment and wants to add some greenery to her living space. She has never taken care of plants before and is worried about keeping them alive. Give her advice about choosing and maintaining houseplants as a beginner.",
+    "tips": [
+      "Frame the advice around plants before and is worried about k, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to donate blood for the first time but is feeling nervous and unsure about the process. Give them advice about what they should do to prepare for their first blood donation and what to expect during the experience.",
+    "tips": [
+      "Frame the advice around first time but is feeling nervous an, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has never taken dance lessons before but wants to start learning as an adult. She is nervous about joining a dance class because she thinks she might be too old to start. Give her advice about what she should consider and how to begin her dance journey.",
+    "tips": [
+      "Frame the advice around joining a dance class because she th, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to try indoor rock climbing for the first time but is feeling nervous about safety and doesn't know where to start. Give her advice about what she should consider and do before beginning this new activity.",
+    "tips": [
+      "Frame the advice around first time but is feeling nervous ab, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to start a board game club in your neighborhood but doesn't know where to begin. Give her advice about what she should consider and do to successfully establish and run this club.",
+    "tips": [
+      "Frame the advice around what she should consider and do to s, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to start a mobile pet grooming business but has never run a business before. Give her advice about important things she should consider and prepare before starting this venture.",
+    "tips": [
+      "Frame the advice around important things she should consider, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is an amateur artist who wants to showcase her paintings for the first time in a local art exhibition. She is nervous and unsure about how to prepare for this event. Give her advice on what she should do to make her first art exhibition successful.",
+    "tips": [
+      "Frame the advice around first time in a local art exhibition, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to start shopping at the local farmers' market but has never been to one before. Give her advice about what she should know and do to make the most of her farmers' market shopping experience.",
+    "tips": [
+      "Frame the advice around local farmers, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to join a recreational sports league in the community but has never played team sports before. Give her advice about what she should consider and do before joining a sports league.",
+    "tips": [
+      "Frame the advice around what she should consider and do befo, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is planning to try scuba diving for the first time during their upcoming beach vacation. Give them advice about what they should consider and prepare before their first diving experience.",
+    "tips": [
+      "Frame the advice around first time during their upcoming bea, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend recently moved to your city and wants to get a library card at the local public library. She has never had a library card before and is unsure about the process and benefits. Give her advice about what she should do and what she can expect when getting a library card.",
+    "tips": [
+      "Frame the advice around local public library, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is interested in becoming a youth sports coach for a local community program. He has played basketball in high school but has never coached before. Give him advice about what he should consider and prepare for before starting as a youth sports mentor.",
+    "tips": [
+      "Frame the advice around local community program, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is interested in starting a podcast but has no prior experience in audio production or content creation. She wants to share her knowledge about mental health and wellness. Give her advice on what she should consider and do before launching her podcast.",
+    "tips": [
+      "Frame the advice around mental health and wellness, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend owns a small coffee shop in the neighborhood and is struggling to attract more customers in a competitive market. Give them advice on effective ways to promote their business and increase customer traffic.",
+    "tips": [
+      "Frame the advice around the situation, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is planning to go camping for the first time this summer with a group of friends. She has never been camping before and is unsure about what she needs to prepare. Give her advice on what she should consider and prepare before going on her first camping trip.",
+    "tips": [
+      "Frame the advice around first time this summer with a group, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to try winter sports for the first time and is considering buying equipment for either skiing or snowboarding. Give them advice about what they should consider before making their decision and purchasing equipment.",
+    "tips": [
+      "Frame the advice around first time and is considering buying, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your colleague has been assigned to propose a new office layout for your department. They need to make the workspace more collaborative while maintaining productivity. Give them advice on what they should consider when redesigning the office space.",
+    "tips": [
+      "Frame the advice around department, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has just moved into a new apartment with a small balcony, and she wants to transform it into a cozy outdoor space with plants. She has never gardened before and is concerned about maintaining plants in a limited space. Give her advice about what she should consider and how to create a successful balcony garden.",
+    "tips": [
+      "Frame the advice around small balcony, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your colleague is thinking about commuting to work by bicycle instead of taking public transit. She lives about 5 kilometers from the office but has never cycled in the city before. Give her advice about what she should consider and prepare for before starting to cycle to work.",
+    "tips": [
+      "Frame the advice around commuting to work by bicycle instead, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your coworker wants to start meal prepping to save money and eat healthier during the work week. She's never done it before and feels overwhelmed about where to start. Give her advice on how to begin meal prepping and what she should consider.",
+    "tips": [
+      "Frame the advice around healthier during the work week, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your cousin wants to organize a family reunion this summer for about 30 family members who live in different cities. She has never planned such a big event before. Give her advice on what she should consider and how to make this family gathering successful.",
+    "tips": [
+      "Frame the advice around about, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is interested in joining a local community theater group but has never acted before and feels nervous about auditioning. Give them advice about what they should do to prepare for their first theater experience and how to overcome their stage fright.",
+    "tips": [
+      "Frame the advice around auditioning, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is interested in starting a book club in your neighborhood but has never organized one before. Give her advice about what she should consider and how to make the book club successful.",
+    "tips": [
+      "Frame the advice around what she should consider and how to, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has been accepted to university and needs to decide whether to live in a student residence or continue living at home with a one-hour commute to campus. Give them advice about what they should consider when making this decision.",
+    "tips": [
+      "Frame the advice around home with a one-hour commute to camp, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is interested in taking up photography as a new hobby but is overwhelmed by all the camera options and photography techniques. Give them advice about how to get started in photography and what they should consider before investing in equipment.",
+    "tips": [
+      "Frame the advice around how to get started in photography an, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is planning to start a small food delivery business from her home kitchen. She wants to sell homemade meals but isn't sure how to begin. Give her advice about what she should consider and do before starting this business.",
+    "tips": [
+      "Frame the advice around what she should consider and do befo, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to start attending fitness classes but has never been to a gym before. She is feeling nervous and unsure about where to begin. Give her advice about what she should consider and do when starting fitness classes for the first time.",
+    "tips": [
+      "Frame the advice around where to begin, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is planning to have a destination wedding in another country next year. She is worried about the planning process and costs involved. Give her advice on what she should consider and how to make the planning process smoother.",
+    "tips": [
+      "Frame the advice around planning process and costs involved, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is worried about spending too much time on their smartphone and social media. They want to develop better digital habits while still staying connected with friends and family. Give them advice on how to maintain a healthy balance with their screen time.",
+    "tips": [
+      "Frame the advice around spending too much time on their smar, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to learn how to play a musical instrument but is worried about disturbing her neighbors in her apartment building. Give her advice about what instrument to choose and how to practice without causing problems.",
+    "tips": [
+      "Frame the advice around disturbing her neighbors in her apar, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is planning their first backpacking trip across Europe for three months. They have never traveled alone before and are feeling nervous about the journey. Give them advice about what they should consider and prepare before starting their backpacking adventure.",
+    "tips": [
+      "Frame the advice around three months, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your cousin is planning a virtual family reunion but is unsure how to make it engaging and memorable. Provide advice on how to organize a successful online gathering for extended family members.",
+    "tips": [
+      "Frame the advice around extended family members, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A friend is concerned about the amount of food waste their household produces. Advise them on different ways they can reduce food waste at home.",
+    "tips": [
+      "Frame the advice around amount of food waste their household, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A friend is struggling with severe seasonal allergies. Advise them on different ways to manage their symptoms and improve their quality of life during allergy season.",
+    "tips": [
+      "Frame the advice around severe seasonal allergies, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A friend is interested in volunteering abroad but doesn't know where to start. Advise them on how to find and choose a suitable volunteer program overseas.",
+    "tips": [
+      "Frame the advice around the situation, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A friend wants to organize a community cleanup event but doesn't know where to start. Advise them on how to plan and execute a successful neighborhood cleanup initiative.",
+    "tips": [
+      "Frame the advice around the situation, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A colleague is feeling overwhelmed by daily stress and is interested in practicing mindfulness. Advise them on different ways they can incorporate mindfulness into their daily routine.",
+    "tips": [
+      "Frame the advice around the situation, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A friend is planning a vacation and wants to travel more sustainably. Advise them on ways to make their trip more environmentally friendly and responsible.",
+    "tips": [
+      "Frame the advice around the situation, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A friend who is an aspiring writer is struggling with writer's block. Advise them on different ways they can overcome this creative obstacle and get back to writing.",
+    "tips": [
+      "Frame the advice around writer, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A colleague has been struggling with poor sleep quality lately. Advise them on ways to improve their sleep habits and get better rest at night.",
+    "tips": [
+      "Frame the advice around poor sleep quality lately, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has an important job interview coming up next week. Give them advice on how to prepare for the interview and increase their chances of success.",
+    "tips": [
+      "Frame the advice around interview and increase their chances, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your elderly neighbor wants to become more comfortable using technology. Advise them on ways to improve their digital literacy and become more confident with computers and smartphones.",
+    "tips": [
+      "Frame the advice around computers and smartphones, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your cousin is considering relocating to a different city for a job opportunity. Advise them on factors they should consider before making this decision.",
+    "tips": [
+      "Frame the advice around job opportunity, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is feeling bored and wants to start a new hobby. Advise them on how to choose a hobby that suits their interests and lifestyle.",
+    "tips": [
+      "Frame the advice around suits their interests and lifestyle, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is experiencing severe anxiety about upcoming exams. Provide advice on how they can manage their stress and prepare effectively for the tests.",
+    "tips": [
+      "Frame the advice around upcoming exams, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your neighbor is considering adopting a pet but is unsure about the responsibilities involved. Advise them on what to consider before getting a pet and how to prepare for pet ownership.",
+    "tips": [
+      "Frame the advice around responsibilities involved, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A colleague is experiencing frequent conflicts with a coworker. Advise them on how to handle this situation professionally and improve their working relationship.",
+    "tips": [
+      "Frame the advice around coworker, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "A friend who recently moved to a new country for work is feeling homesick. Advise them on ways to cope with homesickness and adjust to their new environment.",
+    "tips": [
+      "Frame the advice around work is feeling homesick, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to start a new hobby but is not sure where to begin. He or she asks you for advice. What would you say?",
+    "tips": [
+      "Frame the advice around advice, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "One of your relatives is going to work on a group project at school for the first time. He or she asks you for advice.",
+    "tips": [
+      "Frame the advice around relatives is going to work on a grou, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend wants to host a party but is not sure how to plan it well. He or she asks you for advice. What would you say?",
+    "tips": [
+      "Frame the advice around advice, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your niece is going to start at a new school soon. She feels a little nervous and wants to know how to make new friends. What advice would you give her?",
+    "tips": [
+      "Frame the advice around new school soon, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your niece is about to move into a university dormitory for the first time. She is worried about keeping her room clean and organized while living in a shared space. She asks you for advice. What would you say to her?",
+    "tips": [
+      "Frame the advice around to move into a university dormitory, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your cousin has been invited to join some coworkers for dinner at a restaurant. Itâs the first time theyâre socializing outside of work, and your cousin is feeling a bit anxious about it. They want to make a good impression but donât know how to act before or during the dinner. Give your cousin advice on how to prepare for the evening, how to behave at the restaurant, and how to follow up after to leave a positive impression.",
+    "tips": [
+      "Frame the advice around dinner at a restaurant, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your niece is about to go on a school trip, and theyâll be traveling by train. Itâs her first time taking a longer trip without any family members, and she feels both excited and a little unsure. She asked you for some tips. Give her advice on what to bring, how to stay safe and comfortable on the train, and how to make the most of the experience.",
+    "tips": [
+      "Frame the advice around to go on a school trip, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend is having a hard time focusing at work because one of their coworkers speaks very loudly in the office. Itâs starting to affect their concentration and stress levels. Theyâve asked you for advice on how to handle the situation politely and professionally. Give your friend suggestions on what they can do to deal with this problem at work.",
+    "tips": [
+      "Frame the advice around work because one of their coworkers, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  },
+  {
+    "question": "Your friend has recently joined a gym and wants to start using the treadmill and some fitness and health apps, but theyâre not sure how to begin. Theyâve asked you for advice on how to use these tools safely and effectively. Give them suggestions on how to get started, how to stay motivated, and how to use the treadmill and apps in a healthy way.",
+    "tips": [
+      "Frame the advice around advice on how to use these tools saf, then give two concrete recommendations involving specific examples, clear priorities, and realistic consequences.",
+      "Use higher-level vocabulary such as practicality, empathy, and good judgment while explaining one likely risk and one practical benefit.",
+      "Finish with a supportive next step, such as to suggest one concrete action they can take today, so the listener knows exactly what to do next."
+    ]
+  }
+]
