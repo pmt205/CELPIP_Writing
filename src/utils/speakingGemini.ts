@@ -218,9 +218,13 @@ Please listen to the audio and respond ONLY with valid JSON in the following for
         const errorMsg = lastError.message.toLowerCase();
         const isHighDemand =
           errorMsg.includes('503') ||
+          errorMsg.includes('429') ||
           errorMsg.includes('overloaded') ||
           errorMsg.includes('high demand') ||
           errorMsg.includes('unavailable') ||
+          errorMsg.includes('quota') ||
+          errorMsg.includes('rate limit') ||
+          errorMsg.includes('rate-limit') ||
           errorMsg.includes('no json found');
         const isRetryable =
           isHighDemand ||
